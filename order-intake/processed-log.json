@@ -255,6 +255,17 @@
       "processedAt": "2026-09-17T11:06:00Z",
       "result": "not_order",
       "reason": "Client (Sheikh Saleh Ahmed / Concord Raiment Wear, forwarding from Yagi Co.) request to prepare a shipping-mark layout for style 741926-00 — 'Measurement of the carton will be given after layout approval', i.e. no order quantities, carton dimensions, or pricing yet. Preliminary artwork request, not a placed order."
+    },
+    {
+      "folder": "2026-09-17_st13_1a0af6d4d3",
+      "folderId": "1fdvd_sM8brHqasg5L3nA_4kGPPadQfNr",
+      "gmailThreadId": "1a0af6d4d36c076e",
+      "processedAt": "2026-09-17T13:55:00Z",
+      "result": "entered",
+      "orderId": 7891,
+      "jobNumber": "7300/26-N",
+      "partyName": "Snowtex Sportswear Ltd.",
+      "note": "Manual carton booking forwarded by Snowtex internal staff (st13) for buyer RICHLU, PO S27-040019, style SP011 (ERP ref STX-RICH-SPRING27-MSIL-0040-09), 7-ply carton 207 pcs + top/bottom 414 pcs. Grade (A-700-L / A-301-L), buyer, company bank and credit days resolved from this party's 13+ prior RICHLU orders on file. A third attachment ('Carton Layout-Approved.pdf') showed unrelated style/measurement codes and was not used as the source of dimensions."
     }
   ]
 }
