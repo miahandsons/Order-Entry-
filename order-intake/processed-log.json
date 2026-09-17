@@ -57,6 +57,14 @@
       "orderId": 7854,
       "jobNumber": "7288/26-N",
       "partyName": "ACS TEXTILES (BD) LTD"
+    },
+    {
+      "folder": "2026-09-17_bgapmea_1a0adc4ef4",
+      "folderId": "1Vz0vI7capY_Q4lAX9_PgOzFomjTq0NEY",
+      "gmailThreadId": "1a0adc4ef4646775",
+      "processedAt": "2026-09-17T05:55:00Z",
+      "result": "not_order",
+      "reason": "BPAMEA (formerly BGAPMEA) association notice announcing a 3-month diploma training course on Income Tax, VAT & Customs Bond Management — not a client order."
     }
   ]
 }
