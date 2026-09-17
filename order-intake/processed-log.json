@@ -1,5 +1,26 @@
 {
   "started_at": "2026-09-16T23:32:28Z",
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
-  "processed": []
+  "processed": [
+    {
+      "folder": "2026-09-17_syedalifulalam20_1a0ad296ce",
+      "folderId": "1cCIdkY7hrnUmZPhBguxRIeU76mFuzX3F",
+      "gmailThreadId": "1a0ad296ce7621e1",
+      "processedAt": "2026-09-17T02:35:00Z",
+      "result": "entered",
+      "orderId": 7850,
+      "jobNumber": "7284/26-N",
+      "partyName": "A One Polor Ltd"
+    },
+    {
+      "folder": "2026-09-17_niloy_1a0ad2d9af",
+      "folderId": "16n8BIPA88wJ2zqRu9eUsoD7vVkVIPw7k",
+      "gmailThreadId": "1a0ad2d9aff2d0bc",
+      "processedAt": "2026-09-17T02:35:00Z",
+      "result": "entered",
+      "orderId": 7851,
+      "jobNumber": "7285/26-N",
+      "partyName": "FB Footwear Ltd."
+    }
+  ]
 }
