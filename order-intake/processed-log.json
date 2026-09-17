@@ -47,6 +47,16 @@
       "orderId": 7852,
       "jobNumber": "7286/26-N",
       "partyName": "International Trading Services Ltd."
+    },
+    {
+      "folder": "2026-09-17_gulam_1a0ad8485b",
+      "folderId": "1O3ZLUc-STJssiDtOO2Z4Rl-eiQVtXeKJ",
+      "gmailThreadId": "1a0ad8485b232750",
+      "processedAt": "2026-09-17T04:50:00Z",
+      "result": "entered",
+      "orderId": 7854,
+      "jobNumber": "7288/26-N",
+      "partyName": "ACS TEXTILES (BD) LTD"
     }
   ]
 }
