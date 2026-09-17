@@ -102,6 +102,74 @@
         { "po": "1391467", "orderId": 7880, "jobNumber": "7314/26-N" },
         { "po": "1390562", "orderId": 7881, "jobNumber": "7315/26-N" }
       ]
+    },
+    {
+      "folder": "2026-09-17_postmaster_1a0adff427",
+      "folderId": "1jEXjZ5TUyM9C5mMRn32vuVMBVDZkbJwM",
+      "gmailThreadId": "1a0adf37b159ba22",
+      "processedAt": "2026-09-17T06:45:00Z",
+      "result": "not_order",
+      "reason": "Undeliverable bounce from postmaster@premierbankltd.com re: LC cancel request letter — not a client order."
+    },
+    {
+      "folder": "2026-09-17_postmaster_1a0ae02d3b",
+      "folderId": "1eWUxlzlTNwm96L-G_sRnCwGs9Rsp4rIK",
+      "gmailThreadId": "1a0ae00750309b81",
+      "processedAt": "2026-09-17T06:45:00Z",
+      "result": "not_order",
+      "reason": "Undeliverable bounce from postmaster@premierbankltd.com re: LC #3140260400130 — not a client order."
+    },
+    {
+      "folder": "2026-09-17_merch1_1a0ade18dc",
+      "folderId": "1XQn9zXmpEJfUqkNFXuHyMnsx_YTcnA1w",
+      "gmailThreadId": "1a0ade18dcb513fd",
+      "processedAt": "2026-09-17T06:45:00Z",
+      "result": "superseded",
+      "note": "Original carton-booking message in this thread; superseded by folder 2026-09-17_merch1_1a0adf433c which holds the client's later 'attached layout is okay, please proceed' reply."
+    },
+    {
+      "folder": "2026-09-17_merch1_1a0adf433c",
+      "folderId": "1Bp0qugKFt_9IleWcbRf-UxLyVROhKDlt",
+      "gmailThreadId": "1a0ade18dcb513fd",
+      "processedAt": "2026-09-17T06:50:00Z",
+      "result": "entered",
+      "orderId": 7882,
+      "jobNumber": "7291/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Carton booking PO 34278WF-34287WF, style F-NB-171-1A-LW & MU. Order data taken from this thread's original booking message (2026-09-17_merch1_1a0ade18dc, same thread) plus this folder's final layout approval."
+    },
+    {
+      "folder": "2026-09-17_merch1_1a0ade8994",
+      "folderId": "1ZW0qyqIj3PtYHbxZIb3DdzwdQEmFs243",
+      "gmailThreadId": "1a0ade899424c43b",
+      "processedAt": "2026-09-17T06:50:00Z",
+      "result": "entered",
+      "orderId": 7883,
+      "jobNumber": "7292/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Carton booking PO 34282WD, 34288WD, 34277WE, 34283WE, style F-NB-171-1A-LW & MU (23 size-broken carton lines + top board)."
+    },
+    {
+      "folder": "2026-09-17_merch1_1a0ae0a492",
+      "folderId": "18L2CMuu4BULV-9y-gE3EoFLbG-dq6foR",
+      "gmailThreadId": "1a0ae0a492f57faf",
+      "processedAt": "2026-09-17T06:50:00Z",
+      "result": "entered",
+      "orderId": 7884,
+      "jobNumber": "7293/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Carton booking PO 34629WF, 34630WF, style F-IT-171-1A-945C1-Set."
+    },
+    {
+      "folder": "2026-09-17_merch1_1a0ae13329",
+      "folderId": "1U5sT75GzIbEPSueo4FTpx_Q_VmgdC7o3",
+      "gmailThreadId": "1a0ae13329a05205",
+      "processedAt": "2026-09-17T06:50:00Z",
+      "result": "entered",
+      "orderId": 7885,
+      "jobNumber": "7294/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Carton booking PO 34631WR, 34632WR, 34627WE, 34628WE, style F-IT-171-1A-945C1-R & COM."
     }
   ]
 }
