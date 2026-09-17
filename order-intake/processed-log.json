@@ -65,6 +65,43 @@
       "processedAt": "2026-09-17T05:55:00Z",
       "result": "not_order",
       "reason": "BPAMEA (formerly BGAPMEA) association notice announcing a 3-month diploma training course on Income Tax, VAT & Customs Bond Management — not a client order."
+    },
+    {
+      "folder": "2026-09-17_taimur.s_1a0adc38eb",
+      "folderId": "18b703zy73LB6IwuQ9hokiSOC8WITI0nF",
+      "gmailThreadId": "1a0adc38ebe6dc43",
+      "processedAt": "2026-09-17T06:00:00Z",
+      "result": "entered",
+      "partyName": "International Trading Services Ltd.",
+      "note": "Bulk AEO Spring'27 2nd-Lot Boxer carton booking covering 26 separate client PO numbers (Standard Group merchandiser). One Flowtech order drafted per PO number, per this party's existing convention (e.g. order 7852, Texzone 7833-7842).",
+      "orders": [
+        { "po": "1383643", "orderId": 7856, "jobNumber": "7290/26-N" },
+        { "po": "1383645", "orderId": 7858, "jobNumber": "7292/26-N" },
+        { "po": "1388279", "orderId": 7857, "jobNumber": "7291/26-N" },
+        { "po": "1383646", "orderId": 7860, "jobNumber": "7294/26-N" },
+        { "po": "1383360", "orderId": 7859, "jobNumber": "7293/26-N" },
+        { "po": "1383647", "orderId": 7862, "jobNumber": "7296/26-N" },
+        { "po": "1383361", "orderId": 7861, "jobNumber": "7295/26-N" },
+        { "po": "1388276", "orderId": 7864, "jobNumber": "7298/26-N" },
+        { "po": "1383362", "orderId": 7863, "jobNumber": "7297/26-N" },
+        { "po": "1388278", "orderId": 7866, "jobNumber": "7300/26-N" },
+        { "po": "1383363", "orderId": 7865, "jobNumber": "7299/26-N" },
+        { "po": "1388283", "orderId": 7868, "jobNumber": "7302/26-N" },
+        { "po": "1383364", "orderId": 7867, "jobNumber": "7301/26-N" },
+        { "po": "1383602", "orderId": 7869, "jobNumber": "7303/26-N" },
+        { "po": "1383603", "orderId": 7870, "jobNumber": "7304/26-N" },
+        { "po": "1388286", "orderId": 7871, "jobNumber": "7305/26-N" },
+        { "po": "1383604", "orderId": 7872, "jobNumber": "7306/26-N" },
+        { "po": "1388287", "orderId": 7873, "jobNumber": "7307/26-N" },
+        { "po": "1383605", "orderId": 7874, "jobNumber": "7308/26-N" },
+        { "po": "1390384", "orderId": 7875, "jobNumber": "7309/26-N" },
+        { "po": "1383607", "orderId": 7876, "jobNumber": "7310/26-N" },
+        { "po": "1383608", "orderId": 7877, "jobNumber": "7311/26-N" },
+        { "po": "1390385", "orderId": 7878, "jobNumber": "7312/26-N" },
+        { "po": "1383609", "orderId": 7879, "jobNumber": "7313/26-N" },
+        { "po": "1391467", "orderId": 7880, "jobNumber": "7314/26-N" },
+        { "po": "1390562", "orderId": 7881, "jobNumber": "7315/26-N" }
+      ]
     }
   ]
 }
