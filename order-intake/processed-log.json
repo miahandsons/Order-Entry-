@@ -21,6 +21,32 @@
       "orderId": 7851,
       "jobNumber": "7285/26-N",
       "partyName": "FB Footwear Ltd."
+    },
+    {
+      "folder": "2026-09-17_sharif.hosen_1a0ad56416",
+      "folderId": "1Aa5-mb59rUEx3YIM_xjuXNDr1LN8aQ6x",
+      "gmailThreadId": "1a0aa3932756633f",
+      "processedAt": "2026-09-17T03:45:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT707/MT700 LC amendment correspondence from bank re: Documentary Credit 0751260408169 — not a client order."
+    },
+    {
+      "folder": "2026-09-16_forhad.hossain_1a0aa39327",
+      "folderId": "1Dl9CtxAho41ZjV4hwZX00tmgv9TMYS6O",
+      "gmailThreadId": "1a0aa3932756633f",
+      "processedAt": "2026-09-17T03:45:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT707/MT700 LC amendment correspondence from bank re: Documentary Credit 0751260408169 — not a client order."
+    },
+    {
+      "folder": "2026-09-17_toukir.a_1a0ad711f3",
+      "folderId": "19dBmvso9xQmw2HiZAeAUBvpUNqll9VdN",
+      "gmailThreadId": "1a0ad711f3e3dc42",
+      "processedAt": "2026-09-17T03:45:00Z",
+      "result": "entered",
+      "orderId": 7852,
+      "jobNumber": "7286/26-N",
+      "partyName": "International Trading Services Ltd."
     }
   ]
 }
