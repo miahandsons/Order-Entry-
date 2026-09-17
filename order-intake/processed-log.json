@@ -225,6 +225,36 @@
       "processedAt": "2026-09-17T09:45:00Z",
       "result": "not_order",
       "reason": "CamScanner scan of a trade license/bank form from Shahanara Begum, the same personal document referenced in the concurrent Premier Bank account-reactivation correspondence — not a client carton/work order."
+    },
+    {
+      "folder": "2026-09-17_marketing3_1a0aee6edd",
+      "folderId": "1P6E4EMwTQEYNkYWwHIRmoM3oEHWaCqSp",
+      "gmailThreadId": "1a0aee6edd46d902",
+      "processedAt": "2026-09-17T11:05:00Z",
+      "result": "entered",
+      "orderId": 7890,
+      "jobNumber": "7299/26-N",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "US Polo carton booking, styles H-0578 & H-0586 only, from 'US POLO CARTON BOOKING (SP27 ORDERS).xlsx'. The same spreadsheet also contained an unscoped third block (styles HO528/HO533/HO534/HO535) not mentioned in the covering email's subject/body — excluded from this order per scope; flagged in the order's ai_notes for reviewer to confirm nothing was missed."
+    },
+    {
+      "folder": "2026-09-17_gulam_1a0aed7d3b",
+      "folderId": "1sCBDpuwE8Po09BydRVt74giDndVJZp4m",
+      "gmailThreadId": "1a0aed7d3bb8faa7",
+      "processedAt": "2026-09-17T11:05:00Z",
+      "result": "entered",
+      "orderId": 7889,
+      "jobNumber": "7298/26-N",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "note": "Mascot Hoie carton booking PO-21508, design Wera/Kobenhavn, from 'Carton K Po - 21508.pdf' (formal PO, 3 lines by carton size, 492 pcs / $354.78). A separate PO for this party (PO-21509) was already entered earlier as job 7288/26-N — this is an independent new PO, not a duplicate."
+    },
+    {
+      "folder": "2026-09-17_sheikhsaleh28_1a0aec49ee",
+      "folderId": "1uYYt-trL_d-NHGYToZky9MNFPtWE1nAE",
+      "gmailThreadId": "1a0aec49ee1d3d11",
+      "processedAt": "2026-09-17T11:06:00Z",
+      "result": "not_order",
+      "reason": "Client (Sheikh Saleh Ahmed / Concord Raiment Wear, forwarding from Yagi Co.) request to prepare a shipping-mark layout for style 741926-00 — 'Measurement of the carton will be given after layout approval', i.e. no order quantities, carton dimensions, or pricing yet. Preliminary artwork request, not a placed order."
     }
   ]
 }
