@@ -209,6 +209,22 @@
       "existingOrderId": 7884,
       "existingJobNumber": "7293/26-N",
       "note": "Most recent message in this thread ('Attached layout is okay, please proceed' - final approval of the carton layout PDF). The original booking in this same thread was already entered as job 7293/26-N (order 7884); create_order never revises an existing job. No order data (qty/PO/style) actually changed across this thread's later messages - only carton-layout artwork approval - so no revision looks required, but flagging per policy since an older sibling in this thread was already entered. A human should confirm order 7884 needs no changes."
+    },
+    {
+      "folder": "2026-09-17_postmaster_1a0aea696a",
+      "folderId": "1FsJgcGLmBNUFKGakcfvbRo9dPMwkyZD7",
+      "gmailThreadId": "1a0aea33ee6e90e1",
+      "processedAt": "2026-09-17T09:45:00Z",
+      "result": "not_order",
+      "reason": "Undeliverable bounce for Miah & Sons' own outgoing email to Premier Bank PLC requesting account reactivation from inoperative status, plus the bank's follow-up reply confirming it was done — not a client order."
+    },
+    {
+      "folder": "2026-09-17_sbbhuiyan7755_1a0aea25e6",
+      "folderId": "1KIF_9tMT6MxcCVuXVQSvHn99oGyFNCkG",
+      "gmailThreadId": "1a0aea25e6cd5068",
+      "processedAt": "2026-09-17T09:45:00Z",
+      "result": "not_order",
+      "reason": "CamScanner scan of a trade license/bank form from Shahanara Begum, the same personal document referenced in the concurrent Premier Bank account-reactivation correspondence — not a client carton/work order."
     }
   ]
 }
