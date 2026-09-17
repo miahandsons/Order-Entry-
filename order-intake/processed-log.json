@@ -266,6 +266,250 @@
       "jobNumber": "7300/26-N",
       "partyName": "Snowtex Sportswear Ltd.",
       "note": "Manual carton booking forwarded by Snowtex internal staff (st13) for buyer RICHLU, PO S27-040019, style SP011 (ERP ref STX-RICH-SPRING27-MSIL-0040-09), 7-ply carton 207 pcs + top/bottom 414 pcs. Grade (A-700-L / A-301-L), buyer, company bank and credit days resolved from this party's 13+ prior RICHLU orders on file. A third attachment ('Carton Layout-Approved.pdf') showed unrelated style/measurement codes and was not used as the source of dimensions."
+    },
+    {
+      "folder": "2026-08-24_marketing11_1a03388976",
+      "folderId": "1LF4D_4ui9Iz3Ww3YqVZorfXEy4lfl1lh",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT700 Documentary Credit copy (LC 3057260400265) forwarded within the ongoing 'Buyer: MAX' thread — a banking document, not a carton/work order."
+    },
+    {
+      "folder": "2026-09-17_marketing11_1a0b0be2d7",
+      "folderId": "1DEizqpGs0E-j2ysNWfEgV7uzCd2kUXY2",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "needs_manual_revision",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7134/26-N",
+      "existingOrderId": 7700,
+      "note": "Carton booking for MAX style MAL08, PO 9018479 (file misnamed 'MAL06.xlsx'). PO/style already covered by existing job 7134/26-N, but this message's booking quantities and carton dimension (58x38x28cm) differ from the original booking that produced that job (58x38x30cm) — appears to be a genuine quantity/dimension revision. create_order cannot revise an existing job, so flagged for a human to check and manually revise job 7134/26-N in Flowtech if warranted."
+    },
+    {
+      "folder": "2026-07-12_marketing11_19f5572d9594bfbd",
+      "folderId": "1RXivee6NDJmH46cYkX7sJ_ulMnWr2536",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Root message of the long-running 'Buyer: MAX' thread with Needle Drop Ltd (23 staged folders total, spanning Jul-Sep 2026). Every booking/PO in this thread was cross-checked against Flowtech and found already entered as ordinary (non-AI, human-entered, mostly APPROVED) orders predating this automation — this thread reflects Needle Drop Ltd/Malek/Mishu's normal day-to-day carton-booking workflow with Miah & Sons, conducted directly and independent of this order-intake pipeline. This folder (booking MOC08A/PO 9003430) is covered by the party's existing MAX/MOC-series order history; not drafted to avoid duplicating an already-processed order."
+    },
+    {
+      "folder": "2026-07-14_marketing11_19f6072d9e",
+      "folderId": "1ZbkqzbbEod5s525TWPJkhssL8DePBm8q",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Revised MOC08A booking (PO 9009095 + PO 9003430); PO 9009095 already entered as job 6622/26-N (order 7188). Same 'Buyer: MAX' thread as above — not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-07-19_marketing11_19f791cc1e",
+      "folderId": "1vd90gKNLUKx94jomPRV0l9gWEo-ivSyv",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Approved final layout for MOC08A PO 9009095, already entered as job 6622/26-N (order 7188). Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-07-27_marketing11_19fa3036a0",
+      "folderId": "1R_-qGrfAzFcxyw0W7YydRlzNDV7jqqHt",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "6792/26-N",
+      "existingOrderId": 7358,
+      "note": "ROM03 PO 9026375 carton booking, already entered as job 6792/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-07-28_marketing11_19fa777e7f",
+      "folderId": "18cbgfCZej0HWjDrKj7IjQ5xVNcGDBg4J",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "6792/26-N",
+      "existingOrderId": 7358,
+      "note": "Approved final layout for ROM03 PO 9026375, already entered as job 6792/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-07-30_marketing11_19fb328ecb",
+      "folderId": "1Eg9A8c5D3ZlRTN1Yb7TD__mMK1oVLZVy",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "6837/26-N",
+      "existingOrderId": 7403,
+      "note": "PA26SHRT02 PO 9013390 sticker booking, already entered as job 6837/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-03_marketing11_19fc650f71",
+      "folderId": "19Bcv9oFcoNIdY7RelYm0XwweATzA473z",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "6837/26-N",
+      "existingOrderId": 7403,
+      "note": "Approved final layout + shipping-mark sticker for PA26SHRT02 PO 9013390, already entered as job 6837/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-14_marketing11_19fffa5114",
+      "folderId": "145VRm-FBYHDdeG-B3d06lvXU2kZ3uuF_",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "6978/26-N",
+      "existingOrderId": 7544,
+      "note": "MAL12 PO 9018479 carton booking, already entered as job 6978/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-17_marketing11_1a00e6d30f",
+      "folderId": "1ebodDJYF2pQ-a6vD1Lb7iAH6tpcRkis9",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "6978/26-N",
+      "existingOrderId": 7544,
+      "note": "Approved final layout for MAL12 PO 9018479, already entered as job 6978/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-17_marketing11_1a00fcdf76",
+      "folderId": "15i50vRvnhLt3MHkRervodNTAbjNsLTVG",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7018/26-N",
+      "existingOrderId": 7584,
+      "note": "MSK08 PO 9028635 carton booking, already entered as job 7018/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-20_marketing11_1a01f0626a",
+      "folderId": "1CuREez0rX27yiOjWFhyvU3Q9VjZ-1PfK",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7050/26-N",
+      "existingOrderId": 7616,
+      "note": "MAL07A PO 9028323 shipping-mark sticker booking, already entered as job 7050/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-21_marketing11_1a022ff7ec",
+      "folderId": "1vSh6mVyGkMkukG6CASuv0Jm-HHGsguT1",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7051/26-N",
+      "existingOrderId": 7617,
+      "note": "MSK03 PO 9028636 carton booking, already entered as job 7051/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-21_marketing11_1a023167c9",
+      "folderId": "174BF-ruMFZEKKUxaFOdxhYqn-tnY3uWb",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7052/26-N",
+      "existingOrderId": 7618,
+      "note": "MSK10 carton booking, already entered as job 7052/26-N (PO corrected to 9028636 per the client's 8/24 clarification email in this thread). Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-22_marketing11_1a029854f7",
+      "folderId": "14HauqMdEYLDQTml9fw8P2sV7-41VkByr",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7018/26-N",
+      "existingOrderId": 7584,
+      "note": "Approved final layout for MSK08 PO 9028635, already entered as job 7018/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-24_marketing11_1a0332ded0",
+      "folderId": "1gK8jttJmUV_i8gKiohXGX5LzdhQBPbOm",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "6978/26-N",
+      "existingOrderId": 7544,
+      "note": "Small ad-hoc top-up request (50pcs) against MAL12 PO 9018479, already entered as job 6978/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-08-31_marketing11_1a057a4208",
+      "folderId": "1bGWtHOarWKkJBT_XEMeE-ZS8FyR2Vs2I",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7134/26-N",
+      "existingOrderId": 7700,
+      "note": "MAL08 PO 9018479 carton booking, already entered as job 7134/26-N. Not drafted to avoid duplication. (See folder 2026-09-17_marketing11_1a0b0be2d7 for a later revision of this same PO/style flagged for manual review.)"
+    },
+    {
+      "folder": "2026-09-01_marketing11_1a05cf0404",
+      "folderId": "1-EdePUXZ-SLsdbbgQfBjhtfW8lu037bY",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7134/26-N",
+      "existingOrderId": 7700,
+      "note": "Approved final layout for MAL08 PO 9018479, already entered as job 7134/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-10_marketing11_1a08b643d8",
+      "folderId": "19O8HKyLxT1978FvAV6n3yPID9f6-j6L7",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7211/26-N",
+      "existingOrderId": 7777,
+      "note": "WVN4403 PO 2082942 carton booking, already entered as job 7211/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-12_marketing11_1a094d6067",
+      "folderId": "1f4rEKnCYiAVivRn01koGvwVYC8kTFKHu",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7211/26-N",
+      "existingOrderId": 7777,
+      "note": "'Revised booking for your easy understanding' for WVN4403 PO 2082942, already entered as job 7211/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-14_marketing11_1a09fc9aae",
+      "folderId": "15VOtSF-7IMgzHSyUoDkM4zTRAytqNOBc",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7251/26-N",
+      "existingOrderId": 7817,
+      "note": "BERLIN carton booking (buyer Westside), already entered as job 7251/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-15_marketing11_1a0a36004a",
+      "folderId": "1V1O7BTslku2-j0wwnXFPEMADG-LcRDhs",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-17T19:49:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "existingJobNumber": "7211/26-N",
+      "existingOrderId": 7777,
+      "note": "Approved final layout for WVN4403 PO 2082942, already entered as job 7211/26-N. Not drafted to avoid duplication."
     }
   ]
 }
