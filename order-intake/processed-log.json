@@ -170,6 +170,45 @@
       "jobNumber": "7294/26-N",
       "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
       "note": "Carton booking PO 34631WR, 34632WR, 34627WE, 34628WE, style F-IT-171-1A-945C1-R & COM."
+    },
+    {
+      "folder": "2026-09-16_motherboxctn_1a0ae24368",
+      "folderId": "15IGN_NaHoYl-Bf7mXz0MdQUVW9iCv6Sv",
+      "gmailThreadId": "1a0ae24368e226b7",
+      "processedAt": "2026-09-17T07:46:00Z",
+      "result": "entered",
+      "partyName": "Rizvi Fashions Ltd.",
+      "note": "Carton & top-bottom booking for buyer DEWALT (WIP3604), forwarded by mother box packaging. Two job numbers on one booking sheet, one Flowtech order drafted per job number per this system's convention.",
+      "orders": [
+        { "jobNo": "3476", "style": "Dewalt Mclaren Tee Shirt WIP3604", "orderId": 7886, "jobNumber": "7295/26-N" },
+        { "jobNo": "3477", "style": "Dewalt Mclaren Work Hoodie WIP3604", "orderId": 7887, "jobNumber": "7296/26-N" }
+      ]
+    },
+    {
+      "folder": "2026-09-17_zahidul.islam_1a0ae2b182",
+      "folderId": "1Y5FtMK8dh5caemMoeJLR2G8HI02bKh11",
+      "gmailThreadId": "1a0ae2b182a57e27",
+      "processedAt": "2026-09-17T07:46:00Z",
+      "result": "not_order",
+      "reason": "Operating Theatre Medical Bangladesh Co. Ltd. asking Miah & Sons to quote a price against an attached carton measurement/formula sheet — a price-quotation request, not a placed order."
+    },
+    {
+      "folder": "2026-09-17_merch1_1a0ae21893",
+      "folderId": "1cpl2N1Mxnw7eHq64eicIpKF3zdPOmSmJ",
+      "gmailThreadId": "1a0ae0a492f57faf",
+      "processedAt": "2026-09-17T07:46:00Z",
+      "result": "superseded",
+      "note": "Interim reply in the same thread as order 7884 (job 7293/26-N), pointing out the carton layout PDF's short-side description was wrong. Superseded by folder 2026-09-17_merch1_1a0ae2775b, the thread's final 'attached layout is okay, please proceed' approval."
+    },
+    {
+      "folder": "2026-09-17_merch1_1a0ae2775b",
+      "folderId": "1v5ZpRcphkVlWlfxGpBwmxm31hOWhAa3B",
+      "gmailThreadId": "1a0ae0a492f57faf",
+      "processedAt": "2026-09-17T07:46:00Z",
+      "result": "needs_manual_revision",
+      "existingOrderId": 7884,
+      "existingJobNumber": "7293/26-N",
+      "note": "Most recent message in this thread ('Attached layout is okay, please proceed' - final approval of the carton layout PDF). The original booking in this same thread was already entered as job 7293/26-N (order 7884); create_order never revises an existing job. No order data (qty/PO/style) actually changed across this thread's later messages - only carton-layout artwork approval - so no revision looks required, but flagging per policy since an older sibling in this thread was already entered. A human should confirm order 7884 needs no changes."
     }
   ]
 }
