@@ -510,6 +510,14 @@
       "existingJobNumber": "7211/26-N",
       "existingOrderId": 7777,
       "note": "Approved final layout for WVN4403 PO 2082942, already entered as job 7211/26-N. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-18_m.a.malek4486_1a0b31dbe8",
+      "folderId": "1ztyk5ibCWXXPCaeS6Ij8gWRZloB3TYj_",
+      "gmailThreadId": "1a0b31dbe8e0ed77",
+      "processedAt": "2026-09-18T06:55:00Z",
+      "result": "needs_manual_entry",
+      "reason": "Genuine cash-payment carton work order (60x40x40cm, 5-ply, 660 pcs, Invo CS/Malek/001) from 'Craft Station' (proprietor Ashif Hossain Shuvo, Mirpur-1, Dhaka), forwarded by M.A. Malek to Nadia at Miah & Sons. 'Craft Station' does not exist as a party in Flowtech under any plausible match (checked 'Craft Station', 'Craft', 'Station', 'Malek', 'Shuvo', 'Ashif', invoice prefix 'CS'). create_order cannot draft an order for a party absent from the database, and creating a new party is out of scope for this automation. A human needs to add 'Craft Station' as a party in Flowtech (team, currency BDT, cash payment) and manually enter this order."
     }
   ]
 }
