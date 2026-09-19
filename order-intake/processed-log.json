@@ -716,6 +716,17 @@
       "processedAt": "2026-09-19T09:45:00Z",
       "result": "not_order",
       "reason": "Same 'LKN26-21' layout approval cycle as folder 2026-09-19_ripon.mondal_1a0b8e79ff (different Gmail thread — a second, separate approval batch to the same merchandiser). Client reply marking layout codes 2118085/2118090/2118087/2118091/2118089 approved or needing a revised B lot number, against Miah & Sons' own outgoing carton shipping-mark/label layout PDFs (NKD Group GmbH). No PO number, quantities, or pricing — not a placed order."
+    },
+    {
+      "folder": "2026-09-19_shoebur_1a0b937e08",
+      "folderId": "1agLsVMQgUE5CrQLX0bz-Ld-YUqqNYLvg",
+      "gmailThreadId": "1a0b937e08325cad",
+      "processedAt": "2026-09-19T10:55:00Z",
+      "result": "entered",
+      "orderId": 7903,
+      "jobNumber": "7312/26-N",
+      "partyName": "AKIJ SHOES LTD.",
+      "note": "5-ply master carton PO REF AKIJ/PUR/2026/MARCOTOZZI/198 from Akij Shoes Ltd. (buyer MARCOTOZZI), 943 cartons / 9552 pairs across 6 carton-size lines. Not a duplicate of prior MARCOTOZZI order 7534 (job 6968/26-N, PO 187) — different PO number and quantities. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: unit_price overridden to $0.57/SQM per the PO (vs. this party's on-file catalog price of $0.60/SQM for grade A-501-L) — create_order accepted with a warning; delivery_date (2026-09-24) taken from the covering email's 'Required Delivery Date: 24th September' line rather than the PDF; credit_days (0) and company_bank ('THE PREMIER BANK LTD', id 3) defaulted from this party's most recent prior MARCOTOZZI order for consistency, not stated in this PO; delivery_station defaulted to '.'. Gmail thread labeled order-intake/entered-by-ai."
     }
   ]
 }
