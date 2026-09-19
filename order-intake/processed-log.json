@@ -727,6 +727,49 @@
       "jobNumber": "7312/26-N",
       "partyName": "AKIJ SHOES LTD.",
       "note": "5-ply master carton PO REF AKIJ/PUR/2026/MARCOTOZZI/198 from Akij Shoes Ltd. (buyer MARCOTOZZI), 943 cartons / 9552 pairs across 6 carton-size lines. Not a duplicate of prior MARCOTOZZI order 7534 (job 6968/26-N, PO 187) — different PO number and quantities. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: unit_price overridden to $0.57/SQM per the PO (vs. this party's on-file catalog price of $0.60/SQM for grade A-501-L) — create_order accepted with a warning; delivery_date (2026-09-24) taken from the covering email's 'Required Delivery Date: 24th September' line rather than the PDF; credit_days (0) and company_bank ('THE PREMIER BANK LTD', id 3) defaulted from this party's most recent prior MARCOTOZZI order for consistency, not stated in this PO; delivery_station defaulted to '.'. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-12_ansar.ali_1a0937ed65",
+      "folderId": "1zqGZMylORFdJ_3u3QRzFUgCXUfmqywzv",
+      "gmailThreadId": "1a0937ed65ba8a2e",
+      "processedAt": "2026-09-19T13:45:00Z",
+      "result": "superseded",
+      "note": "Original 'Bulk Carton booking for style#GRS73004MN (Buyer Walmart Canada)' message in this thread from Ansar Ali (Norp Knit Industries Ltd. merchandising, ordering via party International Trading Services Ltd.). Superseded by folder 2026-09-19_ansar.ali_1a0b9d1e13, the thread's most recent message."
+    },
+    {
+      "folder": "2026-09-12_ansar.ali_1a093eeebc",
+      "folderId": "1SLgLZNDb14pgZlTWEjeGjQmEal-0NbCN",
+      "gmailThreadId": "1a0937ed65ba8a2e",
+      "processedAt": "2026-09-19T13:45:00Z",
+      "result": "superseded",
+      "note": "'Revised booking' reply, same day as the thread's original message. Superseded by folder 2026-09-19_ansar.ali_1a0b9d1e13, the thread's most recent message."
+    },
+    {
+      "folder": "2026-09-13_ansar.ali_1a09a84aa7",
+      "folderId": "14u22Cb3swcajUSrDqHEgQ-jTXo_FjpAV",
+      "gmailThreadId": "1a0937ed65ba8a2e",
+      "processedAt": "2026-09-19T13:45:00Z",
+      "result": "superseded",
+      "note": "'Update booking only for E-com (MN), mentioned mod cut 825' reply. Superseded by folder 2026-09-19_ansar.ali_1a0b9d1e13, the thread's most recent message."
+    },
+    {
+      "folder": "2026-09-14_ansar.ali_1a09f35e81",
+      "folderId": "1W1tShwT8c8oyS90XE1BDq-N7ceJsFnH_",
+      "gmailThreadId": "1a0937ed65ba8a2e",
+      "processedAt": "2026-09-19T13:45:00Z",
+      "result": "superseded",
+      "note": "'Attached layout and PI has been approved, go for production' reply. Superseded by folder 2026-09-19_ansar.ali_1a0b9d1e13, the thread's most recent message."
+    },
+    {
+      "folder": "2026-09-19_ansar.ali_1a0b9d1e13",
+      "folderId": "15WX_BcHcE2xylap1yp9bXpbRcXLu6rVg",
+      "gmailThreadId": "1a0937ed65ba8a2e",
+      "processedAt": "2026-09-19T13:45:00Z",
+      "result": "needs_manual_revision",
+      "partyName": "International Trading Services Ltd.",
+      "existingJobNumber": "7213/26-N",
+      "existingOrderId": 7779,
+      "note": "Most recent message in the 'Bulk Carton booking for style#GRS73004MN (Buyer Walmart Canada) Season: SS'27' thread (5 staged folders total, gmailThreadId 1a0937ed65ba8a2e, sender Ansar Ali <ansar.ali@norpknit.com>, party International Trading Services Ltd., buyer WALMART, style GRS73004MN-MX). The thread's original booking was already entered in Flowtech as job 7213/26-N (order 7779, APPROVED, human-entered) — Miah & Sons' own PI/ITS/7213/26-N replies are visible earlier in the same thread. create_order never revises an existing job, so this later message is not draftable as a new order. This message ('revised booking only for carton shipping mark... as discussed with you over phone') carries an updated carton-shipping-mark/label spreadsheet (5 POs: 2850907147, 2850907176, 2850907177, 2850907148, 2850907205) whose per-label carton-qty breakdown does not cleanly match order 7779's per-PO order quantities (e.g. PO 2850907147: order qty 1372 vs. label sheet 561+486; PO 2850907177: order qty 19 vs. label sheet 7+6) — labels may just be split by case/carton-print config rather than representing a full-order quantity change, but a human should verify against order 7779 in Flowtech and revise it manually if the quantities actually changed. An earlier reply in the same thread (2026-09-13, folder 2026-09-13_ansar.ali_1a09a84aa7, marked superseded) requested 'update booking only for E-com (MN), mod cut 825' — also not reflected in a Flowtech revision. Folder marked processed so it is not repeatedly re-flagged."
     }
   ]
 }
