@@ -527,6 +527,33 @@
       "result": "already_in_flowtech",
       "partyName": "NEEDLE DROP LTD.",
       "note": "Previously-missed folder from the 'Buyer: MAX' thread batch (staged alongside the 23 other marketing11 folders already reconciled). Contains 3 RDC shipping-mark/carton-label PDFs: MAX MAL07A.pdf (PO 9028323), MAX MSK03.pdf (PO 9028636), MAX MSK10.pdf (PO 9026375). All three exactly match orders already entered: MAL07A/9028323 = job 7050/26-N (order 7616, Sticker item), MSK03/9028636 = job 7051/26-N (order 7617, carton 58x38x24cm), MSK10/9026375 = job 7052/26-N (order 7618, carton 58x38x28cm, LpdPoNo stored as this original PO 9026375). Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-10_roy_1a08987a1c",
+      "folderId": "1P_m704DyVxgyykEMpPmvdnOCNMYqs-xc",
+      "gmailThreadId": "1a08987a1c340cf0",
+      "processedAt": "2026-09-19T03:45:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Y & F Healthcare Ltd.",
+      "existingJobNumber": "7204/26-N",
+      "existingOrderId": 7770,
+      "note": "PO-YFCT-0049 (Coverall XXL Nanoguard-P1 master cartons, 50x30x28cm, 5-ply, 2x1350pcs, style YFY260807-1/2). Genuine order but exact match already entered in Flowtech as job 7204/26-N (order 7770, APPROVED, human-entered, IsAiDrafted=0) — same party, style, dimensions, ply and quantities. Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-14_yandfmedcofficer_1a09f4d467",
+      "folderId": "1y_dl86sx9ehqEpIl4Z3aO5vEc2avxrll",
+      "gmailThreadId": "1a08987a1c340cf0",
+      "processedAt": "2026-09-19T03:45:00Z",
+      "result": "not_order",
+      "reason": "Miah & Sons' own outgoing Sales Contract (SC/Y&F/7204/26-N) for Y&F Healthcare, relayed back within the client's reply thread — not a new client order."
+    },
+    {
+      "folder": "2026-09-19_yandfmedcofficer_1a0b79d374",
+      "folderId": "10OmWgU9X1hSC2Z8Hu6LqSFln5tJTLvYn",
+      "gmailThreadId": "1a08987a1c340cf0",
+      "processedAt": "2026-09-19T03:45:00Z",
+      "result": "not_order",
+      "reason": "BEPZA Import Permit (IC1709260003) for the shipment under Sales Contract SC/Y&F/7204/26-N — customs/import paperwork, not a client order."
     }
   ]
 }
