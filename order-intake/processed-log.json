@@ -75,32 +75,136 @@
       "partyName": "International Trading Services Ltd.",
       "note": "Bulk AEO Spring'27 2nd-Lot Boxer carton booking covering 26 separate client PO numbers (Standard Group merchandiser). One Flowtech order drafted per PO number, per this party's existing convention (e.g. order 7852, Texzone 7833-7842).",
       "orders": [
-        { "po": "1383643", "orderId": 7856, "jobNumber": "7290/26-N" },
-        { "po": "1383645", "orderId": 7858, "jobNumber": "7292/26-N" },
-        { "po": "1388279", "orderId": 7857, "jobNumber": "7291/26-N" },
-        { "po": "1383646", "orderId": 7860, "jobNumber": "7294/26-N" },
-        { "po": "1383360", "orderId": 7859, "jobNumber": "7293/26-N" },
-        { "po": "1383647", "orderId": 7862, "jobNumber": "7296/26-N" },
-        { "po": "1383361", "orderId": 7861, "jobNumber": "7295/26-N" },
-        { "po": "1388276", "orderId": 7864, "jobNumber": "7298/26-N" },
-        { "po": "1383362", "orderId": 7863, "jobNumber": "7297/26-N" },
-        { "po": "1388278", "orderId": 7866, "jobNumber": "7300/26-N" },
-        { "po": "1383363", "orderId": 7865, "jobNumber": "7299/26-N" },
-        { "po": "1388283", "orderId": 7868, "jobNumber": "7302/26-N" },
-        { "po": "1383364", "orderId": 7867, "jobNumber": "7301/26-N" },
-        { "po": "1383602", "orderId": 7869, "jobNumber": "7303/26-N" },
-        { "po": "1383603", "orderId": 7870, "jobNumber": "7304/26-N" },
-        { "po": "1388286", "orderId": 7871, "jobNumber": "7305/26-N" },
-        { "po": "1383604", "orderId": 7872, "jobNumber": "7306/26-N" },
-        { "po": "1388287", "orderId": 7873, "jobNumber": "7307/26-N" },
-        { "po": "1383605", "orderId": 7874, "jobNumber": "7308/26-N" },
-        { "po": "1390384", "orderId": 7875, "jobNumber": "7309/26-N" },
-        { "po": "1383607", "orderId": 7876, "jobNumber": "7310/26-N" },
-        { "po": "1383608", "orderId": 7877, "jobNumber": "7311/26-N" },
-        { "po": "1390385", "orderId": 7878, "jobNumber": "7312/26-N" },
-        { "po": "1383609", "orderId": 7879, "jobNumber": "7313/26-N" },
-        { "po": "1391467", "orderId": 7880, "jobNumber": "7314/26-N" },
-        { "po": "1390562", "orderId": 7881, "jobNumber": "7315/26-N" }
+        {
+          "po": "1383643",
+          "orderId": 7856,
+          "jobNumber": "7290/26-N"
+        },
+        {
+          "po": "1383645",
+          "orderId": 7858,
+          "jobNumber": "7292/26-N"
+        },
+        {
+          "po": "1388279",
+          "orderId": 7857,
+          "jobNumber": "7291/26-N"
+        },
+        {
+          "po": "1383646",
+          "orderId": 7860,
+          "jobNumber": "7294/26-N"
+        },
+        {
+          "po": "1383360",
+          "orderId": 7859,
+          "jobNumber": "7293/26-N"
+        },
+        {
+          "po": "1383647",
+          "orderId": 7862,
+          "jobNumber": "7296/26-N"
+        },
+        {
+          "po": "1383361",
+          "orderId": 7861,
+          "jobNumber": "7295/26-N"
+        },
+        {
+          "po": "1388276",
+          "orderId": 7864,
+          "jobNumber": "7298/26-N"
+        },
+        {
+          "po": "1383362",
+          "orderId": 7863,
+          "jobNumber": "7297/26-N"
+        },
+        {
+          "po": "1388278",
+          "orderId": 7866,
+          "jobNumber": "7300/26-N"
+        },
+        {
+          "po": "1383363",
+          "orderId": 7865,
+          "jobNumber": "7299/26-N"
+        },
+        {
+          "po": "1388283",
+          "orderId": 7868,
+          "jobNumber": "7302/26-N"
+        },
+        {
+          "po": "1383364",
+          "orderId": 7867,
+          "jobNumber": "7301/26-N"
+        },
+        {
+          "po": "1383602",
+          "orderId": 7869,
+          "jobNumber": "7303/26-N"
+        },
+        {
+          "po": "1383603",
+          "orderId": 7870,
+          "jobNumber": "7304/26-N"
+        },
+        {
+          "po": "1388286",
+          "orderId": 7871,
+          "jobNumber": "7305/26-N"
+        },
+        {
+          "po": "1383604",
+          "orderId": 7872,
+          "jobNumber": "7306/26-N"
+        },
+        {
+          "po": "1388287",
+          "orderId": 7873,
+          "jobNumber": "7307/26-N"
+        },
+        {
+          "po": "1383605",
+          "orderId": 7874,
+          "jobNumber": "7308/26-N"
+        },
+        {
+          "po": "1390384",
+          "orderId": 7875,
+          "jobNumber": "7309/26-N"
+        },
+        {
+          "po": "1383607",
+          "orderId": 7876,
+          "jobNumber": "7310/26-N"
+        },
+        {
+          "po": "1383608",
+          "orderId": 7877,
+          "jobNumber": "7311/26-N"
+        },
+        {
+          "po": "1390385",
+          "orderId": 7878,
+          "jobNumber": "7312/26-N"
+        },
+        {
+          "po": "1383609",
+          "orderId": 7879,
+          "jobNumber": "7313/26-N"
+        },
+        {
+          "po": "1391467",
+          "orderId": 7880,
+          "jobNumber": "7314/26-N"
+        },
+        {
+          "po": "1390562",
+          "orderId": 7881,
+          "jobNumber": "7315/26-N"
+        }
       ]
     },
     {
@@ -180,8 +284,18 @@
       "partyName": "Rizvi Fashions Ltd.",
       "note": "Carton & top-bottom booking for buyer DEWALT (WIP3604), forwarded by mother box packaging. Two job numbers on one booking sheet, one Flowtech order drafted per job number per this system's convention.",
       "orders": [
-        { "jobNo": "3476", "style": "Dewalt Mclaren Tee Shirt WIP3604", "orderId": 7886, "jobNumber": "7295/26-N" },
-        { "jobNo": "3477", "style": "Dewalt Mclaren Work Hoodie WIP3604", "orderId": 7887, "jobNumber": "7296/26-N" }
+        {
+          "jobNo": "3476",
+          "style": "Dewalt Mclaren Tee Shirt WIP3604",
+          "orderId": 7886,
+          "jobNumber": "7295/26-N"
+        },
+        {
+          "jobNo": "3477",
+          "style": "Dewalt Mclaren Work Hoodie WIP3604",
+          "orderId": 7887,
+          "jobNumber": "7296/26-N"
+        }
       ]
     },
     {
@@ -586,6 +700,22 @@
       "processedAt": "2026-09-19T05:45:00Z",
       "result": "not_order",
       "reason": "Proud Fashion Ltd.'s general 'Clothing Packing Instruction Version 9' compliance/spec document (packing, labeling, carton, folding standards for Kaufhaus Martin Stolz GmbH / STOLZ brand) forwarded by Ripon <md@r7bd.com>, subject 'FW: Proud Fashion - Updated Packing Instruction (ICL)'. No PO number, quantities, pricing, style, or specific carton order — a standing packing-standards manual, not a placed client order."
+    },
+    {
+      "folder": "2026-09-19_ripon.mondal_1a0b8e79ff",
+      "folderId": "11as_RyXxxVa4yEyfQtDVCKWouYisdgtR",
+      "gmailThreadId": "1a0ad63b16c053e7",
+      "processedAt": "2026-09-19T09:45:00Z",
+      "result": "not_order",
+      "reason": "Client (Ripon Mondal, Liberty Knitwear Ltd. Unit-02) reply to Miah & Sons' own outgoing 'LKN26-21' carton layout approval email, marking each layout code (2118080/2118113/2118117/2118088/2118084/2118130) approved or needing a revised B lot number. Attachments are NKD Group GmbH carton shipping-mark/label layout PDFs, not an order booking sheet — no PO number, quantities, or pricing anywhere in the thread. Artwork sign-off cycle for an already-existing job, not a placed order."
+    },
+    {
+      "folder": "2026-09-19_ripon.mondal_1a0b8f199a",
+      "folderId": "1bsKUBHZ2Gl8tjXewSA3ZUOSkSsieC_mi",
+      "gmailThreadId": "1a0ad64cd48d03ae",
+      "processedAt": "2026-09-19T09:45:00Z",
+      "result": "not_order",
+      "reason": "Same 'LKN26-21' layout approval cycle as folder 2026-09-19_ripon.mondal_1a0b8e79ff (different Gmail thread — a second, separate approval batch to the same merchandiser). Client reply marking layout codes 2118085/2118090/2118087/2118091/2118089 approved or needing a revised B lot number, against Miah & Sons' own outgoing carton shipping-mark/label layout PDFs (NKD Group GmbH). No PO number, quantities, or pricing — not a placed order."
     }
   ]
 }
