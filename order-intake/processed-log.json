@@ -518,6 +518,15 @@
       "processedAt": "2026-09-18T06:55:00Z",
       "result": "needs_manual_entry",
       "reason": "Genuine cash-payment carton work order (60x40x40cm, 5-ply, 660 pcs, Invo CS/Malek/001) from 'Craft Station' (proprietor Ashif Hossain Shuvo, Mirpur-1, Dhaka), forwarded by M.A. Malek to Nadia at Miah & Sons. 'Craft Station' does not exist as a party in Flowtech under any plausible match (checked 'Craft Station', 'Craft', 'Station', 'Malek', 'Shuvo', 'Ashif', invoice prefix 'CS'). create_order cannot draft an order for a party absent from the database, and creating a new party is out of scope for this automation. A human needs to add 'Craft Station' as a party in Flowtech (team, currency BDT, cash payment) and manually enter this order."
+    },
+    {
+      "folder": "2026-08-24_marketing11_1a032d7452",
+      "folderId": "1ARLNGtbcIro7ymHlnD_3iF0OehSDiikd",
+      "gmailThreadId": "19f5572d9594bfbd",
+      "processedAt": "2026-09-19T00:00:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Previously-missed folder from the 'Buyer: MAX' thread batch (staged alongside the 23 other marketing11 folders already reconciled). Contains 3 RDC shipping-mark/carton-label PDFs: MAX MAL07A.pdf (PO 9028323), MAX MSK03.pdf (PO 9028636), MAX MSK10.pdf (PO 9026375). All three exactly match orders already entered: MAL07A/9028323 = job 7050/26-N (order 7616, Sticker item), MSK03/9028636 = job 7051/26-N (order 7617, carton 58x38x24cm), MSK10/9026375 = job 7052/26-N (order 7618, carton 58x38x28cm, LpdPoNo stored as this original PO 9026375). Not drafted to avoid duplication."
     }
   ]
 }
