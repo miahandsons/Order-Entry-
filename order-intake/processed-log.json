@@ -578,6 +578,14 @@
       "jobNumber": "7282/26-N",
       "partyName": "TEXZONE KNITWEAR LIMITED",
       "note": "BACKFILLED ENTRY, LIKELY FRAUDULENT SOURCE: this folder/order was drafted into Flowtech but the log commit recording it never reached main (same branch-fragmentation gap as the entry above). Reconstructed from Order 7848's own Note field (which carries this automation's exact audit-trail phrasing: 'Autopilot draft from Drive folder 2026-09-17_syedalifulalam21_1a0acad69a...') plus the Gmail thread. Sender syedalifulalam21@gmail.com, subject 'Carton Booking – Job 7199042, Style TZ-8834', claiming to be TEXZONE Knitwear's merchandising team from a personal Gmail address (the AI's own note explicitly flagged this as unverified). SECURITY CONCERN: this message is now in Gmail TRASH, and the SAME sender account (syedalifulalam21@gmail.com) also sent an obvious test message ('Job TEST-0001, Style TST-4471', also trashed, never staged/drafted) and a near-identical spoof of ACS Textiles ('PO-ACS-2026-0917', sent by syedalifulalam20@gmail.com, trashed, never staged/drafted) within the same ~2.5 hour window on 2026-09-16/17 — an apparent attempt to inject fraudulent orders into Flowtech under real client names via lookalike personal-Gmail senders. Order 7848 is now Flowtech OrderStatus CANCELLED (reviewed and rejected by a human). Recommend verifying no other action was taken on this order before cancellation, and considering a sender-domain/authenticity check for this automation going forward."
+    },
+    {
+      "folder": "2026-09-19_md_1a0b8222dc",
+      "folderId": "1J46X7pFcMmxNeNNfaKgiW75MRPhhE0OI",
+      "gmailThreadId": "1a0b8222dc8b67e3",
+      "processedAt": "2026-09-19T05:45:00Z",
+      "result": "not_order",
+      "reason": "Proud Fashion Ltd.'s general 'Clothing Packing Instruction Version 9' compliance/spec document (packing, labeling, carton, folding standards for Kaufhaus Martin Stolz GmbH / STOLZ brand) forwarded by Ripon <md@r7bd.com>, subject 'FW: Proud Fashion - Updated Packing Instruction (ICL)'. No PO number, quantities, pricing, style, or specific carton order — a standing packing-standards manual, not a placed client order."
     }
   ]
 }
