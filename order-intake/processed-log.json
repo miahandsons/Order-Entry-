@@ -554,6 +554,30 @@
       "processedAt": "2026-09-19T03:45:00Z",
       "result": "not_order",
       "reason": "BEPZA Import Permit (IC1709260003) for the shipment under Sales Contract SC/Y&F/7204/26-N — customs/import paperwork, not a client order."
+    },
+    {
+      "folder": "2026-09-17_syedalifulalam20_1a0ad0ff57",
+      "folderId": "unknown - folder no longer present in Drive (Order Intake) at time of backfill",
+      "gmailThreadId": "1a0ad0ff571db6fc",
+      "processedAt": "2026-09-17T02:35:00Z (approx., inferred from order timestamps)",
+      "backfilledAt": "2026-09-19T04:20:00Z",
+      "result": "entered",
+      "orderId": 7849,
+      "jobNumber": "7283/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "BACKFILLED ENTRY: this folder/order was drafted into Flowtech and its thread received the order-intake/entered-by-ai Gmail label, but the log commit recording it never reached main (lost to branch fragmentation across multiple session branches before this repo's workflow was corrected to commit straight to main/the durable branch). Reconstructed from Order 7849's AiNotes audit trail plus the Gmail thread. Sender syedalifulalam20@gmail.com, subject 'Issuance of Accessories PO # 152/26', attachments 'IALT-152-26 accessories PO confirmation.pdf' / '.xlsx'. AI flagged: guessed item (Shoe Box Trekking M, one of 3 equally-plausible catalog matches), $0 unit price (document gave none), guessed buyer ('No Buyer'). SECURITY NOTE: this sender's address is one digit off from a second address (syedalifulalam21@gmail.com) that separately sent obviously-fake test orders and a spoofed ACS Textiles PO from the same short window (2026-09-16/17) impersonating multiple real Miah & Sons clients (TEXZONE Knitwear, ACS Textiles, A One Polor Ltd) — see order 7848 and order 7850 (job 7284/26-N). Order 7849 is now Flowtech OrderStatus CANCELLED (reviewed and rejected by a human)."
+    },
+    {
+      "folder": "2026-09-17_syedalifulalam21_1a0acad69a",
+      "folderId": "unknown - folder no longer present in Drive (Order Intake) at time of backfill",
+      "gmailThreadId": "1a0acad69a529562",
+      "processedAt": "unknown (prior to first log entry at 2026-09-17T02:35:00Z)",
+      "backfilledAt": "2026-09-19T04:20:00Z",
+      "result": "entered",
+      "orderId": 7848,
+      "jobNumber": "7282/26-N",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "note": "BACKFILLED ENTRY, LIKELY FRAUDULENT SOURCE: this folder/order was drafted into Flowtech but the log commit recording it never reached main (same branch-fragmentation gap as the entry above). Reconstructed from Order 7848's own Note field (which carries this automation's exact audit-trail phrasing: 'Autopilot draft from Drive folder 2026-09-17_syedalifulalam21_1a0acad69a...') plus the Gmail thread. Sender syedalifulalam21@gmail.com, subject 'Carton Booking – Job 7199042, Style TZ-8834', claiming to be TEXZONE Knitwear's merchandising team from a personal Gmail address (the AI's own note explicitly flagged this as unverified). SECURITY CONCERN: this message is now in Gmail TRASH, and the SAME sender account (syedalifulalam21@gmail.com) also sent an obvious test message ('Job TEST-0001, Style TST-4471', also trashed, never staged/drafted) and a near-identical spoof of ACS Textiles ('PO-ACS-2026-0917', sent by syedalifulalam20@gmail.com, trashed, never staged/drafted) within the same ~2.5 hour window on 2026-09-16/17 — an apparent attempt to inject fraudulent orders into Flowtech under real client names via lookalike personal-Gmail senders. Order 7848 is now Flowtech OrderStatus CANCELLED (reviewed and rejected by a human). Recommend verifying no other action was taken on this order before cancellation, and considering a sender-domain/authenticity check for this automation going forward."
     }
   ]
 }
