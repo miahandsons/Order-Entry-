@@ -770,6 +770,42 @@
       "existingJobNumber": "7213/26-N",
       "existingOrderId": 7779,
       "note": "Most recent message in the 'Bulk Carton booking for style#GRS73004MN (Buyer Walmart Canada) Season: SS'27' thread (5 staged folders total, gmailThreadId 1a0937ed65ba8a2e, sender Ansar Ali <ansar.ali@norpknit.com>, party International Trading Services Ltd., buyer WALMART, style GRS73004MN-MX). The thread's original booking was already entered in Flowtech as job 7213/26-N (order 7779, APPROVED, human-entered) — Miah & Sons' own PI/ITS/7213/26-N replies are visible earlier in the same thread. create_order never revises an existing job, so this later message is not draftable as a new order. This message ('revised booking only for carton shipping mark... as discussed with you over phone') carries an updated carton-shipping-mark/label spreadsheet (5 POs: 2850907147, 2850907176, 2850907177, 2850907148, 2850907205) whose per-label carton-qty breakdown does not cleanly match order 7779's per-PO order quantities (e.g. PO 2850907147: order qty 1372 vs. label sheet 561+486; PO 2850907177: order qty 19 vs. label sheet 7+6) — labels may just be split by case/carton-print config rather than representing a full-order quantity change, but a human should verify against order 7779 in Flowtech and revise it manually if the quantities actually changed. An earlier reply in the same thread (2026-09-13, folder 2026-09-13_ansar.ali_1a09a84aa7, marked superseded) requested 'update booking only for E-com (MN), mod cut 825' — also not reflected in a Flowtech revision. Folder marked processed so it is not repeatedly re-flagged."
+    },
+    {
+      "folder": "2026-09-20_al.amin_1a0bcc0b84",
+      "folderId": "179JevzJgq8znNkY_Kw1MiBCCOICkBsri",
+      "gmailThreadId": "1a0bcc0b84643787",
+      "processedAt": "2026-09-20T04:15:00Z",
+      "result": "entered",
+      "partyName": "PARASOLE FOOTWEAR LTD.",
+      "note": "Master carton order sheet from Md Al Amin <al.amin@paragon.com.bd> (signs as ParaSole Footwear Limited), 5 attachments (Caspian_9101011353/54/55/56/57.pdf) each a separate customer PO for buyer 'Walmart (Uptop)', style CASPIANY, plus one shipping-mark layout PDF (artwork only, not order data). One Flowtech order drafted per PO number per this system's convention. PARTY MISMATCH FLAGGED FOR HUMAN REVIEW: the PDFs' own letterhead reads 'P & M FOOTWEAR ACCESORIES LTD.' (Flowtech PartyID 237, zero prior orders, no matching buyer history) but orders were drafted against 'PARASOLE FOOTWEAR LTD.' (PartyID 82) instead, based on the sender's own signature and an exact match to this party's prior order 6041/job 5497/26-N (same buyer 'Caspian Walmart', same item/spec/grade Auto Corrugated Printed Master Carton/Ply 5/A-500-L, identical three carton dimensions 41.5x36x31.5, 43.5x39x34, 44.5x40.5x35.5cm) — a human should confirm PARASOLE FOOTWEAR LTD. is the correct party before approving any of these 5 orders. buyer_name resolved to 'Caspian Walmart' (matching order 6041) rather than this party's more common buyer 'Up-Top (AVIA)', despite the document literally reading 'Buyer : Walmart (Uptop)'. Each PO's 9-line per-shoe-size quantity breakdown was summed into 3 GSM lines by carton dimension, matching order 6041's convention. PO 9101011354 and 9101011355 have identical quantities (433 total) and PO 9101011356/9101011357 have identical quantities (325 total) — confirmed against the source PDFs, not a duplication error; the covering email states quantities/case-qty repeat across different PO numbers in this booking. company_bank (THE PREMIER BANK LTD, id 3) and credit_days (0) defaulted from prior order 6041; delivery_station taken from the covering email's stated delivery address; delivery_date (2026-09-30) taken from the email's 'within 30th Sept 2026' line. Full per-order ai_notes audit trail written to each order's AiNotes field. Gmail thread labeled order-intake/entered-by-ai.",
+      "orders": [
+        {
+          "po": "9101011353",
+          "orderId": 7904,
+          "jobNumber": "7313/26-N"
+        },
+        {
+          "po": "9101011354",
+          "orderId": 7905,
+          "jobNumber": "7314/26-N"
+        },
+        {
+          "po": "9101011355",
+          "orderId": 7906,
+          "jobNumber": "7315/26-N"
+        },
+        {
+          "po": "9101011356",
+          "orderId": 7907,
+          "jobNumber": "7316/26-N"
+        },
+        {
+          "po": "9101011357",
+          "orderId": 7908,
+          "jobNumber": "7317/26-N"
+        }
+      ]
     }
   ]
 }
