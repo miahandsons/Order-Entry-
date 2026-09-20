@@ -846,6 +846,52 @@
           "jobNumber": "7317/26-N"
         }
       ]
+    },
+    {
+      "folder": "2026-09-20_nahida_1a0bd338f8",
+      "folderId": "1AM0bsWDwyoRmpdscbWXjlEuVAZaCZOct",
+      "gmailThreadId": "1a0bd338f807d57a",
+      "processedAt": "2026-09-20T05:48:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds transaction vouchers (218.pdf / 219.pdf, LC 1417260400093 and LC 1417260400165) forwarded by bank officer Nahida Sultana — bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-08-04_ansar.ali_19fcb12712",
+      "folderId": "1aIYlNgh0XDsLsNQihGLIye-EPm3uk388",
+      "gmailThreadId": "19fcb127122dfe24",
+      "processedAt": "2026-09-20T05:48:00Z",
+      "result": "superseded",
+      "note": "Original 'Bulk carton booking for style# GRS70059LD for Walmart Canada' message (Ansar Ali / Norp Knit Industries Ltd., ordering via party International Trading Services Ltd.). Superseded by folder 2026-09-20_ansar.ali_1a0bd3eebd, the thread's most recent message."
+    },
+    {
+      "folder": "2026-08-13_ansar.ali_19ff910f53",
+      "folderId": "1e7mqvZA7Z83xYQ6c7bIddpqRYRl3yiZh",
+      "gmailThreadId": "19fcb127122dfe24",
+      "processedAt": "2026-09-20T05:48:00Z",
+      "result": "superseded",
+      "note": "'Attached layout is approved, pls go for production and all goods delivery by 8/15/2026' reply, same thread. Superseded by folder 2026-09-20_ansar.ali_1a0bd3eebd, the thread's most recent message."
+    },
+    {
+      "folder": "2026-09-20_ansar.ali_1a0bd3eebd",
+      "folderId": "1CoAIXC8FwO8GdDl2DKlQkYbrDYqDPJlP",
+      "gmailThreadId": "19fcb127122dfe24",
+      "processedAt": "2026-09-20T05:48:00Z",
+      "result": "needs_manual_revision",
+      "partyName": "International Trading Services Ltd.",
+      "existingJobNumber": "6879/26-N",
+      "existingOrderId": 7445,
+      "note": "Most recent message in the 'Bulk carton booking for style# GRS70059LD for Walmart Canada' thread (3 staged folders, gmailThreadId 19fcb127122dfe24, sender Ansar Ali <ansar.ali@norpknit.com>, party International Trading Services Ltd., buyer WALMART, style GRS70059LD, POs 6300990433/6300990758/6300990759). The thread's original booking was already entered in Flowtech as job 6879/26-N (order 7445, APPROVED, human-entered) — Miah & Sons' own PI/ITS/6879/26-N was sent within hours of the original booking, before this automation existed. create_order never revises an existing job, so this later message is not draftable as a new order. This message ('As discussed with you, please see the revised booking only for shipping mark. Please share the revised layout within short time.') carries an attachment named 'UPDATE' but its data is byte-for-byte identical to the original booking spreadsheet (same 3 POs, same per-line quantities of 510/705, 725/725, 11/12 — summing to the exact same 1215/1450/23 per-PO totals already on order 7445); this is a shipping-mark/layout refresh request only, no quantity or PO change. No Flowtech revision looks necessary, but flagged per policy since an older sibling in this thread was already entered — a human should confirm order 7445 needs no changes. Folder marked processed so it is not repeatedly re-flagged."
+    },
+    {
+      "folder": "2026-09-20_motherboxctn_1a0bd52888",
+      "folderId": "1JFxlYhf7wUBPtw1xgZjR4wsYGchnUSUP",
+      "gmailThreadId": "1a0bd5288866554f",
+      "processedAt": "2026-09-20T05:48:00Z",
+      "result": "entered",
+      "orderId": 7912,
+      "jobNumber": "7321/26-N",
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "5-ply auto carton work order (Work Order No. 46/09, Job No. 46-MBPA-26) forwarded by Mother Box Packaging & Accessories (party is itself the Flowtech account, team Tanvir Pack, BDT/cash — matching prior identical-format job 32-MBPA-26 = order 7420/job 6854/26-N). Two carton lines (NJ1141S4ML PO 803442 56x28x15cm 412pcs, NJ1128S4SI PO 803447 48x28x15cm 515pcs, grade A-510-L) plus one Top Bottom line (40x20x3cm, 1854pcs, grade A-300-I). AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: buyer resolved to 'NICOLE MILLER' (email subject + this party's only on-file buyer) though the PDF's own 'BUYER' field reads 'RED SUN' — human should confirm; unit_price overridden per line (65.99, 60.12, 2.00 BDT/pc vs. catalog defaults of 70/70/0) after backing the rates out of the document's own stated line totals, confirmed by matching the document's grand total (~61,858 BDT) almost exactly; credit_days set to 0 (not the precedent order's 90) since this document explicitly states 'CASH PAYMENT'; company_bank and attention defaulted from the precedent order. Two shipping-mark layout PDFs in the same folder were artwork only (already approved per the covering email), not used as order-data sources. Gmail thread labeled order-intake/entered-by-ai."
     }
   ]
 }
