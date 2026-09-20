@@ -916,6 +916,47 @@
       "processedAt": "2026-09-20T09:45:00Z",
       "result": "not_order",
       "reason": "The Premier Bank PLC (Kawran Bazar Branch) statement of account for Waleed International Agency (A/C 0107 11100100623), sent by bank officer Nahida Sultana — bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-20_imtiaz.proc.dal_1a0be380e0",
+      "folderId": "1lj5vtD22dxcp2mgurG1Pc5ecvWWDjAtd",
+      "gmailThreadId": "1a0a471b42c8d210",
+      "processedAt": "2026-09-20T11:50:00Z",
+      "result": "already_in_flowtech",
+      "existingOrderId": 7915,
+      "existingJobNumber": "7324/26-N",
+      "partyName": "DEKKO ACCESSORIES LTD.",
+      "note": "Genuine work order (PO DAF/PO26090508, 17-SEP-26) from Dekko Accessories Ltd's Imtiaz Hossain, replying to Miah & Sons' own outgoing price quotation in this thread ('Please find the attached work order and confirm delivery schedule by 22nd September'). Attachment 'Tanvir po.pdf' is a formal PO: 2 Carton/Ply3/A-303-L lines (500pcs 40x34x30cm @88 BDT, 300pcs 48x33x30cm @98 BDT, total 73,400 BDT). Cross-checked against Flowtech and found already entered exactly (same PO number as LpdPoNo/Style, same 2 lines, same qty/dims/rates/total) as job 7324/26-N (order 7915, APPROVED, IsAiDrafted=0, no AiNotes) — entered same-day, before this folder was reached, likely by Miah & Sons staff working the shared mailbox directly (or an earlier automation attempt that omitted the is_ai_drafted/ai_notes fields; authorship unclear but the order data is an exact match). Not re-drafted to avoid duplication. Folder marked processed."
+    },
+    {
+      "folder": "2026-09-20_merch1_1a0be4d8c2",
+      "folderId": "1AphfAD0idUZIV7TGRV35FPskjk06jhU3",
+      "gmailThreadId": "1a0be4d8c2de1ef7",
+      "processedAt": "2026-09-20T11:50:00Z",
+      "result": "already_in_flowtech",
+      "existingOrderId": 7916,
+      "existingJobNumber": "7325/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Carton booking PO 34576TS, style F-TSCBMSTRCH-164B-11K-DP, from Saiket <merch1@rababgroup.com> (same 'Fountain' merchandising contact as prior jobs 7291-7294/26-N). 14 size-broken lines (41x33x30cm summing to 141pcs, 44x35x30cm summing to 294pcs, grade A-500-L) plus TOP Board 870pcs (30x15cm, A-306-I) read from the email body table. Cross-checked against Flowtech and found already entered exactly matching (same PO/style, same qty breakdown by dimension) as job 7325/26-N (order 7916, APPROVED, IsAiDrafted=0, no AiNotes) — entered same-day before this folder was reached. Not re-drafted to avoid duplication. Folder marked processed."
+    },
+    {
+      "folder": "2026-09-20_proc16_1a0be812ce",
+      "folderId": "13BHBMaI6gNeYTx6YC-czLcW6ieW44Ziz",
+      "gmailThreadId": "1a0be812ce61246b",
+      "processedAt": "2026-09-20T11:50:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT700 Documentary Credit copy (LC 2965260300195, applicant Pioneer Knitwears (BD) Ltd, beneficiary Miah and Sons Industries Limited, $8834.43) forwarded by client procurement officer Md. Momin Ali, subject 'BTB LC copy/$8834.43' — bank/LC correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-20_merch1_1a0be6e442",
+      "folderId": "1FRFvk5lu2Pg0Oywxo33dZF10wJV9HAEt",
+      "gmailThreadId": "1a0be6e4426d4a98",
+      "processedAt": "2026-09-20T11:50:00Z",
+      "result": "entered",
+      "orderId": 7918,
+      "jobNumber": "7327/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Carton booking PO 34945TS, style F-TSCBMSTRCH-164B-12L-MP, from Saiket <merch1@rababgroup.com>, subject 'F-TSCBMSTRCH-164B-12L-MP, PO: 34945TS- Carton Booking - Fountain'. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L: 16 size-broken lines from the email's booking table summed into 2 GSM lines by carton dimension per this party's established convention (41x33x30cm: 587pcs; 45x36x30cm: 263pcs). Item 'Top Bottom'/Ply 3/A-306-I: 1700pcs, 30x15cm, from the email's 'TOP Board (3 Ply)' line. ai_notes flags: unit_price left at this party's on-file catalog rate ($0.95/sqm master carton, $1.334/sqm top bottom) as no price was stated in the source document; buyer (WALMART), company_bank (THE PREMIER BANK LTD Kawranbazar Branch, id 3) and credit_days (90) defaulted from this party's extensive recent order history, not stated in doc; delivery_date (2026-09-21) computed as order_date+1 day per the client's explicit 'ensure partial delivery within Tomorrow' instruction; delivery_station and attention ('Mr. Saiket') taken from the email body/signature. Gmail thread labeled order-intake/entered-by-ai."
     }
   ]
 }
