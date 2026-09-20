@@ -908,6 +908,14 @@
       "processedAt": "2026-09-20T06:45:00Z",
       "result": "not_order",
       "reason": "Same 'RE: NOC and Proforma Invoice for Payment' thread as folder 2026-08-29_md.fahaduzzaman_1a04d47b4d — a later message re-attaching Miah & Sons' own outgoing Proforma Invoice (PI/PFL/6152/26-N, BDT version) for existing Job No. 6152/26-N. Payment correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-20_nahida_1a0be1d6de",
+      "folderId": "1NAVapovej4wx_9I4kzItPCKwh-YxGovg",
+      "gmailThreadId": "1a0be1d6ded9d28a",
+      "processedAt": "2026-09-20T09:45:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) statement of account for Waleed International Agency (A/C 0107 11100100623), sent by bank officer Nahida Sultana — bank correspondence, not a client order."
     }
   ]
 }
