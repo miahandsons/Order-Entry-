@@ -916,6 +916,36 @@
       "processedAt": "2026-09-20T09:45:00Z",
       "result": "not_order",
       "reason": "The Premier Bank PLC (Kawran Bazar Branch) statement of account for Waleed International Agency (A/C 0107 11100100623), sent by bank officer Nahida Sultana — bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-20_imtiaz.proc.dal_1a0be380e0",
+      "folderId": "1lj5vtD22dxcp2mgurG1Pc5ecvWWDjAtd",
+      "gmailThreadId": "1a0a471b42c8d210",
+      "processedAt": "2026-09-20T10:45:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "DEKKO ACCESSORIES LTD.",
+      "existingJobNumber": "7324/26-N",
+      "existingOrderId": 7915,
+      "note": "Reply-with-attachment in the long-running 'Price Quotation for 2ply sheet, 3,5 and 7 ply auto master carton.' thread with Dekko Accessories Ltd. (sender Imtiaz Hossain, imtiaz.proc.dal@dekkolegacy.com; Miah & Sons' own outgoing quote in this thread was signed 'Masud / Tanvir Printing and Packaging Industries', which is this party's Flowtech team 'Tanvir Pack', not a different/unrelated company). Attachment 'Tanvir po.pdf' is Dekko's formal Purchase Order DAF/PO26090508 (2 carton lines: 500pcs Ply3 40x34x30cm @88 BDT, 300pcs Ply3 48x33x30cm @98 BDT, gross 73,400 BDT, service provider 'Tanvir Printing and Packaging Ind.', attn Imtiaz Hossain). Exact match already entered in Flowtech as job 7324/26-N (order 7915, APPROVED, human-entered, same party/team/style/PO/attention/2 GSM lines/total) — not drafted to avoid duplication. Email body ('confirm delivery schedule by 22nd September') is the client chasing delivery on this already-booked order, not new order content."
+    },
+    {
+      "folder": "2026-09-20_nahida_1a0be402f5",
+      "folderId": "1GZTE1pAOj3CItHSKoWgTHy2VXMdhKPMK",
+      "gmailThreadId": "1a0be402f5ff1b27",
+      "processedAt": "2026-09-20T10:45:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds transaction vouchers (364.pdf/263.pdf/255.pdf, LC 1475260404778, LC 1348260400695, LC 1348260400793) forwarded by bank officer Nahida Sultana — bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-20_merch1_1a0be4d8c2",
+      "folderId": "1AphfAD0idUZIV7TGRV35FPskjk06jhU3",
+      "gmailThreadId": "1a0be4d8c2de1ef7",
+      "processedAt": "2026-09-20T10:45:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "existingJobNumber": "7325/26-N",
+      "existingOrderId": 7916,
+      "note": "Carton booking from Saiket <merch1@rababgroup.com>, style F-TSCBMSTRCH-164B-11K-DP, PO 34576TS: 14-row size breakdown (12pcs/ctn each) summing to 141 cartons at 41x33x30cm and 294 cartons at 44x35x30cm (5-ply, grade A-500-L), plus TOP Board (3 Ply) 30x15cm x870pcs. Exact match already entered in Flowtech as job 7325/26-N (order 7916, APPROVED, human-entered, buyer WALMART, same style/PO/dimensions/summed quantities/Top Bottom line) — not drafted to avoid duplication."
     }
   ]
 }
