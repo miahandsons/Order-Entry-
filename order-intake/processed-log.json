@@ -806,6 +806,46 @@
           "jobNumber": "7317/26-N"
         }
       ]
+    },
+    {
+      "folder": "2026-09-20_al.amin_1a0bd01a0e",
+      "folderId": "1K5OX-u07pnnoKoWwNEw6t4Amo5zFOhGx",
+      "gmailThreadId": "1a0bd01a0e8b7f4e",
+      "processedAt": "2026-09-20T05:10:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "PARASOLE FOOTWEAR LTD.",
+      "note": "Exact duplicate resend of the 'Requisition For Caspian Master Carton 20 Sept 2026' email (same sender al.amin@paragon.com.bd, identical subject/body/CC list, byte-identical attachments — verified matching Drive file sizes for all 6 files) sent ~70 minutes after the original in folder 2026-09-20_al.amin_1a0bcc0b84 (thread 1a0bcc0b84643787), but landed as a brand-new Gmail thread (1a0bd01a0e8b7f4e) rather than a reply, so it staged as a separate folder. All 5 POs (9101011353-9101011357) were already entered in that prior run as jobs 7313-7317/26-N (orders 7904-7908) — confirmed via get_order_details on job 7313/26-N (PO 9101011353, party PARASOLE FOOTWEAR LTD., buyer Caspian Walmart, matches exactly). No new content or revision in this resend; not drafted to avoid duplication. Miah & Sons' own reply in this thread ('Thank you for your valuable order...') is a standard human acknowledgement, not a Flowtech confirmation.",
+      "duplicateOf": {
+        "folder": "2026-09-20_al.amin_1a0bcc0b84",
+        "gmailThreadId": "1a0bcc0b84643787"
+      },
+      "orders": [
+        {
+          "po": "9101011353",
+          "orderId": 7904,
+          "jobNumber": "7313/26-N"
+        },
+        {
+          "po": "9101011354",
+          "orderId": 7905,
+          "jobNumber": "7314/26-N"
+        },
+        {
+          "po": "9101011355",
+          "orderId": 7906,
+          "jobNumber": "7315/26-N"
+        },
+        {
+          "po": "9101011356",
+          "orderId": 7907,
+          "jobNumber": "7316/26-N"
+        },
+        {
+          "po": "9101011357",
+          "orderId": 7908,
+          "jobNumber": "7317/26-N"
+        }
+      ]
     }
   ]
 }
