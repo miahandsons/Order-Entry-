@@ -892,6 +892,22 @@
       "jobNumber": "7321/26-N",
       "partyName": "Mother Box Packaging & Accessories",
       "note": "5-ply auto carton work order (Work Order No. 46/09, Job No. 46-MBPA-26) forwarded by Mother Box Packaging & Accessories (party is itself the Flowtech account, team Tanvir Pack, BDT/cash — matching prior identical-format job 32-MBPA-26 = order 7420/job 6854/26-N). Two carton lines (NJ1141S4ML PO 803442 56x28x15cm 412pcs, NJ1128S4SI PO 803447 48x28x15cm 515pcs, grade A-510-L) plus one Top Bottom line (40x20x3cm, 1854pcs, grade A-300-I). AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: buyer resolved to 'NICOLE MILLER' (email subject + this party's only on-file buyer) though the PDF's own 'BUYER' field reads 'RED SUN' — human should confirm; unit_price overridden per line (65.99, 60.12, 2.00 BDT/pc vs. catalog defaults of 70/70/0) after backing the rates out of the document's own stated line totals, confirmed by matching the document's grand total (~61,858 BDT) almost exactly; credit_days set to 0 (not the precedent order's 90) since this document explicitly states 'CASH PAYMENT'; company_bank and attention defaulted from the precedent order. Two shipping-mark layout PDFs in the same folder were artwork only (already approved per the covering email), not used as order-data sources. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-08-29_md.fahaduzzaman_1a04d47b4d",
+      "folderId": "1iK92UOmrARa6i8uav69XONgN3LdlAEaG",
+      "gmailThreadId": "1a031fd036c48620",
+      "processedAt": "2026-09-20T06:45:00Z",
+      "result": "not_order",
+      "reason": "Miah & Sons' own outgoing Proforma Invoice (PI/PFL/6152/26-N) plus a NOC (No Objection Certificate) scan, for existing Job No. 6152/26-N (party PARASOLE FOOTWEAR LTD., buyer Up-Top (AVIA)), relayed back by the client (Md. Fahaduzzaman, paragon.com.bd) — subject 'RE: NOC and Proforma Invoice for Payment'. Payment/NOC correspondence on an existing job, not a client order."
+    },
+    {
+      "folder": "2026-09-20_md.fahaduzzaman_1a0bd7afa3",
+      "folderId": "125kbtp-XNSFz-z3s4_nEI1FhlVL1Ppbn",
+      "gmailThreadId": "1a031fd036c48620",
+      "processedAt": "2026-09-20T06:45:00Z",
+      "result": "not_order",
+      "reason": "Same 'RE: NOC and Proforma Invoice for Payment' thread as folder 2026-08-29_md.fahaduzzaman_1a04d47b4d — a later message re-attaching Miah & Sons' own outgoing Proforma Invoice (PI/PFL/6152/26-N, BDT version) for existing Job No. 6152/26-N. Payment correspondence, not a client order."
     }
   ]
 }
