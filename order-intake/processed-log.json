@@ -3,6 +3,46 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-08-20_merchandiser_bd_1a01f7f971",
+      "folderId": "1Z8kBvMfBQTMghitl2A8E1gwGUdEsiCkh",
+      "gmailThreadId": "1a00e6861cf35148",
+      "processedAt": "2026-09-20T12:50:00Z",
+      "result": "not_order",
+      "reason": "Yadu Group (WCL) 'Carton Layout need for approval' thread (17-message thread spanning Aug-Sep 2026). This message (Aug 20, merchandiser_bd@yadugroup.com, subject 'Re:Carton Layout need for approval', attachments incl. a new shipping-mark PDF for SPT-2102SMSBD 92.5x46x35cm plus 2 carton layout PDFs) only asks Miah & Sons to 'arrange layout for approval' for a new shipping mark — no PO, quantity, or delivery date stated. The thread's one genuine order (Sep 17 messages: PO9000873184 60pcs + revised PO9000873427 165pcs, LOT23226090010, delivery 19 Sept) was not staged as its own Drive folder and was already handled directly by staff (PI/WCL/7304/26-N issued, 'Received your order' reply sent) before this automation reached it."
+    },
+    {
+      "folder": "2026-09-20_merchandiser_bd_1a0beb8ad0",
+      "folderId": "1Sg7Gkk_iaEY8WSqC-M5fk8l2gC0Adj-u",
+      "gmailThreadId": "1a00e6861cf35148",
+      "processedAt": "2026-09-20T12:50:00Z",
+      "result": "not_order",
+      "reason": "Same Yadu Group 'Carton Layout need for approval' thread as folder 2026-08-20_merchandiser_bd_1a01f7f971 (gmailThreadId 1a00e6861cf35148). This is the thread's latest message (Sep 20): 'Please make the layout for approval below POS. Attached the shipping mark' for two brand-new POs (9000874530 SPT-2102SMSBD, 9000874531 SPT-2002SMSBD, both LOT23226100011, 92.5x46x35/28cm) — no quantity or delivery date given, pure layout/shipping-mark approval request, not an order. Read the full thread via Gmail: it neither holds, cancels, nor corrects any earlier order in the thread (different POs entirely)."
+    },
+    {
+      "folder": "2026-09-13_sydur_1a09b02ad1",
+      "folderId": "1ogyeCaBrgZ9eur3J2Gf94S4V1Nht-rNl",
+      "gmailThreadId": "1a09b02ad12aad96",
+      "processedAt": "2026-09-20T12:50:00Z",
+      "result": "not_order",
+      "reason": "FB Footwear Ltd. 'FB LC#MIAH & SONS#401377' thread — this message (Sep 13, Md. Sydur Rahman, attachment '401377 MIAH.pdf') is an LC draft for review, covering existing Proforma Invoice PI/FFL/GPI-6989/26-N. Letter of Credit correspondence on an already-quoted job, not a client order."
+    },
+    {
+      "folder": "2026-09-20_niloy_1a0beb9abf",
+      "folderId": "1IkMyy6i3XHKDktVy_krv_7rmecqhEWvT",
+      "gmailThreadId": "1a09b02ad12aad96",
+      "processedAt": "2026-09-20T12:50:00Z",
+      "result": "not_order",
+      "reason": "Same 'FB LC#MIAH & SONS#401377' thread as folder 2026-09-13_sydur_1a09b02ad1 (gmailThreadId 1a09b02ad12aad96), covering existing PI/FFL/GPI-6989/26-N. This later message (Sep 20, Niloy Mahmud, 'Please see the attached LC transmit copy') is the LC transmit copy following a USD 0.10 PI discrepancy correction in this same thread. Letter of Credit correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-20_nahida_1a0be402f5",
+      "folderId": "1GZTE1pAOj3CItHSKoWgTHy2VXMdhKPMK",
+      "gmailThreadId": "1a0be402f5ff1b27",
+      "processedAt": "2026-09-20T12:50:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds transaction vouchers (364.pdf/263.pdf/255.pdf, LC 1475260404778/1348260400695/1348260400793) forwarded by bank officer Nahida Sultana. Bank correspondence, not a client order. (NOT_ORDER marker was already present in this folder from an earlier partial run; this entry backfills the missing processed-log record.)"
+    },
+    {
       "folder": "2026-09-17_syedalifulalam20_1a0ad296ce",
       "folderId": "1cCIdkY7hrnUmZPhBguxRIeU76mFuzX3F",
       "gmailThreadId": "1a0ad296ce7621e1",
