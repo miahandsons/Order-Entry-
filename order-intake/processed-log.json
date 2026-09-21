@@ -1116,6 +1116,26 @@
       "processedAt": "2026-09-21T07:57:00Z",
       "result": "not_order",
       "reason": "The Premier Bank PLC (Kawran Bazar Branch) 'Regarding Overdue Bill of Entry' report forwarded by bank officer Nusrat Islam Jui (SO, F.Ex) -- attachment 'Miah and Sons.xlsx' is a 7-row spreadsheet of overdue import LC/Bill-of-Entry records (Bank/Branch/AD Code, LC ID, LC Amount, IMP No, overdue dates and amounts) for Miah & Sons Industries Ltd's own imports -- bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-21_nur.a_1a0c31b118",
+      "folderId": "1Chvd08EWDHgayaF_VVuRhysg1pVkD2nS",
+      "gmailThreadId": "1a0c31b118e87298",
+      "processedAt": "2026-09-21T08:55:00Z",
+      "result": "entered",
+      "partyName": "International Trading Services Ltd.",
+      "note": "Genuine 'AEO CARTON BOOKING FOR STYLE-5844-HOL'26' from Md. Nur Alam, Merchandiser, Standard Group (nur.a@standardargroup.com), forwarding Shameem Ahmed's covering request, attaching 9 separate 'Carton Order Form PO#XXXXXXX.pdf' + 'PO#XXXXXXX- CTN SKU.xls' pairs (one per PO) plus shipmark artwork .doc files (not order data). Single-message thread, no sibling/superseding folders, no later thread messages. Cross-checked against Flowtech (list_orders for this party/buyer) and found no existing order for style 5844 or any of these 9 PO numbers -- not a duplicate. One Flowtech order drafted per PO number per this party's established convention (see jobs 7286/26-N, 7290-7315/26-N). Item 'Auto Corrugated Printed Master Carton'/Ply 3/A-300-I resolved via get_party_catalog (only Ply-3 grade on file, matching each PDF's '3PLY NORMAL PESTING CTN' lines); each PO's per-box-ID quantities read directly from its own Carton Order Form PDF, which internally reconciles exactly against its stated Total CTN qty. All 9 AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags per order: unit_price left at catalog rate ($0.74/sqm), no price stated in any document; unit_price_per defaulted to 'Square Meter'; company_bank (THE PREMIER BANK LTD, id 3) and credit_days (90) defaulted from this party's most recent order (job 7286/26-N); delivery_date (2026-09-26) taken from each PDF's own 'Shipment Date' line; delivery_station defaulted to this party's standard registered address; attention set to sender 'Md. Nur Alam'. Gmail thread labeled order-intake/entered-by-ai.",
+      "orders": [
+        { "po": "1388778", "orderId": 7929, "jobNumber": "7338/26-N" },
+        { "po": "1388779", "orderId": 7930, "jobNumber": "7339/26-N" },
+        { "po": "1388780", "orderId": 7931, "jobNumber": "7340/26-N" },
+        { "po": "1388782", "orderId": 7932, "jobNumber": "7341/26-N" },
+        { "po": "1388784", "orderId": 7933, "jobNumber": "7342/26-N" },
+        { "po": "1388785", "orderId": 7934, "jobNumber": "7343/26-N" },
+        { "po": "1393888", "orderId": 7935, "jobNumber": "7344/26-N" },
+        { "po": "1393901", "orderId": 7936, "jobNumber": "7345/26-N" },
+        { "po": "1393907", "orderId": 7937, "jobNumber": "7346/26-N" }
+      ]
     }
   ]
 }
