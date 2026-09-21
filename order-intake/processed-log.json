@@ -1152,6 +1152,25 @@
         { "po": "1393901", "orderId": 7936, "jobNumber": "7345/26-N" },
         { "po": "1393907", "orderId": 7937, "jobNumber": "7346/26-N" }
       ]
+    },
+    {
+      "folder": "2026-09-21_manikgonjpp_1a0c3a139b",
+      "folderId": "12GnOikhZ7ANSNSpynRx6KrfkwJoGzjdW",
+      "gmailThreadId": "1a0c3a139bfb9a22",
+      "processedAt": "2026-09-21T11:45:00Z",
+      "result": "not_order",
+      "reason": "Bill No-18 from Manikgonj Printers & Packaging (manikgonjpp@gmail.com), addressed to tanvirpackaging2025@gmail.com ('Tanveer/Tanvir Printing & Packaging') for Motorcycle Battery Box goods, with miahandsons@gmail.com only cc'd as 'Concern' -- same recurring pattern as prior folder 2026-09-21_manikgonjpp_1a0c290260 (Bills No.14-17). Billing/invoice correspondence between two other companies, not a client order placed with Miah & Sons."
+    },
+    {
+      "folder": "2026-09-21_motherboxctn_1a0c38f335",
+      "folderId": "1K_XPWNJvaAQDQRuCzVzQYL8e39cq9_q4",
+      "gmailThreadId": "1a0c38f335ff9bda",
+      "processedAt": "2026-09-21T11:45:00Z",
+      "result": "entered",
+      "orderId": 7941,
+      "jobNumber": "7340/26-N",
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "5-ply auto carton work order (Work Order No. 47/09, Job No. 47-MBPA-26) from Mother Box Packaging & Accessories (party is itself the Flowtech account, team Tanvir Pack, BDT/cash), subject 'Denim shirt additional Carton Work Order'. Single-message thread, no sibling/superseding folders. Checked against Flowtech order history for this party -- no existing order for 47/09 / 47-MBPA-26 (most recent prior was 46/09 = order 7912/job 7321/26-N); not a duplicate. Item 'Auto Master Carton'/Ply 5/A-510-L: 3 document rows (brand labels HERC 85ctn, DENIMIND 39ctn, SHAIKKO 24ctn), all identical dimension 55x40x35cm and identical stated per-piece rate 124.47 BDT, summed into one GSM line of 148pcs per this system's same-dimension-line convention. Item 'Top Bottom'/Ply 3/A-300-I: 296pcs, 40x30cm, unit_price 3.00 BDT/pc (296 x 3.00 = 888.00, matches document exactly); the row's '3' column read as Ply (matching this party's only on-file Top Bottom spec) rather than height. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Grand total 19,309.56 BDT vs document's stated 19,309.92 (rounding only). ai_notes flags: buyer defaulted to 'No Buyer' -- document's stated buyer 'Atten Desing Ltd' does not exist in the Buyer master and neither does the party's own name; human should confirm/add the correct buyer. credit_days set to 0 per document's explicit 'CASH PAYMENT' term (matching precedent job 46-MBPA-26); company_bank (THE PREMIER BANK LTD, id 3) and delivery_station ('.') defaulted from this party's recent order history/convention, not stated in the document. Gmail thread labeled order-intake/entered-by-ai."
     }
   ]
 }
