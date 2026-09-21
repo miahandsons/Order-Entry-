@@ -3,6 +3,14 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-21_niloy_1a0c1c27cb",
+      "folderId": "1N-5uirMB2iuXP_hjK1j9s8RdnH4p8wRi",
+      "gmailThreadId": "1a0c1c27cbb484aa",
+      "processedAt": "2026-09-21T02:45:00Z",
+      "result": "entered",
+      "reason": "Genuine PO from FB Footwear Ltd. (niloy@fbfootwear.com), PO No POSS-27-00677 dated 20-Sep-2026, master cartons for 'BRAZIL-32' line (Brown/Article 6687 ref BM00005466, Black/Article 6686 ref BM00005467), 3,368 pcs total, $4,018.15. Single-message thread, no sibling/superseding folders, no later thread messages. Drafted into Flowtech as job 7328/26-N (OrderId 7919, party 'FB Footwear Ltd.', DISAPPROVED pending human approval, IsAiDrafted). Note: an initial write mistakenly passed the PO's per-piece prices as explicit unit_price overrides, which combined with unit_price_per='Square Meter' doubled the total to $7,502.30 -- caught immediately by cross-checking against the PO's stated total, and corrected via update_order (same run, before any human review) by removing the override and letting the party's catalog rate ($0.64/sqm) compute the correct $4,018.14, matching the PO. Full defaulted-field summary is in the order's ai_notes. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-08-20_merchandiser_bd_1a01f7f971",
       "folderId": "1Z8kBvMfBQTMghitl2A8E1gwGUdEsiCkh",
       "gmailThreadId": "1a00e6861cf35148",
