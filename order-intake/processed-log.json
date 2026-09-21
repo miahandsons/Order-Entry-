@@ -3,6 +3,22 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-21_niloy_1a0c37ca17",
+      "folderId": "104SU4Ck464mSpM2UmsXNhFk1rTY7KieE",
+      "gmailThreadId": "19db4edb5ec182b2",
+      "processedAt": "2026-09-21T10:42:00Z",
+      "result": "not_order",
+      "reason": "Janata Bank PLC 'LC Payment by RTGS' voucher (A/C Footbed Footwear Ltd, LC No 138260400218, payment date 20.09.2026), sent by Niloy Mahmud (niloy@fbfootwear.com) as 'RE: FOOTBED LC#MIAH & SONS#400218' body text 'Please see the attached payment copy'. Attachment is a CamScanner scan of a bank RTGS settlement sheet, not an order. Sibling folder 2026-04-22_niloy_19db4edb5e shares this gmailThreadId (thread's original message); also bank correspondence (LC issuance copy), also marked NOT_ORDER — the whole thread is LC/payment correspondence, no genuine order in it."
+    },
+    {
+      "folder": "2026-04-22_niloy_19db4edb5e",
+      "folderId": "1PlnpsECWot4cwl-Vgaj3tdySc8MPnOUj",
+      "gmailThreadId": "19db4edb5ec182b2",
+      "processedAt": "2026-09-21T10:42:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT700 Documentary Credit issuance copy (LC 0000138260400218 dated 20.04.2026, applicant Footbed Footwear Limited, beneficiary Miah and Sons Industries Limited), forwarded by Niloy Mahmud (niloy@fbfootwear.com), subject 'RE: FOOTBED LC#MIAH & SONS#400218' body 'Please see the attached LC transmit copy'. Root message of a thread that only contains LC/bank correspondence (see sibling folder 2026-09-21_niloy_1a0c37ca17, also NOT_ORDER) — not a client order."
+    },
+    {
       "folder": "2026-09-21_ppml.mkt_1a0c1e73b4",
       "folderId": "1bP-fxNXrZaZUenlfA92ecf-VQ89_zKAL",
       "gmailThreadId": "1a0c1e73b424fd16",
