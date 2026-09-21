@@ -3,6 +3,14 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-21_ppml.mkt_1a0c1e73b4",
+      "folderId": "1bP-fxNXrZaZUenlfA92ecf-VQ89_zKAL",
+      "gmailThreadId": "1a0c1e73b424fd16",
+      "processedAt": "2026-09-21T03:42:00Z",
+      "result": "not_order",
+      "reason": "Padma Paper Mills Ltd. 'Bill-Tanvir 1012' (T. M. Jewel, ppml.mkt@padmagroupbd.com) — Bill No. D1226-1012 for raw medium-paper stock, addressed to a different customer 'TANVIR PRINTING & PACKAGING INDUSTRIES', not to Miah & Sons. Paper-supplier invoice to a third party, not a client order."
+    },
+    {
       "folder": "2026-09-21_niloy_1a0c1c27cb",
       "folderId": "1N-5uirMB2iuXP_hjK1j9s8RdnH4p8wRi",
       "gmailThreadId": "1a0c1c27cbb484aa",
