@@ -1108,6 +1108,14 @@
       "processedAt": "2026-09-21T06:50:00Z",
       "result": "not_order",
       "reason": "Bills No.14-17 from Manikgonj Printers & Packaging (manikgonjpp@gmail.com) addressed primarily to tanvirpackaging2025@gmail.com ('Tanveer/Tanvir Printing & Packaging'), requesting payment for Boxer Box / carton goods already delivered to that company; miahandsons@gmail.com only cc'd as 'Concern'. Billing/invoice + delivery-challan + work-order paperwork between two other companies, not a client order placed with Miah & Sons."
+    },
+    {
+      "folder": "2026-09-21_nusrat.jui_1a0c2b7673",
+      "folderId": "1BFOY6dhqOtNZMcxN9l7-uVH9qD7yXwCX",
+      "gmailThreadId": "1a0c2b7673644b24",
+      "processedAt": "2026-09-21T07:57:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) 'Regarding Overdue Bill of Entry' report forwarded by bank officer Nusrat Islam Jui (SO, F.Ex) -- attachment 'Miah and Sons.xlsx' is a 7-row spreadsheet of overdue import LC/Bill-of-Entry records (Bank/Branch/AD Code, LC ID, LC Amount, IMP No, overdue dates and amounts) for Miah & Sons Industries Ltd's own imports -- bank correspondence, not a client order."
     }
   ]
 }
