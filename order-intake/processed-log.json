@@ -1182,6 +1182,134 @@
       "jobNumber": "7341/26-N",
       "partyName": "FB Footwear Ltd.",
       "note": "Genuine PO from FB Footwear Ltd. (niloy@fbfootwear.com), PO No POSS-27-00192 dated 21-Sep-2026, buyer/brand MODIVO.EU SP. Z O.O (Poland, women's footwear), master cartons for WIP-CEO-WB-VELA-02 in two colors (Black article 6697/BM00001363, Beige article 6698/BM00001364), 5-ply, three carton sizes per color (57x41x32cm qty403, 68x41x32cm qty275, 46x41x32cm qty736), grade A-500-L (only priced option on file, matching precedent). Single-message thread, no sibling/superseding folders, no later thread messages. Checked Flowtech order history for this party -- no existing order for PO POSS-27-00192; not a duplicate. Buyer resolved to existing Buyer record 'Modivo'. unit_price deliberately left unset on every line so the catalog's $0.64/sqm rate applied automatically, reproducing the PO's own stated per-piece prices exactly ($1.025/$1.133/$0.917 per pc) per the pricing-model precedent documented on job 7328/26-N -- avoided that job's earlier mistake of passing per-piece prices as explicit unit_price overrides (which double-counts under unit_price_per='Square Meter'). Grand total $2,798.80 vs PO's stated $2,798.00 (rounding only). company_bank defaulted to THE PREMIER BANK LTD Kawranbazar Branch (id 3, matching this party's most recent order 7328/26-N); delivery_station defaulted to this party's usual Uloshara, Kaliakoir, Gazipur-1750 address (PO's own header address was OCR-garbled); attention defaulted to sender Niloy Mahmud; credit_days 90 read from PO's stated LC terms. Delivery date (25-Sep-2026) is only 4 days from order date/today -- flagged for reviewer as an unusually tight turnaround. Full defaulted-field audit trail in the order's ai_notes. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_planningialt_1a0c417bdc",
+      "folderId": "1qyU6j87VMQ6VdlE38Smr2uItsY2RT0Av",
+      "gmailThreadId": "1a0c417bdcfb2d34",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "entered",
+      "orderId": 7944,
+      "jobNumber": "7343/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "Genuine PO from Up Top <planningialt@gmail.com>, PO NO IFL/FAC/Accessories (152/26) dated 21/09/2026, REF E26050-WDG(UP), FILA Order Art. No WD26139-140A-B, 5 Ply Master Carton, 2 lines (74x54x36.5cm qty644, 72.5x50x34cm qty603 = 1247 total, matches PO). Single-message thread, no siblings. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L (party's only on-file item/spec/grade). unit_price left unset so catalog's $0.58/sqm rate applied automatically rather than copying the PO's own per-piece prices as an override (would double count under Square Meter pricing per job 7328/26-N precedent) -- computed total $1,736.95 vs PO's stated $1,796.84, reviewer should verify. buyer_name resolved to existing Buyer 'FILA' (no buyer named directly on the PO but FILA is the referenced brand throughout; 'IALT Footwear Ltd' itself is not a valid Buyer record). company_bank defaulted to Al Arafah Islami Bank (first on file, not stated in PO). delivery_date defaulted to order_date+30d (2026-10-21), PO only says 'as per Planning Dept. Required'. credit_days 90 per PO's stated LC terms. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_planningialt_1a0c41ccc9",
+      "folderId": "1D4KQ4rK0TNZsnhQUVGn5LCFKoDCtmY6F",
+      "gmailThreadId": "1a0c41ccc9d4449b",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "entered",
+      "orderId": 7945,
+      "jobNumber": "7344/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "Genuine PO from Up Top <planningialt@gmail.com>, PO NO IFL/FAC/Accessories (153/26) dated 21/09/2026, REF E26050-WDG(UP), FILA Order Art. No WD26141-142A-B, 5 Ply Master Carton, 4 lines (46x35x30cm qty19, 46x46x30cm qty222, 57x46x30cm qty567, 68x35x30cm qty2 = 810 total, matches PO). Single-message thread, no siblings. Same party/item/spec/grade/pricing-policy/bank/buyer/credit-days defaults as job 7343/26-N (see that entry) -- unit_price left unset (computed total $790.40 vs PO's stated $817.66, reviewer should verify); buyer 'FILA'; company_bank Al Arafah Islami Bank; delivery_date defaulted to order_date+30d (2026-10-21). AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_planningialt_1a0c424a3c",
+      "folderId": "1LNc4aLK_qzYwc13yh2CPrbjDLzbaTJZC",
+      "gmailThreadId": "1a0c424a3ccf2740",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "entered",
+      "orderId": 7946,
+      "jobNumber": "7345/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "Genuine PO from Up Top <planningialt@gmail.com>, PO NO IFL/FAC/Accessories (154/26), REF E26051-WDG(UP), FILA-QTY 12K, Art. No WD27SS201/WD27SS204 (STADIUM), 5 Ply Master Carton, 1 line (57x40x33cm qty1200, matches PO). order_date taken from the PO's own printed 'Issue Date: -10/09/2026' rather than the covering email's later date (2026-09-21). Single-message thread, no siblings. Same party/item/spec/grade/pricing-policy/bank/buyer defaults as job 7343/26-N -- unit_price left unset (computed total $1,104.00 vs PO's stated $1,142.06, reviewer should verify); buyer 'FILA'; delivery_date defaulted to order_date+30d (2026-10-10). AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_planningialt_1a0c42a8a4",
+      "folderId": "1grHpMaGZ1s0sS3q8mEFGoN_s989Pmejo",
+      "gmailThreadId": "1a0c42a8a4ea7f10",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "entered",
+      "orderId": 7947,
+      "jobNumber": "7346/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "Genuine PO from Up Top <planningialt@gmail.com>, PO NO IFL/FAC/Accessories (155/26) dated 21/09/2026, REF E26051-WDG(UP), Art. No WD27SS202 (FILA GEMO ORDER), 5 Ply Master Carton, 8 lines by carton size (38x24x35 qty1, 40x35x33 qty129, 46x40x33 qty410, 50x46x35 qty229, 57x40x33 qty242, 60x24x35 qty2, 62x46x35 qty27, 68x38x35 qty1 = 1041 total, matches PO). Single-message thread, no siblings. Same party/item/spec/grade/pricing-policy/bank/buyer/credit-days defaults as job 7343/26-N -- unit_price left unset (computed total $910.31 vs PO's stated $941.69, reviewer should verify); buyer 'FILA'; delivery_date defaulted to order_date+30d (2026-10-21) -- accompanying GEMO packing-instruction PDF is a labelling spec, not a shipment schedule. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_planningialt_1a0c42d520",
+      "folderId": "1XXJkchAPViShUkiK-lF8GcmlX-bmG4Ja",
+      "gmailThreadId": "1a0c42d52078a143",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "entered",
+      "orderId": 7948,
+      "jobNumber": "7347/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "PO from Up Top <planningialt@gmail.com>, PO NO IFL/FAC/Accessories (156/26) dated 21/09/2026, REF E26051-WDG(UP), 5 Ply Master Carton 514Pcs -- this folder's own PO PDF ('PO-156-26(FILA CTN).pdf') downloaded as a 0-byte/empty file, so line items were instead reconstructed from the accompanying production sheet 'CTN PO CL26-25 WD27SS205 FILA-TERRAVA ECOM ...5140PRS(2).xlsx' (P/O NO WD27SS205): 2 lines by carton size (62x46x35cm qty308 [men, 2 colorways x154ctn], 57x40x33cm qty206 [women, 2 colorways x103ctn] = 514 total / 5140 pairs), matching both the email subject and filename exactly. delivery_date (2026-11-30) taken directly from that sheet's stated ETD, not defaulted. Single-message thread, no siblings. Same party/item/spec/grade/pricing-policy/bank/buyer defaults as job 7343/26-N -- unit_price left unset (computed total $535.72, no PO price table available to compare against since the PO PDF itself could not be read -- flagged for reviewer); buyer 'FILA'; credit_days 90 assumed consistent with this party's other same-day POs, not independently confirmed for this one. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-04-13_merchandiser4_19d868a3a8",
+      "folderId": "1mEAsClsyNkKVyMXCL3nsUmSUY_yDFhqP",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Consist Apprels Ltd",
+      "note": "First message in the long-running 'Carton Work order' thread with merchandiser4@consistbd.com/Samsul Alam ('A SISTER CONCERN OF EUROTEX GROUP'). Attachment 'SDI - Carton Work order -A95818- Stock 4.xls' -- this booking was already handled directly by staff before this automation reached it: Miah & Sons replied in this same thread on 2026-04-15 with 'PI/EKL/5414/26-N'. Not drafted, to avoid duplicating an already-processed order."
+    },
+    {
+      "folder": "2026-04-26_palash_19dc80dede",
+      "folderId": "1MRsrHVN6iVo4LjGn6FgiWbcOHGhTc4Bi",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "not_order",
+      "reason": "Palash (palash@consistbd.com) replying in the same 'Carton Work order' thread, re-quoting Miah & Sons' own outgoing PI/EKL/5578/26-N (already sent earlier that day) and asking whether goods were delivered yet / reminding that PI validity dates matter for bank-to-bank LC work. No new order or attachment of its own -- bank/PI-validity correspondence on an already-issued PI, not a client order. NOT_ORDER marker created in the Drive folder."
+    },
+    {
+      "folder": "2026-05-21_merchandiser4_19e499cb6e",
+      "folderId": "1FydmSXMTAF-9nGumXmpoRQCxl9bF08LY",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Consist Apprels Ltd",
+      "note": "Same 'Carton Work order' thread. Attachment 'SDI - Carton Work order -A93818- Stock Liz.xls' -- already handled directly by staff: Miah & Sons replied in this same thread on 2026-05-21 with PI/EKL/5994/26-N, then a revised (top-bottom qty) version on 2026-05-23. Not drafted, to avoid duplicating an already-processed order."
+    },
+    {
+      "folder": "2026-06-15_merchandiser4_19eca8e7bc",
+      "folderId": "1pe5pvibvs7OX6ti5tr7zG2yNnK3HQQb6",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Consist Apprels Ltd",
+      "note": "Same 'Carton Work order' thread. Attachment 'SDI - Carton Work order -A95818- Stock 2.xls' -- already handled directly by staff: Miah & Sons replied in this same thread on 2026-06-16 with PI/EKL/6207/26-N. Not drafted, to avoid duplicating an already-processed order."
+    },
+    {
+      "folder": "2026-06-22_merchandiser4_19eed9904a",
+      "folderId": "1ExAfyHaDne3rjSMb40KtfgZhrxcsYttQ",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Consist Apprels Ltd",
+      "note": "Same 'Carton Work order' thread (message sent 04:31 UTC). Attachment 'SDI-Carton Work order -A93818-Stock Liz -2.xls' -- already handled directly by staff: Miah & Sons replied in this same thread on 2026-06-23 06:51:53 (quoting the 10:31 AM Dhaka-time message) with PI/EKL/6295/26-N. Not drafted, to avoid duplicating an already-processed order."
+    },
+    {
+      "folder": "2026-06-22_merchandiser4_19eed9f26f",
+      "folderId": "1gBcMC705Jvkq-VvXpfoofP_KFqWqFtkZ",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Consist Apprels Ltd",
+      "note": "Same 'Carton Work order' thread (message sent 04:38 UTC, 7 minutes after the previous folder's message, same filename pattern but a distinct booking). Attachment 'SDI - Carton Work order -A93818- Stock  Liz -2.xls' -- already handled directly by staff: Miah & Sons replied in this same thread on 2026-06-23 06:51:01 (quoting the 10:38 AM Dhaka-time message) with PI/EKL/6297/26-N. Not drafted, to avoid duplicating an already-processed order."
+    },
+    {
+      "folder": "2026-09-07_merchandiser4_1a07b09105",
+      "folderId": "1vcrt4h9IzmLa1CXcyi_sJRQyRhUYYM3N",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Consist Apprels Ltd",
+      "note": "Same 'Carton Work order' thread. Attachment 'SDI - Carton Work order -A93818- Stock 4.xls' -- already handled directly by staff: Miah & Sons replied in this same thread on 2026-09-09 with PI/EKL/7179/26-N. Not drafted, to avoid duplicating an already-processed order."
+    },
+    {
+      "folder": "2026-09-21_merchandiser4_1a0c3fe192",
+      "folderId": "10NJcECX6CEmv-mGAD97BDJMgGdqUpFb_",
+      "gmailThreadId": "19d868a3a8cac1ce",
+      "processedAt": "2026-09-21T13:57:00Z",
+      "result": "entered",
+      "orderId": 7943,
+      "jobNumber": "7342/26-N",
+      "partyName": "Consist Apprels Ltd",
+      "note": "Thread's latest message (2026-09-21T12:43:20Z, subject 'RE: Carton Work order') in the long-running gmailThreadId 19d868a3a8cac1ce with merchandiser4@consistbd.com/Samsul Alam -- unlike every earlier message in this thread (see the 6 'already_in_flowtech' entries above plus one 'not_order' correspondence entry), no staff PI reply follows this one yet, so it is a genuine unhandled booking. Read the full 26-message Gmail thread to confirm this. Attachment 'SDI - Carton Work order -A93818- Stock 4.xls' (order no A93818/, buyer SPORT DIRECT), 7 style lines all at carton dimension 58x37.5x37.5cm: SLZ 2908/2909/2910 qty600 each, SLZ 2911/2989/2912/3169 qty300 each (sums to the sheet's own 'CARTON TTL REQUIREMENT >>> 3000'). Party resolved to 'Consist Apprels Ltd' (Flowtech PartyID 230, name carries trailing tab characters in Flowtech's own master data) matching the booking sheet's own letterhead, not 'Eurotex Knitwear Ltd' (which the 'PI/EKL/...' numbering prefix used on this party's older PIs might otherwise suggest). Item 'Auto Master Carton'/Ply 5/A-500-L: this party's on-file catalog price is $0 (never negotiated/entered in Flowtech) -- unit_price left unset per policy rather than invented, so grandTotal is $0 -- reviewer MUST set the correct unit price before approval. Buyer 'SPORT DIRECT' matched an exact existing Buyer record. delivery_date defaulted to order_date+30d (2026-10-21) -- sheet only says 'Delivery date: Urgent', no calendar date given. company_bank defaulted to Al Arafah Islami Bank; credit_days defaulted to 30; neither stated in the document. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
     }
   ]
 }
