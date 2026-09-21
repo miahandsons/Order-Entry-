@@ -1023,6 +1023,25 @@
       "reason": "Vendor quotation from E-Cool International Ltd. (info@ecoolgroup.com), 'Offer For Supply of HVLS Ceiling Type Fan' (ECIL-26092102), addressed to Miah & Sons -- an inbound supplier equipment offer for a facility project, not a client carton/work order."
     },
     {
+      "folder": "2026-09-21_st13_1a0c2601c6",
+      "folderId": "1636kqwImj91uyX4K_n3tHgui-HZgvQky",
+      "gmailThreadId": "1a0c2601c6998fac",
+      "processedAt": "2026-09-21T05:45:00Z",
+      "result": "entered",
+      "orderId": 7922,
+      "jobNumber": "7331/26-N",
+      "partyName": "Snowtex Sportswear Ltd.",
+      "note": "Manual carton booking (New Carton Requisition, Buyer: RICHLU, PO S27-47649, style 712101/02/11/21/41/51, ERP ref STX-RICH-SPRING27-MSIL-0040-06) from st13@snowtex.org, forwarded down an internal Snowtex approval chain (st03 -> st31 -> st13) before reaching Miah & Sons in this single message -- no separate client-side approval was pending. Single-message thread, no sibling/superseding folders, no later thread messages. Booking-sheet PDF (not the separate Richlu customer PO, which is reference-only) gave 2 carton-color lines at identical 23x20x16in dimension (BLACK 155pcs, NAVY 259pcs), summed into one GSM line of 414pcs per this party's established one-line-per-dimension convention (see Fountain orders 7882-7885), plus Top Bottom 828pcs (12x10in). AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: grade A-700-L chosen for the carton line matching every prior RICHLU order for this party though not explicitly stated in the document; company_bank (THE PREMIER BANK LTD, id 3) and credit_days (90) defaulted from this party's consistent order history, not stated in this document; delivery_station defaulted to this party's standard registered address, not restated in the document. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_fauzia.afrin_1a0c277316",
+      "folderId": "1E0MB8-7MZj-yq9rvgY_1BtFZAPDs8d9C",
+      "gmailThreadId": "1a0c27731689adf3",
+      "processedAt": "2026-09-21T05:45:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) statement of account for Waleed International Agency (A/C 0107 11100100623), forwarded by bank officer Fauzia Afrin -- bank correspondence, not a client order."
+    },
+    {
       "folder": "2026-09-21_shoebur_1a0c214702",
       "folderId": "1g1u2oT3kxSJI7-S1mSUTBcTF5f4y3ri3",
       "gmailThreadId": "1a0c214702a385c2",
