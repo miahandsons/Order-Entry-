@@ -1013,6 +1013,25 @@
       "jobNumber": "7327/26-N",
       "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
       "note": "Carton booking PO 34945TS, style F-TSCBMSTRCH-164B-12L-MP, from Saiket <merch1@rababgroup.com>, subject 'F-TSCBMSTRCH-164B-12L-MP, PO: 34945TS- Carton Booking - Fountain'. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L: 16 size-broken lines from the email's booking table summed into 2 GSM lines by carton dimension per this party's established convention (41x33x30cm: 587pcs; 45x36x30cm: 263pcs). Item 'Top Bottom'/Ply 3/A-306-I: 1700pcs, 30x15cm, from the email's 'TOP Board (3 Ply)' line. ai_notes flags: unit_price left at this party's on-file catalog rate ($0.95/sqm master carton, $1.334/sqm top bottom) as no price was stated in the source document; buyer (WALMART), company_bank (THE PREMIER BANK LTD Kawranbazar Branch, id 3) and credit_days (90) defaulted from this party's extensive recent order history, not stated in doc; delivery_date (2026-09-21) computed as order_date+1 day per the client's explicit 'ensure partial delivery within Tomorrow' instruction; delivery_station and attention ('Mr. Saiket') taken from the email body/signature. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_info_1a0c232d8c",
+      "folderId": "149ARaPkdzct4lT7BVkHz41B65bclUlnH",
+      "gmailThreadId": "1a0c232d8cc53380",
+      "processedAt": "2026-09-21T04:45:00Z",
+      "result": "not_order",
+      "reason": "Vendor quotation from E-Cool International Ltd. (info@ecoolgroup.com), 'Offer For Supply of HVLS Ceiling Type Fan' (ECIL-26092102), addressed to Miah & Sons -- an inbound supplier equipment offer for a facility project, not a client carton/work order."
+    },
+    {
+      "folder": "2026-09-21_shoebur_1a0c214702",
+      "folderId": "1g1u2oT3kxSJI7-S1mSUTBcTF5f4y3ri3",
+      "gmailThreadId": "1a0c214702a385c2",
+      "processedAt": "2026-09-21T04:45:00Z",
+      "result": "entered",
+      "orderId": 7921,
+      "jobNumber": "7330/26-N",
+      "partyName": "AKIJ SHOES LTD.",
+      "note": "Genuine PO from Akij Shoes Ltd. (shoebur@akijfootwear.com), REF AKIJ/PUR/2026/CALERES//AVA//200 dated 21.09.2026, subject 'TOP URGENT 5 PLY MASTER CTN ORDER //CALERES//18 PCS//AVA//AKIJ//'. Single-message thread, no sibling/superseding folders, no later thread messages. Drafted into Flowtech as job 7330/26-N (OrderId 7921, buyer CALERES, item Auto Corrugated Printed Master Carton/Ply 5/A-501-L, 18 pcs at 32x34x33cm), DISAPPROVED pending human approval, IsAiDrafted. ai_notes flags: unit_price overridden to /bin/bash.56/SQM per the PO's stated price (vs catalog /bin/bash.60/SQM, PDF is a scanned image so column alignment noted as uncertain -- flag for reviewer); delivery_date (2026-09-24) taken from the covering email's explicit required-delivery-date lines, not the PO's boilerplate 'within two days' clause; credit_days (0) and company_bank (THE PREMIER BANK LTD, id 3) defaulted from this party's most recent prior order (job 7312/26-N) for consistency, not stated in this PO; attention set to sender 'Md. Shoebur Rahman Pranto'; delivery_station defaulted to '.'. Gmail label order-intake/entered-by-ai applied to the thread."
     }
   ]
 }
