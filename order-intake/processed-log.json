@@ -1051,6 +1051,63 @@
       "jobNumber": "7330/26-N",
       "partyName": "AKIJ SHOES LTD.",
       "note": "Genuine PO from Akij Shoes Ltd. (shoebur@akijfootwear.com), REF AKIJ/PUR/2026/CALERES//AVA//200 dated 21.09.2026, subject 'TOP URGENT 5 PLY MASTER CTN ORDER //CALERES//18 PCS//AVA//AKIJ//'. Single-message thread, no sibling/superseding folders, no later thread messages. Drafted into Flowtech as job 7330/26-N (OrderId 7921, buyer CALERES, item Auto Corrugated Printed Master Carton/Ply 5/A-501-L, 18 pcs at 32x34x33cm), DISAPPROVED pending human approval, IsAiDrafted. ai_notes flags: unit_price overridden to /bin/bash.56/SQM per the PO's stated price (vs catalog /bin/bash.60/SQM, PDF is a scanned image so column alignment noted as uncertain -- flag for reviewer); delivery_date (2026-09-24) taken from the covering email's explicit required-delivery-date lines, not the PO's boilerplate 'within two days' clause; credit_days (0) and company_bank (THE PREMIER BANK LTD, id 3) defaulted from this party's most recent prior order (job 7312/26-N) for consistency, not stated in this PO; attention set to sender 'Md. Shoebur Rahman Pranto'; delivery_station defaulted to '.'. Gmail label order-intake/entered-by-ai applied to the thread."
+    },
+    {
+      "folder": "2026-09-21_proc16_1a0c284738",
+      "folderId": "145gwFVQU6IpAkBlaZmZqKrISJNL95zeU",
+      "gmailThreadId": "1a0be812ce61246b",
+      "processedAt": "2026-09-21T06:50:00Z",
+      "result": "not_order",
+      "reason": "Third message in the same 'BTB LC copy/$8834.43' thread as folder 2026-09-20_proc16_1a0be812ce -- Pioneer Knitwear's (BD) Ltd procurement (proc16@pkbdl.com) re-sends the identical SWIFT MT700 LC copy (LC 2965260300195, $8834.43) to Miah & Sons' own UD team, asking them to 'arrange UD against attached LC'. Bank/LC correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-21_ripon.mondal_1a0c282a77",
+      "folderId": "12ipwDZo3cQYEaVPFfpRqv80TY1tIoNl_",
+      "gmailThreadId": "1a0c282a775aa761",
+      "processedAt": "2026-09-21T06:50:00Z",
+      "result": "entered",
+      "orders": [
+        {
+          "style": "2118233/LKN26-22",
+          "lpdOrderNo": "10097085",
+          "orderId": 7924,
+          "jobNumber": "7333/26-N"
+        },
+        {
+          "style": "2118236/LKN26-22",
+          "lpdOrderNo": "10097076",
+          "orderId": 7925,
+          "jobNumber": "7334/26-N"
+        },
+        {
+          "style": "2118240/LKN26-22",
+          "lpdOrderNo": "10097078",
+          "orderId": 7926,
+          "jobNumber": "7335/26-N"
+        },
+        {
+          "style": "2118323/LKN26-22",
+          "lpdOrderNo": "10097074",
+          "orderId": 7927,
+          "jobNumber": "7336/26-N"
+        },
+        {
+          "style": "2118336/LKN26-22",
+          "lpdOrderNo": "10097080",
+          "orderId": 7928,
+          "jobNumber": "7337/26-N"
+        }
+      ],
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "Genuine 'NKD// Bulk Carton booking LKN26-22' from Ripon Mondal, Merchandising Dept, Liberty Knitwear Ltd. Unit-2 (ripon.mondal@mfgbd.net), attaching 5 separate carton-booking sheets (one per style: 2118233, 2118236, 2118240, 2118323, 2118336), each its own job. All 5 drafted as separate orders 7924-7928 (jobs 7333-7337/26-N), IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-508-L per style: same-dimension lot letters (AAA/BBB[/CCC], all L58xW38xH24cm) summed into one GSM line per this party's established convention (matching its own recent NKD/LKN26-21 batch, orders 7823-7828), plus a separate Online line (L58xW38xH20cm). Item 'Top Bottom'/Ply 3/A-300-L per style, qty per the sheet's TOP+BOTTOM row. ai_notes flags per order: unit_price left at system default (source sheet's Unit Price column was 0/blank); company_bank (THE PREMIER BANK LTD, id 3) and credit_days (120) defaulted from this party's most recent order history; delivery_date (2026-09-24) computed as order_date+3 days per the booking sheet's own delivery-terms clause; delivery_station ('Liberty Knitwear LTD, Unit-2') taken from the covering email though this party's most recent orders left it blank; attention set to sender 'Ripon Mondal'; source Order No encoded into each item's style/PO field, lpd_po_no left blank matching this party's recent convention. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-21_manikgonjpp_1a0c290260",
+      "folderId": "1pAtNcHy-7vv0qAzxY23VhNQM306V9T2E",
+      "gmailThreadId": "1a0c290260755d5f",
+      "processedAt": "2026-09-21T06:50:00Z",
+      "result": "not_order",
+      "reason": "Bills No.14-17 from Manikgonj Printers & Packaging (manikgonjpp@gmail.com) addressed primarily to tanvirpackaging2025@gmail.com ('Tanveer/Tanvir Printing & Packaging'), requesting payment for Boxer Box / carton goods already delivered to that company; miahandsons@gmail.com only cc'd as 'Concern'. Billing/invoice + delivery-challan + work-order paperwork between two other companies, not a client order placed with Miah & Sons."
     }
   ]
 }
