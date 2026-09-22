@@ -1310,6 +1310,26 @@
       "jobNumber": "7342/26-N",
       "partyName": "Consist Apprels Ltd",
       "note": "Thread's latest message (2026-09-21T12:43:20Z, subject 'RE: Carton Work order') in the long-running gmailThreadId 19d868a3a8cac1ce with merchandiser4@consistbd.com/Samsul Alam -- unlike every earlier message in this thread (see the 6 'already_in_flowtech' entries above plus one 'not_order' correspondence entry), no staff PI reply follows this one yet, so it is a genuine unhandled booking. Read the full 26-message Gmail thread to confirm this. Attachment 'SDI - Carton Work order -A93818- Stock 4.xls' (order no A93818/, buyer SPORT DIRECT), 7 style lines all at carton dimension 58x37.5x37.5cm: SLZ 2908/2909/2910 qty600 each, SLZ 2911/2989/2912/3169 qty300 each (sums to the sheet's own 'CARTON TTL REQUIREMENT >>> 3000'). Party resolved to 'Consist Apprels Ltd' (Flowtech PartyID 230, name carries trailing tab characters in Flowtech's own master data) matching the booking sheet's own letterhead, not 'Eurotex Knitwear Ltd' (which the 'PI/EKL/...' numbering prefix used on this party's older PIs might otherwise suggest). Item 'Auto Master Carton'/Ply 5/A-500-L: this party's on-file catalog price is $0 (never negotiated/entered in Flowtech) -- unit_price left unset per policy rather than invented, so grandTotal is $0 -- reviewer MUST set the correct unit price before approval. Buyer 'SPORT DIRECT' matched an exact existing Buyer record. delivery_date defaulted to order_date+30d (2026-10-21) -- sheet only says 'Delivery date: Urgent', no calendar date given. company_bank defaulted to Al Arafah Islami Bank; credit_days defaulted to 30; neither stated in the document. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-22_nahida_1a0c75dca6",
+      "folderId": "1frr2tFGbPrgXvTDK9TiDwr67dRE0Y6yY",
+      "gmailThreadId": "1a0c75dca6ebcc80",
+      "processedAt": "2026-09-22T04:45:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds realization transaction vouchers (attachments 307.pdf, 363.pdf), sent by bank officer Nahida Sultana (nahida@thepremierbankplc.com) with empty subject/body. Bank settlement paperwork against LC No. 0000138260400218 and LC No. 1628260400737, not a client order. Single-message thread."
+    },
+    {
+      "folder": "2026-09-22_shameem.a_1a0c74d49b",
+      "folderId": "1-cGFqEEeS9BR5e9pPFhIsJxaW3mSZIUR",
+      "gmailThreadId": "1a0c31b118e87298",
+      "processedAt": "2026-09-22T04:45:00Z",
+      "result": "needs_manual_revision",
+      "reason": "Reply in the same gmailThreadId as sibling folder 2026-09-21_nur.a_1a0c31b118, which was already fully entered into Flowtech as 9 orders (PO 1388778/1388779/1388780/1388782/1388784/1388785/1393888/1393901/1393907 -> job numbers 7338-7346/26-N respectively). This 2026-09-22T04:08:28Z message from Md. Shameem Ahmed ('Please see the Attached Revised Booking Only 02 PO's Measurement are change') re-sends all 9 POs' attachments but explicitly states only PO#1393888 and PO#1393901 have revised measurements; the rest are unchanged. create_order cannot revise an existing job, so no new order was drafted. Read the full 7-message Gmail thread to confirm: nur.a's original booking (2026-09-21T08:35), Miah & Sons' PI reply for job 7338/26-N (2026-09-22T03:45, PI-ITS-7338-26-N.pdf), nur.a's 'Factory will revise the booking, wait for revised one' (2026-09-22T03:51), Miah & Sons' 'Noted' (2026-09-22T03:58), then this revised-booking message.",
+      "manualRevisionNeeded": [
+        {"po": "1393888", "orderId": 7935, "jobNumber": "7344/26-N"},
+        {"po": "1393901", "orderId": 7936, "jobNumber": "7345/26-N"}
+      ]
     }
   ]
 }
