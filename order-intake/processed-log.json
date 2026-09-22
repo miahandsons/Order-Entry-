@@ -8,7 +8,7 @@
       "gmailThreadId": "19db4edb5ec182b2",
       "processedAt": "2026-09-21T10:42:00Z",
       "result": "not_order",
-      "reason": "Janata Bank PLC 'LC Payment by RTGS' voucher (A/C Footbed Footwear Ltd, LC No 138260400218, payment date 20.09.2026), sent by Niloy Mahmud (niloy@fbfootwear.com) as 'RE: FOOTBED LC#MIAH & SONS#400218' body text 'Please see the attached payment copy'. Attachment is a CamScanner scan of a bank RTGS settlement sheet, not an order. Sibling folder 2026-04-22_niloy_19db4edb5e shares this gmailThreadId (thread's original message); also bank correspondence (LC issuance copy), also marked NOT_ORDER — the whole thread is LC/payment correspondence, no genuine order in it."
+      "reason": "Janata Bank PLC 'LC Payment by RTGS' voucher (A/C Footbed Footwear Ltd, LC No 138260400218, payment date 20.09.2026), sent by Niloy Mahmud (niloy@fbfootwear.com) as 'RE: FOOTBED LC#MIAH & SONS#400218' body text 'Please see the attached payment copy'. Attachment is a CamScanner scan of a bank RTGS settlement sheet, not an order. Sibling folder 2026-04-22_niloy_19db4edb5e shares this gmailThreadId (thread's original message); also bank correspondence (LC issuance copy), also marked NOT_ORDER \u2014 the whole thread is LC/payment correspondence, no genuine order in it."
     },
     {
       "folder": "2026-04-22_niloy_19db4edb5e",
@@ -16,7 +16,7 @@
       "gmailThreadId": "19db4edb5ec182b2",
       "processedAt": "2026-09-21T10:42:00Z",
       "result": "not_order",
-      "reason": "SWIFT MT700 Documentary Credit issuance copy (LC 0000138260400218 dated 20.04.2026, applicant Footbed Footwear Limited, beneficiary Miah and Sons Industries Limited), forwarded by Niloy Mahmud (niloy@fbfootwear.com), subject 'RE: FOOTBED LC#MIAH & SONS#400218' body 'Please see the attached LC transmit copy'. Root message of a thread that only contains LC/bank correspondence (see sibling folder 2026-09-21_niloy_1a0c37ca17, also NOT_ORDER) — not a client order."
+      "reason": "SWIFT MT700 Documentary Credit issuance copy (LC 0000138260400218 dated 20.04.2026, applicant Footbed Footwear Limited, beneficiary Miah and Sons Industries Limited), forwarded by Niloy Mahmud (niloy@fbfootwear.com), subject 'RE: FOOTBED LC#MIAH & SONS#400218' body 'Please see the attached LC transmit copy'. Root message of a thread that only contains LC/bank correspondence (see sibling folder 2026-09-21_niloy_1a0c37ca17, also NOT_ORDER) \u2014 not a client order."
     },
     {
       "folder": "2026-09-21_ppml.mkt_1a0c1e73b4",
@@ -24,7 +24,7 @@
       "gmailThreadId": "1a0c1e73b424fd16",
       "processedAt": "2026-09-21T03:42:00Z",
       "result": "not_order",
-      "reason": "Padma Paper Mills Ltd. 'Bill-Tanvir 1012' (T. M. Jewel, ppml.mkt@padmagroupbd.com) — Bill No. D1226-1012 for raw medium-paper stock, addressed to a different customer 'TANVIR PRINTING & PACKAGING INDUSTRIES', not to Miah & Sons. Paper-supplier invoice to a third party, not a client order."
+      "reason": "Padma Paper Mills Ltd. 'Bill-Tanvir 1012' (T. M. Jewel, ppml.mkt@padmagroupbd.com) \u2014 Bill No. D1226-1012 for raw medium-paper stock, addressed to a different customer 'TANVIR PRINTING & PACKAGING INDUSTRIES', not to Miah & Sons. Paper-supplier invoice to a third party, not a client order."
     },
     {
       "folder": "2026-09-21_niloy_1a0c1c27cb",
@@ -40,7 +40,7 @@
       "gmailThreadId": "1a00e6861cf35148",
       "processedAt": "2026-09-20T12:50:00Z",
       "result": "not_order",
-      "reason": "Yadu Group (WCL) 'Carton Layout need for approval' thread (17-message thread spanning Aug-Sep 2026). This message (Aug 20, merchandiser_bd@yadugroup.com, subject 'Re:Carton Layout need for approval', attachments incl. a new shipping-mark PDF for SPT-2102SMSBD 92.5x46x35cm plus 2 carton layout PDFs) only asks Miah & Sons to 'arrange layout for approval' for a new shipping mark — no PO, quantity, or delivery date stated. The thread's one genuine order (Sep 17 messages: PO9000873184 60pcs + revised PO9000873427 165pcs, LOT23226090010, delivery 19 Sept) was not staged as its own Drive folder and was already handled directly by staff (PI/WCL/7304/26-N issued, 'Received your order' reply sent) before this automation reached it."
+      "reason": "Yadu Group (WCL) 'Carton Layout need for approval' thread (17-message thread spanning Aug-Sep 2026). This message (Aug 20, merchandiser_bd@yadugroup.com, subject 'Re:Carton Layout need for approval', attachments incl. a new shipping-mark PDF for SPT-2102SMSBD 92.5x46x35cm plus 2 carton layout PDFs) only asks Miah & Sons to 'arrange layout for approval' for a new shipping mark \u2014 no PO, quantity, or delivery date stated. The thread's one genuine order (Sep 17 messages: PO9000873184 60pcs + revised PO9000873427 165pcs, LOT23226090010, delivery 19 Sept) was not staged as its own Drive folder and was already handled directly by staff (PI/WCL/7304/26-N issued, 'Received your order' reply sent) before this automation reached it."
     },
     {
       "folder": "2026-09-20_merchandiser_bd_1a0beb8ad0",
@@ -48,7 +48,7 @@
       "gmailThreadId": "1a00e6861cf35148",
       "processedAt": "2026-09-20T12:50:00Z",
       "result": "not_order",
-      "reason": "Same Yadu Group 'Carton Layout need for approval' thread as folder 2026-08-20_merchandiser_bd_1a01f7f971 (gmailThreadId 1a00e6861cf35148). This is the thread's latest message (Sep 20): 'Please make the layout for approval below POS. Attached the shipping mark' for two brand-new POs (9000874530 SPT-2102SMSBD, 9000874531 SPT-2002SMSBD, both LOT23226100011, 92.5x46x35/28cm) — no quantity or delivery date given, pure layout/shipping-mark approval request, not an order. Read the full thread via Gmail: it neither holds, cancels, nor corrects any earlier order in the thread (different POs entirely)."
+      "reason": "Same Yadu Group 'Carton Layout need for approval' thread as folder 2026-08-20_merchandiser_bd_1a01f7f971 (gmailThreadId 1a00e6861cf35148). This is the thread's latest message (Sep 20): 'Please make the layout for approval below POS. Attached the shipping mark' for two brand-new POs (9000874530 SPT-2102SMSBD, 9000874531 SPT-2002SMSBD, both LOT23226100011, 92.5x46x35/28cm) \u2014 no quantity or delivery date given, pure layout/shipping-mark approval request, not an order. Read the full thread via Gmail: it neither holds, cancels, nor corrects any earlier order in the thread (different POs entirely)."
     },
     {
       "folder": "2026-09-13_sydur_1a09b02ad1",
@@ -56,7 +56,7 @@
       "gmailThreadId": "1a09b02ad12aad96",
       "processedAt": "2026-09-20T12:50:00Z",
       "result": "not_order",
-      "reason": "FB Footwear Ltd. 'FB LC#MIAH & SONS#401377' thread — this message (Sep 13, Md. Sydur Rahman, attachment '401377 MIAH.pdf') is an LC draft for review, covering existing Proforma Invoice PI/FFL/GPI-6989/26-N. Letter of Credit correspondence on an already-quoted job, not a client order."
+      "reason": "FB Footwear Ltd. 'FB LC#MIAH & SONS#401377' thread \u2014 this message (Sep 13, Md. Sydur Rahman, attachment '401377 MIAH.pdf') is an LC draft for review, covering existing Proforma Invoice PI/FFL/GPI-6989/26-N. Letter of Credit correspondence on an already-quoted job, not a client order."
     },
     {
       "folder": "2026-09-20_niloy_1a0beb9abf",
@@ -100,7 +100,7 @@
       "gmailThreadId": "1a0aa3932756633f",
       "processedAt": "2026-09-17T03:45:00Z",
       "result": "not_order",
-      "reason": "SWIFT MT707/MT700 LC amendment correspondence from bank re: Documentary Credit 0751260408169 — not a client order."
+      "reason": "SWIFT MT707/MT700 LC amendment correspondence from bank re: Documentary Credit 0751260408169 \u2014 not a client order."
     },
     {
       "folder": "2026-09-16_forhad.hossain_1a0aa39327",
@@ -108,7 +108,7 @@
       "gmailThreadId": "1a0aa3932756633f",
       "processedAt": "2026-09-17T03:45:00Z",
       "result": "not_order",
-      "reason": "SWIFT MT707/MT700 LC amendment correspondence from bank re: Documentary Credit 0751260408169 — not a client order."
+      "reason": "SWIFT MT707/MT700 LC amendment correspondence from bank re: Documentary Credit 0751260408169 \u2014 not a client order."
     },
     {
       "folder": "2026-09-17_toukir.a_1a0ad711f3",
@@ -136,7 +136,7 @@
       "gmailThreadId": "1a0adc4ef4646775",
       "processedAt": "2026-09-17T05:55:00Z",
       "result": "not_order",
-      "reason": "BPAMEA (formerly BGAPMEA) association notice announcing a 3-month diploma training course on Income Tax, VAT & Customs Bond Management — not a client order."
+      "reason": "BPAMEA (formerly BGAPMEA) association notice announcing a 3-month diploma training course on Income Tax, VAT & Customs Bond Management \u2014 not a client order."
     },
     {
       "folder": "2026-09-17_taimur.s_1a0adc38eb",
@@ -285,7 +285,7 @@
       "gmailThreadId": "1a0adf37b159ba22",
       "processedAt": "2026-09-17T06:45:00Z",
       "result": "not_order",
-      "reason": "Undeliverable bounce from postmaster@premierbankltd.com re: LC cancel request letter — not a client order."
+      "reason": "Undeliverable bounce from postmaster@premierbankltd.com re: LC cancel request letter \u2014 not a client order."
     },
     {
       "folder": "2026-09-17_postmaster_1a0ae02d3b",
@@ -293,7 +293,7 @@
       "gmailThreadId": "1a0ae00750309b81",
       "processedAt": "2026-09-17T06:45:00Z",
       "result": "not_order",
-      "reason": "Undeliverable bounce from postmaster@premierbankltd.com re: LC #3140260400130 — not a client order."
+      "reason": "Undeliverable bounce from postmaster@premierbankltd.com re: LC #3140260400130 \u2014 not a client order."
     },
     {
       "folder": "2026-09-17_merch1_1a0ade18dc",
@@ -376,7 +376,7 @@
       "gmailThreadId": "1a0ae2b182a57e27",
       "processedAt": "2026-09-17T07:46:00Z",
       "result": "not_order",
-      "reason": "Operating Theatre Medical Bangladesh Co. Ltd. asking Miah & Sons to quote a price against an attached carton measurement/formula sheet — a price-quotation request, not a placed order."
+      "reason": "Operating Theatre Medical Bangladesh Co. Ltd. asking Miah & Sons to quote a price against an attached carton measurement/formula sheet \u2014 a price-quotation request, not a placed order."
     },
     {
       "folder": "2026-09-17_merch1_1a0ae21893",
@@ -402,7 +402,7 @@
       "gmailThreadId": "1a0aea33ee6e90e1",
       "processedAt": "2026-09-17T09:45:00Z",
       "result": "not_order",
-      "reason": "Undeliverable bounce for Miah & Sons' own outgoing email to Premier Bank PLC requesting account reactivation from inoperative status, plus the bank's follow-up reply confirming it was done — not a client order."
+      "reason": "Undeliverable bounce for Miah & Sons' own outgoing email to Premier Bank PLC requesting account reactivation from inoperative status, plus the bank's follow-up reply confirming it was done \u2014 not a client order."
     },
     {
       "folder": "2026-09-17_sbbhuiyan7755_1a0aea25e6",
@@ -410,7 +410,7 @@
       "gmailThreadId": "1a0aea25e6cd5068",
       "processedAt": "2026-09-17T09:45:00Z",
       "result": "not_order",
-      "reason": "CamScanner scan of a trade license/bank form from Shahanara Begum, the same personal document referenced in the concurrent Premier Bank account-reactivation correspondence — not a client carton/work order."
+      "reason": "CamScanner scan of a trade license/bank form from Shahanara Begum, the same personal document referenced in the concurrent Premier Bank account-reactivation correspondence \u2014 not a client carton/work order."
     },
     {
       "folder": "2026-09-17_marketing3_1a0aee6edd",
@@ -421,7 +421,7 @@
       "orderId": 7890,
       "jobNumber": "7299/26-N",
       "partyName": "NEEDLE DROP LTD.",
-      "note": "US Polo carton booking, styles H-0578 & H-0586 only, from 'US POLO CARTON BOOKING (SP27 ORDERS).xlsx'. The same spreadsheet also contained an unscoped third block (styles HO528/HO533/HO534/HO535) not mentioned in the covering email's subject/body — excluded from this order per scope; flagged in the order's ai_notes for reviewer to confirm nothing was missed."
+      "note": "US Polo carton booking, styles H-0578 & H-0586 only, from 'US POLO CARTON BOOKING (SP27 ORDERS).xlsx'. The same spreadsheet also contained an unscoped third block (styles HO528/HO533/HO534/HO535) not mentioned in the covering email's subject/body \u2014 excluded from this order per scope; flagged in the order's ai_notes for reviewer to confirm nothing was missed."
     },
     {
       "folder": "2026-09-17_gulam_1a0aed7d3b",
@@ -432,7 +432,7 @@
       "orderId": 7889,
       "jobNumber": "7298/26-N",
       "partyName": "ACS TEXTILES (BD) LTD",
-      "note": "Mascot Hoie carton booking PO-21508, design Wera/Kobenhavn, from 'Carton K Po - 21508.pdf' (formal PO, 3 lines by carton size, 492 pcs / $354.78). A separate PO for this party (PO-21509) was already entered earlier as job 7288/26-N — this is an independent new PO, not a duplicate."
+      "note": "Mascot Hoie carton booking PO-21508, design Wera/Kobenhavn, from 'Carton K Po - 21508.pdf' (formal PO, 3 lines by carton size, 492 pcs / $354.78). A separate PO for this party (PO-21509) was already entered earlier as job 7288/26-N \u2014 this is an independent new PO, not a duplicate."
     },
     {
       "folder": "2026-09-17_sheikhsaleh28_1a0aec49ee",
@@ -440,7 +440,7 @@
       "gmailThreadId": "1a0aec49ee1d3d11",
       "processedAt": "2026-09-17T11:06:00Z",
       "result": "not_order",
-      "reason": "Client (Sheikh Saleh Ahmed / Concord Raiment Wear, forwarding from Yagi Co.) request to prepare a shipping-mark layout for style 741926-00 — 'Measurement of the carton will be given after layout approval', i.e. no order quantities, carton dimensions, or pricing yet. Preliminary artwork request, not a placed order."
+      "reason": "Client (Sheikh Saleh Ahmed / Concord Raiment Wear, forwarding from Yagi Co.) request to prepare a shipping-mark layout for style 741926-00 \u2014 'Measurement of the carton will be given after layout approval', i.e. no order quantities, carton dimensions, or pricing yet. Preliminary artwork request, not a placed order."
     },
     {
       "folder": "2026-09-17_st13_1a0af6d4d3",
@@ -459,7 +459,7 @@
       "gmailThreadId": "19f5572d9594bfbd",
       "processedAt": "2026-09-17T19:49:00Z",
       "result": "not_order",
-      "reason": "SWIFT MT700 Documentary Credit copy (LC 3057260400265) forwarded within the ongoing 'Buyer: MAX' thread — a banking document, not a carton/work order."
+      "reason": "SWIFT MT700 Documentary Credit copy (LC 3057260400265) forwarded within the ongoing 'Buyer: MAX' thread \u2014 a banking document, not a carton/work order."
     },
     {
       "folder": "2026-09-17_marketing11_1a0b0be2d7",
@@ -470,7 +470,7 @@
       "partyName": "NEEDLE DROP LTD.",
       "existingJobNumber": "7134/26-N",
       "existingOrderId": 7700,
-      "note": "Carton booking for MAX style MAL08, PO 9018479 (file misnamed 'MAL06.xlsx'). PO/style already covered by existing job 7134/26-N, but this message's booking quantities and carton dimension (58x38x28cm) differ from the original booking that produced that job (58x38x30cm) — appears to be a genuine quantity/dimension revision. create_order cannot revise an existing job, so flagged for a human to check and manually revise job 7134/26-N in Flowtech if warranted."
+      "note": "Carton booking for MAX style MAL08, PO 9018479 (file misnamed 'MAL06.xlsx'). PO/style already covered by existing job 7134/26-N, but this message's booking quantities and carton dimension (58x38x28cm) differ from the original booking that produced that job (58x38x30cm) \u2014 appears to be a genuine quantity/dimension revision. create_order cannot revise an existing job, so flagged for a human to check and manually revise job 7134/26-N in Flowtech if warranted."
     },
     {
       "folder": "2026-07-12_marketing11_19f5572d9594bfbd",
@@ -479,7 +479,7 @@
       "processedAt": "2026-09-17T19:49:00Z",
       "result": "already_in_flowtech",
       "partyName": "NEEDLE DROP LTD.",
-      "note": "Root message of the long-running 'Buyer: MAX' thread with Needle Drop Ltd (23 staged folders total, spanning Jul-Sep 2026). Every booking/PO in this thread was cross-checked against Flowtech and found already entered as ordinary (non-AI, human-entered, mostly APPROVED) orders predating this automation — this thread reflects Needle Drop Ltd/Malek/Mishu's normal day-to-day carton-booking workflow with Miah & Sons, conducted directly and independent of this order-intake pipeline. This folder (booking MOC08A/PO 9003430) is covered by the party's existing MAX/MOC-series order history; not drafted to avoid duplicating an already-processed order."
+      "note": "Root message of the long-running 'Buyer: MAX' thread with Needle Drop Ltd (23 staged folders total, spanning Jul-Sep 2026). Every booking/PO in this thread was cross-checked against Flowtech and found already entered as ordinary (non-AI, human-entered, mostly APPROVED) orders predating this automation \u2014 this thread reflects Needle Drop Ltd/Malek/Mishu's normal day-to-day carton-booking workflow with Miah & Sons, conducted directly and independent of this order-intake pipeline. This folder (booking MOC08A/PO 9003430) is covered by the party's existing MAX/MOC-series order history; not drafted to avoid duplicating an already-processed order."
     },
     {
       "folder": "2026-07-14_marketing11_19f6072d9e",
@@ -488,7 +488,7 @@
       "processedAt": "2026-09-17T19:49:00Z",
       "result": "already_in_flowtech",
       "partyName": "NEEDLE DROP LTD.",
-      "note": "Revised MOC08A booking (PO 9009095 + PO 9003430); PO 9009095 already entered as job 6622/26-N (order 7188). Same 'Buyer: MAX' thread as above — not drafted to avoid duplication."
+      "note": "Revised MOC08A booking (PO 9009095 + PO 9003430); PO 9009095 already entered as job 6622/26-N (order 7188). Same 'Buyer: MAX' thread as above \u2014 not drafted to avoid duplication."
     },
     {
       "folder": "2026-07-19_marketing11_19f791cc1e",
@@ -723,7 +723,7 @@
       "partyName": "Y & F Healthcare Ltd.",
       "existingJobNumber": "7204/26-N",
       "existingOrderId": 7770,
-      "note": "PO-YFCT-0049 (Coverall XXL Nanoguard-P1 master cartons, 50x30x28cm, 5-ply, 2x1350pcs, style YFY260807-1/2). Genuine order but exact match already entered in Flowtech as job 7204/26-N (order 7770, APPROVED, human-entered, IsAiDrafted=0) — same party, style, dimensions, ply and quantities. Not drafted to avoid duplication."
+      "note": "PO-YFCT-0049 (Coverall XXL Nanoguard-P1 master cartons, 50x30x28cm, 5-ply, 2x1350pcs, style YFY260807-1/2). Genuine order but exact match already entered in Flowtech as job 7204/26-N (order 7770, APPROVED, human-entered, IsAiDrafted=0) \u2014 same party, style, dimensions, ply and quantities. Not drafted to avoid duplication."
     },
     {
       "folder": "2026-09-14_yandfmedcofficer_1a09f4d467",
@@ -731,7 +731,7 @@
       "gmailThreadId": "1a08987a1c340cf0",
       "processedAt": "2026-09-19T03:45:00Z",
       "result": "not_order",
-      "reason": "Miah & Sons' own outgoing Sales Contract (SC/Y&F/7204/26-N) for Y&F Healthcare, relayed back within the client's reply thread — not a new client order."
+      "reason": "Miah & Sons' own outgoing Sales Contract (SC/Y&F/7204/26-N) for Y&F Healthcare, relayed back within the client's reply thread \u2014 not a new client order."
     },
     {
       "folder": "2026-09-19_yandfmedcofficer_1a0b79d374",
@@ -739,7 +739,7 @@
       "gmailThreadId": "1a08987a1c340cf0",
       "processedAt": "2026-09-19T03:45:00Z",
       "result": "not_order",
-      "reason": "BEPZA Import Permit (IC1709260003) for the shipment under Sales Contract SC/Y&F/7204/26-N — customs/import paperwork, not a client order."
+      "reason": "BEPZA Import Permit (IC1709260003) for the shipment under Sales Contract SC/Y&F/7204/26-N \u2014 customs/import paperwork, not a client order."
     },
     {
       "folder": "2026-09-17_syedalifulalam20_1a0ad0ff57",
@@ -751,7 +751,7 @@
       "orderId": 7849,
       "jobNumber": "7283/26-N",
       "partyName": "IALT Footwear Ltd",
-      "note": "BACKFILLED ENTRY: this folder/order was drafted into Flowtech and its thread received the order-intake/entered-by-ai Gmail label, but the log commit recording it never reached main (lost to branch fragmentation across multiple session branches before this repo's workflow was corrected to commit straight to main/the durable branch). Reconstructed from Order 7849's AiNotes audit trail plus the Gmail thread. Sender syedalifulalam20@gmail.com, subject 'Issuance of Accessories PO # 152/26', attachments 'IALT-152-26 accessories PO confirmation.pdf' / '.xlsx'. AI flagged: guessed item (Shoe Box Trekking M, one of 3 equally-plausible catalog matches), $0 unit price (document gave none), guessed buyer ('No Buyer'). SECURITY NOTE: this sender's address is one digit off from a second address (syedalifulalam21@gmail.com) that separately sent obviously-fake test orders and a spoofed ACS Textiles PO from the same short window (2026-09-16/17) impersonating multiple real Miah & Sons clients (TEXZONE Knitwear, ACS Textiles, A One Polor Ltd) — see order 7848 and order 7850 (job 7284/26-N). Order 7849 is now Flowtech OrderStatus CANCELLED (reviewed and rejected by a human)."
+      "note": "BACKFILLED ENTRY: this folder/order was drafted into Flowtech and its thread received the order-intake/entered-by-ai Gmail label, but the log commit recording it never reached main (lost to branch fragmentation across multiple session branches before this repo's workflow was corrected to commit straight to main/the durable branch). Reconstructed from Order 7849's AiNotes audit trail plus the Gmail thread. Sender syedalifulalam20@gmail.com, subject 'Issuance of Accessories PO # 152/26', attachments 'IALT-152-26 accessories PO confirmation.pdf' / '.xlsx'. AI flagged: guessed item (Shoe Box Trekking M, one of 3 equally-plausible catalog matches), $0 unit price (document gave none), guessed buyer ('No Buyer'). SECURITY NOTE: this sender's address is one digit off from a second address (syedalifulalam21@gmail.com) that separately sent obviously-fake test orders and a spoofed ACS Textiles PO from the same short window (2026-09-16/17) impersonating multiple real Miah & Sons clients (TEXZONE Knitwear, ACS Textiles, A One Polor Ltd) \u2014 see order 7848 and order 7850 (job 7284/26-N). Order 7849 is now Flowtech OrderStatus CANCELLED (reviewed and rejected by a human)."
     },
     {
       "folder": "2026-09-17_syedalifulalam21_1a0acad69a",
@@ -763,7 +763,7 @@
       "orderId": 7848,
       "jobNumber": "7282/26-N",
       "partyName": "TEXZONE KNITWEAR LIMITED",
-      "note": "BACKFILLED ENTRY, LIKELY FRAUDULENT SOURCE: this folder/order was drafted into Flowtech but the log commit recording it never reached main (same branch-fragmentation gap as the entry above). Reconstructed from Order 7848's own Note field (which carries this automation's exact audit-trail phrasing: 'Autopilot draft from Drive folder 2026-09-17_syedalifulalam21_1a0acad69a...') plus the Gmail thread. Sender syedalifulalam21@gmail.com, subject 'Carton Booking – Job 7199042, Style TZ-8834', claiming to be TEXZONE Knitwear's merchandising team from a personal Gmail address (the AI's own note explicitly flagged this as unverified). SECURITY CONCERN: this message is now in Gmail TRASH, and the SAME sender account (syedalifulalam21@gmail.com) also sent an obvious test message ('Job TEST-0001, Style TST-4471', also trashed, never staged/drafted) and a near-identical spoof of ACS Textiles ('PO-ACS-2026-0917', sent by syedalifulalam20@gmail.com, trashed, never staged/drafted) within the same ~2.5 hour window on 2026-09-16/17 — an apparent attempt to inject fraudulent orders into Flowtech under real client names via lookalike personal-Gmail senders. Order 7848 is now Flowtech OrderStatus CANCELLED (reviewed and rejected by a human). Recommend verifying no other action was taken on this order before cancellation, and considering a sender-domain/authenticity check for this automation going forward."
+      "note": "BACKFILLED ENTRY, LIKELY FRAUDULENT SOURCE: this folder/order was drafted into Flowtech but the log commit recording it never reached main (same branch-fragmentation gap as the entry above). Reconstructed from Order 7848's own Note field (which carries this automation's exact audit-trail phrasing: 'Autopilot draft from Drive folder 2026-09-17_syedalifulalam21_1a0acad69a...') plus the Gmail thread. Sender syedalifulalam21@gmail.com, subject 'Carton Booking \u2013 Job 7199042, Style TZ-8834', claiming to be TEXZONE Knitwear's merchandising team from a personal Gmail address (the AI's own note explicitly flagged this as unverified). SECURITY CONCERN: this message is now in Gmail TRASH, and the SAME sender account (syedalifulalam21@gmail.com) also sent an obvious test message ('Job TEST-0001, Style TST-4471', also trashed, never staged/drafted) and a near-identical spoof of ACS Textiles ('PO-ACS-2026-0917', sent by syedalifulalam20@gmail.com, trashed, never staged/drafted) within the same ~2.5 hour window on 2026-09-16/17 \u2014 an apparent attempt to inject fraudulent orders into Flowtech under real client names via lookalike personal-Gmail senders. Order 7848 is now Flowtech OrderStatus CANCELLED (reviewed and rejected by a human). Recommend verifying no other action was taken on this order before cancellation, and considering a sender-domain/authenticity check for this automation going forward."
     },
     {
       "folder": "2026-09-19_md_1a0b8222dc",
@@ -771,7 +771,7 @@
       "gmailThreadId": "1a0b8222dc8b67e3",
       "processedAt": "2026-09-19T05:45:00Z",
       "result": "not_order",
-      "reason": "Proud Fashion Ltd.'s general 'Clothing Packing Instruction Version 9' compliance/spec document (packing, labeling, carton, folding standards for Kaufhaus Martin Stolz GmbH / STOLZ brand) forwarded by Ripon <md@r7bd.com>, subject 'FW: Proud Fashion - Updated Packing Instruction (ICL)'. No PO number, quantities, pricing, style, or specific carton order — a standing packing-standards manual, not a placed client order."
+      "reason": "Proud Fashion Ltd.'s general 'Clothing Packing Instruction Version 9' compliance/spec document (packing, labeling, carton, folding standards for Kaufhaus Martin Stolz GmbH / STOLZ brand) forwarded by Ripon <md@r7bd.com>, subject 'FW: Proud Fashion - Updated Packing Instruction (ICL)'. No PO number, quantities, pricing, style, or specific carton order \u2014 a standing packing-standards manual, not a placed client order."
     },
     {
       "folder": "2026-09-19_ripon.mondal_1a0b8e79ff",
@@ -779,7 +779,7 @@
       "gmailThreadId": "1a0ad63b16c053e7",
       "processedAt": "2026-09-19T09:45:00Z",
       "result": "not_order",
-      "reason": "Client (Ripon Mondal, Liberty Knitwear Ltd. Unit-02) reply to Miah & Sons' own outgoing 'LKN26-21' carton layout approval email, marking each layout code (2118080/2118113/2118117/2118088/2118084/2118130) approved or needing a revised B lot number. Attachments are NKD Group GmbH carton shipping-mark/label layout PDFs, not an order booking sheet — no PO number, quantities, or pricing anywhere in the thread. Artwork sign-off cycle for an already-existing job, not a placed order."
+      "reason": "Client (Ripon Mondal, Liberty Knitwear Ltd. Unit-02) reply to Miah & Sons' own outgoing 'LKN26-21' carton layout approval email, marking each layout code (2118080/2118113/2118117/2118088/2118084/2118130) approved or needing a revised B lot number. Attachments are NKD Group GmbH carton shipping-mark/label layout PDFs, not an order booking sheet \u2014 no PO number, quantities, or pricing anywhere in the thread. Artwork sign-off cycle for an already-existing job, not a placed order."
     },
     {
       "folder": "2026-09-19_ripon.mondal_1a0b8f199a",
@@ -787,7 +787,7 @@
       "gmailThreadId": "1a0ad64cd48d03ae",
       "processedAt": "2026-09-19T09:45:00Z",
       "result": "not_order",
-      "reason": "Same 'LKN26-21' layout approval cycle as folder 2026-09-19_ripon.mondal_1a0b8e79ff (different Gmail thread — a second, separate approval batch to the same merchandiser). Client reply marking layout codes 2118085/2118090/2118087/2118091/2118089 approved or needing a revised B lot number, against Miah & Sons' own outgoing carton shipping-mark/label layout PDFs (NKD Group GmbH). No PO number, quantities, or pricing — not a placed order."
+      "reason": "Same 'LKN26-21' layout approval cycle as folder 2026-09-19_ripon.mondal_1a0b8e79ff (different Gmail thread \u2014 a second, separate approval batch to the same merchandiser). Client reply marking layout codes 2118085/2118090/2118087/2118091/2118089 approved or needing a revised B lot number, against Miah & Sons' own outgoing carton shipping-mark/label layout PDFs (NKD Group GmbH). No PO number, quantities, or pricing \u2014 not a placed order."
     },
     {
       "folder": "2026-09-19_shoebur_1a0b937e08",
@@ -798,7 +798,7 @@
       "orderId": 7903,
       "jobNumber": "7312/26-N",
       "partyName": "AKIJ SHOES LTD.",
-      "note": "5-ply master carton PO REF AKIJ/PUR/2026/MARCOTOZZI/198 from Akij Shoes Ltd. (buyer MARCOTOZZI), 943 cartons / 9552 pairs across 6 carton-size lines. Not a duplicate of prior MARCOTOZZI order 7534 (job 6968/26-N, PO 187) — different PO number and quantities. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: unit_price overridden to $0.57/SQM per the PO (vs. this party's on-file catalog price of $0.60/SQM for grade A-501-L) — create_order accepted with a warning; delivery_date (2026-09-24) taken from the covering email's 'Required Delivery Date: 24th September' line rather than the PDF; credit_days (0) and company_bank ('THE PREMIER BANK LTD', id 3) defaulted from this party's most recent prior MARCOTOZZI order for consistency, not stated in this PO; delivery_station defaulted to '.'. Gmail thread labeled order-intake/entered-by-ai."
+      "note": "5-ply master carton PO REF AKIJ/PUR/2026/MARCOTOZZI/198 from Akij Shoes Ltd. (buyer MARCOTOZZI), 943 cartons / 9552 pairs across 6 carton-size lines. Not a duplicate of prior MARCOTOZZI order 7534 (job 6968/26-N, PO 187) \u2014 different PO number and quantities. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: unit_price overridden to $0.57/SQM per the PO (vs. this party's on-file catalog price of $0.60/SQM for grade A-501-L) \u2014 create_order accepted with a warning; delivery_date (2026-09-24) taken from the covering email's 'Required Delivery Date: 24th September' line rather than the PDF; credit_days (0) and company_bank ('THE PREMIER BANK LTD', id 3) defaulted from this party's most recent prior MARCOTOZZI order for consistency, not stated in this PO; delivery_station defaulted to '.'. Gmail thread labeled order-intake/entered-by-ai."
     },
     {
       "folder": "2026-09-12_ansar.ali_1a0937ed65",
@@ -841,7 +841,7 @@
       "partyName": "International Trading Services Ltd.",
       "existingJobNumber": "7213/26-N",
       "existingOrderId": 7779,
-      "note": "Most recent message in the 'Bulk Carton booking for style#GRS73004MN (Buyer Walmart Canada) Season: SS'27' thread (5 staged folders total, gmailThreadId 1a0937ed65ba8a2e, sender Ansar Ali <ansar.ali@norpknit.com>, party International Trading Services Ltd., buyer WALMART, style GRS73004MN-MX). The thread's original booking was already entered in Flowtech as job 7213/26-N (order 7779, APPROVED, human-entered) — Miah & Sons' own PI/ITS/7213/26-N replies are visible earlier in the same thread. create_order never revises an existing job, so this later message is not draftable as a new order. This message ('revised booking only for carton shipping mark... as discussed with you over phone') carries an updated carton-shipping-mark/label spreadsheet (5 POs: 2850907147, 2850907176, 2850907177, 2850907148, 2850907205) whose per-label carton-qty breakdown does not cleanly match order 7779's per-PO order quantities (e.g. PO 2850907147: order qty 1372 vs. label sheet 561+486; PO 2850907177: order qty 19 vs. label sheet 7+6) — labels may just be split by case/carton-print config rather than representing a full-order quantity change, but a human should verify against order 7779 in Flowtech and revise it manually if the quantities actually changed. An earlier reply in the same thread (2026-09-13, folder 2026-09-13_ansar.ali_1a09a84aa7, marked superseded) requested 'update booking only for E-com (MN), mod cut 825' — also not reflected in a Flowtech revision. Folder marked processed so it is not repeatedly re-flagged."
+      "note": "Most recent message in the 'Bulk Carton booking for style#GRS73004MN (Buyer Walmart Canada) Season: SS'27' thread (5 staged folders total, gmailThreadId 1a0937ed65ba8a2e, sender Ansar Ali <ansar.ali@norpknit.com>, party International Trading Services Ltd., buyer WALMART, style GRS73004MN-MX). The thread's original booking was already entered in Flowtech as job 7213/26-N (order 7779, APPROVED, human-entered) \u2014 Miah & Sons' own PI/ITS/7213/26-N replies are visible earlier in the same thread. create_order never revises an existing job, so this later message is not draftable as a new order. This message ('revised booking only for carton shipping mark... as discussed with you over phone') carries an updated carton-shipping-mark/label spreadsheet (5 POs: 2850907147, 2850907176, 2850907177, 2850907148, 2850907205) whose per-label carton-qty breakdown does not cleanly match order 7779's per-PO order quantities (e.g. PO 2850907147: order qty 1372 vs. label sheet 561+486; PO 2850907177: order qty 19 vs. label sheet 7+6) \u2014 labels may just be split by case/carton-print config rather than representing a full-order quantity change, but a human should verify against order 7779 in Flowtech and revise it manually if the quantities actually changed. An earlier reply in the same thread (2026-09-13, folder 2026-09-13_ansar.ali_1a09a84aa7, marked superseded) requested 'update booking only for E-com (MN), mod cut 825' \u2014 also not reflected in a Flowtech revision. Folder marked processed so it is not repeatedly re-flagged."
     },
     {
       "folder": "2026-09-20_al.amin_1a0bcc0b84",
@@ -850,7 +850,7 @@
       "processedAt": "2026-09-20T04:15:00Z",
       "result": "entered",
       "partyName": "PARASOLE FOOTWEAR LTD.",
-      "note": "Master carton order sheet from Md Al Amin <al.amin@paragon.com.bd> (signs as ParaSole Footwear Limited), 5 attachments (Caspian_9101011353/54/55/56/57.pdf) each a separate customer PO for buyer 'Walmart (Uptop)', style CASPIANY, plus one shipping-mark layout PDF (artwork only, not order data). One Flowtech order drafted per PO number per this system's convention. PARTY MISMATCH FLAGGED FOR HUMAN REVIEW: the PDFs' own letterhead reads 'P & M FOOTWEAR ACCESORIES LTD.' (Flowtech PartyID 237, zero prior orders, no matching buyer history) but orders were drafted against 'PARASOLE FOOTWEAR LTD.' (PartyID 82) instead, based on the sender's own signature and an exact match to this party's prior order 6041/job 5497/26-N (same buyer 'Caspian Walmart', same item/spec/grade Auto Corrugated Printed Master Carton/Ply 5/A-500-L, identical three carton dimensions 41.5x36x31.5, 43.5x39x34, 44.5x40.5x35.5cm) — a human should confirm PARASOLE FOOTWEAR LTD. is the correct party before approving any of these 5 orders. buyer_name resolved to 'Caspian Walmart' (matching order 6041) rather than this party's more common buyer 'Up-Top (AVIA)', despite the document literally reading 'Buyer : Walmart (Uptop)'. Each PO's 9-line per-shoe-size quantity breakdown was summed into 3 GSM lines by carton dimension, matching order 6041's convention. PO 9101011354 and 9101011355 have identical quantities (433 total) and PO 9101011356/9101011357 have identical quantities (325 total) — confirmed against the source PDFs, not a duplication error; the covering email states quantities/case-qty repeat across different PO numbers in this booking. company_bank (THE PREMIER BANK LTD, id 3) and credit_days (0) defaulted from prior order 6041; delivery_station taken from the covering email's stated delivery address; delivery_date (2026-09-30) taken from the email's 'within 30th Sept 2026' line. Full per-order ai_notes audit trail written to each order's AiNotes field. Gmail thread labeled order-intake/entered-by-ai.",
+      "note": "Master carton order sheet from Md Al Amin <al.amin@paragon.com.bd> (signs as ParaSole Footwear Limited), 5 attachments (Caspian_9101011353/54/55/56/57.pdf) each a separate customer PO for buyer 'Walmart (Uptop)', style CASPIANY, plus one shipping-mark layout PDF (artwork only, not order data). One Flowtech order drafted per PO number per this system's convention. PARTY MISMATCH FLAGGED FOR HUMAN REVIEW: the PDFs' own letterhead reads 'P & M FOOTWEAR ACCESORIES LTD.' (Flowtech PartyID 237, zero prior orders, no matching buyer history) but orders were drafted against 'PARASOLE FOOTWEAR LTD.' (PartyID 82) instead, based on the sender's own signature and an exact match to this party's prior order 6041/job 5497/26-N (same buyer 'Caspian Walmart', same item/spec/grade Auto Corrugated Printed Master Carton/Ply 5/A-500-L, identical three carton dimensions 41.5x36x31.5, 43.5x39x34, 44.5x40.5x35.5cm) \u2014 a human should confirm PARASOLE FOOTWEAR LTD. is the correct party before approving any of these 5 orders. buyer_name resolved to 'Caspian Walmart' (matching order 6041) rather than this party's more common buyer 'Up-Top (AVIA)', despite the document literally reading 'Buyer : Walmart (Uptop)'. Each PO's 9-line per-shoe-size quantity breakdown was summed into 3 GSM lines by carton dimension, matching order 6041's convention. PO 9101011354 and 9101011355 have identical quantities (433 total) and PO 9101011356/9101011357 have identical quantities (325 total) \u2014 confirmed against the source PDFs, not a duplication error; the covering email states quantities/case-qty repeat across different PO numbers in this booking. company_bank (THE PREMIER BANK LTD, id 3) and credit_days (0) defaulted from prior order 6041; delivery_station taken from the covering email's stated delivery address; delivery_date (2026-09-30) taken from the email's 'within 30th Sept 2026' line. Full per-order ai_notes audit trail written to each order's AiNotes field. Gmail thread labeled order-intake/entered-by-ai.",
       "orders": [
         {
           "po": "9101011353",
@@ -886,7 +886,7 @@
       "processedAt": "2026-09-20T05:10:00Z",
       "result": "already_in_flowtech",
       "partyName": "PARASOLE FOOTWEAR LTD.",
-      "note": "Exact duplicate resend of the 'Requisition For Caspian Master Carton 20 Sept 2026' email (same sender al.amin@paragon.com.bd, identical subject/body/CC list, byte-identical attachments — verified matching Drive file sizes for all 6 files) sent ~70 minutes after the original in folder 2026-09-20_al.amin_1a0bcc0b84 (thread 1a0bcc0b84643787), but landed as a brand-new Gmail thread (1a0bd01a0e8b7f4e) rather than a reply, so it staged as a separate folder. All 5 POs (9101011353-9101011357) were already entered in that prior run as jobs 7313-7317/26-N (orders 7904-7908) — confirmed via get_order_details on job 7313/26-N (PO 9101011353, party PARASOLE FOOTWEAR LTD., buyer Caspian Walmart, matches exactly). No new content or revision in this resend; not drafted to avoid duplication. Miah & Sons' own reply in this thread ('Thank you for your valuable order...') is a standard human acknowledgement, not a Flowtech confirmation.",
+      "note": "Exact duplicate resend of the 'Requisition For Caspian Master Carton 20 Sept 2026' email (same sender al.amin@paragon.com.bd, identical subject/body/CC list, byte-identical attachments \u2014 verified matching Drive file sizes for all 6 files) sent ~70 minutes after the original in folder 2026-09-20_al.amin_1a0bcc0b84 (thread 1a0bcc0b84643787), but landed as a brand-new Gmail thread (1a0bd01a0e8b7f4e) rather than a reply, so it staged as a separate folder. All 5 POs (9101011353-9101011357) were already entered in that prior run as jobs 7313-7317/26-N (orders 7904-7908) \u2014 confirmed via get_order_details on job 7313/26-N (PO 9101011353, party PARASOLE FOOTWEAR LTD., buyer Caspian Walmart, matches exactly). No new content or revision in this resend; not drafted to avoid duplication. Miah & Sons' own reply in this thread ('Thank you for your valuable order...') is a standard human acknowledgement, not a Flowtech confirmation.",
       "duplicateOf": {
         "folder": "2026-09-20_al.amin_1a0bcc0b84",
         "gmailThreadId": "1a0bcc0b84643787"
@@ -925,7 +925,7 @@
       "gmailThreadId": "1a0bd338f807d57a",
       "processedAt": "2026-09-20T05:48:00Z",
       "result": "not_order",
-      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds transaction vouchers (218.pdf / 219.pdf, LC 1417260400093 and LC 1417260400165) forwarded by bank officer Nahida Sultana — bank correspondence, not a client order."
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds transaction vouchers (218.pdf / 219.pdf, LC 1417260400093 and LC 1417260400165) forwarded by bank officer Nahida Sultana \u2014 bank correspondence, not a client order."
     },
     {
       "folder": "2026-08-04_ansar.ali_19fcb12712",
@@ -952,7 +952,7 @@
       "partyName": "International Trading Services Ltd.",
       "existingJobNumber": "6879/26-N",
       "existingOrderId": 7445,
-      "note": "Most recent message in the 'Bulk carton booking for style# GRS70059LD for Walmart Canada' thread (3 staged folders, gmailThreadId 19fcb127122dfe24, sender Ansar Ali <ansar.ali@norpknit.com>, party International Trading Services Ltd., buyer WALMART, style GRS70059LD, POs 6300990433/6300990758/6300990759). The thread's original booking was already entered in Flowtech as job 6879/26-N (order 7445, APPROVED, human-entered) — Miah & Sons' own PI/ITS/6879/26-N was sent within hours of the original booking, before this automation existed. create_order never revises an existing job, so this later message is not draftable as a new order. This message ('As discussed with you, please see the revised booking only for shipping mark. Please share the revised layout within short time.') carries an attachment named 'UPDATE' but its data is byte-for-byte identical to the original booking spreadsheet (same 3 POs, same per-line quantities of 510/705, 725/725, 11/12 — summing to the exact same 1215/1450/23 per-PO totals already on order 7445); this is a shipping-mark/layout refresh request only, no quantity or PO change. No Flowtech revision looks necessary, but flagged per policy since an older sibling in this thread was already entered — a human should confirm order 7445 needs no changes. Folder marked processed so it is not repeatedly re-flagged."
+      "note": "Most recent message in the 'Bulk carton booking for style# GRS70059LD for Walmart Canada' thread (3 staged folders, gmailThreadId 19fcb127122dfe24, sender Ansar Ali <ansar.ali@norpknit.com>, party International Trading Services Ltd., buyer WALMART, style GRS70059LD, POs 6300990433/6300990758/6300990759). The thread's original booking was already entered in Flowtech as job 6879/26-N (order 7445, APPROVED, human-entered) \u2014 Miah & Sons' own PI/ITS/6879/26-N was sent within hours of the original booking, before this automation existed. create_order never revises an existing job, so this later message is not draftable as a new order. This message ('As discussed with you, please see the revised booking only for shipping mark. Please share the revised layout within short time.') carries an attachment named 'UPDATE' but its data is byte-for-byte identical to the original booking spreadsheet (same 3 POs, same per-line quantities of 510/705, 725/725, 11/12 \u2014 summing to the exact same 1215/1450/23 per-PO totals already on order 7445); this is a shipping-mark/layout refresh request only, no quantity or PO change. No Flowtech revision looks necessary, but flagged per policy since an older sibling in this thread was already entered \u2014 a human should confirm order 7445 needs no changes. Folder marked processed so it is not repeatedly re-flagged."
     },
     {
       "folder": "2026-09-20_motherboxctn_1a0bd52888",
@@ -963,7 +963,7 @@
       "orderId": 7912,
       "jobNumber": "7321/26-N",
       "partyName": "Mother Box Packaging & Accessories",
-      "note": "5-ply auto carton work order (Work Order No. 46/09, Job No. 46-MBPA-26) forwarded by Mother Box Packaging & Accessories (party is itself the Flowtech account, team Tanvir Pack, BDT/cash — matching prior identical-format job 32-MBPA-26 = order 7420/job 6854/26-N). Two carton lines (NJ1141S4ML PO 803442 56x28x15cm 412pcs, NJ1128S4SI PO 803447 48x28x15cm 515pcs, grade A-510-L) plus one Top Bottom line (40x20x3cm, 1854pcs, grade A-300-I). AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: buyer resolved to 'NICOLE MILLER' (email subject + this party's only on-file buyer) though the PDF's own 'BUYER' field reads 'RED SUN' — human should confirm; unit_price overridden per line (65.99, 60.12, 2.00 BDT/pc vs. catalog defaults of 70/70/0) after backing the rates out of the document's own stated line totals, confirmed by matching the document's grand total (~61,858 BDT) almost exactly; credit_days set to 0 (not the precedent order's 90) since this document explicitly states 'CASH PAYMENT'; company_bank and attention defaulted from the precedent order. Two shipping-mark layout PDFs in the same folder were artwork only (already approved per the covering email), not used as order-data sources. Gmail thread labeled order-intake/entered-by-ai."
+      "note": "5-ply auto carton work order (Work Order No. 46/09, Job No. 46-MBPA-26) forwarded by Mother Box Packaging & Accessories (party is itself the Flowtech account, team Tanvir Pack, BDT/cash \u2014 matching prior identical-format job 32-MBPA-26 = order 7420/job 6854/26-N). Two carton lines (NJ1141S4ML PO 803442 56x28x15cm 412pcs, NJ1128S4SI PO 803447 48x28x15cm 515pcs, grade A-510-L) plus one Top Bottom line (40x20x3cm, 1854pcs, grade A-300-I). AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: buyer resolved to 'NICOLE MILLER' (email subject + this party's only on-file buyer) though the PDF's own 'BUYER' field reads 'RED SUN' \u2014 human should confirm; unit_price overridden per line (65.99, 60.12, 2.00 BDT/pc vs. catalog defaults of 70/70/0) after backing the rates out of the document's own stated line totals, confirmed by matching the document's grand total (~61,858 BDT) almost exactly; credit_days set to 0 (not the precedent order's 90) since this document explicitly states 'CASH PAYMENT'; company_bank and attention defaulted from the precedent order. Two shipping-mark layout PDFs in the same folder were artwork only (already approved per the covering email), not used as order-data sources. Gmail thread labeled order-intake/entered-by-ai."
     },
     {
       "folder": "2026-08-29_md.fahaduzzaman_1a04d47b4d",
@@ -971,7 +971,7 @@
       "gmailThreadId": "1a031fd036c48620",
       "processedAt": "2026-09-20T06:45:00Z",
       "result": "not_order",
-      "reason": "Miah & Sons' own outgoing Proforma Invoice (PI/PFL/6152/26-N) plus a NOC (No Objection Certificate) scan, for existing Job No. 6152/26-N (party PARASOLE FOOTWEAR LTD., buyer Up-Top (AVIA)), relayed back by the client (Md. Fahaduzzaman, paragon.com.bd) — subject 'RE: NOC and Proforma Invoice for Payment'. Payment/NOC correspondence on an existing job, not a client order."
+      "reason": "Miah & Sons' own outgoing Proforma Invoice (PI/PFL/6152/26-N) plus a NOC (No Objection Certificate) scan, for existing Job No. 6152/26-N (party PARASOLE FOOTWEAR LTD., buyer Up-Top (AVIA)), relayed back by the client (Md. Fahaduzzaman, paragon.com.bd) \u2014 subject 'RE: NOC and Proforma Invoice for Payment'. Payment/NOC correspondence on an existing job, not a client order."
     },
     {
       "folder": "2026-09-20_md.fahaduzzaman_1a0bd7afa3",
@@ -979,7 +979,7 @@
       "gmailThreadId": "1a031fd036c48620",
       "processedAt": "2026-09-20T06:45:00Z",
       "result": "not_order",
-      "reason": "Same 'RE: NOC and Proforma Invoice for Payment' thread as folder 2026-08-29_md.fahaduzzaman_1a04d47b4d — a later message re-attaching Miah & Sons' own outgoing Proforma Invoice (PI/PFL/6152/26-N, BDT version) for existing Job No. 6152/26-N. Payment correspondence, not a client order."
+      "reason": "Same 'RE: NOC and Proforma Invoice for Payment' thread as folder 2026-08-29_md.fahaduzzaman_1a04d47b4d \u2014 a later message re-attaching Miah & Sons' own outgoing Proforma Invoice (PI/PFL/6152/26-N, BDT version) for existing Job No. 6152/26-N. Payment correspondence, not a client order."
     },
     {
       "folder": "2026-09-20_nahida_1a0be1d6de",
@@ -987,7 +987,7 @@
       "gmailThreadId": "1a0be1d6ded9d28a",
       "processedAt": "2026-09-20T09:45:00Z",
       "result": "not_order",
-      "reason": "The Premier Bank PLC (Kawran Bazar Branch) statement of account for Waleed International Agency (A/C 0107 11100100623), sent by bank officer Nahida Sultana — bank correspondence, not a client order."
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) statement of account for Waleed International Agency (A/C 0107 11100100623), sent by bank officer Nahida Sultana \u2014 bank correspondence, not a client order."
     },
     {
       "folder": "2026-09-20_imtiaz.proc.dal_1a0be380e0",
@@ -998,7 +998,7 @@
       "existingOrderId": 7915,
       "existingJobNumber": "7324/26-N",
       "partyName": "DEKKO ACCESSORIES LTD.",
-      "note": "Genuine work order (PO DAF/PO26090508, 17-SEP-26) from Dekko Accessories Ltd's Imtiaz Hossain, replying to Miah & Sons' own outgoing price quotation in this thread ('Please find the attached work order and confirm delivery schedule by 22nd September'). Attachment 'Tanvir po.pdf' is a formal PO: 2 Carton/Ply3/A-303-L lines (500pcs 40x34x30cm @88 BDT, 300pcs 48x33x30cm @98 BDT, total 73,400 BDT). Cross-checked against Flowtech and found already entered exactly (same PO number as LpdPoNo/Style, same 2 lines, same qty/dims/rates/total) as job 7324/26-N (order 7915, APPROVED, IsAiDrafted=0, no AiNotes) — entered same-day, before this folder was reached, likely by Miah & Sons staff working the shared mailbox directly (or an earlier automation attempt that omitted the is_ai_drafted/ai_notes fields; authorship unclear but the order data is an exact match). Not re-drafted to avoid duplication. Folder marked processed."
+      "note": "Genuine work order (PO DAF/PO26090508, 17-SEP-26) from Dekko Accessories Ltd's Imtiaz Hossain, replying to Miah & Sons' own outgoing price quotation in this thread ('Please find the attached work order and confirm delivery schedule by 22nd September'). Attachment 'Tanvir po.pdf' is a formal PO: 2 Carton/Ply3/A-303-L lines (500pcs 40x34x30cm @88 BDT, 300pcs 48x33x30cm @98 BDT, total 73,400 BDT). Cross-checked against Flowtech and found already entered exactly (same PO number as LpdPoNo/Style, same 2 lines, same qty/dims/rates/total) as job 7324/26-N (order 7915, APPROVED, IsAiDrafted=0, no AiNotes) \u2014 entered same-day, before this folder was reached, likely by Miah & Sons staff working the shared mailbox directly (or an earlier automation attempt that omitted the is_ai_drafted/ai_notes fields; authorship unclear but the order data is an exact match). Not re-drafted to avoid duplication. Folder marked processed."
     },
     {
       "folder": "2026-09-20_merch1_1a0be4d8c2",
@@ -1009,7 +1009,7 @@
       "existingOrderId": 7916,
       "existingJobNumber": "7325/26-N",
       "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
-      "note": "Carton booking PO 34576TS, style F-TSCBMSTRCH-164B-11K-DP, from Saiket <merch1@rababgroup.com> (same 'Fountain' merchandising contact as prior jobs 7291-7294/26-N). 14 size-broken lines (41x33x30cm summing to 141pcs, 44x35x30cm summing to 294pcs, grade A-500-L) plus TOP Board 870pcs (30x15cm, A-306-I) read from the email body table. Cross-checked against Flowtech and found already entered exactly matching (same PO/style, same qty breakdown by dimension) as job 7325/26-N (order 7916, APPROVED, IsAiDrafted=0, no AiNotes) — entered same-day before this folder was reached. Not re-drafted to avoid duplication. Folder marked processed."
+      "note": "Carton booking PO 34576TS, style F-TSCBMSTRCH-164B-11K-DP, from Saiket <merch1@rababgroup.com> (same 'Fountain' merchandising contact as prior jobs 7291-7294/26-N). 14 size-broken lines (41x33x30cm summing to 141pcs, 44x35x30cm summing to 294pcs, grade A-500-L) plus TOP Board 870pcs (30x15cm, A-306-I) read from the email body table. Cross-checked against Flowtech and found already entered exactly matching (same PO/style, same qty breakdown by dimension) as job 7325/26-N (order 7916, APPROVED, IsAiDrafted=0, no AiNotes) \u2014 entered same-day before this folder was reached. Not re-drafted to avoid duplication. Folder marked processed."
     },
     {
       "folder": "2026-09-20_proc16_1a0be812ce",
@@ -1017,7 +1017,7 @@
       "gmailThreadId": "1a0be812ce61246b",
       "processedAt": "2026-09-20T11:50:00Z",
       "result": "not_order",
-      "reason": "SWIFT MT700 Documentary Credit copy (LC 2965260300195, applicant Pioneer Knitwears (BD) Ltd, beneficiary Miah and Sons Industries Limited, $8834.43) forwarded by client procurement officer Md. Momin Ali, subject 'BTB LC copy/$8834.43' — bank/LC correspondence, not a client order."
+      "reason": "SWIFT MT700 Documentary Credit copy (LC 2965260300195, applicant Pioneer Knitwears (BD) Ltd, beneficiary Miah and Sons Industries Limited, $8834.43) forwarded by client procurement officer Md. Momin Ali, subject 'BTB LC copy/$8834.43' \u2014 bank/LC correspondence, not a client order."
     },
     {
       "folder": "2026-09-20_merch1_1a0be6e442",
@@ -1142,15 +1142,51 @@
       "partyName": "International Trading Services Ltd.",
       "note": "Genuine 'AEO CARTON BOOKING FOR STYLE-5844-HOL'26' from Md. Nur Alam, Merchandiser, Standard Group (nur.a@standardargroup.com), forwarding Shameem Ahmed's covering request, attaching 9 separate 'Carton Order Form PO#XXXXXXX.pdf' + 'PO#XXXXXXX- CTN SKU.xls' pairs (one per PO) plus shipmark artwork .doc files (not order data). Single-message thread, no sibling/superseding folders, no later thread messages. Cross-checked against Flowtech (list_orders for this party/buyer) and found no existing order for style 5844 or any of these 9 PO numbers -- not a duplicate. One Flowtech order drafted per PO number per this party's established convention (see jobs 7286/26-N, 7290-7315/26-N). Item 'Auto Corrugated Printed Master Carton'/Ply 3/A-300-I resolved via get_party_catalog (only Ply-3 grade on file, matching each PDF's '3PLY NORMAL PESTING CTN' lines); each PO's per-box-ID quantities read directly from its own Carton Order Form PDF, which internally reconciles exactly against its stated Total CTN qty. All 9 AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags per order: unit_price left at catalog rate ($0.74/sqm), no price stated in any document; unit_price_per defaulted to 'Square Meter'; company_bank (THE PREMIER BANK LTD, id 3) and credit_days (90) defaulted from this party's most recent order (job 7286/26-N); delivery_date (2026-09-26) taken from each PDF's own 'Shipment Date' line; delivery_station defaulted to this party's standard registered address; attention set to sender 'Md. Nur Alam'. Gmail thread labeled order-intake/entered-by-ai.",
       "orders": [
-        { "po": "1388778", "orderId": 7929, "jobNumber": "7338/26-N" },
-        { "po": "1388779", "orderId": 7930, "jobNumber": "7339/26-N" },
-        { "po": "1388780", "orderId": 7931, "jobNumber": "7340/26-N" },
-        { "po": "1388782", "orderId": 7932, "jobNumber": "7341/26-N" },
-        { "po": "1388784", "orderId": 7933, "jobNumber": "7342/26-N" },
-        { "po": "1388785", "orderId": 7934, "jobNumber": "7343/26-N" },
-        { "po": "1393888", "orderId": 7935, "jobNumber": "7344/26-N" },
-        { "po": "1393901", "orderId": 7936, "jobNumber": "7345/26-N" },
-        { "po": "1393907", "orderId": 7937, "jobNumber": "7346/26-N" }
+        {
+          "po": "1388778",
+          "orderId": 7929,
+          "jobNumber": "7338/26-N"
+        },
+        {
+          "po": "1388779",
+          "orderId": 7930,
+          "jobNumber": "7339/26-N"
+        },
+        {
+          "po": "1388780",
+          "orderId": 7931,
+          "jobNumber": "7340/26-N"
+        },
+        {
+          "po": "1388782",
+          "orderId": 7932,
+          "jobNumber": "7341/26-N"
+        },
+        {
+          "po": "1388784",
+          "orderId": 7933,
+          "jobNumber": "7342/26-N"
+        },
+        {
+          "po": "1388785",
+          "orderId": 7934,
+          "jobNumber": "7343/26-N"
+        },
+        {
+          "po": "1393888",
+          "orderId": 7935,
+          "jobNumber": "7344/26-N"
+        },
+        {
+          "po": "1393901",
+          "orderId": 7936,
+          "jobNumber": "7345/26-N"
+        },
+        {
+          "po": "1393907",
+          "orderId": 7937,
+          "jobNumber": "7346/26-N"
+        }
       ]
     },
     {
@@ -1327,9 +1363,47 @@
       "result": "needs_manual_revision",
       "reason": "Reply in the same gmailThreadId as sibling folder 2026-09-21_nur.a_1a0c31b118, which was already fully entered into Flowtech as 9 orders (PO 1388778/1388779/1388780/1388782/1388784/1388785/1393888/1393901/1393907 -> job numbers 7338-7346/26-N respectively). This 2026-09-22T04:08:28Z message from Md. Shameem Ahmed ('Please see the Attached Revised Booking Only 02 PO's Measurement are change') re-sends all 9 POs' attachments but explicitly states only PO#1393888 and PO#1393901 have revised measurements; the rest are unchanged. create_order cannot revise an existing job, so no new order was drafted. Read the full 7-message Gmail thread to confirm: nur.a's original booking (2026-09-21T08:35), Miah & Sons' PI reply for job 7338/26-N (2026-09-22T03:45, PI-ITS-7338-26-N.pdf), nur.a's 'Factory will revise the booking, wait for revised one' (2026-09-22T03:51), Miah & Sons' 'Noted' (2026-09-22T03:58), then this revised-booking message.",
       "manualRevisionNeeded": [
-        {"po": "1393888", "orderId": 7935, "jobNumber": "7344/26-N"},
-        {"po": "1393901", "orderId": 7936, "jobNumber": "7345/26-N"}
+        {
+          "po": "1393888",
+          "orderId": 7935,
+          "jobNumber": "7344/26-N"
+        },
+        {
+          "po": "1393901",
+          "orderId": 7936,
+          "jobNumber": "7345/26-N"
+        }
       ]
+    },
+    {
+      "folder": "2026-09-22_motherboxctn_1a0c77f96f",
+      "folderId": "1uDl2NzjKZJb4Y4uQy5sM8pKoLx3zr3jB",
+      "gmailThreadId": "1a0c77f96f5f006b",
+      "processedAt": "2026-09-22T05:50:00Z",
+      "result": "entered",
+      "orderId": 7951,
+      "jobNumber": "7350/26-N",
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "5-ply auto carton work order (Work Order No. 48/09, Job No. 48-MBPA-26) from Mother Box Packaging & Accessories (party is itself the Flowtech account, team Tanvir Pack, BDT/cash), subject 'Denim shirt additional Carton Work Order'. Single-message thread, no siblings. Checked against Flowtech order history for this party -- no existing order for 48/09 / 48-MBPA-26; not a duplicate. Buyer 'PEP&CO' matched an exact existing Buyer record directly from the document, no guess needed. Item 'Auto Master Carton'/Ply 5/A-510-L: 2 lines, 56x41x27cm/3335pcs and 56x41x29cm/2293pcs; unit_price back-calculated per piece (110.8692 / 113.9489 BDT) from the document's own stated line totals (both imply a consistent 115.00 BDT/sqm rate, but per this party's established unit_price_per='Order Qty' convention the per-piece equivalent was used instead) -- overrides catalog default of 70 BDT/pc; reproduces the document's exact totals (369,748.78 + 261,284.83 = 631,033.61 BDT, matches PDF grand total exactly). credit_days set to 0 per document's explicit 'CASH PAYMENT' term. company_bank and delivery_station defaulted from this party's recent order history, not stated in the document. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-22_anika.rahman_1a0c781ae7",
+      "folderId": "1QrBMrWG7-6Z8FNZOQP3Uy5rrnnkEZ7eU",
+      "gmailThreadId": "1a0c781ae7b04644",
+      "processedAt": "2026-09-22T05:50:00Z",
+      "result": "not_order",
+      "reason": "Premier Bank PLC (Kawran Bazar Branch) SWIFT/Nostro payment-realization correspondence (attachments 'report (64).pdf' Alliance Message Management MT/MX detail report, '215326230059.pdf' SWIFT MT940 customer statement), sent by bank officer Anika Rahman (anika.rahman@thepremierbankplc.com), subject 'Payment Copy And Nostro'. Bank settlement/Nostro paperwork, not a client order. Single-message thread."
+    },
+    {
+      "folder": "2026-09-22_gulam_1a0c79860a",
+      "folderId": "1uHmjPNNC1hv9-50gZZ2znmJkwsf0kUoM",
+      "gmailThreadId": "1a0c79860a1f61c3",
+      "processedAt": "2026-09-22T05:50:00Z",
+      "result": "entered",
+      "orderId": 7952,
+      "jobNumber": "7351/26-N",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "note": "Mascot Hoie carton booking PO-21601 (PO#900959, Order No TRIMS/IPO/26/12044), from 'Carton K Po - 21601.pdf' (formal PO, 4 lines by carton size, 940pcs / \u0018.64 total; 'Book7.xlsx' internal working sheet not used as primary source). Single-message thread, no siblings. Checked against Flowtech order history for this party -- no existing order for PO-21601/900959; not a duplicate (a separate PO-21508 for this party was already entered earlier as job 7298/26-N). Item 'Auto Corrugated Master Carton (Printed)'/Ply 5/A-500-L: 4 lines (37x27x34/264pcs/\\/bin/bash.48895, 37x27x21/247pcs/\\/bin/bash.38885, 36x28x37/240pcs/\\/bin/bash.51975, 36x28x25/189pcs/\\/bin/bash.42735), overriding the \\/bin/bash.55/sqm catalog default with this PO's own stated per-piece rates -- matches PDF total exactly. unit_price_per set to 'Order Qty' (not this party's usual 'Square Meter' precedent) because this PO's own Unit Price column is an explicit flat per-piece rate, not a \\$/sqm rate; first attempt under 'Square Meter' mode produced an incorrect total (3.29) because the system multiplies by its own computed sqm/piece, and was corrected via update_order. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: dimensions 36x28x37/36x28x25 correspond in Book7.xlsx to a different design section ('Amanda - Baltic') than 37x27x34/37x27x21 ('Abelone - Baltic') even though the formal PO groups all 4 under one label 'Abelone set' -- reviewer should confirm design/article breakdown before approval. Gmail thread labeled order-intake/entered-by-ai."
     }
   ]
 }
