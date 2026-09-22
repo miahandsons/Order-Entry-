@@ -3,6 +3,14 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-22_nahida_1a0c8122ff",
+      "folderId": "1e2ILHhcEYAu0QtYU2CdFkudI5T-b1UdG",
+      "gmailThreadId": "1a0c8122ff229a9d",
+      "processedAt": "2026-09-22T08:42:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC proceeds-realization transaction voucher (358.pdf, LC 0000182426040075, USD 8,839.21), sent by bank officer Nahida Sultana <nahida@thepremierbankplc.com>, no subject, single-message thread. Bank correspondence, not a client order."
+    },
+    {
       "folder": "2026-09-21_niloy_1a0c37ca17",
       "folderId": "104SU4Ck464mSpM2UmsXNhFk1rTY7KieE",
       "gmailThreadId": "19db4edb5ec182b2",
