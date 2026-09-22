@@ -3,6 +3,28 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-22_gulam_1a0c8d2ca3",
+      "folderId": "1PhK5RqQD28ktuG81FOo51z-u7kLDLMe5",
+      "gmailThreadId": "1a0c8d2ca3d80708",
+      "processedAt": "2026-09-22T11:55:00Z",
+      "result": "entered",
+      "orderId": 7961,
+      "jobNumber": "7360/26-N",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "note": "Genuine new PO from ACS Textiles (Bangladesh) Ltd. (gulam@acstextiles.com), 'Mascot Hoie ( 21550 ) new booking Carton Po.', PO No 900968/09/2026/ACS (Order No#PO-21550), delivery date 27/09/2026 (matches email body and Book6.xlsx's own 'DELIVERY' note, no discrepancy). Single-message thread at time of drafting; one later reply from Miah & Sons staff (same day) about a future price increase for this party's next order -- does not hold/cancel/correct this order, so drafted as normal. Item/spec/grade resolved to this party's only printed-carton catalog entry 'Auto Corrugated Master Carton (Printed)' / Ply 5 / A-500-L, matching this party's established convention from jobs 7288/26-N and 7298/26-N. Order lines (10 lines by carton size) taken from the authoritative formal PO 'Carton K Po - 21550.pdf', which aggregates the more granular per-design/color breakdown in 'Book6.xlsx' (6 designs, ~60 SKU rows) down to the same 10 dimension lines, 1,152 pcs / $485.27 total in both documents. Note: an initial write mistakenly passed the PO's own per-piece USD amounts as explicit unit_price overrides, which combined with unit_price_per='Square Meter' caused the system to multiply them by squareMeterPerPiece a second time, understating the total ($379.67 instead of $485.27) -- caught immediately by cross-checking against the PO's stated total, and corrected via update_order (same run, before any human review) by removing the overrides and letting the party's $0.55/sqm catalog rate compute the correct $485.28 (matches PO's $485.27 to the penny, confirming no actual negotiated discount existed on this PO). Full defaulted-field summary is in the order's ai_notes. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-22_fh.forhad_1a0c8cd13e",
+      "folderId": "145hf7FONl5JGpktsptScMQIHfYTizoMm",
+      "gmailThreadId": "1a0b8ec3b994b898",
+      "processedAt": "2026-09-22T11:55:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Wasfiya Apparels Ltd.",
+      "existingJobNumber": "7322/26-N",
+      "existingOrderId": 7913,
+      "note": "Wasfiya Apparels Ltd. (fh.forhad@wasfiyapparel.com) 'RE: Carton Booking for buyer DCA' thread. This message (Sep 22, subject 'RE: Carton Booking for buyer DCA', attachment 'Approved shipping mark Layout for BL3CSI.pdf') is the thread's final production go-ahead: 'Attached file approved shipping mark to proceed carton bulk production', with one shipping-mark artwork correction (batch number LOT 32062) and a delivery-factory note (EXcome Fashions Ltd). Read the full Gmail thread: the original booking (Sep 19, 'Item: Fly Manual carton..., Measurement: 60x40x30cm, Qnty: 100pcs', buyer DCA) was never itself staged as a separate Drive folder, and was already entered into Flowtech directly by staff as job 7322/26-N (order 7913, APPROVED, IsAiDrafted:0, Auto Master Carton/Ply 7/60x40x30cm/100pcs/$125.50, Attention 'Fokhrul Hassan Forhad') before this automation reached this thread -- exact match on item, dimensions, qty and buyer. This final message's only additions (artwork batch-number correction, delivery factory name, a size-print request) are production/shipping-mark instructions, not commercial order-line data (qty/price/style unchanged), so no Flowtech revision looks required; create_order never revises an existing job in any case. Folder marked processed so it isn't repeatedly re-flagged; flagged in report for human awareness of the delivery-factory detail (EXcome Fashions Ltd) not currently on order 7913's DeliveryStation field."
+    },
+    {
       "folder": "2026-09-22_ripon.mondal_1a0c889604",
       "folderId": "1PKjCTD7hLTsCbuQwQdGKId8kVYg0tiD6",
       "gmailThreadId": "1a0c282a775aa761",
