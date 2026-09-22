@@ -3,6 +3,17 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-22_ripon.mondal_1a0c889604",
+      "folderId": "1PKjCTD7hLTsCbuQwQdGKId8kVYg0tiD6",
+      "gmailThreadId": "1a0c282a775aa761",
+      "processedAt": "2026-09-22T10:43:00Z",
+      "result": "needs_manual_revision",
+      "partyName": "Liberty Knitwear Ltd.",
+      "existingJobNumber": "7357/26-N",
+      "existingOrderId": 7958,
+      "note": "Reply in the ongoing 'NKD// Bulk Carton booking LKN26-22' thread (gmailThreadId 1a0c282a775aa761), sender Ripon Mondal <ripon.mondal@mfgbd.net>, body text 'Revised top & bottom qty', re-attaching 'Carton booking of 2118352_Mia & Sons.xlsx' (style 2118352/LKN26-22, Order No 10097089). This exact style/order was already entered into Flowtech as job 7357/26-N (order 7958) from the thread's prior message (folder 2026-09-22_ripon.mondal_1a0c7e9449, processed 2026-09-22T07:55). Compared the two attachments' 'NKD' worksheet (both also carry an unrelated leftover 'Swing thread (2)' tab, ignored): carton lines (AAA 52 + BBB 103 + CCC 33, all L58xW38xH24cm; Online 13, L58xW38xH20cm) are unchanged, but the TOP+BOTTOM (L52xW32cm) line changed from 298 pcs (as entered on job 7357/26-N) to 402 pcs in this revised sheet -- a genuine quantity revision, matching the email's own description. create_order never revises an existing job, so no new order was drafted and job 7357/26-N was left untouched. This is the thread's latest substantive message (later messages are only Miah & Sons' own 'Received your order' / 'Noted' acknowledgements, no further correction). A human needs to manually revise order 7958 (job 7357/26-N) in Flowtech: change the 'Top Bottom' item / 'Ply 3' spec / A-300-L grade line (L52xW32cm) order quantity from 298 to 402 pcs. Folder marked processed so it is not repeatedly re-flagged."
+    },
+    {
       "folder": "2026-09-22_nahida_1a0c8122ff",
       "folderId": "1e2ILHhcEYAu0QtYU2CdFkudI5T-b1UdG",
       "gmailThreadId": "1a0c8122ff229a9d",
