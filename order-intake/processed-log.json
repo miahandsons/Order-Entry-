@@ -3,6 +3,69 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-22_imran.hossain_1a0c8ef947",
+      "folderId": "1L8Ac-RyKchPKkeaAUO8wrgjXzbeXp3Hd",
+      "gmailThreadId": "1a0c8ef9476cfb32",
+      "processedAt": "2026-09-22T12:50:00Z",
+      "result": "not_order",
+      "reason": "Transcom Distribution Co. Ltd. VAT & AIT deduction statement/challan (Md. Imran Hossain <imran.hossain@tdcl.transcombd.com>, subject 'AIT Challan', attachment 'AIT Challan for Tanvir Printing & Packaging Ind..pdf'). Third-party tax/AIT challan document, not a client order."
+    },
+    {
+      "folder": "2026-09-22_anowar_1a0c90f8ca",
+      "folderId": "17Z7VZ7nWZUUpGSP1fwZSkpJG-e7k2aXg",
+      "gmailThreadId": "1a0c90f8cae45719",
+      "processedAt": "2026-09-22T12:50:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT700 Documentary Credit issuance copy (LC 1335260403508, applicant ACS Textiles (BD) Ltd, beneficiary Miah and Sons Industries Limited, USD 3,498.48, covering existing PI/AT/GPI-22/26-N dated 20.08.2026), forwarded by Anowar Hossain <anowar@acstextiles.com>. Bank/LC correspondence on an already-quoted job, not a new client order."
+    },
+    {
+      "folder": "2026-08-24_packing.lalmai_1a0337a678",
+      "folderId": "1K7xvcYNAoR30U_sb4YZffLJkFs0JU8C2",
+      "gmailThreadId": "1a00920c49b16780",
+      "processedAt": "2026-09-22T12:50:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Lalmai Footwear Limited",
+      "existingJobNumber": "7080/26-N",
+      "existingOrderId": 7646,
+      "note": "Lalmai Footwear Ltd 'Price Quotation for 3ply auto master carton' thread. This folder (Aug 24 message, 'Please see attached official order copy and shipping mark') and its sibling 2026-08-25_packing.lalmai_1a037f4ae5 (Aug 25, 'See attached revised order copy') both cover the same work order W.O/NO-OTL-26080109 (SL.NO.LFL/Vir-01, buyer CALERES) -- read the full Gmail thread and confirmed via Flowtech that this exact order was already entered directly by staff (not via this pipeline) and invoiced as PI/LFL/7080/26-N on 2026-08-25, now job 7080/26-N / order 7646, APPROVED. Not drafted to avoid duplication. This is a distinct, already-completed order, unrelated to this thread's later Sep 22 booking (Vir-02/Vir-03, see below)."
+    },
+    {
+      "folder": "2026-08-25_packing.lalmai_1a037f4ae5",
+      "folderId": "1pUl__mZ_l-hossK7XMza5O4P2zdAWghw",
+      "gmailThreadId": "1a00920c49b16780",
+      "processedAt": "2026-09-22T12:50:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Lalmai Footwear Limited",
+      "existingJobNumber": "7080/26-N",
+      "existingOrderId": 7646,
+      "note": "Revised copy of the same W.O/NO-OTL-26080109 (SL.NO.LFL/Vir-01) work order as sibling folder 2026-08-24_packing.lalmai_1a0337a678 (corrected carton widths on the L-Britley line) -- already entered as job 7080/26-N / order 7646 (APPROVED). Not drafted to avoid duplication."
+    },
+    {
+      "folder": "2026-09-22_packing.lalmai_1a0c900700",
+      "folderId": "1RQuh89G6y59FikSqwvCj5_ydgmKgc0w8",
+      "gmailThreadId": "1a00920c49b16780",
+      "processedAt": "2026-09-22T12:50:00Z",
+      "result": "entered",
+      "partyName": "Lalmai Footwear Limited",
+      "note": "Same 'Price Quotation for 3ply auto master carton' thread as the two folders above, but this Sep 22 message ('Approved your quotation and also order copy') is a brand-new, separate booking -- two new work orders (Vir-02 and Vir-03) approving the updated 14.09.2026 price quotation, unrelated to the already-completed Vir-01 order (job 7080/26-N) covered by the older sibling folders. Read the full Gmail thread end-to-end; this is the thread's final message and nothing later holds/cancels/corrects it. One Flowtech order drafted per work order per this system's convention. Both orders required a same-run correction via update_order: an initial write passed each line's per-piece USD price (as printed on the client's document) directly as unit_price under unit_price_per='Square Meter', which multiplies by squareMeterPerPiece a second time and overstated both totals; caught by cross-checking against the documents' own printed TTL Price totals and corrected by back-solving each line's true $/sqm rate (unit_price = document's per-piece price / that line's squareMeterPerPiece), before any human review. Full defaulted-field summary is in each order's ai_notes.",
+      "orders": [
+        {
+          "workOrderNo": "W.O/NO-OTL-26090146 (SL.NO.LFL/Vir-02)",
+          "orderId": 7962,
+          "jobNumber": "7361/26-N",
+          "totalPrice": 1660.91,
+          "documentTotal": 1660.89
+        },
+        {
+          "workOrderNo": "W.O/NO-OTL-26090147 (SL.NO.LFL/Vir-03)",
+          "orderId": 7963,
+          "jobNumber": "7362/26-N",
+          "totalPrice": 407.86,
+          "documentTotal": 407.78
+        }
+      ]
+    },
+    {
       "folder": "2026-09-22_gulam_1a0c8d2ca3",
       "folderId": "1PhK5RqQD28ktuG81FOo51z-u7kLDLMe5",
       "gmailThreadId": "1a0c8d2ca3d80708",
