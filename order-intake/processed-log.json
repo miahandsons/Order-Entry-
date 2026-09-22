@@ -1404,6 +1404,47 @@
       "jobNumber": "7351/26-N",
       "partyName": "ACS TEXTILES (BD) LTD",
       "note": "Mascot Hoie carton booking PO-21601 (PO#900959, Order No TRIMS/IPO/26/12044), from 'Carton K Po - 21601.pdf' (formal PO, 4 lines by carton size, 940pcs / \u0018.64 total; 'Book7.xlsx' internal working sheet not used as primary source). Single-message thread, no siblings. Checked against Flowtech order history for this party -- no existing order for PO-21601/900959; not a duplicate (a separate PO-21508 for this party was already entered earlier as job 7298/26-N). Item 'Auto Corrugated Master Carton (Printed)'/Ply 5/A-500-L: 4 lines (37x27x34/264pcs/\\/bin/bash.48895, 37x27x21/247pcs/\\/bin/bash.38885, 36x28x37/240pcs/\\/bin/bash.51975, 36x28x25/189pcs/\\/bin/bash.42735), overriding the \\/bin/bash.55/sqm catalog default with this PO's own stated per-piece rates -- matches PDF total exactly. unit_price_per set to 'Order Qty' (not this party's usual 'Square Meter' precedent) because this PO's own Unit Price column is an explicit flat per-piece rate, not a \\$/sqm rate; first attempt under 'Square Meter' mode produced an incorrect total (3.29) because the system multiplies by its own computed sqm/piece, and was corrected via update_order. AI-drafted, IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. ai_notes flags: dimensions 36x28x37/36x28x25 correspond in Book7.xlsx to a different design section ('Amanda - Baltic') than 37x27x34/37x27x21 ('Abelone - Baltic') even though the formal PO groups all 4 under one label 'Abelone set' -- reviewer should confirm design/article breakdown before approval. Gmail thread labeled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-09-22_ripon.mondal_1a0c7e9449",
+      "folderId": "1_9uVhWYraas5U_6CmEdRZecrx2RVsXpr",
+      "gmailThreadId": "1a0c282a775aa761",
+      "processedAt": "2026-09-22T07:55:00Z",
+      "result": "entered",
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "Genuine 'NKD// Bulk Carton booking LKN26-22' from Ripon Mondal, Merchandising Dept, Liberty Knitwear Ltd. Unit-2 (ripon.mondal@mfgbd.net), same gmailThreadId as the 2026-09-21 batch (folder 2026-09-21_ripon.mondal_1a0c282a77, orders 7924-7928, jobs 7333-7337/26-N) but this message is the thread's latest and carries 5 entirely different style/order numbers (2118331, 2118334, 2118337, 2118345, 2118352 vs. the prior batch's 2118233/2118236/2118240/2118323/2118336) -- a genuine new booking within the ongoing thread, not a resend/correction of the already-entered styles, so drafted as new orders per policy. No later thread message holds/cancels/corrects it (thread's own next message after this one, if any, would need rechecking, but this is the last message as of this run). Attaching 5 separate carton-booking sheets (one per style), each its own job, matching this party's established convention (same as the 2026-09-21 batch). All 5 drafted as separate orders 7954-7958 (jobs 7353-7357/26-N), IsAiDrafted=true, OrderStatus DISAPPROVED pending human approval. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-508-L per style: same-dimension lot letters (AAA/BBB[/CCC]) summed into one GSM line per this party's established convention, plus a separate Online line (L58xW38xH20cm). Item 'Top Bottom'/Ply 3/A-300-L per style, qty per the sheet's TOP+BOTTOM row. Style 2118334 uses carton height 22cm (vs 24cm for the other 4 styles) per its own booking sheet -- read correctly, not a typo carried over. ai_notes flags per order: unit_price left at system default (source sheet's Unit Price column was 0/blank); company_bank_id (3, THE PREMIER BANK LTD Kawran Bazar branch -- name alone is ambiguous across 2 branches) and credit_days (120) defaulted from this party's most recent order history; delivery_date (2026-09-25) computed as order_date+3 days per the booking sheet's own delivery-terms clause; delivery_station ('Liberty Knitwear LTD, Unit-2') taken from the covering email; attention set to sender 'Ripon Mondal'; source Order No encoded into each item's style/PO field, lpd_po_no left blank matching this party's recent convention. Gmail thread labeled order-intake/entered-by-ai.",
+      "orders": [
+        {
+          "style": "2118331/LKN26-22",
+          "lpdOrderNo": "10097081",
+          "orderId": 7954,
+          "jobNumber": "7353/26-N"
+        },
+        {
+          "style": "2118334/LKN26-22",
+          "lpdOrderNo": "10097105",
+          "orderId": 7955,
+          "jobNumber": "7354/26-N"
+        },
+        {
+          "style": "2118337/LKN26-22",
+          "lpdOrderNo": "10097082",
+          "orderId": 7956,
+          "jobNumber": "7355/26-N"
+        },
+        {
+          "style": "2118345/LKN26-22",
+          "lpdOrderNo": "10097077",
+          "orderId": 7957,
+          "jobNumber": "7356/26-N"
+        },
+        {
+          "style": "2118352/LKN26-22",
+          "lpdOrderNo": "10097089",
+          "orderId": 7958,
+          "jobNumber": "7357/26-N"
+        }
+      ]
     }
   ]
 }
