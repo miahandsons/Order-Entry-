@@ -1549,6 +1549,14 @@
           "jobNumber": "7357/26-N"
         }
       ]
+    },
+    {
+      "folder": "2026-09-23_suraya.akter_1a0cc54d02",
+      "folderId": "1uSqN7rCd3L1UPNkGOIM-8lvPPEZc_4yN",
+      "gmailThreadId": "1a0c3769f7cd8442",
+      "processedAt": "2026-09-23T03:45:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT707 Documentary Credit amendment advice (LC 411012690959-L, Issuing Bank SCBLBDDXXXX, Amendment No. 002 dated 17-Sep-2026, increasing credit value by USD 11,970.20 to cover Miah & Sons' own additional Proforma Invoices PI/CEI/7164/26-N and PI/CEI/7246/26-N), forwarded by Suraya Akter <suraya.akter@cuttingedgebd.com> (Cutting Edge Ind. Ltd.), subject 'RE: Outstanding value $13,514.21'. Bank/LC amendment correspondence on already-quoted jobs, not a new client order."
     }
   ]
 }
