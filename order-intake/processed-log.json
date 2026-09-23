@@ -1565,6 +1565,14 @@
       "processedAt": "2026-09-23T04:42:00Z",
       "result": "not_order",
       "reason": "Same SWIFT MT707 Documentary Credit amendment advice (LC 411012690959-L, Issuing Bank SCBLBDDXXXX, Amendment No. 002 dated 17-Sep-2026, increasing credit value by USD 11,970.20 to cover PI/CEI/7164/26-N and PI/CEI/7246/26-N) as sibling folder 2026-09-23_suraya.akter_1a0cc54d02, this time forwarded by Alamin <al.amin@cuttingedgebd.com> (Cutting Edge Ind. Ltd.) in a separate single-message thread, subject 'FW: Attaching of \"MIAH AND SONS INDUSTRIES LTD\" LC AMENDMENT copy against LC No.411012690959-L Dated 20-08-2026 ... AM-02'. Bank/LC amendment correspondence on already-quoted jobs, not a new client order."
+    },
+    {
+      "folder": "2026-09-23_sales2_1a0ccf9301",
+      "folderId": "1e_QlPO53iL5trRKih9WET0JRxRNgVi0_",
+      "gmailThreadId": "1a0ccf9301cd1b39",
+      "processedAt": "2026-09-23T06:45:00Z",
+      "result": "not_order",
+      "reason": "Raw-material import indent from Trade Young International Company Ltd (sales2@tradeyoung.com), subject 'Lee & Man Kraft Liner Paper 140 GSM - Production & Shipment Schedule', attachments '01.Indent Miah and Sons Ind. 77.pdf' (Indent No. TYLM-2026-77, Miah and Sons Industries Limited importing 203 MT of Lee & Man Kraft Liner Paper 140 GSM from Best Eternity Recycle Technology SDN BHD, Malaysia, USD 95,410.00 CFR, L/C at sight), 'Trade Young ERC 2026-27.pdf' (the indenting agent's own Export Registration Certificate) and a Bangladesh Bank circular on agency-commission remittance. This is Miah & Sons' own raw-material procurement (buying paper stock via an indenting agent), not a client ordering cartons from Miah & Sons -- not a client order."
     }
   ]
 }
