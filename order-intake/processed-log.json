@@ -1616,6 +1616,36 @@
       "processedAt": "2026-09-23T09:50:00Z",
       "result": "not_order",
       "reason": "Heinzel Sales (mehedy.hassan@heinzelsales.com, global pulp/paper trader) 'Final Full Set Copy Shipping Docs for 75 MT FBB shipment_LC no 2153262300056' -- raw-material (folding box board) import shipping document set (signed Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, Beneficiary's Certificates, Shipment Advice) addressed to Miah & Sons as the LC applicant/importer for its own paper-stock purchase. Single-message thread, no siblings. Not a client carton order."
+    },
+    {
+      "folder": "2026-09-23_ripon.mondal_1a0cda3875",
+      "folderId": "1ArUj6XXXF_pVQF2pCpRU63tSub7B3skt",
+      "gmailThreadId": "1a0cda38754d03db",
+      "processedAt": "2026-09-23T10:50:00Z",
+      "result": "entered",
+      "orderId": 7973,
+      "jobNumber": "7372/26-N",
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "Genuine new carton booking from Ripon Mondal (Liberty Knitwear Ltd. Unit-2 merchandising), 'NKD// Bulk Carton booking LKN26-26(NOS)', attachment 'Carton booking of 573690_Mia & Sons.xlsx' (NKD worksheet; an unrelated leftover 'Swing thread (2)' tab present in the file was ignored, matching this party's prior job 7357/26-N convention). Single-message thread, no siblings/later replies. Style/Order No 573690/LKN26-26 -- no existing Flowtech order found for this order number (distinct from this party's other recent LKN26-21/LKN26-22 bookings). Drafted as Auto Corrugated Printed Master Carton/Ply 5/A-508-L (L58xW38xH20cm x186pcs) + Top Bottom/Ply 3/A-300-L (L52xW32cm x372pcs), both at this party's on-file catalog rate (no unit_price override used, so no risk of the pipeline's known unit_price x squareMeterPerPiece doubling bug). Total $166.53. Full defaulted-field summary in the order's ai_notes. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-23_nahida_1a0cdb9744",
+      "folderId": "1EU_SOFOMSH6AeKpBdh74A7-m7dpMxc9L",
+      "gmailThreadId": "1a0cdb974485833d",
+      "processedAt": "2026-09-23T10:50:00Z",
+      "result": "not_order",
+      "reason": "Premier Bank PLC (Kawran Bazar Branch) LC proceeds-realization transaction vouchers (301.pdf: LC MSIL/PFL/035/2026 USD 387.03; 356.pdf: LC 2969260401767 USD 3,099.64), sent by bank officer Nahida Sultana <nahida@thepremierbankplc.com>, no subject. Bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-23_menhaz.h_1a0cdc15b1",
+      "folderId": "1PVl5t86Oc6F1MhGPiy1NeliluII4MQz7",
+      "gmailThreadId": "1a0cdc15b118810d",
+      "processedAt": "2026-09-23T10:50:00Z",
+      "result": "entered",
+      "orderId": 7974,
+      "jobNumber": "7373/26-N",
+      "partyName": "International Trading Services Ltd.",
+      "note": "Genuine new PO from International Trading Services Ltd. (forwarded by Menhazul Haque <menhaz.h@standardargroup.com> via an internal Standard Group chain, subject 'RE: AEO CARTON ORDER FORM STYLE# 5869 HOL'26 TOTAL 04 PO'), buyer AEO-032, Style 5869 HOL'26, 'TTL 04 PO'. Authoritative source 'Carton booking for S#5869 HOL'26 22-9-2026.xlsx', 5 carton-size lines, document total $417.85. Also opened the 4 accompanying 'SKU ITEM.xls' files (one per PO referenced in 'TOTAL 04 PO') and confirmed they are granular per-SKU/box-ID detail beneath the same 5 carton sizes in the main booking sheet, not 4 separate bookings -- so one Flowtech order was drafted covering all 4 POs, per this pipeline's established aggregation convention (matches this party's near-identical prior booking, job 7338/26-N/order 7929, same 5-dimension grid). No existing Flowtech order found for style 5869. Drafted as Auto Corrugated Printed Master Carton/Ply 3/A-300-I across the 5 dimension lines at this party's on-file catalog rate (no unit_price override -- the catalog rate independently reproduces the document's own stated per-piece prices almost exactly). Written total $417.85 matches the document's own total exactly. Full defaulted-field summary (incl. a flagged delivery-address discrepancy between the formal booking sheet's printed delivery address and the covering email's one-line 'Abdul Mannan Store' remark, and a computed delivery date since none was stated) in the order's ai_notes. Gmail label 'order-intake/entered-by-ai' applied to the thread."
     }
   ]
 }
