@@ -3,6 +3,14 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-23_bgapmea2_1a0cedea68",
+      "folderId": "11-EzDUcJR1tgYTJtG9Jzet3Kav0hjvvz",
+      "gmailThreadId": "1a0cedea686e183a",
+      "processedAt": "2026-09-23T15:41:00Z",
+      "result": "not_order",
+      "reason": "BGAPMEA/BPAMEA association circular (BGAPMEA-2 <bgapmea2@gmail.com>, to undisclosed-recipients) inviting members to nominate participants for a 3-day International APF Training Program on 'Sustainable & Quality Packaging for Local and Global Market' (24-26 Oct 2026, Dhaka), with circular letter, registration form, and brochure attached. Association training notice, not a client order."
+    },
+    {
       "folder": "2026-09-22_imran.hossain_1a0c8ef947",
       "folderId": "1L8Ac-RyKchPKkeaAUO8wrgjXzbeXp3Hd",
       "gmailThreadId": "1a0c8ef9476cfb32",
