@@ -1672,6 +1672,38 @@
       "processedAt": "2026-09-23T12:45:00Z",
       "result": "not_order",
       "reason": "Two-message 'NKD'/'RE: NKD' thread: Miah & Sons sent '573690_Layout.pdf' (NKD Group GmbH, Order 573690, article 1745161, Ladies Legging Nicki, 58x38x20cm carton) to Ripon Mondal (Liberty Knitwear Ltd. Unit-02, ripon.mondal@mfgbd.net) for carton-layout approval, and he replied only 'APPROVED'. No PO, quantity, price, or delivery date anywhere in the thread -- an artwork/layout approval, not a placed order."
+    },
+    {
+      "folder": "2026-08-16_palash_1a00acddf7",
+      "folderId": "1nz-SHec9fvSBluvL_kk_o9Uqu0EZDGuw",
+      "gmailThreadId": "1a00acddf78a5dbc",
+      "processedAt": "2026-09-23T13:45:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT700 Back-to-Back Documentary Credit issuance copy (LC 2971260402606, applicant Eurotex Knitwear Limited, USD 5,529.69, covering existing PI/EKL/6207/26-N), forwarded by Palash <palash@consistbd.com>, subject 'FW: BTB COPY'. Root message of this thread. Bank/LC correspondence on an already-quoted job, not a new client order."
+    },
+    {
+      "folder": "2026-08-19_merchandiser4_1a019356e0",
+      "folderId": "1lpkOZv9GSmEhi3gOq0tOykgzP0zR8BTY",
+      "gmailThreadId": "1a00acddf78a5dbc",
+      "processedAt": "2026-09-23T13:45:00Z",
+      "result": "not_order",
+      "reason": "Same 'FW: BTB COPY' thread as folder 2026-08-16_palash_1a00acddf7 (gmailThreadId 1a00acddf78a5dbc). Duplicate re-forward of the identical SWIFT MT700 Back-to-Back LC copy (LC 2971260402606, USD 5,529.69, PI/EKL/6207/26-N), this time by Samsul Alam <merchandiser4@consistbd.com>. Bank/LC correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-02_palash_1a06280ddd",
+      "folderId": "1txTmMLV7AYxMBXFKHSynQg84e6mFL76M",
+      "gmailThreadId": "1a00acddf78a5dbc",
+      "processedAt": "2026-09-23T13:45:00Z",
+      "result": "not_order",
+      "reason": "Same 'FW: BTB COPY' thread as folder 2026-08-16_palash_1a00acddf7 (gmailThreadId 1a00acddf78a5dbc). Later message forwarding a new/different SWIFT MT700 Back-to-Back LC issuance copy (LC 0000182226041131, applicant Eurotex Knitwear Ltd., USD 9,251.95, covering existing PI/EKL/6863/26-N and PI/EKL/6297/26-N). Bank/LC correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-23_palash_1a0ce75472",
+      "folderId": "1qRDBnSNoiDt2BrMx0ghIRYgTsdDUEsFn",
+      "gmailThreadId": "1a00acddf78a5dbc",
+      "processedAt": "2026-09-23T13:45:00Z",
+      "result": "not_order",
+      "reason": "Same 'FW: BTB COPY' thread as folder 2026-08-16_palash_1a00acddf7 (gmailThreadId 1a00acddf78a5dbc), thread's latest message. Another SWIFT MT700 Back-to-Back LC issuance copy (LC 0000182226041248, applicant Eurotex Knitwear Ltd., USD 3,173.23, covering existing PI/EKL/6761/26-N, PI/EKL/7088/26-N and PI/EKL/GPI-6355/26-N). Bank/LC correspondence, not a client order."
     }
   ]
 }
