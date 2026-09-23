@@ -1581,6 +1581,41 @@
       "processedAt": "2026-09-23T08:45:00Z",
       "result": "not_order",
       "reason": "The Premier Bank PLC (Kawran Bazar Branch) EDF loan settlement vouchers (LC No. 215326230024, A/C 0107-775-786), sent by bank officer Anika Rahman <anika.rahman@thepremierbankplc.com>, subject 'Vouchers', attachments '0107-775-786.pdf' (EDF loan A/C statement, closed by adjustment), 'SETTLEMENT CHARGE.pdf', 'ED-786.pdf' (excise duty), 'MARGIN.pdf', '0107-128-167.....pdf' (debit voucher). Single-message thread, no siblings. Bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-13_akash.s_1a09a23010",
+      "folderId": "1Hlp503PanjgopVrDklICKHtM_jhgl9cG",
+      "gmailThreadId": "1a09a230108c2853",
+      "processedAt": "2026-09-23T09:50:00Z",
+      "result": "superseded",
+      "note": "Root/original message of the 'AEO CARTON BOOKING FOR STYLE-3895-SPR-27' thread (Akash Sutradhar / Standard AR Group, akash.s@standardargroup.com, forwarding Shameem Ahmed's carton booking), 11 POs (1372228-1372232, 1372594-1372597, 1374659, 1374660), style 3895(SPR'27). Superseded by later sibling folder 2026-09-15_akash.s_1a0a346f6c (same thread's PI-issuance/approval reply). Not drafted from directly -- see the thread's most-recent folder for disposition."
+    },
+    {
+      "folder": "2026-09-15_akash.s_1a0a346f6c",
+      "folderId": "1_ldqSjBhLfLi0D9W5uoIHJnz6aZVgGZl",
+      "gmailThreadId": "1a09a230108c2853",
+      "processedAt": "2026-09-23T09:50:00Z",
+      "result": "superseded",
+      "note": "Reply in the same 'AEO CARTON BOOKING FOR STYLE-3895-SPR-27' thread as 2026-09-13_akash.s_1a09a23010, carrying Miah & Sons' own issued PI-ITS-7238-26-N.pdf (Proforma Invoice PI/ITS/7238/26-N) plus the buyer's same-day approval ('PI is ok to proceed & arrange cartoon delivery by 19 September... Logic PO: ITS-TB-26-05640'). Superseded by later sibling folder 2026-09-23_akash.s_1a0cd7d36d (LC-amendment reply, thread's latest message)."
+    },
+    {
+      "folder": "2026-09-23_akash.s_1a0cd7d36d",
+      "folderId": "1D8kwofhf8H0Ftj1otzRO9MiTpjZf2r1E",
+      "gmailThreadId": "1a09a230108c2853",
+      "processedAt": "2026-09-23T09:50:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "International Trading Services Ltd.",
+      "existingJobNumber": "7238/26-N",
+      "existingOrderId": 7804,
+      "note": "Thread's latest message ('AEO CARTON BOOKING FOR STYLE-3895-SPR-27', Akash Sutradhar): forwards LC amendment '1475260409652_AMENDMENT001_22-SEP-2026.pdf' and asks Miah & Sons to confirm receipt and confirm the factory already received the carton delivery -- read the full Gmail thread end-to-end (12 messages incl. 5 unrelated mailer-daemon bounces about a full cc'd inbox); no message holds, cancels or changes quantities/price/delivery. The thread's original Sep-13 booking (folder 2026-09-13_akash.s_1a09a23010, 11 POs) was already entered directly by staff (not via this pipeline) as job 7238/26-N / order 7804 -- exact match on party (International Trading Services Ltd.), buyer AEO, style '3,895(SPR'27)-Logic PO: ITS-TB-26-05640' (matches this thread's Logic PO reference and style exactly), attention 'AKASH SUTRADHAR', delivery date matching the agreed 19-Sept-2026, PiId 6637 = PI/ITS/7238/26-N (the same PI attached to this and the prior sibling folder). APPROVED, IsAiDrafted:0. create_order never revises an existing job, and no revision looks required (only paperwork/LC correspondence in the later messages), so not drafted. Folder marked processed so it isn't repeatedly re-flagged."
+    },
+    {
+      "folder": "2026-09-23_mehedy.hassan_1a0cd6ec05",
+      "folderId": "1PWFUPOoQ77cyFBGv4xHxFo0bzlKXITWM",
+      "gmailThreadId": "1a0cd6ec05b7ddfc",
+      "processedAt": "2026-09-23T09:50:00Z",
+      "result": "not_order",
+      "reason": "Heinzel Sales (mehedy.hassan@heinzelsales.com, global pulp/paper trader) 'Final Full Set Copy Shipping Docs for 75 MT FBB shipment_LC no 2153262300056' -- raw-material (folding box board) import shipping document set (signed Commercial Invoice, Bill of Lading, Packing List, Certificate of Origin, Beneficiary's Certificates, Shipment Advice) addressed to Miah & Sons as the LC applicant/importer for its own paper-stock purchase. Single-message thread, no siblings. Not a client carton order."
     }
   ]
 }
