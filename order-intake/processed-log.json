@@ -1573,6 +1573,14 @@
       "processedAt": "2026-09-23T06:45:00Z",
       "result": "not_order",
       "reason": "Raw-material import indent from Trade Young International Company Ltd (sales2@tradeyoung.com), subject 'Lee & Man Kraft Liner Paper 140 GSM - Production & Shipment Schedule', attachments '01.Indent Miah and Sons Ind. 77.pdf' (Indent No. TYLM-2026-77, Miah and Sons Industries Limited importing 203 MT of Lee & Man Kraft Liner Paper 140 GSM from Best Eternity Recycle Technology SDN BHD, Malaysia, USD 95,410.00 CFR, L/C at sight), 'Trade Young ERC 2026-27.pdf' (the indenting agent's own Export Registration Certificate) and a Bangladesh Bank circular on agency-commission remittance. This is Miah & Sons' own raw-material procurement (buying paper stock via an indenting agent), not a client ordering cartons from Miah & Sons -- not a client order."
+    },
+    {
+      "folder": "2026-09-23_anika.rahman_1a0cd65355",
+      "folderId": "19oer9Uigk-JXgzMhzy9H2uYFkp5NH_hC",
+      "gmailThreadId": "1a0cd653551a14ca",
+      "processedAt": "2026-09-23T08:45:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) EDF loan settlement vouchers (LC No. 215326230024, A/C 0107-775-786), sent by bank officer Anika Rahman <anika.rahman@thepremierbankplc.com>, subject 'Vouchers', attachments '0107-775-786.pdf' (EDF loan A/C statement, closed by adjustment), 'SETTLEMENT CHARGE.pdf', 'ED-786.pdf' (excise duty), 'MARGIN.pdf', '0107-128-167.....pdf' (debit voucher). Single-message thread, no siblings. Bank correspondence, not a client order."
     }
   ]
 }
