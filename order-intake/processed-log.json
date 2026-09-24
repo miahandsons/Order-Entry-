@@ -3,6 +3,22 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_ripon.mondal_1a0d1b6238",
+      "folderId": "1mnMwuf2jTDWnjX4AY7AG7MGnaoCZjWAW",
+      "gmailThreadId": "1a0cca4dd48d7456",
+      "processedAt": "2026-09-24T04:43:00Z",
+      "result": "not_order",
+      "reason": "Thread 'LKN26-22' originated as Miah & Sons' own outgoing message ('Please see the attachment carton layout approval', Designer Md. Mishu) to Ripon Mondal (Liberty Knitwear Ltd. Unit-02), attaching carton shipping-mark/layout PDFs for styles 2118336, 2118236, 2118233, 2118240, 2118323 (NKD Group Ordernummer 10097085). This staged reply is the client's one-word 'APPROVED' of that layout artwork -- no PO, quantity, price, or delivery date anywhere in the thread, only shipping-mark/label approval. Confirmed by reading 2118233_Mia & Sons.pdf: a carton-label spec sheet (article/lot/carton-size), not an order line. Not a client order."
+    },
+    {
+      "folder": "2026-09-24_st13_1a0d19ac45",
+      "folderId": "1OU3htW-7dTKpyN1LzwKzZ67s_TyyZ5t3",
+      "gmailThreadId": "1a0d19ac452bac20",
+      "processedAt": "2026-09-24T04:43:00Z",
+      "result": "not_order",
+      "reason": "Snowtex 13 (Abdur Rahim, st13@snowtex.org), subject 'LC for Richlu-1351260400453' -- 'Please check attached LC for Richlu', forwarding an LC document (1351260400453 AM 03.pdf) plus the already-accepted combined Proforma Invoice PI-SSL-GPI-7141-26-N-updated.pdf (confirmed by reading it: PI/SSL/GPI-7141/26-N, dated 06.09.2026, already 'Accepted By MIAH & SONS INDUSTRIES LTD.'). Bank/LC correspondence on an already-quoted job, not a new client order."
+    },
+    {
       "folder": "2026-09-24_jiangjicheng_1a0d1739fe",
       "folderId": "1B57OejUJC1LwcQ2xUTMoHyFm1DXacl2Q",
       "gmailThreadId": "1a0d1739fe20a7ed",
