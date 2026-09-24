@@ -3,6 +3,30 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_pusanbd_1a0d26b71b",
+      "folderId": "1lqKXTbBiG9yRJZ8Tw6R1ypcPBU7wMODC",
+      "gmailThreadId": "1a0d26b71b8eef92",
+      "processedAt": "2026-09-24T08:42:00Z",
+      "result": "not_order",
+      "reason": "SWIFT MT700 Documentary Credit issuance copy (garbled OCR scan, IMG_0001.pdf) referencing PI/PBL/7096/26-N dated 29.08.2026 and PI/PBL/4352/26-N, beneficiary MIAH AND SONS INDUSTRIES LTD, forwarded by pusanbd@bol-online.com, subject 'RE', single-message thread. Bank/LC correspondence on already-quoted jobs, not a new client order."
+    },
+    {
+      "folder": "2026-09-24_nahida_1a0d280663",
+      "folderId": "1noEaHZ73uZGihWVNx8Aty9wkPBuIxgmm",
+      "gmailThreadId": "1a0d2806632c59e5",
+      "processedAt": "2026-09-24T08:42:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds realization transaction vouchers (245.pdf/311.pdf/359.pdf, LC 2980260400179/1343260400603/1475260404969) forwarded by bank officer Nahida Sultana <nahida@thepremierbankplc.com>, no subject, single-message thread. Bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-24_ppml.mkt_1a0d28bdf3",
+      "folderId": "1Vyhu5czCt4DRhGDdttUWOYn1WTCylbaf",
+      "gmailThreadId": "1a0d28bdf32d6476",
+      "processedAt": "2026-09-24T08:42:00Z",
+      "result": "not_order",
+      "reason": "Padma Paper Mills Ltd. 'Bill-Tanvir 1020' (T. M. Jewel, ppml.mkt@padmagroupbd.com) -- Bill No. D1226-1020 for raw medium-paper stock, addressed to a different customer 'TANVIR PRINTING & PACKAGING INDUSTRIES', not to Miah & Sons. Paper-supplier invoice to a third party, not a client order."
+    },
+    {
       "folder": "2026-09-24_shawan.mer_1a0d2144be",
       "folderId": "10FcOg-l5OYr4Cd3rRcIBjgeGYAYFhiQA",
       "gmailThreadId": "1a0d2144beba2e86",
