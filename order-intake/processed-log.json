@@ -3,6 +3,17 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_mahdi1704.office.bd_1a0d2d62ff",
+      "folderId": "182WU_lgtrsbmTUbqYcXFZHyJwvkIJGR8",
+      "gmailThreadId": "1a0d2d62ff7a3b1d",
+      "processedAt": "2026-09-24T10:56:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "MK Footwear LTD",
+      "existingJobNumber": "7383/26-N",
+      "existingOrderId": 7984,
+      "note": "Genuine PO from MK Footwear Ltd. (Mehedi Hasan <mahdi1704.office.bd@gmail.com>), subject 'PO_Carton_Miah&Sons_MK_Bata-India_70k_24-09-26', 'Please find the attached carton PO of Bata 70k project and send its PI by tomorrow'. Single-message thread plus one later Miah & Sons staff acknowledgement ('Received your order with thanks') that does not hold/cancel/correct it. Read the attached 'PO_Carton_Miah&Sons_MK_Bata-India_70k_24-09-26.xlsx': 60-line CTN purchase order for 70,856 pairs (6,719 pcs carton) across 5 dimension groups (ZC Article Nos F6I0048-F6I0052) for 4 RDC destinations each (Batanagar/Bhiwandi/Jamalpur/Hosur), Bata India project. Checked Flowtech before drafting: an order for this exact party/buyer/style set already exists as job 7383/26-N (OrderId 7984, OrderDate 2026-09-24, IsAiDrafted:0, PI already issued PiId 6792, status APPROVED) -- its 9 GSM lines' dimensions and quantities match this PO's 9 distinct box dimensions and their per-dimension quantity totals exactly (492/1140/553/880/400/120/351/1440/1343 pcs, summing to the PO's own TOTAL 6719), confirming staff already entered this order directly (not via this pipeline) before this automation reached it. Not drafted to avoid duplication; create_order never revises an existing job. No Gmail label applied since nothing was AI-drafted for this thread."
+    },
+    {
       "folder": "2026-09-24_ppml.mkt_1a0d2addc4",
       "folderId": "1wKemJfnKAkFTTviYzuJVygOYOLv4loxJ",
       "gmailThreadId": "1a0d2addc4bb9131",
