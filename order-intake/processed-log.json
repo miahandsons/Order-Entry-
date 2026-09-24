@@ -1839,6 +1839,14 @@
       "processedAt": "2026-09-23T13:45:00Z",
       "result": "not_order",
       "reason": "Same 'FW: BTB COPY' thread as folder 2026-08-16_palash_1a00acddf7 (gmailThreadId 1a00acddf78a5dbc), thread's latest message. Another SWIFT MT700 Back-to-Back LC issuance copy (LC 0000182226041248, applicant Eurotex Knitwear Ltd., USD 3,173.23, covering existing PI/EKL/6761/26-N, PI/EKL/7088/26-N and PI/EKL/GPI-6355/26-N). Bank/LC correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-24_sakibul.islam_1a0d3158ea",
+      "folderId": "1TGuyyVLhyy8DAq4YCF3Hrcd5KrI03oi7",
+      "gmailThreadId": "1a0c8ea473f2d61b",
+      "processedAt": "2026-09-24T11:45:00Z",
+      "result": "not_order",
+      "reason": "Amtranet Merchandising (Sakib Ul Islam <sakibul.islam@amtranet.com>) 'RE: Need Carton sample for style: 3841W4146, Buyer: Tailor Vintage' thread, addressed to Mr. Malek. Original message (Sep 22) asks Miah & Sons to send a sample carton (L20xW12xH08in) for style 3841W4146/buyer Tailor Vintage (PriceSmart), noting layout to follow. This staged reply (Sep 24) attaches the promised 'CUSTOMER-PRICESMART-SHIPPING MARK LAYOUT FORMAT' xlsx and says 'Please send sample carton for final approval before bulk production' -- read the attachment: a shipping-mark print-layout sheet (PO# 17031404, ITEM# 524218, carton spec 5-ply/2-side print, garments/carton quantities given only as production-sizing context) with no bulk order placement, no agreed price, and no bulk delivery date. Pre-production sample/layout approval request, not a placed order. No later messages in thread. Not a client order."
     }
   ]
 }
