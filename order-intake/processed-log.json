@@ -3,6 +3,24 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_merchandiser4_1a0d38ba73",
+      "folderId": "1s9VWUE4l5wMHwkp_YX0SJxA9olS4Q5di",
+      "gmailThreadId": "1a0d38ba737b71d0",
+      "processedAt": "2026-09-24T13:41:00Z",
+      "result": "entered",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "note": "Genuine Texzone Knit Wear Ltd. carton booking (Sabbir Majumder <merchandiser4@texzoneknitwear.com>, subject 'CARTON BOOKING [buyer castro]', 'Attached carton booking for your ref.'), single-message thread, no later replies. 7 separate 'carton work order' xlsx attachments (styles 7441928/29/34/39/40/49/51, PO26004840-46), each drafted as its own order per this party's established one-order-per-PO/style convention (jobs 7268-7276/26-N, 7282/26-N). Item resolved to this party's only catalog entries: 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L for the '5PLY Both side Liner Gum pasting' carton lines (Assortment A + Assortment B, both 44x30x10cm but kept as separate lines per the document's own separate-assortment/side-mark structure, plus Solid 44x30x30cm), and 'Top Bottom'/Ply 3/A-301-L for the TOP BOTTOM line (42x28cm). Quantities read directly from each document's REQUIRED QUANTITY column: PO26004840/41 = A34/B31/Solid30/TB190; PO26004842/43/44/45/46 = A34/B33/Solid30/TB194. buyer_name 'Castro' read from the email subject and matched exactly in the buyer catalog. attention 'SABBIR MAJUMDER', delivery_station 'Texzone Knit Wear', company_bank 'THE PREMIER BANK LTD' (Kawranbazar branch, id 3), and credit_days 90 all defaulted from this party's consistent recent order history (jobs 7268-7276/26-N) -- not stated in the documents or email. order_date taken from each document's own stated 'Date: 22-09-2026' (identical across all 7, treated as a genuine batch-creation date). delivery_date computed as order_date+3 days (2026-09-25) per this party's typical short lead time in recent approved orders -- not stated, flagged for human verification. Each document's 'NEED PERFORATION' remark on its Solid carton line was intentionally left out of every note/notes field (production-facing, reserved for human entry) and instead flagged in each order's ai_notes for reviewer attention. No DIE CUT requested in any document, so no additional work applied. Checked Flowtech before drafting: none of PO26004840-46 or these 7 style numbers matched any existing order for this party (existing orders cover PO26003859/26005083/26005212/26005290-96 only). Gmail label 'order-intake/entered-by-ai' applied to the thread.",
+      "orders": [
+        {"workOrder": "7441928 (PO26004840)", "orderId": 7985, "jobNumber": "7384/26-N", "totalPrice": 66.64},
+        {"workOrder": "7441929 (PO26004841)", "orderId": 7986, "jobNumber": "7385/26-N", "totalPrice": 66.64},
+        {"workOrder": "7441934 (PO26004842)", "orderId": 7987, "jobNumber": "7386/26-N", "totalPrice": 67.9},
+        {"workOrder": "7441939 (PO26004843)", "orderId": 7988, "jobNumber": "7387/26-N", "totalPrice": 67.9},
+        {"workOrder": "7441940 (PO26004844)", "orderId": 7989, "jobNumber": "7388/26-N", "totalPrice": 67.9},
+        {"workOrder": "7441949 (PO26004845)", "orderId": 7990, "jobNumber": "7389/26-N", "totalPrice": 67.9},
+        {"workOrder": "7441951 (PO26004846)", "orderId": 7991, "jobNumber": "7390/26-N", "totalPrice": 67.9}
+      ]
+    },
+    {
       "folder": "2026-09-24_mahdi1704.office.bd_1a0d2d62ff",
       "folderId": "182WU_lgtrsbmTUbqYcXFZHyJwvkIJGR8",
       "gmailThreadId": "1a0d2d62ff7a3b1d",
