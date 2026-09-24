@@ -3,6 +3,36 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_jiangjicheng_1a0d1739fe",
+      "folderId": "1B57OejUJC1LwcQ2xUTMoHyFm1DXacl2Q",
+      "gmailThreadId": "1a0d1739fe20a7ed",
+      "processedAt": "2026-09-24T03:45:00Z",
+      "result": "not_order",
+      "reason": "Raw material supplier PI (Pointer Investment (H.K.) Ltd / Xiamen ITG Paper Corp, jiangjicheng@itg.com.cn), subject 'PI MSITL260901~03 ILIM KRAFTLINER 200MT', quoting kraftliner paper in direct response to Miah & Sons' own outgoing 'Request for PI' (Sep 15, 2026) for raw paper stock. Miah & Sons is the buyer here, not a client carton order."
+    },
+    {
+      "folder": "2026-09-24_toukir.a_1a0d1774e6",
+      "folderId": "15AWnbhtY3aYMJC4lsUdgrRqoyi6RX7rn",
+      "gmailThreadId": "1a0d1774e62f93e6",
+      "processedAt": "2026-09-24T03:45:00Z",
+      "result": "entered",
+      "orderId": 7976,
+      "jobNumber": "7375/26-N",
+      "partyName": "International Trading Services Ltd.",
+      "note": "Genuine AEO carton booking from Toukir Ahammed <toukir.a@standardargroup.com> (Standard Group / International Trading Services Ltd.), subject 'RE: NEED AEO CARTON ORDER ST# 6304.6723.7287.7578.7766', single-message thread, no later replies. Drafted from the authoritative 'Carton booking- Miah & Sons.xlsx' summary sheet (Style 7766.7578.6723.7287.6304, Season SPR-27, buyer AEO, Attention Mariful Rabbi), which aggregates 14 backup per-PO/per-country xls files into 10 non-zero carton-size lines -- matches this party's established one-order-per-style-booking convention (jobs 7286/26-N, 7373/26-N). Item 'Auto Corrugated Printed Master Carton'/Ply 3/A-300-I (this party's only Ply-3 catalog entry). unit_price left unset (system catalog rate $0.74/sqm) to avoid the known unit_price x squareMeterPerPiece doubling bug; system total $1,601.79 vs document's stated $1,601.81 (rounding only). order_date used the actual email date (2026-09-24) since the xlsx's 'Booking date: 09/17/26' field is a stale template value (identical date also appears verbatim in sibling booking for ST#7763). delivery_date (2026-09-30) taken from the covering email. company_bank/credit_days defaulted from this party's recent order history. Full defaulted-field summary in the order's ai_notes. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-24_toukir.a_1a0d17a42e",
+      "folderId": "1IgMtRxlfJF88Nr1rBmT53kINI5h7VFbl",
+      "gmailThreadId": "1a0d17a42ee81ac4",
+      "processedAt": "2026-09-24T03:45:00Z",
+      "result": "entered",
+      "orderId": 7977,
+      "jobNumber": "7376/26-N",
+      "partyName": "International Trading Services Ltd.",
+      "note": "Genuine AEO carton booking from Toukir Ahammed <toukir.a@standardargroup.com> (Standard Group / International Trading Services Ltd.), subject 'RE: NEED AEO CARTON ORDER ST# 7763', single-message thread, no later replies. Drafted from the authoritative 'Carton booking- Miah & Sons.xlsx' summary sheet (Style 7763, Season SPR-27, buyer AEO, Attention Mariful Rabbi), which aggregates 11 backup per-PO/per-country xls files into 8 non-zero carton-size lines -- matches this party's established one-order-per-style-booking convention (jobs 7286/26-N, 7373/26-N, and this same run's sibling job 7375/26-N). Item 'Auto Corrugated Printed Master Carton'/Ply 3/A-300-I (this party's only Ply-3 catalog entry). unit_price left unset (system catalog rate $0.74/sqm) to avoid the known unit_price x squareMeterPerPiece doubling bug; system total $825.68 vs document's stated $826.61 (rounding only). order_date used the actual email date (2026-09-24) since the xlsx's 'Booking date: 09/17/26' field is a stale template value (identical date also appears verbatim in sibling booking for ST#6304.6723.7287.7578.7766). delivery_date (2026-09-30) taken from the covering email. company_bank/credit_days defaulted from this party's recent order history. Full defaulted-field summary in the order's ai_notes. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-23_bgapmea2_1a0cedea68",
       "folderId": "11-EzDUcJR1tgYTJtG9Jzet3Kav0hjvvz",
       "gmailThreadId": "1a0cedea686e183a",
