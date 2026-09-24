@@ -3,6 +3,22 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_ppml.mkt_1a0d2addc4",
+      "folderId": "1wKemJfnKAkFTTviYzuJVygOYOLv4loxJ",
+      "gmailThreadId": "1a0d2addc4bb9131",
+      "processedAt": "2026-09-24T09:42:00Z",
+      "result": "not_order",
+      "reason": "Padma Paper Mills Ltd. 'Bill-Tanvir 1029' (T. M. Jewel, ppml.mkt@padmagroupbd.com) -- Bill No. D1226-1029 for raw medium-paper stock, addressed to a different customer 'TANVIR PRINTING & PACKAGING INDUSTRIES', not to Miah & Sons. Paper-supplier invoice to a third party, not a client order."
+    },
+    {
+      "folder": "2026-09-24_Hitesh.Yadav_1a0d2ba901",
+      "folderId": "1IGkB2aeOKhQTVvafXh0AP-cCvZVQ1mLX",
+      "gmailThreadId": "1a0d2a7d2b800656",
+      "processedAt": "2026-09-24T09:42:00Z",
+      "result": "not_order",
+      "reason": "Agro Tech Foods (BD) Pvt. Ltd./Sundrop Brands 'Quotation & Sample Verification Request – Packaging Material' thread. Read the full Gmail thread: original message (Md. Sakhaoat Hossain) is a prospective new client following a facility visit, asking Miah & Sons to send a representative to inspect samples and 'provide your best commercial quotation' for Inner Cartons (160,000 Pcs) and Master Cartons (10,000 Pcs); this staged reply (Hitesh Yadav, Procurement) only attaches two technical packaging specification sheets ('for detail costing'). No PO, no agreed price, no delivery date -- a quote/costing request from a prospect, not a placed order."
+    },
+    {
       "folder": "2026-09-24_pusanbd_1a0d26b71b",
       "folderId": "1lqKXTbBiG9yRJZ8Tw6R1ypcPBU7wMODC",
       "gmailThreadId": "1a0d26b71b8eef92",
