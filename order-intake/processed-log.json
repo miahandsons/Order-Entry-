@@ -3,6 +3,36 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_shawan.mer_1a0d2144be",
+      "folderId": "10FcOg-l5OYr4Cd3rRcIBjgeGYAYFhiQA",
+      "gmailThreadId": "1a0d2144beba2e86",
+      "processedAt": "2026-09-24T06:50:00Z",
+      "result": "entered",
+      "orderId": 7979,
+      "jobNumber": "7378/26-N",
+      "partyName": "FAIZA INDUSTRIES LTD.",
+      "note": "Genuine Florence Group carton booking (SHAWAN-MERCHANT-CO <shawan.mer@florencegroupbd.com>, 'RE: Buyer-DMR Style- FG-SS27-116FUtg-55, FGSS27119FUtgF0GG, DBSS27-08S, DBSS27-08'), single-message thread. Source 'DMR  Carton Booking 08,8s,116,119.xlsx' lists 4 styles for FAIZA INDUSTRIES LTD./buyer DMR, each with a Carton line and a Top/Bottom line; Booking Qty column used as order_quantity (not the larger running Order Qty column), matching this party's booking-against-a-running-order convention. Carton resolved to this party's only Ply-7 catalog entry 'Semi-Auto Master Carton'/A-712-L (sheet states '7 ply'); Top/Bottom to 'Top Bottom'/Ply 3/A-310-L. order_date from sheet's Booking Date (23 Sep); delivery_date from email's stated delivery request (26 Sep). attention/delivery_station/company_bank/credit_days defaulted from this party's most recent prior order (7818/job 7252/26-N). No sibling/superseding folders, no later thread messages. Gmail label 'order-intake/entered-by-ai' applied."
+    },
+    {
+      "folder": "2026-09-24_merch1_1a0d21a152",
+      "folderId": "1qrfIcNYWZlq4XEH-UQGdize_M4XXQrpZ",
+      "gmailThreadId": "1a0d21a1521709a5",
+      "processedAt": "2026-09-24T06:50:00Z",
+      "result": "entered",
+      "orderId": 7980,
+      "jobNumber": "7379/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Genuine Fountain Garments/Rabab Group carton booking (Saiket <merch1@rababgroup.com>, 'F-NB-171A-4D-CHTH, PO: 35330WE-Carton Booking - Fountain', addressed to Mr. Rabbi), single-message thread. Order data taken from the email body's own size-breakdown table (7 sizes XXS-XXL with L/W/H and CTN qty, matching stated '5 Ply' carton quality) plus a separately-stated 'TOP Board (3 Ply)' line (30x15cm, 1628pcs) -- the attached 'Wal-Mart Carton Layout-R3.pdf' is only a shipping-mark/print-registration layout, not order quantities, so not used as the source. Carton resolved to 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L; TOP Board to 'Top Bottom'/Ply 3/A-306-I, matching this party's established convention for an identically-described line on prior job 7293/26-N (order 7884). buyer_name set to 'Wal-Mart' per the attachment subject and this sender's established convention (job 7293/26-N). delivery_date computed as order_date+1 day per the email's explicit 'ensure partial delivery within Tomorrow' instruction. attention/delivery_station taken from the email itself ('Mr. Saiket', 'Fountain Garments:'); company_bank/credit_days defaulted from this party's most recent prior order (7884/job 7293/26-N). No sibling/superseding folders, no later thread messages, no existing order found for PO 35330WE. Gmail label 'order-intake/entered-by-ai' applied."
+    },
+    {
+      "folder": "2026-09-24_ripon.mondal_1a0d203ec0",
+      "folderId": "1NfaDwilcYhUhfjUo2i53FWvQP3dR_bI8",
+      "gmailThreadId": "1a0cde270927401c",
+      "processedAt": "2026-09-24T06:50:00Z",
+      "result": "not_order",
+      "reason": "Thread originated as Miah & Sons' own outgoing message ('Please see the attachment carton layout approval', Designer Md. Mishu) to Ripon Mondal (Liberty Knitwear Ltd. Unit-02), attaching 5 carton shipping-mark/layout PDFs for NKD Group Ordernummer 10097077/10097081/10097082/10097089/10097105. This staged reply is the client's one-word 'APPROVED' of that layout artwork -- no PO, quantity, price, or delivery date anywhere in the thread, only shipping-mark/label approval. Not a client order."
+    },
+    {
       "folder": "2026-09-24_ripon.mondal_1a0d1b6238",
       "folderId": "1mnMwuf2jTDWnjX4AY7AG7MGnaoCZjWAW",
       "gmailThreadId": "1a0cca4dd48d7456",
