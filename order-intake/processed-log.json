@@ -3,6 +3,39 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-24_planningialt_1a0d3affc0",
+      "folderId": "1PqzJdAEl9xYHrR2t83UaUpJj5Afabpdt",
+      "gmailThreadId": "1a0d3affc0467e77",
+      "processedAt": "2026-09-24T14:45:00Z",
+      "result": "entered",
+      "orderId": 7993,
+      "jobNumber": "7392/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "Genuine formal PO from IALT Footwear Ltd (Dipak, Planning Manager Factory, planningialt@gmail.com), subject 'Issuance of Accessories PO # 165/26 Dt.23/09/2026 for 5 Ply Master Carton 4,709Pcs, A/c: IALT FOOTWEAR LTD. REF #E26063-WDG(UP) / DEICHMANN.', single-message thread, no later replies. Source 'PO-165--26 DM CARTON.pdf' (scanned; Drive's own text extraction returned only CamScanner boilerplate, so read directly as a PDF image): PO NO IFL/FAC/Accessories(165/26), REF E26063-WDG(UP) DEICHMANN/FSDB-26021, Issue Date 23-09-26, three 5-Ply Master Carton lines 43x35x32cm/185, 46x43x32cm/2449, 57x43x32cm/2075 (total 4709pcs); '1% Extra not Payable' allowance (2/12/12pcs) excluded from order_quantity. Companion xlsx is IALT's own footwear-production order detail sheet (shoe sizes/colors), used only to cross-verify the same box sizes/total via its own CTN SUMMARY, not as the order source. Item resolved to this party's only Ply-5 catalog entry 'Auto Corrugated Printed Master Carton'/A-500-L ($0.58/sqm); unit_price left unset to avoid the known unit_price x squareMeterPerPiece doubling bug (PO's own per-box USD amounts are not per-sqm). buyer_name defaulted to 'DEICHMAN' (this party's consistent spelling across all 8 prior DEICHMAN orders) though the document itself writes 'DEICHMANN' (also a valid distinct buyer) -- flagged for human verification. order_date from PO's own Issue Date (23-09-2026); delivery_date = order_date+3 days (26-09-2026), matching this party+buyer's consistent 3-day lead time -- PO only says 'As Per Planning Dept. Required'. attention 'Mr. Dipak' from the email sender, matching precedent. delivery_station taken verbatim from the PO's own 'Place Of Delivery' field. company_bank (THE PREMIER BANK LTD id 3) / credit_days 90 defaulted from this party's history. Sibling PO 164/26 (folder 2026-09-24_planningialt_1a0d3aa018, same batch) drafted separately as job 7391/26-N -- different REF/ART/quantities, not a duplicate. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-24_marketing12_1a0d3abf47",
+      "folderId": "1I5eXin7AI-_GqjRWJYNcMQ4iAVcPHsjy",
+      "gmailThreadId": "1a0d3abf47e3d984",
+      "processedAt": "2026-09-24T14:45:00Z",
+      "result": "entered",
+      "orderId": 7994,
+      "jobNumber": "7393/26-N",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Genuine work order from Needle Drop Ltd (Md Abu Bakkar, marketing12@needledropltd.com), subject \"Work Order for US Polo WM BOY'S Carton-S27 Orders (Style # H-0117,118,120)\", addressed to Mr. Malek, single-message thread, no later replies. Source 'US POLO CARTON BOOKING -H0117,118,120.xlsx': 14 carton-size lines (9 RATIO/hanging sizes + 3 SOLID + 2 ECOM), Booking Qty column totals 12,385pcs matching the sheet's own TOTAL row. Party 'Needle Drop Ltd' -> exact DB match 'NEEDLE DROP LTD.'; buyer 'US Polo' matched against this party's existing order history (jobs 7214/26-N, 7299/26-N). Item/spec/grade resolved by following this party's most recent comparable AI order for this buyer (job 7299/26-N): cartons -> 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L (catalog $0.68/sqm, left unset -- source has no pricing); top/bottom board pieces -> 'Board'/Ply 1/A-000 ($0/sqm), matching the same precedent's convention. Board line quantities taken directly from the sheet's own 'TOP BOTTOM' column per size (already doubled for top+bottom per carton), with matching Top/Bottom Meas dims (35x25cm for 12 sizes, 22x15cm for the 2 ECOM sizes). SCOPE: most rows' own STYLE column lists overlapping subsets of the 3 booked styles with no way to allocate shared-carton quantities to one style, so kept as one combined order/style 'H-0117,118,120' matching the email subject's own scope rather than force-splitting into unverifiable per-style orders -- flagged for reviewer awareness. delivery_date defaulted to order_date+30 days (2026-10-24), matching this exact party+buyer's consistent 30-day lead time across both prior US Polo orders -- not stated anywhere. credit_days 90 / company_bank THE PREMIER BANK LTD (id 3) defaulted from this party's standing default. delivery_station left as '.' matching precedent. attention set to the email's own sender name (Abu Bakkar). unit_price left unset throughout (no pricing in source). Checked Flowtech before drafting: no existing order for styles H-0117/118/120. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-24_planningialt_1a0d3aa018",
+      "folderId": "1hX62A2mpkZMdTPQo4nrvdGO0yU7q7h4T",
+      "gmailThreadId": "1a0d3aa018302977",
+      "processedAt": "2026-09-24T14:45:00Z",
+      "result": "entered",
+      "orderId": 7992,
+      "jobNumber": "7391/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "Genuine formal PO from IALT Footwear Ltd (Dipak, Planning Manager Factory, planningialt@gmail.com), subject 'Issuance of Accessories PO # 164/26 Dt.23/09/2026 for 5 Ply Master Carton 3458 Pcs, A/c: IALT FOOTWEAR LTD. REF #E26060-WDG(UP) / DEICHMANN.', single-message thread, no later replies. Source 'PO-164-26 DM CARTON.pdf' (scanned; Drive's own text extraction returned only CamScanner boilerplate, so read directly as a PDF image): PO NO IFL/FAC/Accessories(164/26), REF E26060-WDG(UP) DEICHMANN/FSDB-26024, Issue Date 23-09-26, three 5-Ply Master Carton lines 43x35x32cm/60, 46x43x32cm/1180, 57x43x32cm/2218 (total 3458pcs); '1% Extra not Payable' allowance (1/7/12pcs) excluded from order_quantity. Companion xlsx is IALT's own footwear-production order detail sheet (shoe sizes/colors), used only to cross-verify the same box sizes/total via its own CTN SUMMARY, not as the order source. Item resolved to this party's only Ply-5 catalog entry 'Auto Corrugated Printed Master Carton'/A-500-L ($0.58/sqm); unit_price left unset to avoid the known unit_price x squareMeterPerPiece doubling bug (PO's own per-box USD amounts are not per-sqm). buyer_name defaulted to 'DEICHMAN' (this party's consistent spelling across all 8 prior DEICHMAN orders) though the document itself writes 'DEICHMANN' (also a valid distinct buyer) -- flagged for human verification. order_date from PO's own Issue Date (23-09-2026); delivery_date = order_date+3 days (26-09-2026), matching this party+buyer's consistent 3-day lead time -- PO only says 'As Per Planning Dept. Required'. attention 'Mr. Dipak' from the email sender, matching precedent. delivery_station taken verbatim from the PO's own 'Place Of Delivery' field. company_bank (THE PREMIER BANK LTD id 3) / credit_days 90 defaulted from this party's history. Sibling PO 165/26 (folder 2026-09-24_planningialt_1a0d3affc0, same batch) drafted separately as job 7392/26-N -- different REF/ART/quantities, not a duplicate. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-24_merchandiser4_1a0d38ba73",
       "folderId": "1s9VWUE4l5wMHwkp_YX0SJxA9olS4Q5di",
       "gmailThreadId": "1a0d38ba737b71d0",
