@@ -3,6 +3,25 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-25_mahdi1704.office.bd_1a0d7381bc",
+      "folderId": "1HQLJ-P6RF5HsbXqJV-Y8G9ts6Q13B-jS",
+      "gmailThreadId": "1a0d7381bc1f5428",
+      "processedAt": "2026-09-25T07:18:00Z",
+      "result": "not_order",
+      "reason": "MK Footwear Ltd. (mahdi1704.office.bd@gmail.com) 'PI-Signed_Carton_Miah&Sons_MKFP_Bata-70k_25-09-26' -- client's signed copy of our own outgoing Proforma Invoice PI/MFL/7383/26-N for the Bata 70k project, sent back as confirmation. Read the full Gmail thread: this reply follows Miah & Sons' own PI email of 2026-09-24 for the already-entered order (job 7383/26-N, order 7984, already recorded as already_in_flowtech on 2026-09-24). Our own outgoing PI/signed confirmation copy, not a new client order."
+    },
+    {
+      "folder": "2026-09-25_rubel.mer_1a0d743b1b",
+      "folderId": "1BhYa3XgMprXlyiDGtS4ihRwAQbHctjKn",
+      "gmailThreadId": "1a0d743b1b6ef971",
+      "processedAt": "2026-09-25T07:18:00Z",
+      "result": "entered",
+      "orderId": 7998,
+      "jobNumber": "7397/26-N",
+      "partyName": "FLORENCE FABRICS LTD.",
+      "note": "Genuine Florence Group carton booking for buyer KIK (rubel.mer@florencegroupbd.com, 'RE: Buyer: KIK _ Carton Booking For Bulk// Alex & Alexa'), a long-running single-message Gmail thread ('RE:' quoting older messages inline back to July 2026, but only one current message in this thread). Party resolved to FLORENCE FABRICS LTD. (team Miah & Son's) by exact match on this sender's prior KIK orders (jobs 6545/26-N, 7242/26-N). Source 'Carton Booking_ Alex & Alexa_KIK.xlsx': 24 distinct PO/color lines across styles ALEX (16 lines, 4 colorways x 4 sub-items) and ALEXA (8 lines, 2 colorways x 4 sub-items), each with a Carton line and a Top&Bottom line. Item/spec/grade resolved to this party's only catalog entries 'Auto Master Carton'/Ply 5/A-508-L and 'Top Bottom'/Ply 3/A-507-L, matching precedent job 6545/26-N. order_quantity taken from the sheet's own CARTON BOOKING QTY / TOP & BOTTOM BOOKING QTY columns. All 16 ALEX lines use the sheet's own stated dimensions (Carton L=40/W=32/H=10cm, Top&Bottom L=36/W=28cm). FLAG FOR REVIEWER: all 8 ALEXA lines (16 GSM entries across both items) have dimensions listed as literal 'TBA' in the source sheet -- not yet finalized by the client; placeholder 1x1(x1)cm used so the write would succeed, must be corrected with real dimensions before approval. delivery_date computed as order_date+3 days (2026-09-28), matching this party+buyer's consistent 3-day lead time (jobs 6545/26-N, 7242/26-N) -- the email itself only requests a sample handover by 26/09/26 before bulk proceeds, so the actual bulk delivery date needs verification. delivery_station taken from the email's own text (Florence Fabrics Ltd., Baimail, Konabari, Gazipur). attention 'Rubel Hossain' from the sender; company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3) and credit_days 90 defaulted from this party's most comparable prior order (job 6545/26-N). Full defaulted-field summary in the order's ai_notes. Checked Flowtech before drafting: no existing order for any of these 12 PO numbers or 6 SAP order numbers. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-25_planningialt_1a0d6e9daf",
       "folderId": "1Hbf3Cl-Y1vC0UerRNHdbk5llIWbq93SX",
       "gmailThreadId": "1a0d6e9daf48d83f",
