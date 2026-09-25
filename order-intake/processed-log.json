@@ -3,6 +3,39 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-25_planningialt_1a0d6e9daf",
+      "folderId": "1Hbf3Cl-Y1vC0UerRNHdbk5llIWbq93SX",
+      "gmailThreadId": "1a0d6e9daf48d83f",
+      "processedAt": "2026-09-25T05:40:00Z",
+      "result": "entered",
+      "orderId": 7995,
+      "jobNumber": "7394/26-N",
+      "partyName": "IALT Footwear Ltd",
+      "note": "Genuine formal PO from IALT Footwear Ltd (Dipak, Planning Manager Factory, planningialt@gmail.com), subject 'Issuance of Accessories PO # 163/26 Dt.24/09/2026 for 5 Ply Master Carton 138 Pcs, A/c: IALT FOOTWEAR LTD. REF #E26061-WDG(UP) / DEICHMANN.', single-message thread, no later replies. Source 'PO-163-26 DM CARTON.pdf' (scanned; Drive's own text extraction returned only CamScanner boilerplate, so read directly as a PDF image): PO NO IFL/FAC/Accessories(163/26), REF E26061-WDG(UP) DEICHMANN/FSDB-26023, ART F253030-26, P/I NO IFL-WDG-26-12, Issue Date 23-09-26, three 5-Ply Master Carton lines 43x35x32cm/25, 46x43x32cm/63, 57x43x32cm/50 (total 138pcs); '1% Extra not Payable' allowance (0/1/1pcs) excluded from order_quantity. Companion xlsx is IALT's own footwear-production order detail sheet, used only to cross-verify the same box sizes/total via its own CTN SUMMARY, not as the order source. Item resolved to this party's only Ply-5 catalog entry 'Auto Corrugated Printed Master Carton'/A-500-L ($0.58/sqm); unit_price left unset to avoid the known unit_price x squareMeterPerPiece doubling bug. buyer_name defaulted to 'DEICHMAN' (this party's consistent spelling across prior DEICHMAN orders, e.g. jobs 7391/26-N, 7392/26-N) though the document itself writes 'DEICHMANN' -- flagged for human verification. order_date from PO's own Issue Date (23-09-2026); delivery_date = order_date+3 days (26-09-2026), matching this party+buyer's consistent 3-day lead time -- PO only says 'As Per Planning Dept. Required'. attention 'Mr. Dipak' from the email sender. delivery_station taken verbatim from the PO's own 'Place Of Delivery' field. company_bank (THE PREMIER BANK LTD id 3) / credit_days 90 defaulted from this party's history. No sibling/superseding Drive folders (distinct gmailThreadId from jobs 7391/26-N, 7392/26-N), no later thread messages. Checked Flowtech before drafting: no existing order for PO 163/26. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-25_merch1_1a0d6f03c1",
+      "folderId": "1SrgxV-HrBPLEIQW14oNfZptUcks6JilX",
+      "gmailThreadId": "1a0d6f03c16ae9ff",
+      "processedAt": "2026-09-25T05:40:00Z",
+      "result": "entered",
+      "orderId": 7996,
+      "jobNumber": "7395/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Genuine Fountain Garments/Rabab Group carton booking (Saiket <merch1@rababgroup.com>, 'F-WNGRL-171-1A-2677,C4-S & R , PO: 34926WF, 34927WF, 34928WF - Carton Booking- Fountain'), single-message thread, no later replies. Order data taken directly from the email body's own table for style 25-C0025-LQ-LTWS (25-WU-WN-2677 C#4), S/R='S', POs 34926WF/34927WF/34928WF combined into one order per this party's established multi-PO-per-order convention (jobs 7291/26-N, 7292/26-N). Carton line: assorted-size pack, 50x46x11cm, 3403pcs (email's own 'CTN Required Qty 1.5% & 2% Pcs' column, taken as-is). Separately-stated 'TOP Board (3 Ply)' line (30x15cm, 6806pcs = 2x carton qty) drafted as a second line, matching precedent on job 7379/26-N. Item resolved to 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L; Top Board to 'Top Bottom'/Ply 3/A-306-I. buyer_name set to 'Wal-Mart' per this style family's established convention (confirmed by sibling same-day folder's attachment 'Rabab & Fountain Printing Layout Buyer: Wal-Mart' for the same style 2677) -- not stated in this email itself. delivery_date computed as order_date+1 day per the email's explicit 'ensure partial delivery within Tomorrow' instruction. attention/delivery_station taken from the email itself; company_bank/credit_days defaulted from this party's most recent prior order (job 7379/26-N). Checked Flowtech before drafting: no existing order for POs 34926WF/34927WF/34928WF. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-25_merch1_1a0d6fdcc8",
+      "folderId": "1HCWdcnZfsKNuulRTirxBnMUBfcgoxdVt",
+      "gmailThreadId": "1a0d6fdcc8a14da9",
+      "processedAt": "2026-09-25T05:40:00Z",
+      "result": "entered",
+      "orderId": 7997,
+      "jobNumber": "7396/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Genuine Fountain Garments/Rabab Group carton booking (Saiket <merch1@rababgroup.com>, 'F-WNGRL-171-1A-2677,C4-S & R , PO: 34929WR, 34930WE- Carton Booking- Fountain'), single-message thread, no later replies. Order data taken directly from the email body's own table for style 25-C0025-LQ-LTWS (25-WU-WN-2677 C#4): 9 'R' rows (PO 34929WR, sizes 5-18, 24/carton) + 9 'COM' rows (PO 34930WE, sizes 5-18, 12/carton) = 18 distinct-dimension carton lines, combined into one order per this party's established multi-PO-per-order convention (jobs 7291/26-N, 7292/26-N; also this run's sibling order for POs 34926-28WF). Each line's order_quantity taken directly from the email's own 'CTN Required Qty 1.5% & 2% Pcs' column. Separately-stated 'TOP Board (3 Ply)' line (30x15cm, 5154pcs = 2x total carton qty of 2577) drafted as a 19th line, matching precedent on job 7379/26-N and this run's sibling order. Item resolved to 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L; Top Board to 'Top Bottom'/Ply 3/A-306-I. Attached 'Wal-Mart Carton Layout-R3.pdf' is only a shipping-mark/print-registration layout (confirms buyer 'Wal-Mart' for this exact style via its own title 'Rabab & Fountain Printing Layout Buyer: Wal-Mart'), not used as an order-quantity source. delivery_date computed as order_date+1 day per the email's explicit 'ensure partial delivery within Tomorrow' instruction. attention/delivery_station taken from the email itself; company_bank/credit_days defaulted from this party's most recent prior order (job 7379/26-N). Checked Flowtech before drafting: no existing order for POs 34929WR/34930WE. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-24_planningialt_1a0d3affc0",
       "folderId": "1PqzJdAEl9xYHrR2t83UaUpJj5Afabpdt",
       "gmailThreadId": "1a0d3affc0467e77",
