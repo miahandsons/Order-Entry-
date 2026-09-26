@@ -3,6 +3,14 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-26_mahdi1704.office.bd_1a0dc4757e",
+      "folderId": "1A3wFrpzeBeOSpECHIvu56nVHG4kgiE3f",
+      "gmailThreadId": "1a0dc4757e8e35ea",
+      "processedAt": "2026-09-26T06:45:00Z",
+      "result": "not_order",
+      "reason": "MK Footwear Ltd. (mahdi1704.office.bd@gmail.com) 'PI-Signed_Carton_Miah&Sons_MKFP_Bata-70k_26-09-26' -- client's re-signed copy (seal+signature both sides) of our own outgoing Proforma Invoice PI/MFL/7383/26-N for the Bata 70k project, sent for LC arrangement. Read the full Gmail thread: same job as the already-entered order (job 7383/26-N, order 7984, recorded already_in_flowtech on 2026-09-24) and the earlier signed-copy resend already marked not_order on 2026-09-25 (folder 2026-09-25_mahdi1704.office.bd_1a0d7381bc). Our own outgoing PI/signed confirmation copy, not a new client order."
+    },
+    {
       "folder": "2026-09-26_m.a.malek4486_1a0dc1ad88",
       "folderId": "16GV96Ap7tLW3fDBWP9MO8aTB6wish4yI",
       "gmailThreadId": "1a0dc1ad886c0ae1",
