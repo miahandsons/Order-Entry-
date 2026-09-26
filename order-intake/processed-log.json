@@ -3,6 +3,17 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-26_motherboxctn_1a0dbca270",
+      "folderId": "1TWM3RPFyzIhlRSFu9yNajkBzUn5dT9e9",
+      "gmailThreadId": "1a0dbca27035df95",
+      "processedAt": "2026-09-26T03:45:00Z",
+      "result": "entered",
+      "orderId": 8000,
+      "jobNumber": "7399/26-N",
+      "partyName": "Rizvi Fashions Ltd.",
+      "note": "Genuine repeat carton booking (motherboxctn@gmail.com / Md. Mostafizur Rahman of Mother Box Packaging & Accessories, booking agent for Rizvi Fashions Ltd, matching this sender's established precedent e.g. jobs 7321/7340/7350/7374/26-N), subject 'Sports Direct (Serbia) Carton booking sheet', single-message thread, no later replies, email body says 'Rizvi new booking'. Source 'Serbia SS27 order carton booking sheet (1).xls': 3 lines, brand lonsdale, buyer Sports Direct, JOB NO 3374/3375/3376, styles 5456/1069, 5454/2011, 5459/7062, item Carton 58x37.5x37.5cm each. Item/spec/grade resolved to this party's only Ply-5 carton catalog entry Auto Master Carton/A-501-L -- confirmed correct by an exact match against this party's own prior order for these identical 3 style refs (job 4603/26-N, OrderId 5130, Feb-2026, APPROVED, fully delivered) -- checked and confirmed this is a genuine repeat/reorder under the same recurring style codes, NOT a duplicate: JOB NO and quantities are entirely different from the Feb order (183/1358/38 pcs delivered then vs 57.75/936.27/9.0 pcs booked now). FLAG FOR REVIEWER -- PRICING ERROR, ORDER TOTAL IS WRONG AND NEEDS MANUAL CORRECTION BEFORE APPROVAL: the source sheet's '$ Unit Price' column (1.186738) is an already-computed effective per-piece rate (= the sheet's own constant 'SQM' column 0.74 x the box's squareMeterPerPiece of 1.6037), not a raw $/sqm rate. This order was mistakenly drafted with unit_price=1.186738 per line, which Flowtech then multiplied again by squareMeterPerPiece (1.6037) internally, producing a doubled effective price (~1.903/piece) and an inflated order total of 908.88 instead of the document's intended 190.32 (qty x 1.186738 per line: line1 58pcsx1.186738=68.53, line2 936pcsx1.186738=1111.11, line3 9pcsx1.186738=10.68). The correct unit_price to send per this system's own unit_price_per=\"Square Meter\" convention is the sheet's 'SQM' column value (0.74) directly, not the '$ Unit Price' column -- this skill's hard rules forbid calling update_order to self-correct, so this was left as drafted (DISAPPROVED, IsAiDrafted) for a human to fix the 3 GSM lines' unit_price to 0.74 in Manage Orders before approving. order_quantity taken from the document's own 'Booking QTY Pcs' column (57.75, 936.27, 9.0 -- Flowtech silently rounded these to integers 58/936/9 on write). delivery_date computed as order_date+1 day (2026-09-27) per the email's explicit 'Goods should be delivery within tomorrow' instruction (booking/email date 2026-09-26). delivery_station defaulted to this party's factory address from the document's own footer (the sheet's own 'Delivery Address' field just restates the party's name, not a real address) -- matches this party's own precedent (job 7374/26-N). attention 'Mr. Mostafizur' taken from the document's own Attn field. company_bank (THE PREMIER BANK LTD id 3) and credit_days 90 defaulted from this exact party+style's own prior order (job 4603/26-N). Second attachment 'SS27 Carton Main Mark Both Long Side Print.pdf' is only a shipping-mark/print layout (brand LONSDALE, same 58x37.5x37.5cm dimension), used only to corroborate brand/dimensions. Checked Flowtech before drafting: no order exists for JOB NO 3374/3375/3376. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-25_mahdi1704.office.bd_1a0d7381bc",
       "folderId": "1HQLJ-P6RF5HsbXqJV-Y8G9ts6Q13B-jS",
       "gmailThreadId": "1a0d7381bc1f5428",
@@ -96,13 +107,48 @@
       "partyName": "TEXZONE KNITWEAR LIMITED",
       "note": "Genuine Texzone Knit Wear Ltd. carton booking (Sabbir Majumder <merchandiser4@texzoneknitwear.com>, subject 'CARTON BOOKING [buyer castro]', 'Attached carton booking for your ref.'), single-message thread, no later replies. 7 separate 'carton work order' xlsx attachments (styles 7441928/29/34/39/40/49/51, PO26004840-46), each drafted as its own order per this party's established one-order-per-PO/style convention (jobs 7268-7276/26-N, 7282/26-N). Item resolved to this party's only catalog entries: 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L for the '5PLY Both side Liner Gum pasting' carton lines (Assortment A + Assortment B, both 44x30x10cm but kept as separate lines per the document's own separate-assortment/side-mark structure, plus Solid 44x30x30cm), and 'Top Bottom'/Ply 3/A-301-L for the TOP BOTTOM line (42x28cm). Quantities read directly from each document's REQUIRED QUANTITY column: PO26004840/41 = A34/B31/Solid30/TB190; PO26004842/43/44/45/46 = A34/B33/Solid30/TB194. buyer_name 'Castro' read from the email subject and matched exactly in the buyer catalog. attention 'SABBIR MAJUMDER', delivery_station 'Texzone Knit Wear', company_bank 'THE PREMIER BANK LTD' (Kawranbazar branch, id 3), and credit_days 90 all defaulted from this party's consistent recent order history (jobs 7268-7276/26-N) -- not stated in the documents or email. order_date taken from each document's own stated 'Date: 22-09-2026' (identical across all 7, treated as a genuine batch-creation date). delivery_date computed as order_date+3 days (2026-09-25) per this party's typical short lead time in recent approved orders -- not stated, flagged for human verification. Each document's 'NEED PERFORATION' remark on its Solid carton line was intentionally left out of every note/notes field (production-facing, reserved for human entry) and instead flagged in each order's ai_notes for reviewer attention. No DIE CUT requested in any document, so no additional work applied. Checked Flowtech before drafting: none of PO26004840-46 or these 7 style numbers matched any existing order for this party (existing orders cover PO26003859/26005083/26005212/26005290-96 only). Gmail label 'order-intake/entered-by-ai' applied to the thread.",
       "orders": [
-        {"workOrder": "7441928 (PO26004840)", "orderId": 7985, "jobNumber": "7384/26-N", "totalPrice": 66.64},
-        {"workOrder": "7441929 (PO26004841)", "orderId": 7986, "jobNumber": "7385/26-N", "totalPrice": 66.64},
-        {"workOrder": "7441934 (PO26004842)", "orderId": 7987, "jobNumber": "7386/26-N", "totalPrice": 67.9},
-        {"workOrder": "7441939 (PO26004843)", "orderId": 7988, "jobNumber": "7387/26-N", "totalPrice": 67.9},
-        {"workOrder": "7441940 (PO26004844)", "orderId": 7989, "jobNumber": "7388/26-N", "totalPrice": 67.9},
-        {"workOrder": "7441949 (PO26004845)", "orderId": 7990, "jobNumber": "7389/26-N", "totalPrice": 67.9},
-        {"workOrder": "7441951 (PO26004846)", "orderId": 7991, "jobNumber": "7390/26-N", "totalPrice": 67.9}
+        {
+          "workOrder": "7441928 (PO26004840)",
+          "orderId": 7985,
+          "jobNumber": "7384/26-N",
+          "totalPrice": 66.64
+        },
+        {
+          "workOrder": "7441929 (PO26004841)",
+          "orderId": 7986,
+          "jobNumber": "7385/26-N",
+          "totalPrice": 66.64
+        },
+        {
+          "workOrder": "7441934 (PO26004842)",
+          "orderId": 7987,
+          "jobNumber": "7386/26-N",
+          "totalPrice": 67.9
+        },
+        {
+          "workOrder": "7441939 (PO26004843)",
+          "orderId": 7988,
+          "jobNumber": "7387/26-N",
+          "totalPrice": 67.9
+        },
+        {
+          "workOrder": "7441940 (PO26004844)",
+          "orderId": 7989,
+          "jobNumber": "7388/26-N",
+          "totalPrice": 67.9
+        },
+        {
+          "workOrder": "7441949 (PO26004845)",
+          "orderId": 7990,
+          "jobNumber": "7389/26-N",
+          "totalPrice": 67.9
+        },
+        {
+          "workOrder": "7441951 (PO26004846)",
+          "orderId": 7991,
+          "jobNumber": "7390/26-N",
+          "totalPrice": 67.9
+        }
       ]
     },
     {
@@ -130,7 +176,7 @@
       "gmailThreadId": "1a0d2a7d2b800656",
       "processedAt": "2026-09-24T09:42:00Z",
       "result": "not_order",
-      "reason": "Agro Tech Foods (BD) Pvt. Ltd./Sundrop Brands 'Quotation & Sample Verification Request – Packaging Material' thread. Read the full Gmail thread: original message (Md. Sakhaoat Hossain) is a prospective new client following a facility visit, asking Miah & Sons to send a representative to inspect samples and 'provide your best commercial quotation' for Inner Cartons (160,000 Pcs) and Master Cartons (10,000 Pcs); this staged reply (Hitesh Yadav, Procurement) only attaches two technical packaging specification sheets ('for detail costing'). No PO, no agreed price, no delivery date -- a quote/costing request from a prospect, not a placed order."
+      "reason": "Agro Tech Foods (BD) Pvt. Ltd./Sundrop Brands 'Quotation & Sample Verification Request \u2013 Packaging Material' thread. Read the full Gmail thread: original message (Md. Sakhaoat Hossain) is a prospective new client following a facility visit, asking Miah & Sons to send a representative to inspect samples and 'provide your best commercial quotation' for Inner Cartons (160,000 Pcs) and Master Cartons (10,000 Pcs); this staged reply (Hitesh Yadav, Procurement) only attaches two technical packaging specification sheets ('for detail costing'). No PO, no agreed price, no delivery date -- a quote/costing request from a prospect, not a placed order."
     },
     {
       "folder": "2026-09-24_pusanbd_1a0d26b71b",
