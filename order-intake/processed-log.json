@@ -3,6 +3,19 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-26_m.a.malek4486_1a0dc1ad88",
+      "folderId": "16GV96Ap7tLW3fDBWP9MO8aTB6wish4yI",
+      "gmailThreadId": "1a0dc1ad886c0ae1",
+      "processedAt": "2026-09-26T06:10:00Z",
+      "result": "entered",
+      "orders": [
+        {"orderId": 8003, "jobNumber": "7402/26-N", "style": "101661"},
+        {"orderId": 8004, "jobNumber": "7403/26-N", "style": "101661CH"}
+      ],
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Genuine carton shipping-mark/booking-qty forward from Shabbir Hussain (Needle Drop Ltd) via m.a.malek4486@gmail.com, subject 'Fwd: FW: BUYER : JEANS FRIFZ # 10161 & # 101661CH CTN MEASUREMENT': 'Please see the attaches Shipping mark with booking qty for Jeans Fritz Customer. Please check and arrange to deliver the carton within 29th Sep.' Single-message thread, no sibling folders. Two attachments ('SHIPPING MARK LAYOUT FOR 101661.xlsx' and '...101661CH.xlsx') covered two distinct Auftragsnummer/order numbers (101661 for Germany buyer Jeans Fritz, 101661CH for Switzerland buyer Jeans Fritz Schweiz AG) -> drafted as two separate orders. Party 'Needle Drop Ltd' -> exact DB match 'NEEDLE DROP LTD.'. Items resolved from the document's own '7 FLY'/'3 FLY' labels: 'Semi-Auto Master Carton'/Ply 7/A-700-I for cartons, 'Top Bottom'/Ply 3/A-300-I for top/bottom board -- dims and CARTON QTY per LOT taken directly from each sheet. FLAG FOR REVIEWER -- BUYER NEEDS MANUAL CORRECTION on both orders: real buyers 'Jeans Fritz' and 'Jeans Fritz Schweiz AG' don't exist in the Buyer table (nor does the party's own name as fallback) -- buyer_name set to placeholder 'No Buyer' on both, matching this automation's precedent (job 7400/26-N); a human must add the real buyers and correct BuyerName before approval. Also flagged: the covering email's plaintext quotes an older, unrelated message (Md. Titu Miah, packing supervisor) with different carton-count math for both order numbers that conflicts with the spreadsheets' own CARTON QTY columns -- spreadsheets used as source per Shabbir Hussain's explicit instruction, conflict left for human reconciliation. An unrelated 'LOT - D' block for a different party (DELICATE KNITWEAR'S LTD, order #80239) appearing identically in both spreadsheets was treated as stray leftover data and not drafted. delivery_date 2026-09-29 per the email's explicit 'deliver...within 29th Sep'. credit_days 90 and company_bank THE PREMIER BANK LTD (id 3) defaulted from this party's standing precedent. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-26_shoebur_1a0dc035a2",
       "folderId": "1SC1QNtN5bIn44HZvGdB0RROkUxP-VoQG",
       "gmailThreadId": "1a0dc035a275f8cb",
