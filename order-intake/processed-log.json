@@ -3,6 +3,17 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-26_sheikhsaleh28_1a0ddbfb69",
+      "folderId": "1En5Nu95h8Nu5oK5T4bfeBvG9sRsafioH",
+      "gmailThreadId": "1a0ddbfb69be3f7c",
+      "processedAt": "2026-09-26T13:45:00Z",
+      "result": "entered",
+      "orderId": 8008,
+      "jobNumber": "7407/26-N",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "note": "Genuine carton booking sheet from Sheikh Saleh Ahmed (Merchandiser, Concord Raiment Wear Limited, sheikhsaleh28@gmail.com), subject 'Carton Booking for Belluna 741912' (subject says style 741912 but body text and attachment both consistently say 741926 -- 741926 used, subject discrepancy flagged for human review), single-message thread, no later replies. Source 'Carton for belluna.xlsx': Buyer Belluna, STYLE CODE BSP27-0001, STYLE 741926, ITEM DETAILS '5 Ply Virgin standard hard carton', Measurements L-62cm W-42cm H-25cm, QTY 20 Pcs. Party resolved to exact DB match 'Concord Raiment Wear Ltd.' (PartyID 303). Item/spec/grade resolved to this party's sole Ply-5 catalog entry 'Auto Corrugated Printed Master Carton'/A-500-L (party's only Ply-5 grade on file) as closest match for the document's '5 Ply Virgin standard hard carton' description -- no exact catalog match exists. Dimensions and qty taken directly from the attachment, corroborated by the covering email's explicit 'Please send me 20 pcs qty by 27th september 2026.' unit_price left unset to use this party's on-file rate (0.65/sqm for A-500-L). FLAG FOR REVIEWER -- BUYER FIELD NEEDS MANUAL CORRECTION: real buyer 'Belluna' does not exist in the Buyer table, nor does the party's own name as a fallback -- buyer_name set to placeholder 'No Buyer'; a human must add 'Belluna' as a real buyer in Manage Data and correct this order's BuyerName before approval. delivery_date (2026-09-27) taken from the email's explicit 'by 27th september 2026' instruction. order_date (2026-09-26) from the email's own date. delivery_station defaulted to the party's own registered address from the email signature (no separate shipping address given), matching precedent job 6842/26-N. attention 'Sheikh Saleh Ahmed' from the email's own sender/signature. company_bank (THE PREMIER BANK LTD, KAWRANBAZAR BRANCH id 3) and credit_days 90 defaulted from this party's most recent prior order (job 7184/26-N, order 7750). NOTE: the email also says 'After Revise Qty we sent you bulk qty. please send PI after full qty day after tomorrow' -- read as a forward-looking reference to a future separate bulk PI/order, not a hold or correction of this 20pcs booking; this booking drafted as-is. Checked Flowtech before drafting: no existing order for style 741926, PO BSP27-0001, or buyer Belluna under this party. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-26_mahdi1704.office.bd_1a0dc4757e",
       "folderId": "1A3wFrpzeBeOSpECHIvu56nVHG4kgiE3f",
       "gmailThreadId": "1a0dc4757e8e35ea",
