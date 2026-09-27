@@ -3,6 +3,33 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-27_yandfmedcommercial_1a0e21a9d9",
+      "folderId": "1MucdTRKCNtMHEmdyQ-67l3c8KZFcafny",
+      "gmailThreadId": "1a0e21a9d9956e6d",
+      "processedAt": "2026-09-27T09:52:00Z",
+      "result": "entered",
+      "orderId": 8028,
+      "jobNumber": "7427/26-N",
+      "partyName": "Y & F Healthcare Ltd.",
+      "note": "Genuine Purchase Order from Y & F (Amit) <yandfmedcommercial@gmail.com> (Y & F Healthcare Ltd, yandfmed@163.com), subject 'YFCT-0050//Miah and Son's// Purchase order for Paper Tubes.', single-message thread, no sibling folders sharing this gmailThreadId. Source 'PO CARTON YFCT-0050.pdf': ORDER NO. YFCT-0050 dated 27-09-2026, item 'Paper Tube' 1500 PCS, Size 3.2 Meter, Unit Price $1.2294/PCS, Amount $1,844.10. Party 'Y & F Healthcare Ltd.' exact DB match (PartyID 83); this party's own precedent job 7204/26-N (Order 7770) used style 'ORDER NO: YFCT-0049' -- same numbering sequence, confirming this is a new/next PO in the same recurring series, not a duplicate. MAJOR FLAG FOR REVIEWER: this party's on-file catalog (get_party_catalog) has only 'Auto Master Carton'/Ply 5/A-529-L and 'Sticker'/Top Bottom-PP/A-000 -- no 'Paper Tube' entry, though Item 'Paper Tube' (ItemID 443, category Carton) exists in the system's global item master and was used once before for a different party (Shoeniverse Footwear Ltd., job 3134/25-N) under specification 'PP'/grade 'A-000'. Per this skill's restriction against creating party master data (add_party_item/add_party_specification/add_party_grade) unattended, this line was drafted using 'Auto Master Carton'/'Ply 5'/'A-529-L' as the closest available proxy (first item in this party's own catalog) purely so the order could be written -- a human must add a real 'Paper Tube' entry (matching the Shoeniverse precedent's spec/grade, or this party's own negotiated terms) to this party's catalog and correct this order's item/spec/grade before approval. unit_price explicitly overridden to $1.2294 (unit_price_per 'Order Qty') to preserve the document's own stated per-piece price/total ($1,844.10 for 1500 pcs) despite the proxy item's real catalog price being $0.86/Square Meter -- create_order returned the expected 'differs from agreed price' warning, consistent with this being an intentional, flagged override; verify pricing again once the item/spec/grade is corrected. Dimensions: length 320cm (converted from the document's stated 'Size: 3.2 Meter' -- the only dimension given); width defaulted to 1 as an inert placeholder -- FLAG FOR REVIEWER, document states no width/diameter for this tube. buyer_name defaulted to 'No Buyer' (not stated; matches this exact party's own consistent precedent across all prior orders). delivery_date computed as order_date+10 days (2026-10-07) per the document's own explicit Notice #4 ('delivered... within 10 days after placing the order'). delivery_station 'Plot no # 157-164, Mongla EPZ, Bagerhat, Bangladesh.' and style/lpd_po_no 'YFCT-0050' taken directly from the document's own 'DELIVERY PLACE'/'ORDER NO.' fields. company_bank (THE PREMIER BANK LTD, id 3) and credit_days 0 defaulted from this exact party's most recent prior order (job 7204/26-N, Order 7770). Checked Flowtech before drafting: no existing order for YFCT-0050 (this party's job history via list_orders tops out at YFCT-0049/job 7204/26-N). Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-27_merch1_1a0e21bcbc",
+      "folderId": "1FjntNRaniO98P10-z-phPVIzgqA_koxg",
+      "gmailThreadId": "1a0e1766632f0f6b",
+      "processedAt": "2026-09-27T09:52:00Z",
+      "result": "not_order",
+      "reason": "Saiket (Fountain Garments/Rabab Group, merch1@rababgroup.com) replying 'Attached layout is okay, please proceed' -- artwork sign-off on Miah & Sons' own carton layout PDF ('Dept_26_Layout_27-09-2026.pdf') for already-entered job 7420/26-N (Order 8021, style 24-Z0039-MA.../24-WU-WN-0945 C#5, PO 34635WF/34636WF). Read the full Gmail thread (gmailThreadId 1a0e1766632f0f6b): no new quantities/PO/price; not a new or corrected order. (Thread's next message after this one, 'Please send PI', is not yet staged as its own Drive folder.)"
+    },
+    {
+      "folder": "2026-09-27_m.a.malek4486_1a0e221797",
+      "folderId": "18q3mdQcQh5gv4DIY7e6pY1CxPcw8nTg-",
+      "gmailThreadId": "1a0e1d698676d5ac",
+      "processedAt": "2026-09-27T09:52:00Z",
+      "result": "not_order",
+      "reason": "M.A. Malek forwarding Amtranet's re-send ('Please ignore previous Mail') of the identical carton booking for style 3841W4146/buyer Tailor Vintage already entered as job 7423/26-N (Order 8024): re-read the re-sent '#CARTON BOOKING #3841W4146  #PRICESMART #GEVL.xlsx' -- Carton Qty 555 pcs @ L20xW12xH08in, Top-Bottom Qty 1110 pcs @ L18xW10.5in, identical to the data already drafted. The only change between the two forwarded messages is the shipping-mark artwork note ('Shipping Mark size will be 25%' -> '30% of total Length & Width of the carton'), which is not part of the drafted order (this skill never writes to shipping-mark/artwork fields). Duplicate resend, not a new or corrected order."
+    },
+    {
       "folder": "2026-09-27_m.a.malek4486_1a0e1d6986",
       "folderId": "1hEKswGnvld4PvFWzDsLxE8cieVsn6MTa",
       "gmailThreadId": "1a0e1d698676d5ac",
