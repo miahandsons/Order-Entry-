@@ -3,6 +3,17 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-27_m.a.malek4486_1a0e1d6986",
+      "folderId": "1hEKswGnvld4PvFWzDsLxE8cieVsn6MTa",
+      "gmailThreadId": "1a0e1d698676d5ac",
+      "processedAt": "2026-09-27T08:55:00Z",
+      "result": "entered",
+      "orderId": 8024,
+      "jobNumber": "7423/26-N",
+      "partyName": "GARMENTS EXPORT VILLAGE LTD.",
+      "note": "Genuine carton booking forwarded by M.A. Malek <m.a.malek4486@gmail.com> from Amtranet Merchandising/Sakib Ul Islam, subject 'Fwd: Carton booking for style: 3841W4146, Buyer: Tailor Vintage'. Single-message thread (older correspondence quoted inline, not separate messages); no later replies/corrections; no sibling folders share this gmailThreadId. Prior staged folder 2026-09-24_sakibul.islam_1a0d3158ea (different gmailThreadId) was only the earlier pre-production sample/layout-approval request for this same style and was correctly marked not_order -- this message is the actual bulk booking that followed. Source '#CARTON BOOKING #3841W4146  #PRICESMART #GEVL.xlsx': Buyer 'TAILOR VINTAGE (PRICESMART)' (matches this exact party's own established buyer spelling in jobs 6689/26-N, 6453/26-N, 6354/26-N, 6277/26-N). Carton Qty 555 pcs at L20xW12xH08 inch; Top-Bottom Qty 1110 pcs (=2x carton qty, matching this party's own established top-bottom-doubling convention). Drafted as Auto Corrugated Printed Master Carton/Ply 5/A-500-L + Top Bottom/Ply 3/A-300-I, matching this exact buyer's own consistent precedent (jobs 6453/26-N, 6689/26-N, 6354/26-N all use this identical pairing), at this party's on-file catalog rate (no unit_price override, document states no price). order_date 2026-09-23 taken from the booking sheet's own 'DATE:' field. delivery_date defaulted to 2026-09-28 (the shipping-mark layout's own 'IN-HOUSE DATE' for the finished garments -- no explicit carton-delivery date was stated) -- FLAG FOR REVIEWER, verify actual required carton delivery date. style '3841W4146' and lpd_po_no '17031404' taken from the documents' own Style/PO# fields. attention 'M A Malek' matches this exact sender and this party's own prior Attention field (job 6354/26-N). company_bank (THE PREMIER BANK LTD, id 3) and credit_days 0 defaulted from this party's recent order history (most recent precedent job 6946/26-N used 0; an older job 6689/26-N used 90 -- verify current terms). delivery_station left as '.' placeholder, not stated. Checked Flowtech before drafting: no existing order for style 3841W4146. Total $406.93. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-27_josim_1a0e1c1659",
       "folderId": "1s_ZuuHYd4N3aTqDBLqJ6IensMjvncwLx",
       "gmailThreadId": "1a0e1c165993c465",
