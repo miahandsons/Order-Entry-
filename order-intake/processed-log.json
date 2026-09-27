@@ -3,6 +3,32 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-27_merch1_1a0e0eb543",
+      "folderId": "1ut-U64g1wB4w6SXDNIlzWkt6x54Xjydw",
+      "gmailThreadId": "1a0d6f03c16ae9ff",
+      "processedAt": "2026-09-27T03:45:00Z",
+      "result": "not_order",
+      "reason": "Saiket (Fountain Garments/Rabab Group, merch1@rababgroup.com) replying 'Attached layout is okay, please proceed' -- approval of the carton shipping-mark/layout artwork (Dept_33_Layout.pdf) Miah & Sons itself sent on 2026-09-26 for style 25-C0025-LQ-LTWS (25-WU-WN-2677 C#4)/Dept.33. Read the full Gmail thread (gmailThreadId 1a0d6f03c16ae9ff): the actual booking for this thread (PO 34926WF/34927WF/34928WF) was already entered as job 7395/26-N (Order 7996, recorded already on 2026-09-25); this reply is just artwork sign-off, no quantities/PO/price, not a new or corrected order."
+    },
+    {
+      "folder": "2026-09-27_sheikhsaleh28_1a0e0de51b",
+      "folderId": "1FgyxupmXxeRyKp5OmcfgZ8rDMF48R0jr",
+      "gmailThreadId": "1a0ddbfb69be3f7c",
+      "processedAt": "2026-09-27T03:45:00Z",
+      "result": "needs_manual_revision",
+      "existingJobNumber": "7407/26-N",
+      "existingOrderId": 8008,
+      "note": "Genuine revised carton booking from Sheikh Saleh Ahmed (Concord Raiment Wear Limited, sheikhsaleh28@gmail.com), 'Re: Carton Booking for Belluna 741912': 'Revised booking is given below.' Source 'Carton for belluna.xlsx' (revised): same party/buyer Belluna, style 741926/PO BSP27-0001, dims L-62 W-42 H-25cm, but QTY of Poly now 50 Pcs -- up from 20 Pcs in the original booking sent the day before in this same thread (2026-09-26_sheikhsaleh28_1a0ddbfb69). That original was already entered into Flowtech as job 7407/26-N (Order 8008, DISAPPROVED, IsAiDrafted:1, PiId 6814, 20 Pcs, no production/delivery yet). Per this skill's sibling-folder rule, create_order never revises an existing job, so this revised 50pcs booking was NOT drafted as a second order to avoid duplication. FLAG FOR REVIEWER -- MANUAL REVISION NEEDED: a human must update job 7407/26-N (Order 8008, OrderGsmId 39789) in Manage Orders to change order_quantity from 20 to 50 Pcs (and its dependent pricing) per this revised booking, before approval. (That existing order still needs its own separately-flagged buyer correction: real buyer 'Belluna' does not exist in the Buyer table, buyer_name was set to placeholder 'No Buyer'.) Folder marked processed so it is not repeatedly re-flagged; not marked NOT_ORDER or SUPERSEDED since it's a genuine correction this skill cannot apply itself."
+    },
+    {
+      "folder": "2026-09-27_m.a.malek4486_1a0e0ea06b",
+      "folderId": "1z6cDRxYw_G-rpowbHjdozRn1a4PS2tuu",
+      "gmailThreadId": "1a0e0ea06bc06aac",
+      "processedAt": "2026-09-27T03:45:00Z",
+      "result": "not_order",
+      "reason": "M.A. Malek (m.a.malek4486@gmail.com) forwarding a TUV Rheinland Bangladesh (Md. Saifullah Arafat, Deputy Manager Sales & Marketing) sales email 'PPWR - Test Requirements and overview', with its Test Application/TRF for EU packaging-material compliance testing (heavy metals: Lead/Cadmium/Mercury/Chromium VI, Azo, Disperse dyes, etc., branded for NEW YORKER) and a per-item USD price quote for the lab tests. A third-party testing lab's service quotation/paperwork addressed for M.A. Malek's own use, not a client carton order to Miah & Sons."
+    },
+    {
       "folder": "2026-09-01_safwan_1a05b9249d",
       "folderId": "1GVTyqhsVRIX-TikLLDcsHJrEyjnZz4JE",
       "gmailThreadId": "1a05b9249db4379f",
