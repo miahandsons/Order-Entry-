@@ -3,6 +3,52 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-27_abdullah.b_1a0e10e261",
+      "folderId": "1Mfe1QmIDq89a6DoGU9OqFbE7mLaR_fVy",
+      "gmailThreadId": "19f1bfc67e5c7bde",
+      "processedAt": "2026-09-27T04:47:00Z",
+      "result": "not_order",
+      "reason": "BGMEA Utilization Declaration amendment (Abdullah All Baki, abdullah.b@standardargroup.com, long-running thread 'Wrapping poly & carton bulk booking of Winter Wholesale - Buyer- Daffah'), attachment 'UD15642025005-036 - WML-10213.pdf': a Bangladesh Garment Manufacturers & Exporters Association bonded-warehouse UD amendment for Wear Mag Limited (Contract No. WML10213), listing Miah & Sons' 5-Ply Master Carton (31x24x21cm, 8546pcs) as a locally-sourced accessory and citing prior back-to-back LC value 1475260409404 = USD4,785.80 -- matches job 6994/26-N's order total exactly. Bank/customs bond paperwork, not a client order."
+    },
+    {
+      "folder": "2026-08-23_abdullah.b_1a02e1e593",
+      "folderId": "1Lk3iJG1EXcF4i74q-D0ZwJ8Vh5lJUbNO",
+      "gmailThreadId": "19f1bfc67e5c7bde",
+      "processedAt": "2026-09-27T04:47:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Wear Mag Limited.",
+      "existingJobNumber": "6994/26-N",
+      "existingOrderId": 7560,
+      "note": "Genuine revised carton booking from Abdullah All Baki (Wear Mag Limited, abdullah.b@standardargroup.com), long-running thread 'Wrapping poly & carton bulk booking of Winter Wholesale - Buyer- Daffah', source 'Bulk Carton booking - 2nd Lot - Buyer - Daffah - Winter Wholesale - (Revise-1) 23.8.xlsx': buyer Daffah, PO BD26-18, 4 carton lines (Child-1 340pcs L30xW22.5xH19.5cm, Child-2 909pcs L31xW24xH21cm, Youth-1 897pcs L35.6xW26.5xH23cm, Youth-2 4284pcs L39.6xW29xH25.5cm) + Wrapping Poly 237KG -- this revision corrected/clarified the Child-1/Child-2 carton dimensions versus the original 2026-08-16 booking (same quantities throughout). Read the full Gmail thread (gmailThreadId 19f1bfc67e5c7bde, 30 messages spanning 2026-07-01 to 2026-09-27): two older sibling folders share this thread and an earlier version of this same 2nd-lot booking -- 2026-08-16_abdullah.b_1a0096ce53 and 2026-08-18_abdullah.b_1a01394636, both marked SUPERSEDED by this folder. Miah & Sons' own reply on 2026-08-18 07:15 had already issued PI-WML-6994-26-N for the initial (pre-revision) booking; after receiving this Revise-1 correction, Miah & Sons replied again on 2026-08-23 11:32 with 'PI-WML-6994-26-N_Revised_Actual pi.pdf'. Flowtech confirms job 6994/26-N (Order 7560, party Wear Mag Limited., buyer Daffah, PO BD26-18) already exists -- APPROVED, IsAiDrafted:0 -- with GSM dimensions and quantities matching this Revise-1 sheet exactly (340pcs @ L30/W22.5/H19.5, 909pcs @ L31/W24/H21, 897pcs @ L35.6/W26.5/H23, 4284pcs @ L39.6/W29/H25.5, 237 Wrapping Poly), confirming staff already entered and revised this order directly before this automation reached the thread. Not drafted to avoid duplication; create_order never revises an existing job. No Gmail label applied since nothing was AI-drafted for this thread."
+    },
+    {
+      "folder": "2026-08-01_abdullah.b_19fbbd425e",
+      "folderId": "1zY9BIeU3P6vUxmlGv4yHXjhnzGgDXWnt",
+      "gmailThreadId": "19f1bfc67e5c7bde",
+      "processedAt": "2026-09-27T04:47:00Z",
+      "result": "not_order",
+      "reason": "Client (abdullah.b@standardargroup.com) re-sending the byte-identical 'Bulk Carton booking - 1st Lot - Buyer - Daffah - Winter Wholesale - (Revise-1).xlsx' already sent in this thread on 2026-07-01 (same buyer Daffah, same 6 lines totalling 21978pcs carton + 700KG wrapping poly) -- no new or changed data. That original booking was already entered directly by staff as job 6253/26-N (Order 6819) the day after the original send (see the 2026-07-01 folder's already_in_flowtech entry). Duplicate resend, not a new or corrected order."
+    },
+    {
+      "folder": "2026-07-16_abdullah.b_19f6995785",
+      "folderId": "10mJwcrOJq_jKZaXAcYKgD45Zi8XsVDME",
+      "gmailThreadId": "19f1bfc67e5c7bde",
+      "processedAt": "2026-09-27T04:47:00Z",
+      "result": "not_order",
+      "reason": "Client (abdullah.b@standardargroup.com) forwarding back Miah & Sons' own outgoing PI (PI-WML-6253-26-N_LC OPENING PI.pdf, buyer Daffah, USD15,807.68) plus a SWIFT LC amendment (1475260406033_AMENDMENT001_13-JUL-2026.pdf, increasing LC value to USD15,807.68 citing PI/WML/6253/26-N) for LC/bank record-keeping. Bank/LC paperwork referencing the already-entered job 6253/26-N, not a new client order."
+    },
+    {
+      "folder": "2026-07-01_abdullah.b_19f1bfc67e",
+      "folderId": "12ytwk5tCOEGfLOQizqLaFHAkPFjPqmvg",
+      "gmailThreadId": "19f1bfc67e5c7bde",
+      "processedAt": "2026-09-27T04:47:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Wear Mag Limited.",
+      "existingJobNumber": "6253/26-N",
+      "existingOrderId": 6819,
+      "note": "Genuine carton+wrapping-poly bulk booking from Abdullah All Baki (Wear Mag Limited, abdullah.b@standardargroup.com), long-running thread 'Wrapping poly & carton bulk booking of Winter Wholesale - Buyer- Daffah' (gmailThreadId 19f1bfc67e5c7bde, 30 messages spanning 2026-07-01 to 2026-09-27 -- this run is the first time this sender's folders have been staged to Drive, so the entire historical thread was reviewed for context). Source 'Bulk Carton booking - 1st Lot - Buyer - Daffah - Winter Wholesale - (Revise-1).xlsx': buyer Daffah Company, style A & D, POs BD26-08/09/10 (Child-1 235pcs, Child-2 610pcs, Youth-1 600pcs, Youth-2 2822pcs, Men's 13300pcs) + PO BD26-12(JOKH) Youth-2 4411pcs, plus Wrapping Poly 700KG. Miah & Sons' own reply the very next day (2026-07-02) already attached 'PI-WML-6253-26-N_LC OPENING PI.pdf' and 'PI-WML-6253-26-N_ACTUAL PI.pdf'. Flowtech confirms job 6253/26-N (Order 6819, party Wear Mag Limited., buyer Daffah) already exists -- APPROVED, IsAiDrafted:0, fully delivered, all 6 GSM lines' quantities matching this sheet exactly (235/610/600/2822/13300/4411pcs carton + 700 wrapping poly, total $15,807.68 matching the PI exactly), confirming staff already entered this order directly, long before this automation reached the thread. Sibling folder 2026-08-01_abdullah.b_19fbbd425e (same thread) is a byte-identical duplicate resend of this exact file, marked not_order. Not drafted to avoid duplication; create_order never revises an existing job. No Gmail label applied since nothing was AI-drafted for this thread."
+    },
+    {
       "folder": "2026-09-27_merch1_1a0e0eb543",
       "folderId": "1ut-U64g1wB4w6SXDNIlzWkt6x54Xjydw",
       "gmailThreadId": "1a0d6f03c16ae9ff",
