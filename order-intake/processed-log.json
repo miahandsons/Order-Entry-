@@ -3,6 +3,22 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-27_ripon.mondal_1a0e27b74b",
+      "folderId": "1khxAWafYLc_Rbpc-H282EOvNCKKBxVzC",
+      "gmailThreadId": "1a0e27b74bdd44e4",
+      "processedAt": "2026-09-27T11:55:00Z",
+      "result": "entered",
+      "partyName": "Liberty Knitwear Ltd.",
+      "orders": [
+        {"orderId": 8037, "jobNumber": "7436/26-N", "style": "2118095/ LKN26-21", "lpdOrderNo": "10097061"},
+        {"orderId": 8038, "jobNumber": "7437/26-N", "style": "2118096/ LKN26-21", "lpdOrderNo": "10097069"},
+        {"orderId": 8039, "jobNumber": "7438/26-N", "style": "2118098/ LKN26-21", "lpdOrderNo": "10097073"},
+        {"orderId": 8040, "jobNumber": "7439/26-N", "style": "2118100/ LKN26-21", "lpdOrderNo": "10097062"},
+        {"orderId": 8041, "jobNumber": "7440/26-N", "style": "2118108/ LKN26-21", "lpdOrderNo": "10097675"}
+      ],
+      "note": "Genuine 'NKD// Bulk Carton booking LKN26-21' from Ripon Mondal (Merchandising Dept, Liberty Knitwear Ltd. Unit-2, ripon.mondal@mfgbd.net), single-message thread, no sibling Drive folders sharing this gmailThreadId, no later replies. 5 attachments, each its own style/Order No (2118095/10097061, 2118096/10097069, 2118098/10097073, 2118100/10097062, 2118108/10097675) -- drafted as 5 separate orders per this party's established one-order-per-style convention (matching prior LKN26-22/LKN26-26 batches, jobs 7333-7337/26-N, 7428-7433/26-N, 7372/26-N). Also staged were 5 matching 'Shipping Mark <style>_Mia & Sons.xls' shipping-mark layout templates -- read only for confirmation, not used as order data. Each booking sheet's own leftover unrelated 'Swing thread (2)' tab was ignored, matching this party's established convention (job 7372/26-N). Party 'Liberty Knitwear Ltd.' exact DB match (PartyId 3); buyer 'NKD' exact match. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-508-L per style: same-dimension lot letters (AAA/BBB[/CCC], all L58xW38xH24cm -- styles 2118100 and 2118108 had only AAA+BBB, no CCC lot) summed into one GSM line per style, plus a separate Online line (20pcs, L58xW38xH20cm, constant across all 5 styles). Item 'Top Bottom'/Ply 3/A-300-L per style, qty taken directly from each sheet's own TOP+BOTTOM row (independently verified as exactly 2x each style's total carton qty, matching this party's established doubling convention). unit_price left unset on every line to use this party's on-file catalog rate (system-computed effective rate $0.875/sqm for the H24cm carton line, $0.822/sqm for the H20cm Online line, $0.037/sqm for Top Bottom) -- every source sheet's own Unit Price column was 0.00/blank. Order-level, same across all 5: company_bank (THE PREMIER BANK LTD, id 3) and credit_days (120) defaulted from this party's most recent order history (jobs 7333-7337/26-N, 7428-7433/26-N); delivery_date (2026-10-01) taken directly from the covering email's own explicit 'Delivery date: 01.10.26' line, overriding the booking sheets' generic 'within 3 Days from release of work order' clause (which would compute to 2026-09-30); delivery_station ('Liberty Knitwear LTD, Unit-2') and attention ('Ripon Mondal') taken from the covering email; each style's own Order No encoded into lpd_po_no and the item's PO field, matching this party's most recent (human-entered) order-entry convention (jobs 7428-7433/26-N) rather than the earlier AI batch's convention of leaving these blank. FLAG FOR REVIEWER: style 2118108's Order No (10097675) is notably out of numeric sequence versus the other 4 styles in this same batch (10097061/62/69/73) -- document gives no other indication it differs in kind, but worth a second look. Checked Flowtech before drafting: list_orders style search '2118' returned all 28 of this party's existing 2118xxx-style orders, none matching any of these 5 new style numbers or Order Nos -- not duplicates. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-27_yandfmedcommercial_1a0e21a9d9",
       "folderId": "1MucdTRKCNtMHEmdyQ-67l3c8KZFcafny",
       "gmailThreadId": "1a0e21a9d9956e6d",
