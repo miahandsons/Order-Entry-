@@ -3,6 +3,28 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-27_merch1_1a0e17b23c",
+      "folderId": "1_CRZSSz0N-vyck__ld5Hik6k4UraowrU",
+      "gmailThreadId": "1a0e17b23ce5b85d",
+      "processedAt": "2026-09-27T07:00:00Z",
+      "result": "entered",
+      "orderId": 8022,
+      "jobNumber": "7421/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Genuine Fountain Garments/Rabab Group carton booking (Saiket <merch1@rababgroup.com>, subject 'F-IT-171-1A-945C5-R & COM , PO: 34637WR, 34638WR, 34633WE, 34634WE- Carton Booking - Fountain'), single-message thread (plus our own 'Order received with thanks' auto-ack), no later corrections/holds. Staged attachment 'Wal-Mart Carton Layout-R3.pdf' was only a shipping-mark/print-registration layout PDF (confirms buyer 'Wal-Mart' via its own title) -- the actual order quantities/dimensions/POs were read from the covering email body's own size-breakdown table, not the attachment, matching this exact sender's established pattern. Style 24-Z0039-MA(24-ZB023-MA & 24-Z0023-MA)-MDWS (24-WU-WN-0945 C#5): 6 'R' rows (PO 34637WR/34638WR, sizes 12M/18M/2T/3T/4T/5T) + 6 'COM' rows (PO 34633WE/34634WE, same 6 sizes) -> 12 separate 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L lines, one per table row (not merged by dimension even where two rows share L/W/H, matching the closer precedent of this exact style family -- jobs 7293/26-N and 7294/26-N, style 945C1 -- over this skill's generic same-dimension-merge convention seen on other parties), each line's style field carrying that row's own PO subset. Separately-stated 'TOP Board (3 Ply)' line (30x15cm, 3282pcs = 2x total carton qty 1641) drafted as a 13th line/item 'Top Bottom'/Ply 3/A-306-I. buyer_name 'Wal-Mart' per this style family's and sender's established convention (jobs 7293/26-N, 7294/26-N, 7395/26-N, 7396/26-N, 7379/26-N), not stated in the email itself. delivery_date computed as order_date+1 day (2026-09-28) per the email's explicit 'ensure partial delivery within Tomorrow' instruction. attention 'Mr. Saiket' and delivery_station 'Fountain Garments:' taken from the email; company_bank (THE PREMIER BANK LTD, Kawranbazar Branch, id 3) and credit_days 90 defaulted from this party's recent order history. unit_price left unset on every line to use this party's on-file catalog rate. Checked Flowtech before drafting: no existing order for POs 34637WR/34638WR/34633WE/34634WE. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-27_merch1_1a0e176663",
+      "folderId": "1re7Kzosq8D69qT6lKDNTpruog2ANayJH",
+      "gmailThreadId": "1a0e1766632f0f6b",
+      "processedAt": "2026-09-27T07:00:00Z",
+      "result": "entered",
+      "orderId": 8021,
+      "jobNumber": "7420/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Genuine Fountain Garments/Rabab Group carton booking (Saiket <merch1@rababgroup.com>, subject 'F-IT-171-1A-945C5-Set , PO: 34635WF, 34636WF- Carton Booking - Fountain'), single-message thread (plus our own 'Order received with thanks' auto-ack), no later corrections/holds. Staged attachment 'Shipping Mark-945.xlsx' was only a blank carton shipping-mark/print-layout template (style/dept text, no order quantities) -- the actual order quantities/dimensions/POs were read from the covering email body's own size-breakdown table instead, matching this exact sender's established pattern. Style 24-Z0039-MA(24-ZB023-MA & 24-Z0023-MA)-MDWS (24-WU-WN-0945 C#5), S/R='S': 7 table rows -> 7 separate 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L lines, one per row (not merged by dimension even where two rows share L/W/H at 58x38x10.5cm [90pcs/322pcs] and 58x38x21cm [382pcs/160pcs], matching the closer precedent of this exact style family -- jobs 7293/26-N and 7294/26-N, style 945C1 -- over this skill's generic same-dimension-merge convention seen on other parties), each line's style field carrying that row's own PO subset (either '34635WF, 34636WF' or '34636WF' alone). Separately-stated 'TOP Board (3 Ply)' line (30x15cm, 4696pcs = 2x total carton qty 2348) drafted as an 8th line/item 'Top Bottom'/Ply 3/A-306-I. buyer_name 'Wal-Mart' per this style family's and sender's established convention (jobs 7293/26-N, 7294/26-N, 7395/26-N, 7396/26-N, 7379/26-N), not stated in the email itself; also corroborated by sibling same-morning folder's attachment 'Rabab & Fountain Printing Layout Buyer: Wal-Mart' for the same style. delivery_date computed as order_date+1 day (2026-09-28) per the email's explicit 'ensure partial delivery within Tomorrow' instruction. attention 'Mr. Saiket' and delivery_station 'Fountain Garments:' taken from the email; company_bank (THE PREMIER BANK LTD, Kawranbazar Branch, id 3) and credit_days 90 defaulted from this party's recent order history. unit_price left unset on every line to use this party's on-file catalog rate. Checked Flowtech before drafting: no existing order for POs 34635WF/34636WF. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-27_josim_1a0e1528c8",
       "folderId": "1fFjbvClRTZYMdCN-lNcen2-6S9hHGhNc",
       "gmailThreadId": "1a0e1528c86b21f7",
