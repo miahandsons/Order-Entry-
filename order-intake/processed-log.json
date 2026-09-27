@@ -3,6 +3,52 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-27_josim_1a0e1528c8",
+      "folderId": "1fFjbvClRTZYMdCN-lNcen2-6S9hHGhNc",
+      "gmailThreadId": "1a0e1528c86b21f7",
+      "processedAt": "2026-09-27T05:50:00Z",
+      "result": "entered",
+      "partyName": "NEXT EXPORT ZONE LTD.",
+      "orders": [
+        {"orderId": 8013, "jobNumber": "7412/26-N", "style": "104929", "po": "PO116140"},
+        {"orderId": 8014, "jobNumber": "7413/26-N", "style": "104929", "po": "PO116136"},
+        {"orderId": 8015, "jobNumber": "7414/26-N", "style": "105694", "po": "PO116139"},
+        {"orderId": 8016, "jobNumber": "7415/26-N", "style": "105694", "po": "PO116135"},
+        {"orderId": 8017, "jobNumber": "7416/26-N", "style": "105058", "po": "PO116137"},
+        {"orderId": 8018, "jobNumber": "7417/26-N", "style": "107493", "po": "PO116138"}
+      ],
+      "note": "Genuine urgent carton booking from Josim Uddin (Next Sourcing Ltd/Next Export Zone Ltd, josim@nextsourcingltd.com, forwarding factory-side sender rasel@nextsourcingltd.com's original), subject 'FW: STARTEX/MCS/AW26/Carton Booking' against 'NEZ: 716', single-message thread, no later replies. 4 xlsx attachments covering 6 distinct style+PO combinations (104929/PO116140, 104929/PO116136, 105694/PO116139, 105694/PO116135, 105058/PO116137, 107493/PO116138) -> drafted as 6 separate orders per this skill's established one-order-per-PO/style convention (jobs 7384-7390/26-N precedent). Party 'NEXT EXPORT ZONE LTD.' exact DB match (PartyID 353); its only catalog items used throughout: 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L (catalog $0.78/sqm) and 'Top Bottom'/Ply 3/A-300-I (catalog $0.38/sqm), matching every sheet's own '5 PLY AUTO' label. Buyer 'STARTEX-AW'26' stated in every sheet does not exist in the Buyer table (nor does the party's own name) -- buyer_name set to placeholder 'No Buyer' on all 6 orders; FLAG FOR REVIEWER -- a human must add 'STARTEX' (or 'STARTEX-AW26') as a real buyer in Manage Data and correct BuyerName on jobs 7412-7417/26-N before approval. unit_price left unset on every GSM line across all 6 orders to use this party's on-file catalog rate rather than the sheets' own '$0.67'-style price columns -- verified each sheet's own Total-Taka-derived effective rate (computed from qty/sqm-per-piece/Total Taka) already closely matches the catalog price (~$0.80/sqm carton vs catalog $0.78, ~$0.39/sqm top-bottom vs catalog $0.38), and using the sheets' price column directly risked the known unit_price x squareMeterPerPiece doubling bug seen on job 7399/26-N -- left unset as the safer choice; a human should verify final pricing at review. order_date (2026-09-27) and delivery_date (2026-09-28) taken verbatim from every sheet's own 'Date:'/'Delivery Date:' fields (identical across the whole batch). attention 'Toriqul' and delivery_station 'Next Export Zone' taken from each sheet's own 'Mr. Toriqul'/'Delivery Address' lines. company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3) and credit_days 90 defaulted from this exact party's most recent prior order (job 6747/26-N, order 7313) -- not stated in these documents. All GSM quantities/dimensions/colors taken directly from each sheet, each order's carton+top-bottom totals verified against that sheet's own 'Total Carton' row. Checked Flowtech before drafting: no existing order for any of PO116135/136/137/138/139/140. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-27_farzana.akter_1a0e135ce8",
+      "folderId": "1sCWOzSIwy04PaM8B5o9ejSz_7YzAJK81",
+      "gmailThreadId": "1a0e135ce8da0b16",
+      "processedAt": "2026-09-27T05:50:00Z",
+      "result": "entered",
+      "partyName": "PARASOLE FOOTWEAR LTD.",
+      "orders": [
+        {"orderId": 8019, "jobNumber": "7418/26-N", "style": "MNAV43GX002L (Grey)", "po": "103534472"},
+        {"orderId": 8020, "jobNumber": "7419/26-N", "style": "MNAV43GX009L (White)", "po": "103534469"}
+      ],
+      "note": "Genuine shoes-box order from Farzana Akter Tanni (Parasole Footwear Limited, sent via farzana.akter@paragon.com.bd), subject 'Shoes Box order for order number -UP226222160', single-message thread, no later replies. 2 xlsx attachments, each a distinct PO under the same Order Number UP226222160 -> drafted as 2 separate orders per this skill's one-order-per-PO convention. Party 'PARASOLE FOOTWEAR LTD.' exact DB match (PartyID 82); item 'Shoe Box'/Ply 3/A-300-I matching the sheets' own 'Shoes Box'/'SOLID' label; buyer 'Up-Top (AVIA)' exact DB match (BuyerID 381) taken directly from each sheet's own 'Buyer :' field. Re-parsed both raw xlsx grids directly (not the flattened text) to correctly map each sheet's per-shoe-size columns back to their own row's stated box dimension: Grey/PO103534472 -> 31x23x12.5cm=216, 32x24x13cm=1140, 34x25x13.5cm=690 (total 2046, matching filename); White/PO103534469 -> 31x23.5x12.5cm=150, 32x24.5x13cm=906, 34x25.5x13.5cm=984 (total 2040, matching filename). Used each sheet's own raw 'Box Qnty' values, not the Total row's +1%-inflated figures -- the sheets' footnote 'Supplier Should Be Provide 1% extra' read as a free production-overage allowance rather than additional paid order quantity, matching precedent (job 7400/26-N excluded a similarly-worded allowance) -- FLAG FOR REVIEWER to confirm this reading. Each sheet also contains 2 unrelated leftover PO blocks (968965-02, 968318-01, different buyers) not matching this order's PO/Order Number, treated as stray reference data. unit_price_per set to 'Order Qty' (not this skill's Square-Meter default) and unit_price explicitly overridden to $0.095/pc on both orders -- both taken from this exact party+buyer's own established convention on its two most recent comparable orders (job 7139/26-N order 7705, job 7225/26-N order 7791), since this item's own catalog entry carries a $0 placeholder price; create_order returned an expected 'differs from agreed price' warning on every line, consistent with this being a known intentional override for this party+item. credit_days 0 and company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3) also defaulted from those same two precedent orders. attention 'Farzana Akter Tanni' matches both the email signature and precedent orders. delivery_station defaulted to the sheet's own letterhead address (precedent orders left this blank; filled here per this skill's default-fill policy). delivery_date computed as order_date+3 days (2026-09-30), matching this exact party+buyer's consistent 3-day lead time on orders 7705/7791 -- not stated anywhere in the email/sheet. Checked Flowtech before drafting: no existing order for Order Number UP226222160 or POs 103534472/103534469. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-27_marketing3_1a0e14540e",
+      "folderId": "1IJGqKpIZiLprZ-1JM6FhpnrklBrzrWlz",
+      "gmailThreadId": "1a0d3abf47e3d984",
+      "processedAt": "2026-09-27T05:50:00Z",
+      "result": "not_order",
+      "reason": "Imran Hossain (NEEDLE DROP LTD, marketing3@needledropltd.com) replying 'Attached layouts are approved to proceed' with a carton shipping-mark/printing-layout PDF -- read the full Gmail thread (gmailThreadId 1a0d3abf47e3d984, 5 messages 2026-09-24 to 2026-09-27): this is the same thread as the already-entered order job 7393/26-N (Order 7994, styles H-0117/118/120), recorded already_entered on 2026-09-24; the intervening messages are acknowledgement, a layout-submission, and now this approval -- no new quantities/PO/price, and no hold/cancel/correction of the entered order. Not a new or corrected order."
+    },
+    {
+      "folder": "2026-09-27_manikgonjpp_1a0e13fc86",
+      "folderId": "1HulfTvKecJ37e7qZtDxlngVhCnLMn_wN",
+      "gmailThreadId": "1a0e13fc86eee010",
+      "processedAt": "2026-09-27T05:50:00Z",
+      "result": "not_order",
+      "reason": "Manikgonj Printers & Packaging (manikgonjpp@gmail.com) 'Bill No-19' -- read the attachment: this is Manikgonj Printers & Packaging's own bill/challans/work order to a separate third-party customer, Tanveer/Tanvir Printing & Packaging Ind. (battery-box carton printing, DOWEDO 120AH/200AH lines), addressed to 'Tanveer Printing & Packaging, Uttara, Dhaka'. Miah & Sons (miahandsons@gmail.com) was only copied on the email alongside the actual customer; not an order to Miah & Sons at all."
+    },
+    {
       "folder": "2026-09-27_abdullah.b_1a0e10e261",
       "folderId": "1Mfe1QmIDq89a6DoGU9OqFbE7mLaR_fVy",
       "gmailThreadId": "19f1bfc67e5c7bde",
