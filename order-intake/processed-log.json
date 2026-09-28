@@ -3,6 +3,31 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-28_gulam_1a0e67e9a0",
+      "folderId": "15JROg5QyJPTZ8CjZC8xAr6Ajkl4XB2F3",
+      "gmailThreadId": "1a0e67e9a03e0fb8",
+      "processedAt": "2026-09-28T06:15:00Z",
+      "result": "entered",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "orders": [
+        {"orderId": 8045, "jobNumber": "7444/26-N", "po": "9001025/09/2026/ACS", "design": "Paris"},
+        {"orderId": 8046, "jobNumber": "7445/26-N", "po": "9001011/09/2026/ACS", "design": "Putever Bomull/Putever Satin"},
+        {"orderId": 8047, "jobNumber": "7446/26-N", "po": "9001012/09/2026/ACS", "design": "Putever Bomull/Putever Satin (Master Carton - Pillow)"}
+      ],
+      "note": "Genuine 'Mascot Hoie ( 21603 ) new booking Carton 3 Po.' from Md. Gulam Mostafa (ACS Textiles, gulam@acstextiles.com), single-message thread, no later replies, no sibling Drive folders sharing this gmailThreadId. Book1.xlsx (3 sheets: Carton/Carton(2)/Master Carton) plus 3 formal 'STORE ITEM PURCHASE ORDER' PDFs, each its own PO under the same client Order No 021603 -- drafted as 3 separate orders per this exact party's established one-order-per-PO convention (jobs 7220/26-N, 7360/26-N). Party 'ACS TEXTILES (BD) LTD' (PartyID 299, team 'Miah & Son's') and buyer 'Mascot Hoie' (BuyerID 401) both exact DB matches. All 3 orders use this party's only 5-ply printed-carton catalog entry 'Auto Corrugated Master Carton (Printed)'/Ply 5/A-500-L (catalog $0.55/sqm); unit_price explicitly overridden per line on every GSM line from each formal PDF's own stated USD/pc rate (all consistent with ~$0.55/sqm at each line's own dimensions), matching this party's established per-line-override convention (job 7360/26-N). Order 1 (PO 9001025, TRIMS/IPO/26/12246, Design Paris): 2 lines, 132 pcs, $45.83. Order 2 (PO 9001011, TRIMS/IPO/26/12247, Design Putever Bomull/Satin): 7 lines, 4225 pcs, $887.28 -- matches Book1.xlsx 'Carton (2)' sheet total exactly. Order 3 (PO 9001012, TRIMS/IPO/26/12248, Design Putever Bomull/Satin Master Carton Only For Pillow): 2 lines, 262 pcs, $356.55 -- matches Book1.xlsx 'Master Carton' sheet total exactly; FLAG FOR REVIEWER -- this party has no separate master-carton item on file, so the same printed-carton item/grade was reused as a proxy for these larger 42x31x60/80cm boxes, verify this is correct. FLAG FOR REVIEWER on all 3 orders: covering email states 'Delivery date : 13/10/2026' but every source document's own 'DELIVERY:' field states 10/10/2026 -- used the email's date per this skill's precedent of the covering email overriding the booking sheet's generic clause; verify the correct date. company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3), credit_days (0), delivery_station (party's registered factory address), and attention ('Md. Golam Mostafa', from each PDF's own 'Prepared by' field) all defaulted from this party's most recent AI-drafted precedent orders (jobs 7288/26-N, 7298/26-N, 7360/26-N). Checked Flowtech before drafting: no existing order for style/Order No 21603 under this party. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-28_tasneempack_1a0e67e295",
+      "folderId": "12c_1qQ4SFGZ2omkQ0Iz_kERpcVGsf179",
+      "gmailThreadId": "1a0e67e2952540eb",
+      "processedAt": "2026-09-28T06:15:00Z",
+      "result": "entered",
+      "orderId": 8048,
+      "jobNumber": "7447/26-N",
+      "partyName": "Tasneem Packages & Accessories",
+      "note": "Genuine 'Auto Carton booking sheet' from Asim Roy (Tasneem Packages & Accessories, tasneempack@gmail.com), single-message thread, no later replies, no sibling Drive folders sharing this gmailThreadId. Source 'Work Order Mia & Sons.xlsx' (a work order FROM Tasneem Packages & Accessories TO Miah & Sons, Attn: Md. Rabbi): 2 lines -- 45x35x30cm/5Ply/500pcs (print, navy blue) and 41x30x26cm/5Ply/1000pcs (no print). Party 'Tasneem Packages & Accessories' exact DB match (PartyID 12); used this party's current live catalog registration (team 'Tanvir Pack', currency 'BDT') rather than its older 2023 order history (13 orders, team 'alvi', currency '$' -- 'alvi' is not a currently valid team). Item 'Auto Master Carton'/Ply 5/grade 'A-505-L' (matching this party's only precedent order, job 147/23-N, over the catalog's other tied-price grade A-502-L). unit_price left unset on both lines (document states no price) to use this party's on-file catalog rate ($0.75). FLAG FOR REVIEWER: this party has no additionalWorkOptions on file, so the document's explicit print/no-print distinction between the 2 lines could not be encoded -- both lines use the same plain item/grade; a human should confirm whether printing needs a separate item/spec or a party-catalog addition. buyer_name defaulted to placeholder 'No Buyer' (BuyerID 9), not stated in the document. delivery_date computed as order_date+3 days (2026-10-01), matching this party's only precedent order's 3-day lead time -- not stated in the document. credit_days defaulted to 0 per this party's current 'Payment by Cash' payment type (overriding the older precedent's stale 90-day term from the different 'alvi' team engagement). company_bank defaulted to 'National Bank Limited' (id 1), matching this party's only precedent order (job 147/23-N). attention 'Md. Rabbi' taken directly from the document's own 'Attn.:' field. delivery_station left as '.' placeholder, not stated. Checked Flowtech before drafting: this party's order history (13 rows) shows no matching size/PO -- document carries no PO number to search by, but no plausible duplicate found. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
       "folder": "2026-09-28_farzana.akter_1a0e5e4fa5",
       "folderId": "1yvKb6H-CjL7HxAtpdaNFbxG3pS4DDZi2",
       "gmailThreadId": "1a0e5e4fa5bff33c",
