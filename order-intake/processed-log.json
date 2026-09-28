@@ -3,6 +3,28 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-28_postmaster_1a0e7607e0",
+      "folderId": "1HhOtMj9uy5kJhKOJ0P1BRQZDiHxCJsxR",
+      "gmailThreadId": "1a0d33a5a081e45a",
+      "processedAt": "2026-09-28T09:45:00Z",
+      "result": "not_order",
+      "reason": "Undeliverable bounce (postmaster@premierbankltd.com, 'Undeliverable: Re: Regarding Overdue Bill of Entry') -- mailbox-full non-delivery report on our own outgoing reply to The Premier Bank PLC's L/C Bill-of-Entry request (thread 'Regarding Overdue Bill of Entry', L/C no. 215326010098). Bank/customs correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-28_ripon.mondal_1a0e6c0eb5",
+      "folderId": "1ea-39RYlRICHshYbPVYCD8_45krM9cXK",
+      "gmailThreadId": "1a0e27b74bdd44e4",
+      "processedAt": "2026-09-28T09:45:00Z",
+      "result": "already_in_flowtech",
+      "partyName": "Liberty Knitwear Ltd.",
+      "existingOrders": [
+        {"orderId": 8051, "jobNumber": "7450/26-N", "style": "2118183/ LKN26-21", "lpdPoNo": "10097677"},
+        {"orderId": 8052, "jobNumber": "7451/26-N", "style": "2118122/ LKN26-21", "lpdPoNo": "10097063"},
+        {"orderId": 8053, "jobNumber": "7452/26-N", "style": "2118170/ LKN26-21", "lpdPoNo": "10097676"}
+      ],
+      "note": "Reply in the ongoing 'NKD// Bulk Carton booking LKN26-21' thread (gmailThreadId 1a0e27b74bdd44e4, message 1a0e6c0eb51b0547, 2026-09-28T06:43:06Z) from Ripon Mondal, carrying 3 new/non-overlapping styles (2118122/Order No 10097063, 2118170/10097676, 2118183/10097677) versus the thread's already-entered 2026-09-27 batch (jobs 7436-7440/26-N, styles 2118095/96/98/100/108) -- matching this exact party's own established precedent (jobs 7353-7357/26-N following 7333-7337/26-N in the analogous LKN26-22 thread) of a later thread message bringing genuinely new styles, not a correction. Read the full Gmail thread: no later hold/cancel/correction after this message (only our own 'Received your order' ack follows). Checked Flowtech before drafting via list_orders (style search per style number): all 3 styles/Order Nos already exist as orders 8051/8052/8053 (jobs 7450/7451/7452/26-N), IsAiDrafted=true, OrderStatus already APPROVED -- same party/buyer/delivery-station/quantities/dimensions/PO as this folder's own source sheets (verified via get_order_details), evidently already drafted and human-approved by a prior/concurrent run of this automation before this folder reached this run's log. No new orders drafted (create_order never revises an existing job and these are not duplicates to create). Folder marked processed so it is not repeatedly re-flagged; not marked NOT_ORDER (it is a genuine order communication) and not marked SUPERSEDED (it is the thread's newest content, already actioned). No Gmail label applied -- nothing new was AI-drafted this run."
+    },
+    {
       "folder": "2026-09-28_tasneempack_1a0e6bd156",
       "folderId": "12Srqvfwp5PllMBbCS-8UmEUrmu_9yGJf",
       "gmailThreadId": "1a0e67e2952540eb",
