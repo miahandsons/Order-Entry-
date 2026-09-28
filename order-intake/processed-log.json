@@ -53,9 +53,24 @@
       "result": "already_in_flowtech",
       "partyName": "Liberty Knitwear Ltd.",
       "existingOrders": [
-        {"orderId": 8051, "jobNumber": "7450/26-N", "style": "2118183/ LKN26-21", "lpdPoNo": "10097677"},
-        {"orderId": 8052, "jobNumber": "7451/26-N", "style": "2118122/ LKN26-21", "lpdPoNo": "10097063"},
-        {"orderId": 8053, "jobNumber": "7452/26-N", "style": "2118170/ LKN26-21", "lpdPoNo": "10097676"}
+        {
+          "orderId": 8051,
+          "jobNumber": "7450/26-N",
+          "style": "2118183/ LKN26-21",
+          "lpdPoNo": "10097677"
+        },
+        {
+          "orderId": 8052,
+          "jobNumber": "7451/26-N",
+          "style": "2118122/ LKN26-21",
+          "lpdPoNo": "10097063"
+        },
+        {
+          "orderId": 8053,
+          "jobNumber": "7452/26-N",
+          "style": "2118170/ LKN26-21",
+          "lpdPoNo": "10097676"
+        }
       ],
       "note": "Reply in the ongoing 'NKD// Bulk Carton booking LKN26-21' thread (gmailThreadId 1a0e27b74bdd44e4, message 1a0e6c0eb51b0547, 2026-09-28T06:43:06Z) from Ripon Mondal, carrying 3 new/non-overlapping styles (2118122/Order No 10097063, 2118170/10097676, 2118183/10097677) versus the thread's already-entered 2026-09-27 batch (jobs 7436-7440/26-N, styles 2118095/96/98/100/108) -- matching this exact party's own established precedent (jobs 7353-7357/26-N following 7333-7337/26-N in the analogous LKN26-22 thread) of a later thread message bringing genuinely new styles, not a correction. Read the full Gmail thread: no later hold/cancel/correction after this message (only our own 'Received your order' ack follows). Checked Flowtech before drafting via list_orders (style search per style number): all 3 styles/Order Nos already exist as orders 8051/8052/8053 (jobs 7450/7451/7452/26-N), IsAiDrafted=true, OrderStatus already APPROVED -- same party/buyer/delivery-station/quantities/dimensions/PO as this folder's own source sheets (verified via get_order_details), evidently already drafted and human-approved by a prior/concurrent run of this automation before this folder reached this run's log. No new orders drafted (create_order never revises an existing job and these are not duplicates to create). Folder marked processed so it is not repeatedly re-flagged; not marked NOT_ORDER (it is a genuine order communication) and not marked SUPERSEDED (it is the thread's newest content, already actioned). No Gmail label applied -- nothing new was AI-drafted this run."
     },
@@ -91,9 +106,24 @@
       "result": "entered",
       "partyName": "ACS TEXTILES (BD) LTD",
       "orders": [
-        {"orderId": 8045, "jobNumber": "7444/26-N", "po": "9001025/09/2026/ACS", "design": "Paris"},
-        {"orderId": 8046, "jobNumber": "7445/26-N", "po": "9001011/09/2026/ACS", "design": "Putever Bomull/Putever Satin"},
-        {"orderId": 8047, "jobNumber": "7446/26-N", "po": "9001012/09/2026/ACS", "design": "Putever Bomull/Putever Satin (Master Carton - Pillow)"}
+        {
+          "orderId": 8045,
+          "jobNumber": "7444/26-N",
+          "po": "9001025/09/2026/ACS",
+          "design": "Paris"
+        },
+        {
+          "orderId": 8046,
+          "jobNumber": "7445/26-N",
+          "po": "9001011/09/2026/ACS",
+          "design": "Putever Bomull/Putever Satin"
+        },
+        {
+          "orderId": 8047,
+          "jobNumber": "7446/26-N",
+          "po": "9001012/09/2026/ACS",
+          "design": "Putever Bomull/Putever Satin (Master Carton - Pillow)"
+        }
       ],
       "note": "Genuine 'Mascot Hoie ( 21603 ) new booking Carton 3 Po.' from Md. Gulam Mostafa (ACS Textiles, gulam@acstextiles.com), single-message thread, no later replies, no sibling Drive folders sharing this gmailThreadId. Book1.xlsx (3 sheets: Carton/Carton(2)/Master Carton) plus 3 formal 'STORE ITEM PURCHASE ORDER' PDFs, each its own PO under the same client Order No 021603 -- drafted as 3 separate orders per this exact party's established one-order-per-PO convention (jobs 7220/26-N, 7360/26-N). Party 'ACS TEXTILES (BD) LTD' (PartyID 299, team 'Miah & Son's') and buyer 'Mascot Hoie' (BuyerID 401) both exact DB matches. All 3 orders use this party's only 5-ply printed-carton catalog entry 'Auto Corrugated Master Carton (Printed)'/Ply 5/A-500-L (catalog $0.55/sqm); unit_price explicitly overridden per line on every GSM line from each formal PDF's own stated USD/pc rate (all consistent with ~$0.55/sqm at each line's own dimensions), matching this party's established per-line-override convention (job 7360/26-N). Order 1 (PO 9001025, TRIMS/IPO/26/12246, Design Paris): 2 lines, 132 pcs, $45.83. Order 2 (PO 9001011, TRIMS/IPO/26/12247, Design Putever Bomull/Satin): 7 lines, 4225 pcs, $887.28 -- matches Book1.xlsx 'Carton (2)' sheet total exactly. Order 3 (PO 9001012, TRIMS/IPO/26/12248, Design Putever Bomull/Satin Master Carton Only For Pillow): 2 lines, 262 pcs, $356.55 -- matches Book1.xlsx 'Master Carton' sheet total exactly; FLAG FOR REVIEWER -- this party has no separate master-carton item on file, so the same printed-carton item/grade was reused as a proxy for these larger 42x31x60/80cm boxes, verify this is correct. FLAG FOR REVIEWER on all 3 orders: covering email states 'Delivery date : 13/10/2026' but every source document's own 'DELIVERY:' field states 10/10/2026 -- used the email's date per this skill's precedent of the covering email overriding the booking sheet's generic clause; verify the correct date. company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3), credit_days (0), delivery_station (party's registered factory address), and attention ('Md. Golam Mostafa', from each PDF's own 'Prepared by' field) all defaulted from this party's most recent AI-drafted precedent orders (jobs 7288/26-N, 7298/26-N, 7360/26-N). Checked Flowtech before drafting: no existing order for style/Order No 21603 under this party. Gmail label 'order-intake/entered-by-ai' applied to the thread."
     },
@@ -137,11 +167,36 @@
       "result": "entered",
       "partyName": "Liberty Knitwear Ltd.",
       "orders": [
-        {"orderId": 8037, "jobNumber": "7436/26-N", "style": "2118095/ LKN26-21", "lpdOrderNo": "10097061"},
-        {"orderId": 8038, "jobNumber": "7437/26-N", "style": "2118096/ LKN26-21", "lpdOrderNo": "10097069"},
-        {"orderId": 8039, "jobNumber": "7438/26-N", "style": "2118098/ LKN26-21", "lpdOrderNo": "10097073"},
-        {"orderId": 8040, "jobNumber": "7439/26-N", "style": "2118100/ LKN26-21", "lpdOrderNo": "10097062"},
-        {"orderId": 8041, "jobNumber": "7440/26-N", "style": "2118108/ LKN26-21", "lpdOrderNo": "10097675"}
+        {
+          "orderId": 8037,
+          "jobNumber": "7436/26-N",
+          "style": "2118095/ LKN26-21",
+          "lpdOrderNo": "10097061"
+        },
+        {
+          "orderId": 8038,
+          "jobNumber": "7437/26-N",
+          "style": "2118096/ LKN26-21",
+          "lpdOrderNo": "10097069"
+        },
+        {
+          "orderId": 8039,
+          "jobNumber": "7438/26-N",
+          "style": "2118098/ LKN26-21",
+          "lpdOrderNo": "10097073"
+        },
+        {
+          "orderId": 8040,
+          "jobNumber": "7439/26-N",
+          "style": "2118100/ LKN26-21",
+          "lpdOrderNo": "10097062"
+        },
+        {
+          "orderId": 8041,
+          "jobNumber": "7440/26-N",
+          "style": "2118108/ LKN26-21",
+          "lpdOrderNo": "10097675"
+        }
       ],
       "note": "Genuine 'NKD// Bulk Carton booking LKN26-21' from Ripon Mondal (Merchandising Dept, Liberty Knitwear Ltd. Unit-2, ripon.mondal@mfgbd.net), single-message thread, no sibling Drive folders sharing this gmailThreadId, no later replies. 5 attachments, each its own style/Order No (2118095/10097061, 2118096/10097069, 2118098/10097073, 2118100/10097062, 2118108/10097675) -- drafted as 5 separate orders per this party's established one-order-per-style convention (matching prior LKN26-22/LKN26-26 batches, jobs 7333-7337/26-N, 7428-7433/26-N, 7372/26-N). Also staged were 5 matching 'Shipping Mark <style>_Mia & Sons.xls' shipping-mark layout templates -- read only for confirmation, not used as order data. Each booking sheet's own leftover unrelated 'Swing thread (2)' tab was ignored, matching this party's established convention (job 7372/26-N). Party 'Liberty Knitwear Ltd.' exact DB match (PartyId 3); buyer 'NKD' exact match. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-508-L per style: same-dimension lot letters (AAA/BBB[/CCC], all L58xW38xH24cm -- styles 2118100 and 2118108 had only AAA+BBB, no CCC lot) summed into one GSM line per style, plus a separate Online line (20pcs, L58xW38xH20cm, constant across all 5 styles). Item 'Top Bottom'/Ply 3/A-300-L per style, qty taken directly from each sheet's own TOP+BOTTOM row (independently verified as exactly 2x each style's total carton qty, matching this party's established doubling convention). unit_price left unset on every line to use this party's on-file catalog rate (system-computed effective rate $0.875/sqm for the H24cm carton line, $0.822/sqm for the H20cm Online line, $0.037/sqm for Top Bottom) -- every source sheet's own Unit Price column was 0.00/blank. Order-level, same across all 5: company_bank (THE PREMIER BANK LTD, id 3) and credit_days (120) defaulted from this party's most recent order history (jobs 7333-7337/26-N, 7428-7433/26-N); delivery_date (2026-10-01) taken directly from the covering email's own explicit 'Delivery date: 01.10.26' line, overriding the booking sheets' generic 'within 3 Days from release of work order' clause (which would compute to 2026-09-30); delivery_station ('Liberty Knitwear LTD, Unit-2') and attention ('Ripon Mondal') taken from the covering email; each style's own Order No encoded into lpd_po_no and the item's PO field, matching this party's most recent (human-entered) order-entry convention (jobs 7428-7433/26-N) rather than the earlier AI batch's convention of leaving these blank. FLAG FOR REVIEWER: style 2118108's Order No (10097675) is notably out of numeric sequence versus the other 4 styles in this same batch (10097061/62/69/73) -- document gives no other indication it differs in kind, but worth a second look. Checked Flowtech before drafting: list_orders style search '2118' returned all 28 of this party's existing 2118xxx-style orders, none matching any of these 5 new style numbers or Order Nos -- not duplicates. Gmail label 'order-intake/entered-by-ai' applied to the thread."
     },
@@ -224,12 +279,42 @@
       "result": "entered",
       "partyName": "NEXT EXPORT ZONE LTD.",
       "orders": [
-        {"orderId": 8013, "jobNumber": "7412/26-N", "style": "104929", "po": "PO116140"},
-        {"orderId": 8014, "jobNumber": "7413/26-N", "style": "104929", "po": "PO116136"},
-        {"orderId": 8015, "jobNumber": "7414/26-N", "style": "105694", "po": "PO116139"},
-        {"orderId": 8016, "jobNumber": "7415/26-N", "style": "105694", "po": "PO116135"},
-        {"orderId": 8017, "jobNumber": "7416/26-N", "style": "105058", "po": "PO116137"},
-        {"orderId": 8018, "jobNumber": "7417/26-N", "style": "107493", "po": "PO116138"}
+        {
+          "orderId": 8013,
+          "jobNumber": "7412/26-N",
+          "style": "104929",
+          "po": "PO116140"
+        },
+        {
+          "orderId": 8014,
+          "jobNumber": "7413/26-N",
+          "style": "104929",
+          "po": "PO116136"
+        },
+        {
+          "orderId": 8015,
+          "jobNumber": "7414/26-N",
+          "style": "105694",
+          "po": "PO116139"
+        },
+        {
+          "orderId": 8016,
+          "jobNumber": "7415/26-N",
+          "style": "105694",
+          "po": "PO116135"
+        },
+        {
+          "orderId": 8017,
+          "jobNumber": "7416/26-N",
+          "style": "105058",
+          "po": "PO116137"
+        },
+        {
+          "orderId": 8018,
+          "jobNumber": "7417/26-N",
+          "style": "107493",
+          "po": "PO116138"
+        }
       ],
       "note": "Genuine urgent carton booking from Josim Uddin (Next Sourcing Ltd/Next Export Zone Ltd, josim@nextsourcingltd.com, forwarding factory-side sender rasel@nextsourcingltd.com's original), subject 'FW: STARTEX/MCS/AW26/Carton Booking' against 'NEZ: 716', single-message thread, no later replies. 4 xlsx attachments covering 6 distinct style+PO combinations (104929/PO116140, 104929/PO116136, 105694/PO116139, 105694/PO116135, 105058/PO116137, 107493/PO116138) -> drafted as 6 separate orders per this skill's established one-order-per-PO/style convention (jobs 7384-7390/26-N precedent). Party 'NEXT EXPORT ZONE LTD.' exact DB match (PartyID 353); its only catalog items used throughout: 'Auto Corrugated Printed Master Carton'/Ply 5/A-500-L (catalog $0.78/sqm) and 'Top Bottom'/Ply 3/A-300-I (catalog $0.38/sqm), matching every sheet's own '5 PLY AUTO' label. Buyer 'STARTEX-AW'26' stated in every sheet does not exist in the Buyer table (nor does the party's own name) -- buyer_name set to placeholder 'No Buyer' on all 6 orders; FLAG FOR REVIEWER -- a human must add 'STARTEX' (or 'STARTEX-AW26') as a real buyer in Manage Data and correct BuyerName on jobs 7412-7417/26-N before approval. unit_price left unset on every GSM line across all 6 orders to use this party's on-file catalog rate rather than the sheets' own '$0.67'-style price columns -- verified each sheet's own Total-Taka-derived effective rate (computed from qty/sqm-per-piece/Total Taka) already closely matches the catalog price (~$0.80/sqm carton vs catalog $0.78, ~$0.39/sqm top-bottom vs catalog $0.38), and using the sheets' price column directly risked the known unit_price x squareMeterPerPiece doubling bug seen on job 7399/26-N -- left unset as the safer choice; a human should verify final pricing at review. order_date (2026-09-27) and delivery_date (2026-09-28) taken verbatim from every sheet's own 'Date:'/'Delivery Date:' fields (identical across the whole batch). attention 'Toriqul' and delivery_station 'Next Export Zone' taken from each sheet's own 'Mr. Toriqul'/'Delivery Address' lines. company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3) and credit_days 90 defaulted from this exact party's most recent prior order (job 6747/26-N, order 7313) -- not stated in these documents. All GSM quantities/dimensions/colors taken directly from each sheet, each order's carton+top-bottom totals verified against that sheet's own 'Total Carton' row. Checked Flowtech before drafting: no existing order for any of PO116135/136/137/138/139/140. Gmail label 'order-intake/entered-by-ai' applied to the thread."
     },
@@ -241,8 +326,18 @@
       "result": "entered",
       "partyName": "PARASOLE FOOTWEAR LTD.",
       "orders": [
-        {"orderId": 8019, "jobNumber": "7418/26-N", "style": "MNAV43GX002L (Grey)", "po": "103534472"},
-        {"orderId": 8020, "jobNumber": "7419/26-N", "style": "MNAV43GX009L (White)", "po": "103534469"}
+        {
+          "orderId": 8019,
+          "jobNumber": "7418/26-N",
+          "style": "MNAV43GX002L (Grey)",
+          "po": "103534472"
+        },
+        {
+          "orderId": 8020,
+          "jobNumber": "7419/26-N",
+          "style": "MNAV43GX009L (White)",
+          "po": "103534469"
+        }
       ],
       "note": "Genuine shoes-box order from Farzana Akter Tanni (Parasole Footwear Limited, sent via farzana.akter@paragon.com.bd), subject 'Shoes Box order for order number -UP226222160', single-message thread, no later replies. 2 xlsx attachments, each a distinct PO under the same Order Number UP226222160 -> drafted as 2 separate orders per this skill's one-order-per-PO convention. Party 'PARASOLE FOOTWEAR LTD.' exact DB match (PartyID 82); item 'Shoe Box'/Ply 3/A-300-I matching the sheets' own 'Shoes Box'/'SOLID' label; buyer 'Up-Top (AVIA)' exact DB match (BuyerID 381) taken directly from each sheet's own 'Buyer :' field. Re-parsed both raw xlsx grids directly (not the flattened text) to correctly map each sheet's per-shoe-size columns back to their own row's stated box dimension: Grey/PO103534472 -> 31x23x12.5cm=216, 32x24x13cm=1140, 34x25x13.5cm=690 (total 2046, matching filename); White/PO103534469 -> 31x23.5x12.5cm=150, 32x24.5x13cm=906, 34x25.5x13.5cm=984 (total 2040, matching filename). Used each sheet's own raw 'Box Qnty' values, not the Total row's +1%-inflated figures -- the sheets' footnote 'Supplier Should Be Provide 1% extra' read as a free production-overage allowance rather than additional paid order quantity, matching precedent (job 7400/26-N excluded a similarly-worded allowance) -- FLAG FOR REVIEWER to confirm this reading. Each sheet also contains 2 unrelated leftover PO blocks (968965-02, 968318-01, different buyers) not matching this order's PO/Order Number, treated as stray reference data. unit_price_per set to 'Order Qty' (not this skill's Square-Meter default) and unit_price explicitly overridden to $0.095/pc on both orders -- both taken from this exact party+buyer's own established convention on its two most recent comparable orders (job 7139/26-N order 7705, job 7225/26-N order 7791), since this item's own catalog entry carries a $0 placeholder price; create_order returned an expected 'differs from agreed price' warning on every line, consistent with this being a known intentional override for this party+item. credit_days 0 and company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3) also defaulted from those same two precedent orders. attention 'Farzana Akter Tanni' matches both the email signature and precedent orders. delivery_station defaulted to the sheet's own letterhead address (precedent orders left this blank; filled here per this skill's default-fill policy). delivery_date computed as order_date+3 days (2026-09-30), matching this exact party+buyer's consistent 3-day lead time on orders 7705/7791 -- not stated anywhere in the email/sheet. Checked Flowtech before drafting: no existing order for Order Number UP226222160 or POs 103534472/103534469. Gmail label 'order-intake/entered-by-ai' applied to the thread."
     },
@@ -2441,6 +2536,17 @@
       "processedAt": "2026-09-24T11:45:00Z",
       "result": "not_order",
       "reason": "Amtranet Merchandising (Sakib Ul Islam <sakibul.islam@amtranet.com>) 'RE: Need Carton sample for style: 3841W4146, Buyer: Tailor Vintage' thread, addressed to Mr. Malek. Original message (Sep 22) asks Miah & Sons to send a sample carton (L20xW12xH08in) for style 3841W4146/buyer Tailor Vintage (PriceSmart), noting layout to follow. This staged reply (Sep 24) attaches the promised 'CUSTOMER-PRICESMART-SHIPPING MARK LAYOUT FORMAT' xlsx and says 'Please send sample carton for final approval before bulk production' -- read the attachment: a shipping-mark print-layout sheet (PO# 17031404, ITEM# 524218, carton spec 5-ply/2-side print, garments/carton quantities given only as production-sizing context) with no bulk order placement, no agreed price, and no bulk delivery date. Pre-production sample/layout approval request, not a placed order. No later messages in thread. Not a client order."
+    },
+    {
+      "folder": "2026-09-28_motherboxctn_1a0e9538af",
+      "folderId": "1GtlvQVKBkmxw6_BguhgQRviuL_XqPOvh",
+      "gmailThreadId": "1a0e61cd80385243",
+      "processedAt": "2026-09-28T19:45:00Z",
+      "result": "entered",
+      "partyName": "Mother Box Packaging & Accessories",
+      "orderId": 8057,
+      "jobNumber": "7456/26-N",
+      "note": "REVISED work order 49/09 (Job 49-MBPA-26), latest message of thread (original booking -> 'Please stop production' -> 'New REVISED booking'). Sibling folder 2026-09-28_motherboxctn_1a0e61cd80 (original, never entered) marked SUPERSEDED and not logged. Drafted: Auto Master Carton/Ply 5/A-510-L 55x40x35 124pcs @124.47 (HERC 62 + DENIMIND 62; SHAIKKO dropped in revision) + Top Bottom/Ply 3/A-300-I 40x30 248pcs @3.00. Total 16178.28 vs doc 16178.58 (doc rounding). Buyer defaulted 'No Buyer' (doc: 'Atten Desing Ltd' not in master). Full defaults in order ai_notes. DISAPPROVED pending human approval. Gmail thread labeled order-intake/entered-by-ai."
     }
   ]
 }
