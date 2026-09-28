@@ -3,6 +3,14 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-28_anika.rahman_1a0e7b02be",
+      "folderId": "1LoNPV7NEmI5VNb-rG2-tZhe38n3GHk28",
+      "gmailThreadId": "1a0e7b02bea88d58",
+      "processedAt": "2026-09-28T11:45:00Z",
+      "result": "not_order",
+      "reason": "Internal Premier Bank PLC RTGS payment advice from Anika Rahman (SO, F.Ex, Kawran Bazar Branch, anika.rahman@thepremierbankplc.com) to Tarafder Sakib Yaser (JO, International Division, HO, sakib.yaser@thepremierbankplc.com) -- not even addressed to Miah & Sons. Subject 'RTGS', single-message thread. Attachment 'Copy of RTGS-2153269900006.xlsx': RTGS advice Premier/KBB/2026/0057 dated 28-Sep-26, USD 19,312.79 to Uttara Bank PLC (Shantinagar Branch) for beneficiary Padma Paper Mills Ltd., applicant Miah & Sons Industries Ltd., against L/C 2153269900006. Second attachment 'CamScanner 28-09-2026 17.02.pdf' is a blank/empty CamScanner export. Bank correspondence about an outgoing L/C payment, not a client order."
+    },
+    {
       "folder": "2026-09-28_nahida_1a0e7832a3",
       "folderId": "1g3-3dXXTbKpKssZOF7tbVmZ5oDBLkzx5",
       "gmailThreadId": "1a0e7832a3de0577",
