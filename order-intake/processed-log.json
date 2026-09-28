@@ -3,6 +3,30 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-28_tasneempack_1a0e6bd156",
+      "folderId": "12Srqvfwp5PllMBbCS-8UmEUrmu_9yGJf",
+      "gmailThreadId": "1a0e67e2952540eb",
+      "processedAt": "2026-09-28T06:45:00Z",
+      "result": "not_order",
+      "reason": "Duplicate resend ('*REVISED*' fwd, same gmailThreadId as already-entered job 7447/26-N/Order 8048) of Tasneem Packages & Accessories' Auto Carton booking sheet, from Asim Roy (tasneempack@gmail.com), sent 2026-09-28T06:38:52Z (original sent 2026-09-28T05:30:10Z, entered earlier this run as job 7447/26-N). Read 'Work Order Propack Trims.xlsx': content is identical to the already-entered 'Work Order Mia & Sons.xlsx' -- same 2 lines (SIZE 45X35X30CM/5Ply/500pcs, print navy blue; SIZE 41X30X26CM/5Ply/1000pcs, no print), same Attn: Md. Rabbi. Only the file's own 'TO.' template header differs (mistakenly reads 'PROPACK TRIMS & ACCESSORIES IND.' instead of Miah & Sons -- an apparent copy-paste template error on the client's side, not indicating a different order or party). No new/changed order data despite the '*REVISED*' label -- not a real correction, matching this skill's established duplicate-resend precedent (job 7423/26-N's m.a.malek4486 resend). Not marked SUPERSEDED (this folder is not itself an order to draft) and not flagged for manual Flowtech revision (nothing to revise)."
+    },
+    {
+      "folder": "2026-09-28_st54_1a0e6ae77a",
+      "folderId": "1g5bA2tKuXM-4IzyKQ6VkWFaCucDjT1Bd",
+      "gmailThreadId": "1a0dc60a826d6d59",
+      "processedAt": "2026-09-28T06:45:00Z",
+      "result": "not_order",
+      "reason": "Rafsan Jani, Snowtex Commercial Dept (st54@snowtex.org), replying 'RE: UD' to Miah & Sons' own outgoing request ('Please Arrange UD for LC # 1351260400453 Amnd: 03... Export LC No. SSL-RICH-ALL26-001-2026') with attachment UD64542025019-046.pdf -- a bank/LC Utilization Declaration document. Bank/customs paperwork, not a client carton order."
+    },
+    {
+      "folder": "2026-09-28_m.a.malek4486_1a0e6b2c5b",
+      "folderId": "1yINa6DW8z1d9nxYaMhFqqSmiKaAtpj21",
+      "gmailThreadId": "1a0e6b2c5b48e42e",
+      "processedAt": "2026-09-28T06:45:00Z",
+      "result": "not_order",
+      "reason": "M.A. Malek (m.a.malek4486@gmail.com) forwarding Shangu Group/Shoeb Shahriar's 'CARTON BOOKING-MURRAY' chain (2 quoted messages, 2026-09-26 and 2026-09-28), single-message Drive-staged thread. Read the attachment 'Carton Layout.pdf': just a dimension/layout sheet ('MEAS: 60 X 40 X 34 CM' plus side-length markings), no quantity/PO/delivery date. The quoted inner message is a pre-booking measurement-confirmation request ('Pls confirm the carton measurement is 5 PLY AUTO VIRGIN-60x40x34 CM to place booking', Buyer MURRAY, styles TD005/TD006/TD007) -- despite the later message's text 'Find the attached Layout and work order', no actual work-order/quantity file was attached, only the layout. Not yet a genuine order -- no quantities to draft."
+    },
+    {
       "folder": "2026-09-28_gulam_1a0e67e9a0",
       "folderId": "15JROg5QyJPTZ8CjZC8xAr6Ajkl4XB2F3",
       "gmailThreadId": "1a0e67e9a03e0fb8",
