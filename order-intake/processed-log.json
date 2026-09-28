@@ -3,6 +3,20 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-28_ripon.mondal_1a0e6c0eb5",
+      "folderId": "1ea-39RYlRICHshYbPVYCD8_45krM9cXK",
+      "gmailThreadId": "1a0e27b74bdd44e4",
+      "processedAt": "2026-09-28T08:10:00Z",
+      "result": "entered",
+      "partyName": "Liberty Knitwear Ltd.",
+      "orders": [
+        {"orderId": 8051, "jobNumber": "7450/26-N", "style": "2118183/ LKN26-21", "lpdOrderNo": "10097677"},
+        {"orderId": 8052, "jobNumber": "7451/26-N", "style": "2118122/ LKN26-21", "lpdOrderNo": "10097063"},
+        {"orderId": 8053, "jobNumber": "7452/26-N", "style": "2118170/ LKN26-21", "lpdOrderNo": "10097676"}
+      ],
+      "note": "Genuine 'NKD// Bulk Carton booking LKN26-21' reply from Ripon Mondal (Merchandising Dept, Liberty Knitwear Ltd. Unit-2, ripon.mondal@mfgbd.net), sent 2026-09-28T06:43:06Z into the SAME gmailThreadId (1a0e27b74bdd44e4) as this party's own precedent batch (folder 2026-09-27_ripon.mondal_1a0e27b74b, jobs 7436-7440/26-N, styles 2118095/96/98/100/108, entered 2026-09-27) -- read the full Gmail thread (3 messages: the 09-27 original booking, our own 'Order received' auto-ack sent 2026-09-28T04:54:53Z, and this 09-28 message) and confirmed this is a genuinely NEW/additional booking under the same recurring Style/LKN reference (LKN26-21), not a resend or correction of the already-entered styles -- 3 attachments cover 3 entirely different, non-overlapping style/Order No combinations (2118183/10097677, 2118122/10097063, 2118170/10097676) never seen in the prior batch, so this is not the 'sibling folder revises an already-entered order' case in step 3a; no later reply in the thread holds/cancels/corrects this message. Drafted as 3 separate orders per this party's established one-order-per-style convention (matching jobs 7436-7440/26-N, 7428-7433/26-N, 7333-7337/26-N). Also staged: 3 matching 'Shipping Mark <style>_Mia & Sons.xls' layout templates, read only for confirmation, not used as order data. Party 'Liberty Knitwear Ltd.' exact DB match (PartyId 3, team \"Miah & Son's\"); buyer 'NKD' exact match. Item 'Auto Corrugated Printed Master Carton'/Ply 5/A-508-L per style: same-dimension lot letters (AAA/BBB, all L58xW38xH24cm) summed into one GSM line per style (2118183: 32+53=85; 2118122: 36+65=101; 2118170: 23+61=84), plus a separate Online line per style (L58xW38xH20cm: 20/16/20 pcs respectively) -- matching this exact party's established same-dimension-lot-merge convention. Item 'Top Bottom'/Ply 3/A-300-L per style, qty taken directly from each sheet's own TOP+BOTTOM row (2118183: 210; 2118122: 234; 2118170: 208), L52xW32cm. unit_price left unset on every line to use this party's on-file catalog rate ($0.65/sqm carton, $0.22/sqm top-bottom) -- every source sheet's own Unit Price column was 0.00/blank. Order-level, same across all 3: company_bank (THE PREMIER BANK LTD, id 3) and credit_days (120) defaulted from this exact party's most recent order history (jobs 7436-7440/26-N); delivery_date (2026-10-02) taken directly from this covering email's own explicit 'Delivery date: 02.10.26' line (one day later than the prior batch's 01.10.26 -- read verbatim, not an error); delivery_station ('Liberty Knitwear LTD, Unit-2') and attention ('Ripon Mondal') taken from the covering email; each style's own Order No encoded into lpd_po_no and the item's PO field, matching this party's established convention. Checked Flowtech before drafting: list_orders style search for each of '2118183', '2118122', '2118170' returned no existing order under this party for any -- not duplicates. Gmail label 'order-intake/entered-by-ai' already present on this thread from the 2026-09-27 processing run (Label_7, confirmed on the thread's messages); not re-applied."
+    },
+    {
       "folder": "2026-09-28_tasneempack_1a0e6bd156",
       "folderId": "12Srqvfwp5PllMBbCS-8UmEUrmu_9yGJf",
       "gmailThreadId": "1a0e67e2952540eb",
