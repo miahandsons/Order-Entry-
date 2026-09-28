@@ -3,6 +3,33 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-09-28_nahida_1a0e7832a3",
+      "folderId": "1g3-3dXXTbKpKssZOF7tbVmZ5oDBLkzx5",
+      "gmailThreadId": "1a0e7832a3de0577",
+      "processedAt": "2026-09-28T10:45:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds realization transaction voucher (402.pdf, LC 0000138260400347, USD 7,104.67), sent by bank officer Nahida Sultana <nahida@thepremierbankplc.com>, no subject, single-message thread. Bank correspondence, not a client order."
+    },
+    {
+      "folder": "2026-09-28_amir.ali_1a0e778cc6",
+      "folderId": "1KtNNILVF2E4rFgPfRaxHcj8we3EO8nSF",
+      "gmailThreadId": "1a0e778cc651c380",
+      "processedAt": "2026-09-28T10:45:00Z",
+      "result": "entered",
+      "orderId": 8056,
+      "jobNumber": "7455/26-N",
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "Genuine 'Carton Booking/LKGK26-07/LIBERTY' Trims Work Order from Md. Amir Ali (Deputy Manager, Merchandising, Liberty Knitwear Ltd. Unit-2, amir.ali@mfgbd.net), single-message thread, no later replies, no sibling Drive folders sharing this gmailThreadId. Source '❏ Trims Work Order_LKGB26-07_Carton.pdf' (Booking No LKL-TB-26-28560, Job No LKL-26-02569, Style INNOVA REGULAR FIT T-SHIRT, PO No 111120, Buyer GRUPOKAYBEE). Party 'Liberty Knitwear Ltd.' exact DB match (PartyID 3, team \"Miah & Son's\"); buyer 'GRUPOKAYBEE' exact DB match (BuyerID 294). Item 1 'Carton'/L58xW40xH27/270 Pcs: mapped to this party's item 'Auto Corrugated Printed Master Carton'/Ply 5, grade A-508-L selected as this party's established precedent grade (used consistently on this exact party's prior AI-drafted batches, jobs 7333-7337/26-N, 7428-7433/26-N, 7436-7440/26-N) among 5 tied-price grades (A-508/509/510/511-L all $0.65/sqm) with no other basis in this document to pick between them -- FLAG FOR REVIEWER to confirm grade. Item 2 'Top Bottom'/L56xW38/550 Pcs: mapped to this party's item 'Top Bottom'/Ply 3/grade A-300-L, matching this exact party's own established convention on the same prior precedent orders (over the catalog's other Top Bottom option, Ply 5/A-500-L). unit_price_per set to 'Order Qty' (not this skill's Square Meter default) and unit_price explicitly overridden on both lines (Carton $0.9599/pc, Top Bottom $0.0596/pc) to preserve the document's own stated per-piece rates -- Amount 259.18 (270 x 0.9599) and 32.77 (550 x 0.0596) both verified against the document's own stated line amounts and total (291.95); catalog per-sqm prices ($0.65 Carton, $0.22 Top Bottom) do not apply here since the document prices on a per-piece basis -- create_order's 'differs from agreed price' warning is expected on both lines. order_date (2026-09-28) and delivery_date (2026-09-30) taken directly from the document's own 'Booking Date'/'Delivery Date' fields. style encoded as 'INNOVA REGULAR FIT T-SHIRT / LKGK26-07' and lpd_po_no '111120' from the document's own Style/Int Ref/PO No fields. delivery_station 'Liberty Knitwear Ltd. Unit-2' and attention 'Md. Amir Ali' taken from the email signature (document's own 'Delivery To' field was blank). company_bank (THE PREMIER BANK LTD, Kawranbazar branch, id 3) and credit_days (120) defaulted from this exact party's most recent AI-drafted precedent orders (jobs 7436-7440/26-N) -- not stated in this document. Checked Flowtech before drafting: list_orders for this party with style/PO '111120' returned no existing orders -- not a duplicate. Document carries a 'Draft' watermark and blank 'Approved Status' field in the client's own ERP export, but the covering email itself states plainly 'Attached Carton booking Workorder for LKGK26-07, Buyer- GRUPOKAYBEE' with no hedging -- treated as a genuine booking request per this skill's policy of reading the covering email/document at face value, not the source ERP's own internal draft/approval workflow state; FLAG FOR REVIEWER to confirm this booking is finalized on the client's side, especially given 'Revised No: 4' on the document. Gmail label 'order-intake/entered-by-ai' applied to the thread."
+    },
+    {
+      "folder": "2026-09-28_nahida_1a0e76c917",
+      "folderId": "1voVFy-Z5RaP407u9HE2yy164Ww8zr6qN",
+      "gmailThreadId": "1a0e76c917ddb4f0",
+      "processedAt": "2026-09-28T10:45:00Z",
+      "result": "not_order",
+      "reason": "The Premier Bank PLC (Kawran Bazar Branch) LC-proceeds realization transaction vouchers (243.pdf/244.pdf/294.pdf/295.pdf, LC 1335260400998/1335260401012/3085260301267/3085260301199), sent by bank officer Nahida Sultana <nahida@thepremierbankplc.com>, no subject, single-message thread. Bank correspondence, not a client order."
+    },
+    {
       "folder": "2026-09-28_postmaster_1a0e7607e0",
       "folderId": "1HhOtMj9uy5kJhKOJ0P1BRQZDiHxCJsxR",
       "gmailThreadId": "1a0d33a5a081e45a",
