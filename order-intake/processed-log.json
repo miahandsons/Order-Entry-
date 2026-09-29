@@ -2646,6 +2646,17 @@
       "jobNumber": "7467/26-N",
       "partyName": "FAIZA INDUSTRIES LTD.",
       "note": "Florence Group Riachuelo 350.01997 carton booking: Carton Ply 7/A-712-L 58x38x25.5 qty 648 (sum of per-colour qty), Top Bottom Ply 3/A-310-L 57x37 qty 1296. Sheet's Top&Bottom qty 58360 implausible; entered 2 per carton, flagged in ai_notes for human check. Delivery 01-Oct to Sigma Fashion Ltd. Bank/credit days/attention defaulted from job 7466. Single-message thread, no siblings. Gmail label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-09-29_shawan.mer_1a0ecb2eae",
+      "folderId": "1bP07rmB265VQcDJC0uskFlugpzq8AxxZ",
+      "gmailThreadId": "1a0ec37efca56d1f",
+      "processedAt": "2026-09-29T11:00:00Z",
+      "result": "needs_manual_revision",
+      "existingJobNumber": "7467/26-N",
+      "orderId": 8068,
+      "partyName": "FAIZA INDUSTRIES LTD.",
+      "note": "Revised Riachuelo 350.01997 booking (reply after Umme Bithy asked for top-bottom qty). Older sibling folder 1d6XFR0f82 already entered as job 7467/26-N, so no new order drafted. Human must revise 7467/26-N: Carton 58x38x25.5 qty sum 696 (102,70,82,73,35,63,102,82,87; was 648) and Top&Bottom 56x36 qty 797 (was 57x37 qty 1296)."
     }
   ]
 }
