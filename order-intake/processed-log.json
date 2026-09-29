@@ -2627,6 +2627,25 @@
       "jobNumber": "7466/26-N",
       "partyName": "FAIZA INDUSTRIES LTD.",
       "note": "Florence Group DMR carton booking (DGSS27-01FUtg, DGSS27-14, DBSS27-04-2FUtb-99, DBSS27-06-02FUtb-L2), 4 Carton (Ply 7/A-712-L) + 4 Top Bottom (Ply 3/A-310-L) lines, Booking Qty column used. Delivery 30-Sep to Sigma Fashion Ltd. Bank/credit days/attention defaulted from prior order 7979. Single-message thread, no siblings. Gmail label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-09-29_ritun_1a0ec28538",
+      "folderId": "1rin_TMGQdILELbx0-zgrBzl2OOqC7XDH",
+      "gmailThreadId": "1a0ec28538d15333",
+      "processedAt": "2026-09-29T08:45:00Z",
+      "result": "not_order",
+      "reason": "Falcon Venture (ritun@falconventureltd.com) sending Sun Favorite (Taiwan) P/I and Order Confirmations for kraft liner board purchased by Miah & Sons - inbound supplier paperwork, not a client order."
+    },
+    {
+      "folder": "2026-09-29_shawan.mer_1a0ec37efc",
+      "folderId": "1d6XFR0f82gnEpLalesUA6kF9okXzXpUd",
+      "gmailThreadId": "1a0ec37efca56d1f",
+      "processedAt": "2026-09-29T08:45:00Z",
+      "result": "entered",
+      "orderId": 8068,
+      "jobNumber": "7467/26-N",
+      "partyName": "FAIZA INDUSTRIES LTD.",
+      "note": "Florence Group Riachuelo 350.01997 carton booking: Carton Ply 7/A-712-L 58x38x25.5 qty 648 (sum of per-colour qty), Top Bottom Ply 3/A-310-L 57x37 qty 1296. Sheet's Top&Bottom qty 58360 implausible; entered 2 per carton, flagged in ai_notes for human check. Delivery 01-Oct to Sigma Fashion Ltd. Bank/credit days/attention defaulted from job 7466. Single-message thread, no siblings. Gmail label order-intake/entered-by-ai applied."
     }
   ]
 }
