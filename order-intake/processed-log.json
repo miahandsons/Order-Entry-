@@ -2616,6 +2616,17 @@
       "processedAt": "2026-09-29T06:50:00Z",
       "result": "not_order",
       "reason": "Premier Bank blank iBanking/Pmoney enrolment/reset/unlock form from bank SO (Karwan Bazar Branch); no subject, single message; not a client order."
+    },
+    {
+      "folder": "2026-09-29_shawan.mer_1a0ebf9d91",
+      "folderId": "1Faqdrx3e3BTQ8vn2OTF3Sq6Vv5VmY15L",
+      "gmailThreadId": "1a0ebf9d91584c79",
+      "processedAt": "2026-09-29T08:00:00Z",
+      "result": "entered",
+      "orderId": 8067,
+      "jobNumber": "7466/26-N",
+      "partyName": "FAIZA INDUSTRIES LTD.",
+      "note": "Florence Group DMR carton booking (DGSS27-01FUtg, DGSS27-14, DBSS27-04-2FUtb-99, DBSS27-06-02FUtb-L2), 4 Carton (Ply 7/A-712-L) + 4 Top Bottom (Ply 3/A-310-L) lines, Booking Qty column used. Delivery 30-Sep to Sigma Fashion Ltd. Bank/credit days/attention defaulted from prior order 7979. Single-message thread, no siblings. Gmail label order-intake/entered-by-ai applied."
     }
   ]
 }
