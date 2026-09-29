@@ -2592,6 +2592,22 @@
    "processedAt": "2026-09-29T04:45:00Z",
    "result": "not_order",
    "reason": "MBM commercial dept sending UD against LC 411012690959-L amendment - bank/LC paperwork."
+  },
+  {
+   "folder": "2026-09-29_mkt.limrainterior_1a0eb8d8d4",
+   "folderId": "19-7A-Kr2y3guFyTBnxWqitkjc4VNypZW",
+   "gmailThreadId": "1a0eb8d8d41a8566",
+   "processedAt": "2026-09-29T06:00:00Z",
+   "result": "not_order",
+   "reason": "Unsolicited marketing email from Limra Interior (mkt.limrainterior@gmail.com) pitching stall interior design for IFSSE 2026 expo; attachment is a company profile PDF. Not a client order."
+  },
+  {
+   "folder": "2026-09-29_nusrat.jui_1a0eb8e883",
+   "folderId": "1rvutlFKmLOA-sJpgHibv5Wl6qiEKdOiv",
+   "gmailThreadId": "1a0eb8e8838688c7",
+   "processedAt": "2026-09-29T06:00:00Z",
+   "result": "not_order",
+   "reason": "Premier Bank PLC (Nusrat Islam Jui, Kawran Bazar Branch) 'Regarding Reporting of Bill of Entry on BB': xlsx schedule of import LCs/bills of entry with Miah and Sons as importer. Bank correspondence, not a client order."
   }
  ]
 }
