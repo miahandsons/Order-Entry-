@@ -2753,6 +2753,16 @@
       "orderId": 8068,
       "partyName": "FAIZA INDUSTRIES LTD.",
       "note": "Second revised Riachuelo 350.01997 booking (adds measurement). Older siblings already entered as 7467/26-N, so no new order drafted. Human must revise 7467/26-N: Carton 7ply 58.5x38.5x26.5 qty 696 (102,70,82,73,35,63,102,82,87); Top&Bottom 56x36 qty 797. Latest supersedes the 2026-09-29_shawan.mer_1a0ecb2eae revision (58x38x25.5) instructions."
+    },
+    {
+      "folder": "2026-09-30_josim_1a0f083c80",
+      "folderId": "16ewJBvbg9XubA-m0GdJgjv8ym97MnAWI",
+      "gmailThreadId": "1a0f083c80519d25",
+      "processedAt": "2026-09-30T05:00:00Z",
+      "result": "entered",
+      "jobNumber": "7470/26-N",
+      "orderId": 8071,
+      "note": "Nextsourcing/Josim FW 'Carton Booking for buyer-BY2MC, NEZ-567' (style 35014, 163 cartons + 326 top-bottom, total $194.55 matches sheet). New booking distinct from NEZ-706 (jobs 7457-59/7468). Drafted DISAPPROVED; team Tanvir Pack (matches staff job 7468), buyer BY2MC, catalog pricing used (sheet prices not applied), delivery date 2026-10-01 defaulted, bank/credit days defaulted from 7468. Old 2021 sheets and layout PDF ignored. Label entered-by-ai applied."
     }
   ]
 }
