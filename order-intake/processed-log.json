@@ -2844,6 +2844,25 @@
       "orderId": 8077,
       "partyName": "Rizvi Fashions Ltd.",
       "note": "Dewalt PO 2031 carton booking (styles DXWW50155 & DXWW60007, sales contract PSRFL WIP 007 2026): Auto Master Carton A-501-L 882 + 441 pcs (inch dims, $0.76/sqm override from SQM column vs catalog 0.70), Top Bottom A-300-I 1323 pcs. Total $733.88 vs sheet $733.337. Delivery 2026-10-03 from email; bank Premier (id 3), credit 90, attention defaulted from job 7374/26-N. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-09-30_rashid.mahmud_1a0f1b3b3f",
+      "folderId": "15MsNYZ3MrJozkw5CJ0l5pZ_a4xHenlQx",
+      "gmailThreadId": "1a0f1b3b3f579e7d",
+      "processedAt": "2026-09-30T10:45:00Z",
+      "result": "not_order",
+      "reason": "Trimco (Victoria's Secret) request for quotation on box items - asks for cost/lead time/sample charge, no PO; quote request only."
+    },
+    {
+      "folder": "2026-09-30_motherboxctn_1a0f1ced14",
+      "folderId": "1dXHMIwC7MbQNi6VIisXNrtIT27NxXIrz",
+      "gmailThreadId": "1a0f1ced14f766fa",
+      "processedAt": "2026-09-30T10:45:00Z",
+      "result": "entered",
+      "jobNumber": "7478/26-N",
+      "orderId": 8079,
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "Work Order 50/09 (Job 50-MBPA-26), buyer RED SUN, cash, delivery 2026-10-03. Auto Master Carton Ply 5 A-510-L: LJ8062ELI 309, NJ1147S4BE 412, LJ8071MAD 412 pcs (per-pc prices 62.3925/63.36/69.9975 backed out from line totals, overriding catalog 70); Top Bottom Ply 3 A-300-I 2266 pcs @2.00. Total 78,754.57 BDT matches document. LJ8071MAD height 15 per shipping mark vs 15.5 in WO text; email's stated paper quality not applied (grade defaults used). Bank Premier (3), attention defaulted from job 7321/26-N. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
     }
   ]
 }
