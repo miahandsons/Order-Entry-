@@ -2724,6 +2724,16 @@
       "processedAt": "2026-09-29T12:45:00Z",
       "result": "not_order",
       "reason": "BPAMEA (former BGAPMEA) association notice of 6th Standing Committee meeting."
+    },
+    {
+      "folder": "2026-09-30_roy_1a0eff72e7",
+      "folderId": "1i3j4NUltdOdZiUyTX1fikXC_4b7l7ztp",
+      "gmailThreadId": "1a0eff72e7d251ce",
+      "processedAt": "2026-09-30T02:00:00Z",
+      "result": "entered",
+      "jobNumber": "7469/26-N",
+      "orderId": 8070,
+      "note": "Y & F Healthcare PO YFCT-0052 (3 carton lines, 3660 pcs, $3,009.66) drafted DISAPPROVED via create_order; Auto Master Carton/Ply 5/A-529-L proxy with unit_price override 0.82231; artwork zip not reviewed; PO notice on paper GSM 780/710 not applied; reply/countersign of contract needed by human."
     }
   ]
 }
