@@ -2946,6 +2946,17 @@
    "processedAt": "2026-10-01T05:45:00Z",
    "result": "not_order",
    "reason": "ACS Textiles reply in price-adjustment negotiation thread (scanned revised price letter) - not an order. NOT_ORDER file created."
+  },
+  {
+   "folder": "2026-10-01_planningialt_1a0f63d07e",
+   "folderId": "1BxcKOHqXVQWB-OUblvSrJvgvWvP7Jmls",
+   "gmailThreadId": "1a0f63d07e52b851",
+   "processedAt": "2026-10-01T08:00:00Z",
+   "result": "entered",
+   "jobNumber": "7484/26-N",
+   "orderId": 8085,
+   "partyName": "IALT Footwear Ltd",
+   "note": "IALT PO 169/26 (REF E26065-WDG(UP), Deichmann): 5 ply master cartons 45x41x36 x80, 54x45x36 x515, 67x45x36 x1096 + '5ply without print' 64.5x47x36.5 x300 (all mapped to Auto Corrugated Printed Master Carton / Ply 5 / A-500-L, catalog $0.58/sqm). System total $2,235.29 vs PO $2,250.69; line 4 (unprinted, PO rate $1.03) needs reviewer check. Buyer DEICHMAN, bank Premier (3), credit 90, delivery 2026-10-04 defaulted. Email asks for PI ASAP. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
   }
  ]
 }
