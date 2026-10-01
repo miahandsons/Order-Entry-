@@ -2921,6 +2921,15 @@
    "orderId": 8082,
    "partyName": "Concord Raiment Wear Ltd.",
    "note": "TAKIHYO carton booking STY 224441212 (buyer TAKIHYO): master carton 58x45x24 x180 (Ply 5, A-500-L) + Top Bottom 58x45 x360 (Ply 3, A-300-I); total $219.08. Delivery 2026-10-03, bank Premier (3), credit 0 defaulted; Top Bottom size guessed (booking gives none). Email asks to send lay-out for approval. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
+  },
+  {
+   "folder": "2026-10-01_motherboxctn_1a0f588499",
+   "folderId": "1x-q7DcN8VQ_E0J7KNmm2EibjqZCGyo3q",
+   "gmailThreadId": "1a0f151b586f9901",
+   "processedAt": "2026-10-01T04:00:00Z",
+   "result": "needs_manual_revision",
+   "jobNumber": "7476/26-N",
+   "note": "Mother Box reply on Dewalt PO 2031 thread (same thread as folder 2026-09-30_motherboxctn_1a0f151b58, already entered as job 7476/26-N): resent booking sheet says 'revised with the job number' (sheet now shows Job 3475, booking date 01/10/26, same qty 882/441/1323, $733.337). Job 7476/26-N already exists - human to confirm/revise job reference in Flowtech. Not drafted."
   }
  ]
 }
