@@ -3205,6 +3205,17 @@
     }
    ],
    "note": "Next Sourcing/Josim FW 'STARTEX/DENIM PROJECT/SS27/Carton Booking-NEZ: 700' (single-message thread, 8 workbooks -> 11 POs/orders; three workbooks hold 2 POs each). Buyer 'STARTEX' used (sheet says STARTEX/DP-SS27 ...; not in buyer table). Catalog rates used, sheet prices not applied (sheet totals differ; reviewer compare). Delivery 2026-10-04 per sheets; bank 3/credit 90 defaulted. 107002 (jobs 7501, 7502) not in client's priority list but attached - reviewer confirm. Label applied."
+  },
+  {
+   "folder": "2026-10-03_m.a.malek4486_1a10035504",
+   "folderId": "1coiRIyDu4ysT9a2V_Mr3PpV2VL86WR7A",
+   "gmailThreadId": "1a0f5a2a810f74e4",
+   "processedAt": "2026-10-03T06:00:00Z",
+   "result": "entered",
+   "orderId": 8110,
+   "jobNumber": "7509/26-N",
+   "partyName": "NEEDLE DROP LTD.",
+   "note": "Needle Drop #101662 / #101662CH (Jeans Fritz) carton booking, deliver by 4-Oct-26. Thread had 3 messages (10-01 booking text, 10-02 shipping-mark note, 10-03 resend of shipping-mark xlsx); only 10-03 staged, no siblings, no hold/cancel. Qty/sizes from 10-01 booking text; single order with 4 items per precedent job 7402/26-N. Ply not stated: assumed Semi-Auto Master Carton Ply 7/A-700-I + Top Bottom Ply 3/A-300-I (VERIFY). Buyer Jeans Fritz (id 566), bank id 3, credit 90 defaulted from 7402/26-N. Label applied."
   }
  ]
 }
