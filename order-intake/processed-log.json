@@ -3224,6 +3224,28 @@
       "processedAt": "2026-10-03T07:00:00Z",
       "result": "not_order",
       "reason": "Liberty Knitwear (Ripon Mondal) reply '2118325=APPROVED' to our own carton layout approval request (LKN26-22); attachment 2118325.pdf is our NKD carton-marking layout, not a client order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-03_motherboxctn_1a100c1c67",
+      "folderId": "1VgglXTV4TtyYkkayJlquSHQFpG-m3sux",
+      "gmailThreadId": "1a100c1c6737fbb9",
+      "processedAt": "2026-10-03T09:00:00Z",
+      "result": "entered",
+      "jobNumber": "7511/26-N",
+      "orderId": 8112,
+      "partyName": "Rizvi Fashions Ltd.",
+      "note": "Dewalt PO 2032 carton booking (style DXWW60016, Job 3474, WIP 007 2026) via Mother Box: Auto Master Carton A-501-L 552 + 276 pcs (inch dims, $0.76/sqm override vs catalog 0.70), Top Bottom A-300-I 1706 pcs. System total $420.22 vs sheet $420.314. Delivery 2026-10-04 from email; bank Premier (3), credit 90, attention defaulted from job 7476/26-N. Single-message thread. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-03_ripon.mondal_1a100ce41e",
+      "folderId": "1xZXt1ht7_ZXH-_5hIqZ9ilZwjz-G92Xr",
+      "gmailThreadId": "1a100ce41eb240fb",
+      "processedAt": "2026-10-03T09:00:00Z",
+      "result": "entered",
+      "jobNumber": "7512/26-N",
+      "orderId": 8113,
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "NKD LKN26-22 style 2118326 (order no 10097088): Auto Corrugated Printed Master Carton A-508-L 114 pcs (58x38x24cm, AAA 51 + BBB 63) + Online 16 pcs (58x38x20cm), Top Bottom A-300-L 260 pcs (52x32cm); catalog rates, total $122.44. Delivery 2026-10-06 computed (+3 days per sheet clause), bank Premier (3), credit 120 defaulted. Email asks us to send shipping-mark layout for approval before bulk production (URGENT). DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
     }
   ]
 }
