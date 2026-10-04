@@ -3406,6 +3406,14 @@
       "result": "flagged_manual_revision",
       "existingJobNumber": "6665/26-N",
       "note": "Re-sent/updated carton booking xlsx (09-14) on thread already entered as 6665/26-N; create_order cannot revise. Human to compare latest sheet (09-14, 24 styles, 60x40x30 7ply carton) against job (currently 2471 carton / 4942 top-bottom) and revise manually."
+    },
+    {
+      "folder": "2026-10-04_ppml.mkt_1a105fff36",
+      "folderId": "1yFXO1Y6ywjziYFmCcDADf3-yb6nkt6YY",
+      "gmailThreadId": "1a105fff369e7ff8",
+      "processedAt": "2026-10-04T08:50:00Z",
+      "result": "not_order",
+      "reason": "Padma Paper Mills bill D1226-1059 (supplier invoice, 9,894 kg paper). NOT_ORDER file created."
     }
   ]
 }
