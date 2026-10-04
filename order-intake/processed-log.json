@@ -3311,6 +3311,17 @@
       "orderId": 8123,
       "partyName": "NEEDLE DROP LTD.",
       "note": "Needle Drop booking 905673 (NEW YORKER): Auto Corrugated Printed Master Carton Ply 5 A-500-L 38x29x19 x3640 (item choice to verify vs 'semi auto'), Top Bottom Ply 3 A-300-I 33x25 x7280; catalog prices, total $2059.35; delivery +3d computed; shipping-mark layout requested by client (human action). DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-04_motherboxctn_1a1053a3c4",
+      "folderId": "1GiNhhV3D1wKZsXc0AqDX1ayvt2uscV1g",
+      "gmailThreadId": "1a1053a3c45b295a",
+      "processedAt": "2026-10-04T05:50:00Z",
+      "result": "entered",
+      "jobNumber": "7524/26-N",
+      "orderId": 8125,
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "Mother Box WO 51/10 (buyer PEP&CO): Auto Master Carton Ply 5 A-510-L 56x41x29 x385 @113.9489 Order Qty (backed out from doc total 43,870.33). Single-message thread. Email says 'start production of the balance cartons after I confirm by email' - ambiguous, flagged for human. Paper quality in email not applied. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
     }
   ]
 }
