@@ -3459,6 +3459,23 @@
       "result": "flagged_manual_revision",
       "existingJobNumber": "7526/26-N",
       "note": "Final WJ28 booking (PO 47676, DT 01.10.2026, 6 pcs) arrived 10-04; job 7526/26-N already exists (order date 10-04). Human to verify job 7526 matches the 6-pcs sheet and revise if not. Thread reply 'Received your order' sent 09:19."
+    },
+    {
+      "folder": "2026-10-04_motherboxctn_1a106a6cc0",
+      "folderId": "1mAst7pzaKQzE_SsHEdYnOhyYP0sDRO1Z",
+      "gmailThreadId": "1a106a6cc0e0760e",
+      "processedAt": "2026-10-04T11:50:00Z",
+      "result": "entered",
+      "jobNumber": "7529/26-N",
+      "note": "Rizvi/Dewalt PO 2031 DXWW50011 (Job 3475); carton unit_price overridden to 0.76/sqm; total 1514.73 vs sheet 1514.816"
+    },
+    {
+      "folder": "2026-10-04_nahida_1a106b387a",
+      "folderId": "1_hDFzUj9RgsncoxPhh2z9JWFvJL8sxDU",
+      "gmailThreadId": "1a106b387a39f6e7",
+      "processedAt": "2026-10-04T11:50:00Z",
+      "result": "not_order",
+      "reason": "Premier Bank EXP form 294EXP for SC/Y&F/7469/26-N - bank paperwork"
     }
   ]
 }
