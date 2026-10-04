@@ -3476,6 +3476,14 @@
       "processedAt": "2026-10-04T11:50:00Z",
       "result": "not_order",
       "reason": "Premier Bank EXP form 294EXP for SC/Y&F/7469/26-N - bank paperwork"
+    },
+    {
+      "folder": "2026-10-04_nahida_1a106bed32",
+      "folderId": "1I1AxkPb5z802U6M3myKfXPIK1Jd0hoTj",
+      "gmailThreadId": "1a106bed32e43183",
+      "processedAt": "2026-10-04T12:50:00Z",
+      "result": "not_order",
+      "reason": "Premier Bank transaction voucher (LC proceed realization, LC 0000182226040575) - bank paperwork"
     }
   ]
 }
