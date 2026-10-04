@@ -3414,6 +3414,51 @@
       "processedAt": "2026-10-04T08:50:00Z",
       "result": "not_order",
       "reason": "Padma Paper Mills bill D1226-1059 (supplier invoice, 9,894 kg paper). NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-08-06_st13_19fd5cd640",
+      "folderId": "1lTGr7qbJfUrEYClC8YXBT0jnpL7HlaTs",
+      "gmailThreadId": "19fd5cd64028f58c",
+      "processedAt": "2026-10-04T09:55:00Z",
+      "result": "already_entered_manually",
+      "existingJobNumber": "6909/26-N, 6933/26-N, 7526/26-N",
+      "note": "Snowtex RICHLU carton requisition PO 47618/47619/47676; all three already exist in Flowtech (6909/26-N SP12, 6933/26-N SP13, 7526/26-N WJ28), PIs already sent to client. No draft created."
+    },
+    {
+      "folder": "2026-08-08_st13_19fe008a16",
+      "folderId": "1-cF_WtD0HjQ1Y_omVO2tf5ks6EC740ze",
+      "gmailThreadId": "19fd5cd64028f58c",
+      "processedAt": "2026-10-04T09:55:00Z",
+      "result": "already_entered_manually",
+      "existingJobNumber": "6909/26-N",
+      "note": "Confirmed SP12 booking (PO 47618); job 6909/26-N exists, PI/SSL/6909/26-N sent 08-08."
+    },
+    {
+      "folder": "2026-08-08_st13_19fe029ace",
+      "folderId": "1iL0fRtJTlURzwoG36yYnuwCmEiy_wuoe",
+      "gmailThreadId": "19fd5cd64028f58c",
+      "processedAt": "2026-10-04T09:55:00Z",
+      "result": "already_entered_manually",
+      "existingJobNumber": "6909/26-N",
+      "note": "Resend of SP12 booking (PO 47618); job 6909/26-N exists."
+    },
+    {
+      "folder": "2026-08-09_st13_19fe54b8a2",
+      "folderId": "1Cwx_NBunSTp0MLoSGZmhLza8IFjqaxJt",
+      "gmailThreadId": "19fd5cd64028f58c",
+      "processedAt": "2026-10-04T09:55:00Z",
+      "result": "already_entered_manually",
+      "existingJobNumber": "6933/26-N",
+      "note": "Confirmed SP13 booking (PO 47619); job 6933/26-N exists, PI sent 08-10."
+    },
+    {
+      "folder": "2026-10-04_st13_1a106159dd",
+      "folderId": "1l3kk8dZOHM9MZuq_mBgsff-dviGfMQLx",
+      "gmailThreadId": "19fd5cd64028f58c",
+      "processedAt": "2026-10-04T09:55:00Z",
+      "result": "flagged_manual_revision",
+      "existingJobNumber": "7526/26-N",
+      "note": "Final WJ28 booking (PO 47676, DT 01.10.2026, 6 pcs) arrived 10-04; job 7526/26-N already exists (order date 10-04). Human to verify job 7526 matches the 6-pcs sheet and revise if not. Thread reply 'Received your order' sent 09:19."
     }
   ]
 }
