@@ -3511,6 +3511,36 @@
       "processedAt": "2026-10-05T03:45:00Z",
       "result": "not_order",
       "reason": "BGMEA UD amendment copy (UD-F#171-Amnd#09) from Rabab Group merchandiser replying to our own \"Please arrange UD\" request - customs/bond paperwork, not a client order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-05_sattersarkarfcma-fca_1a10a80cb4",
+      "folderId": "1Ql-8Jc42f0meHgpQMZmlknhIJWv4otoP",
+      "gmailThreadId": "1a10a80cb459ee51",
+      "processedAt": "2026-10-05T05:50:00Z",
+      "result": "not_order",
+      "reason": "Tax consultant circular forwarding Finance Act 2026 and withholding tax rules gazette copies - not a client order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-05_niloy_1a10a69800",
+      "folderId": "1PfWZY_DzlXgYTUmc5TwImYuDsUfQHZ6T",
+      "gmailThreadId": "1a10a69800436f0c",
+      "processedAt": "2026-10-05T05:50:00Z",
+      "result": "entered",
+      "jobNumber": "7534/26-N",
+      "orderId": "8135",
+      "partyName": "FB Footwear Ltd.",
+      "note": "FB Footwear PO POSS-27-00871 (Bata master carton, 5 lines, 345 pcs, $316.38 matches PO). Grade A-500-L defaulted; buyer Bata inferred; bank Premier(3) defaulted; delivery 2026-10-07. Single-message thread. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-05_niloy_1a10a7685e",
+      "folderId": "1mq4z8f3ymOL__VYKtW1FeNer0otO270Z",
+      "gmailThreadId": "1a10a7685ea297fa",
+      "processedAt": "2026-10-05T05:50:00Z",
+      "result": "entered",
+      "jobNumber": "7535/26-N",
+      "orderId": "8136",
+      "partyName": "FB Footwear Ltd.",
+      "note": "FB Footwear PO POSS-27-00870 (Modivo 5-ply master carton, 3 lines, 1444 pcs, $1574.53 matches PO). Grade A-500-L defaulted; line 1 length 74 read from garbled OCR - verify; buyer Modivo; bank Premier(3); delivery 2026-10-10. Label entered-by-ai applied."
     }
   ]
 }
