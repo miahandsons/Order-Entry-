@@ -3495,6 +3495,22 @@
       "orderId": "8131, 8132",
       "partyName": "Concord Raiment Wear Ltd.",
       "note": "KOWA carton bookings (2 xlsx): Sty 26-643257 -> job 7530/26-N (58x44x22 x380 + Top Bottom 38x28 x760, $401.76); Sty 27-641256 -> job 7531/26-N (58x44x24 x394 + Top Bottom 38x28 x788, $427.64). Buyer KOWA not in Buyer table -> placeholder 'No Buyer' (human to fix). delivery_date 2026-10-07, bank Premier(3), credit 90 defaulted. Single-message thread. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-05_merch1_1a10a14b9d",
+      "folderId": "1o4bYM_zxNDFsf5eVzSEow2OfsEyQzBOG",
+      "gmailThreadId": "1a1051cdb5bcfe32",
+      "processedAt": "2026-10-05T03:45:00Z",
+      "result": "not_order",
+      "reason": "BGMEA UD amendment copy (UD-F#164-Amnd#23) from Rabab Group merchandiser replying to our own \"Please arrange UD\" request - customs/bond paperwork, not a client order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-05_merch1_1a10a13668",
+      "folderId": "1pEljTNYMQRug-S-uEtaTURwG8B4tr4zs",
+      "gmailThreadId": "1a1051cdb5bcfe32",
+      "processedAt": "2026-10-05T03:45:00Z",
+      "result": "not_order",
+      "reason": "BGMEA UD amendment copy (UD-F#171-Amnd#09) from Rabab Group merchandiser replying to our own \"Please arrange UD\" request - customs/bond paperwork, not a client order. NOT_ORDER file created."
     }
   ]
 }
