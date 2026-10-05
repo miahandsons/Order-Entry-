@@ -3604,6 +3604,44 @@
       "orderId": "8143",
       "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
       "note": "Rabab Group carton booking F-RCOLIV-173-1A PO 34208TS: data in email body (xlsx is a blank shipping-mark template). 13 Ply-5 carton lines (2163 pcs, A-500-L) + Board 30x15 x4326 (party only has Ply 1 board, price 0 - verify). Buyer No Buyer (Tractor Supply not on file); bank Premier(3); delivery 2026-10-06. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-05_merchandiser5_1a10b3b352",
+      "folderId": "1UHQtB6jtLRgOAGE7-ekC_yNSWrlfH2VA",
+      "gmailThreadId": "1a10a1d8e22c5497",
+      "processedAt": "2026-10-05T09:45:00Z",
+      "result": "entered",
+      "jobNumber": "7544/26-N, 7545/26-N",
+      "orderId": "8145, 8146",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "note": "Corrected carton WOs (msg said previous attachment wrong; older sibling folder 2026-10-05_merchandiser5_1a10a1d8e2 marked SUPERSEDED). 7143160/PO26005084 -> job 7544/26-N ($107.44); 7241341/PO26004770 -> job 7545/26-N ($37.40). Buyer Castro, bank Premier(3), credit 90, delivery 2026-10-07; solid perforation flagged, no DIE CUT. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-05_jannatcorporation444_1a10b4f5dd",
+      "folderId": "13hClDbRx4f0Ccf29V0m6tFZwk6H0gWK8",
+      "gmailThreadId": "1a10b4f5dd4a43d0",
+      "processedAt": "2026-10-05T09:45:00Z",
+      "result": "not_order",
+      "reason": "Jannat Corporation supplier price-list circular. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-05_nahida_1a10b51582",
+      "folderId": "1_09nX7oIKtboqWL07WCXnu3JfP0StJex",
+      "gmailThreadId": "1a10b51582238d37",
+      "processedAt": "2026-10-05T09:45:00Z",
+      "result": "not_order",
+      "reason": "Premier Bank F.Ex PDFs (377M/440M/309M) - bank paperwork. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-05_farzana.akter_1a10b5c98e",
+      "folderId": "1Bjt0DrhALfYtLN6lzP-_IoNnpJpv19et",
+      "gmailThreadId": "1a10b5c98eb3fcb3",
+      "processedAt": "2026-10-05T09:45:00Z",
+      "result": "entered",
+      "jobNumber": "7546/26-N",
+      "orderId": "8147",
+      "partyName": "PARASOLE FOOTWEAR LTD.",
+      "note": "Shoe box order UP226222178 PO 108812346, 21954 pairs: 31x23x12.5 x7314, 32x24x13 x6774, 34x25x13.5 x7866. Shoe Box/Ply 3/A-300-I, unit_price 0.095 override (catalog 0) per prior jobs - verify; delivery 2026-10-08 computed; client 'dust issue' rejection warning. Label entered-by-ai applied."
     }
   ]
 }
