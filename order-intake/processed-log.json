@@ -3593,6 +3593,17 @@
       "orderId": "8138",
       "partyName": "FB Footwear Ltd.",
       "note": "FB Footwear PO POSS-27-00867 already exists in Flowtech (job 7537/26-N, APPROVED, not created by this automation). No draft made."
+    },
+    {
+      "folder": "2026-10-05_merch1_1a10b32221",
+      "folderId": "1Z_0EK6k0hagXbm3TjLi6Z83KIdr55Qui",
+      "gmailThreadId": "1a10b32221b583f4",
+      "processedAt": "2026-10-05T08:55:00Z",
+      "result": "entered",
+      "jobNumber": "7542/26-N",
+      "orderId": "8143",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Rabab Group carton booking F-RCOLIV-173-1A PO 34208TS: data in email body (xlsx is a blank shipping-mark template). 13 Ply-5 carton lines (2163 pcs, A-500-L) + Board 30x15 x4326 (party only has Ply 1 board, price 0 - verify). Buyer No Buyer (Tractor Supply not on file); bank Premier(3); delivery 2026-10-06. Label entered-by-ai applied."
     }
   ]
 }
