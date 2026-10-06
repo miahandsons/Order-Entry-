@@ -3711,6 +3711,14 @@
       "result": "entered",
       "jobNumber": "7556/26-N",
       "note": "FB Footwear PO POSS-27-00246 (Modivo UMI-03 Beige, 5 ply, 3 sizes, 838 pcs, $759.31 vs PO $759.32). Catalog $0.64/sqm, grade A-500-L, bank Premier(3), credit 90 defaulted; delivery 2026-10-08 read from garbled '0B-Oct' - verify. Email asks to confirm delivery date and issue PI within 1 working day. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-06_nahida_1a110a3dc6",
+      "folderId": "1kZb_QOh_iXC_iqmQyNh8k-AqaMFv4_7b",
+      "gmailThreadId": "1a110a3dc6bbfa04",
+      "processedAt": "2026-10-06T11:00:00Z",
+      "result": "not_order",
+      "reason": "Premier Bank Kawran Bazar transaction voucher (LC 1421260400663 proceeds realized); bank correspondence. NOT_ORDER file created."
     }
   ]
 }
