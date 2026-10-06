@@ -3719,6 +3719,14 @@
       "processedAt": "2026-10-06T11:00:00Z",
       "result": "not_order",
       "reason": "Premier Bank Kawran Bazar transaction voucher (LC 1421260400663 proceeds realized); bank correspondence. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-06_kpplkud_1a110f5bd3",
+      "folderId": "1KLmV9pMCRaorLkzEDhJXSSzN_9bi4yMi",
+      "gmailThreadId": "1a110f5bd302640b",
+      "processedAt": "2026-10-06T12:00:00Z",
+      "result": "not_order",
+      "reason": "Forwarded SWIFT ACK of payment (pacs.009, USD 59,026.00); bank paperwork. NOT_ORDER file created."
     }
   ]
 }
