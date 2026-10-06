@@ -3694,6 +3694,14 @@
       "result": "entered",
       "jobNumber": "7547/26-N",
       "note": "IALT Footwear PO 173/26 (REF E26064-WDG(UP), Deichmann): 227 pcs 5-ply printed master carton 67x45x36, Auto Corrugated Printed Master Carton/Ply 5/A-500-L at catalog $0.58 (PO says $0.60/sqm; system total $264.11 vs PO $273.22). Buyer DEICHMAN, delivery 2026-10-09 (order_date+3 per prior orders), bank/credit 90 days defaulted per history. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-06_mkt.limrainterior_1a11003fd1",
+      "folderId": "1ehuG5HvjNyYBbTfSIhfH9BN3gddh1E2k",
+      "gmailThreadId": "1a11003fd16ad079",
+      "processedAt": "2026-10-06T07:45:00Z",
+      "result": "not_order",
+      "reason": "Limra Interior exhibition-stall marketing email + company profile PDF (IFSSE 2026 expo); not a client order. NOT_ORDER file created."
     }
   ]
 }
