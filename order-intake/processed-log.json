@@ -3795,6 +3795,17 @@
       "processedAt": "2026-10-07T07:45:00Z",
       "result": "not_order",
       "reason": "Reply from Dekko Accessories procurement (Imtiaz) to our 'Revised price quotation for 3,5 and 7 ply master carton' thread; attached PDF is the price quotation (rates per pc, dated 23.08.2026, 20 lines, no quantities) - a quote, not an order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-07_merchandiser5_1a1155090d",
+      "folderId": "1B30PJnbOLRhw14o3IsaRZGAJTLB8Ndz6",
+      "gmailThreadId": "1a1155090d67059b",
+      "processedAt": "2026-10-07T08:55:00Z",
+      "result": "entered",
+      "jobNumber": "7563/26-N (3T41462/PO26005396), 7564/26-N (7241394/PO26005395), 7565/26-N (BS40294/PO26004805), 7566/26-N (7143159/PO26005085), 7567/26-N (7143163/PO26005043), 7568/26-N (3340418/PO26005213)",
+      "orderId": "8164-8169",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "note": "Texzone 'Carton Work Order FOR Buyer-Castro' (Javed), 6 work orders, single-message thread, no siblings. Totals $174.27/208.78/102.23/144.83/53.35/186.49. Buyer Castro (from subject), bank Premier(3), credit 90, delivery 2026-10-08 per email (3T41462 specially urgent); solid perforation flagged in ai_notes only, no DIE CUT. Label entered-by-ai applied."
     }
   ]
 }
