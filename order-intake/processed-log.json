@@ -3817,6 +3817,22 @@
       "jobNumber": "7574/26-N",
       "partyName": "FAIZA INDUSTRIES LTD.",
       "note": "Florence Group CIA HERING RESERVA (0104215) bulk carton booking. Auto Master Carton Ply 5 A-548-L 53x38x30 qty 41 + 37; Top Bottom Ply 3 A-310-L 50x35 qty 141. Total $92.22. Delivery defaulted order+3d (10-Oct); bank/credit/attention defaulted from prior jobs. Flags: T&B 141 vs cartons 78; client requires layout approval before production. Thread has only client msg + our ack, no siblings. Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_ripon.mondal_1a115bcf2e",
+      "folderId": "1x3l2i1BtuB_1iWCZWg2-9dCa0v1WXOWJ",
+      "gmailThreadId": "1a0ed6d24a05ef1b",
+      "processedAt": "2026-10-07T11:00:00Z",
+      "result": "not_order",
+      "note": "Liberty Knitwear (Ripon Mondal) 'RE: NKD': approval replies to our own carton layouts 2118170/2118122 (approved), 2118183 (needs revision); not an order."
+    },
+    {
+      "folder": "2026-10-07_ripon.mondal_1a115c0a93",
+      "folderId": "1jVgdjfXYsFOMsdYRTJFIs2_FAMSe7fIx",
+      "gmailThreadId": "1a0ed4423999874c",
+      "processedAt": "2026-10-07T11:00:00Z",
+      "result": "not_order",
+      "note": "Liberty Knitwear (Ripon Mondal) 'RE: LKN26-21': 'ALL APPROVED' reply to our own carton layouts; not an order."
     }
   ]
 }
