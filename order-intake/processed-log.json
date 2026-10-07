@@ -3852,6 +3852,29 @@
       "processedAt": "2026-10-07T13:00:00Z",
       "result": "not_order",
       "note": "Eurotex Knitwear Commercial-2 'RE: UD & BB Dasboard Update': BKMEA Utilization Declaration (Ud80053.pdf) for Eurotex/Tuli Trading; customs/bond paperwork listing Miah & Sons only as a local carton supplier, not a client order."
+    },
+    {
+      "folder": "2026-10-07_gulam_1a1166800e",
+      "folderId": "15duaIGMF-tuGD04ldQEykD0ibvcbuWou",
+      "gmailThreadId": "1a1166800ef3d960",
+      "processedAt": "2026-10-07T14:00:00Z",
+      "result": "entered",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "orders": [
+        {
+          "orderId": 8177,
+          "jobNumber": "7576/26-N",
+          "po": "1000488/10/2026/ACS",
+          "design": "Emilia (21503)"
+        },
+        {
+          "orderId": 8178,
+          "jobNumber": "7577/26-N",
+          "po": "1000473/10/2026/ACS",
+          "design": "Elegance (21550)"
+        }
+      ],
+      "note": "Genuine 'Mascot Hoie ( 21503 + 21550 ) extra quantity Carton 2 Po.' from Md. Gulam Mostafa (ACS Textiles), single-message thread, no siblings. Drafted as 2 orders (one per PO), item Auto Corrugated Master Carton (Printed)/Ply 5/A-500-L at catalog price (no unit_price override, totals $5.84 and $4.80 match PDFs). Defaults: bank id 3, credit_days 0, delivery station factory address, unit CM. Delivery 2026-10-08 per email. Label order-intake/entered-by-ai applied."
     }
   ]
 }
