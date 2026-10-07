@@ -3806,6 +3806,17 @@
       "orderId": "8164-8169",
       "partyName": "TEXZONE KNITWEAR LIMITED",
       "note": "Texzone 'Carton Work Order FOR Buyer-Castro' (Javed), 6 work orders, single-message thread, no siblings. Totals $174.27/208.78/102.23/144.83/53.35/186.49. Buyer Castro (from subject), bank Premier(3), credit 90, delivery 2026-10-08 per email (3T41462 specially urgent); solid perforation flagged in ai_notes only, no DIE CUT. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_shawan.mer_1a1159e8ce",
+      "folderId": "1sJ6Ght_bLJghbYjkBX-tc_C0kv0ZdReg",
+      "gmailThreadId": "1a1159e8ce443902",
+      "processedAt": "2026-10-07T10:00:00Z",
+      "result": "entered",
+      "orderId": 8175,
+      "jobNumber": "7574/26-N",
+      "partyName": "FAIZA INDUSTRIES LTD.",
+      "note": "Florence Group CIA HERING RESERVA (0104215) bulk carton booking. Auto Master Carton Ply 5 A-548-L 53x38x30 qty 41 + 37; Top Bottom Ply 3 A-310-L 50x35 qty 141. Total $92.22. Delivery defaulted order+3d (10-Oct); bank/credit/attention defaulted from prior jobs. Flags: T&B 141 vs cartons 78; client requires layout approval before production. Thread has only client msg + our ack, no siblings. Label order-intake/entered-by-ai applied."
     }
   ]
 }
