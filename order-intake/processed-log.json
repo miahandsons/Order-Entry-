@@ -3883,6 +3883,38 @@
       "processedAt": "2026-10-07T15:00:00Z",
       "result": "not_order",
       "note": "ACS Textiles Trims Store 'Revised PI Required as per Audit Deduction': PI-AT-GPI-49/50/51-26-N audit reconciliation sheets (PO vs revised PI values) asking us to revise our PIs; single-message thread; not a client order. NOT_ORDER marker created."
+    },
+    {
+      "folder": "2026-10-07_merchandiser3_1a1172379c",
+      "folderId": "1zmGjMquJPCEoEy4pbVlenjE8_dfXUrW6",
+      "gmailThreadId": "1a1172379c16c6cf",
+      "processedAt": "2026-10-07T17:00:00Z",
+      "result": "entered",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "orders": [
+        {
+          "orderId": 8179,
+          "jobNumber": "7578/26-N",
+          "po": "PO26005674",
+          "style": "7241392",
+          "totalPrice": 26.35
+        },
+        {
+          "orderId": 8180,
+          "jobNumber": "7579/26-N",
+          "po": "PO26007015",
+          "style": "7040608",
+          "totalPrice": 26.77
+        },
+        {
+          "orderId": 8181,
+          "jobNumber": "7580/26-N",
+          "po": "PO26006192",
+          "style": "7040600",
+          "totalPrice": 27.17
+        }
+      ],
+      "note": "Texzone 'CARTON WORK OREDER' (MD Ferdous), 3 carton work orders, single-message thread, no siblings. One order per PO. Master Carton Ply 5 A-500-L (A+B, 30x25x10) + Top Bottom Ply 3 A-301-L 27x22. Defaults flagged in ai_notes: buyer Castro (not stated), bank 3, credit 90, delivery 2026-10-10 (order+3d). Label order-intake/entered-by-ai applied."
     }
   ]
 }
