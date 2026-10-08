@@ -3915,6 +3915,53 @@
         }
       ],
       "note": "Texzone 'CARTON WORK OREDER' (MD Ferdous), 3 carton work orders, single-message thread, no siblings. One order per PO. Master Carton Ply 5 A-500-L (A+B, 30x25x10) + Top Bottom Ply 3 A-301-L 27x22. Defaults flagged in ai_notes: buyer Castro (not stated), bank 3, credit 90, delivery 2026-10-10 (order+3d). Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-08_crwlsadi_1a119d2b5d",
+      "folderId": "1r2pBfbU08zyd3VaKNs9j7UX9VhPhRnTo",
+      "gmailThreadId": "1a119d2b5d01db54",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "entered",
+      "jobNumber": "7584/26-N, 7585/26-N",
+      "orderId": "8185, 8186",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "note": "TAKIHYO carton bookings Sty 224441213 (2 xlsx): MD7TK57201 -> job 7584/26-N (58x44x22 x390 + Top Bottom 38x28 x780, $412.34); MD7TK27201 -> job 7585/26-N (58x44x24 x370 + Top Bottom 38x28 x740, $401.59). Buyer TAKIHYO. Delivery 2026-10-11, bank Premier(3), credit 90 defaulted. Booking-2 xlsx style code MD7TK27201 vs PDF 57201 - possible typo. Single-message thread. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-08_merch1_1a119b5cad",
+      "folderId": "1zklJFi6-Rj0aZ4NG_cb5Cc7GVMWcUfhe",
+      "gmailThreadId": "1a119b5cad6b3fdf",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "already_entered",
+      "jobNumber": "7581/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Fountain/Rabab additional carton booking F-IT-171-1A-910 C#2 P-2 (POs 34408WR, 34409WR). Flowtech already has job 7581/26-N (APPROVED, Wal-Mart, same style/POs) entered manually; not duplicated. Thread already carries entered-by-ai label."
+    },
+    {
+      "folder": "2026-10-08_sifat.lkl_1a119cda95",
+      "folderId": "1OaWbhOm4G_ZTtYc10_6oMlcADLs_-snk",
+      "gmailThreadId": "1a1161198cbf8e1d",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "manual_revision_needed",
+      "jobNumber": "7575/26-N",
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "Same thread as already-entered job 7575/26-N (Liberty Knitwear LKGK26-08, orderId 8176). Forward adds buyer layout instruction (grupokaybee: print shipping mark on the 2 LENGTH sides of carton, not width) plus ERP-booking-sheet attachments. create_order cannot revise -> human must manually revise job 7575/26-N (print side; check ERP sheet vs entered qty/price/date)."
+    },
+    {
+      "folder": "2026-10-08_toukir.a_1a119cd582",
+      "folderId": "18oPZJccVpXTh6U0VjTzAZ5_WEksJVtHQ",
+      "gmailThreadId": "",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "not_order",
+      "note": "Bank advice PDF (USD 13,957.06); NOT_ORDER file already present."
+    },
+    {
+      "folder": "2026-10-08_abdulhye.m_1a119cda19",
+      "folderId": "1SsKVJoEcM2swk-uDMjx4Z4yCl1Z2dCSY",
+      "gmailThreadId": "",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "not_order",
+      "note": "Bank advice PDF (USD 13,957.06); NOT_ORDER file already present."
     }
   ]
 }
