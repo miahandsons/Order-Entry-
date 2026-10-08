@@ -4028,6 +4028,27 @@
    "processedAt": "2026-10-08T09:45:00Z",
    "result": "not_order",
    "note": "Premier Bank LC 1629260400263 proceeds-realization voucher; NOT_ORDER file created."
+  },
+  {
+   "folder": "2026-10-08_m.a.malek4486_1a11b1071c",
+   "folderId": "1TQB5tKnuikSig9BwB4giquVgS_A4FlaN",
+   "gmailThreadId": "1a11b1071cd928ab",
+   "processedAt": "2026-10-08T11:00:00Z",
+   "result": "entered",
+   "partyName": "SHANGU TEX-2 LTD",
+   "orders": [
+    {
+     "orderId": 8196,
+     "jobNumber": "7595/26-N",
+     "style": "CX80200R3"
+    },
+    {
+     "orderId": 8197,
+     "jobNumber": "7596/26-N",
+     "style": "GRSA8002"
+    }
+   ],
+   "note": "Shangu Group (Osman) booking for buyer Fashion Linq, fwd by M.A. Malek. Two orders (one per style): 7 ply carton 39x28x17 x27125 + TB 37x26 x54250; 7 ply carton 39x28x23 x22635 + TB 37x26 x45270. Delivery 2026-10-15 defaulted, bank 3/credit 90 from 4265/26-N; party choice SHANGU TEX-2 (only one with Ply7/TB) and buyer FASHION LINQ to verify. Label applied."
   }
  ]
 }
