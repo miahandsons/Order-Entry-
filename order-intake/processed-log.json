@@ -3687,6 +3687,283 @@
       "note": "Florence/Faiza DMR carton booking (Sigma Fashion, deliver 06-Oct). All 4 styles already in Flowtech: DGSS27-01FUtg/DGSS27-14 in job 7466/26-N, S27FU1DSS2505s2kb66/S27FU1DSS25052tb66 in job 7493/26-N (same quantities 1097/716/1373/1463). The sheet carries REVISED carton sizes for the two DGSS27 styles: DGSS27-01FUtg-66 60x52x23 -> 58x38x30 CM; DGSS27-14-1FUtg-66 69x47x18 -> 58x38x25 CM; 'no need top bottom' for those two styles. Job 7466 is APPROVED and shows fully delivered at the old sizes, so a human must decide/manually revise. No new draft created; no Gmail label applied."
     },
     {
+      "folder": "2026-10-06_planningialt_1a10f29fed",
+      "folderId": "1shtxl2ynHIrMyi-UUdDKOJeer_exu1Yl",
+      "gmailThreadId": "1a10f29fede38278",
+      "processedAt": "2026-10-06T04:00:00Z",
+      "result": "entered",
+      "jobNumber": "7547/26-N",
+      "note": "IALT Footwear PO 173/26 (REF E26064-WDG(UP), Deichmann): 227 pcs 5-ply printed master carton 67x45x36, Auto Corrugated Printed Master Carton/Ply 5/A-500-L at catalog $0.58 (PO says $0.60/sqm; system total $264.11 vs PO $273.22). Buyer DEICHMAN, delivery 2026-10-09 (order_date+3 per prior orders), bank/credit 90 days defaulted per history. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-06_mkt.limrainterior_1a11003fd1",
+      "folderId": "1ehuG5HvjNyYBbTfSIhfH9BN3gddh1E2k",
+      "gmailThreadId": "1a11003fd16ad079",
+      "processedAt": "2026-10-06T07:45:00Z",
+      "result": "not_order",
+      "reason": "Limra Interior exhibition-stall marketing email + company profile PDF (IFSSE 2026 expo); not a client order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-06_niloy_1a11095cb2",
+      "folderId": "1hhsKwMF8sD1skDfCPC1iXXkYJyNq2-Ta",
+      "gmailThreadId": "1a11095cb2043807",
+      "processedAt": "2026-10-06T10:00:00Z",
+      "result": "entered",
+      "jobNumber": "7556/26-N",
+      "note": "FB Footwear PO POSS-27-00246 (Modivo UMI-03 Beige, 5 ply, 3 sizes, 838 pcs, $759.31 vs PO $759.32). Catalog $0.64/sqm, grade A-500-L, bank Premier(3), credit 90 defaulted; delivery 2026-10-08 read from garbled '0B-Oct' - verify. Email asks to confirm delivery date and issue PI within 1 working day. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-06_nahida_1a110a3dc6",
+      "folderId": "1kZb_QOh_iXC_iqmQyNh8k-AqaMFv4_7b",
+      "gmailThreadId": "1a110a3dc6bbfa04",
+      "processedAt": "2026-10-06T11:00:00Z",
+      "result": "not_order",
+      "reason": "Premier Bank Kawran Bazar transaction voucher (LC 1421260400663 proceeds realized); bank correspondence. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-06_kpplkud_1a110f5bd3",
+      "folderId": "1KLmV9pMCRaorLkzEDhJXSSzN_9bi4yMi",
+      "gmailThreadId": "1a110f5bd302640b",
+      "processedAt": "2026-10-06T12:00:00Z",
+      "result": "not_order",
+      "reason": "Forwarded SWIFT ACK of payment (pacs.009, USD 59,026.00); bank paperwork. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-06_emonsadik2014_1a111a4326",
+      "folderId": "1g-uxEUH72Pu_e94mMbzlJtxubM8Z5XfB",
+      "gmailThreadId": "1a111a4326ef3aad",
+      "processedAt": "2026-10-06T15:00:00Z",
+      "result": "entered",
+      "jobNumber": "7557/26-N",
+      "orderId": 8158,
+      "partyName": "Concord Raiment Wear Ltd.",
+      "note": "Marie Claire carton booking MS016 (Ruhul Amin, emonsadik2014@gmail.com), single-message thread: 10 style/PO lines Master Carton Ply5 A-500-L total 1114 ctns (61x32x32.5 PAC styles; 55x32x28 SHO styles) + Top Bottom 40x25 x2228 (2x guess); total $1029.02. Buyer 'Marie Claire' not in Buyer table -> placeholder 'No Buyer'. Delivery 2026-10-09 defaulted (sheet's 30/04/2025 stale). S36VSHO00010 dims 55 (booking) vs 50 (shipping-mark file) - verify. Email asks layout approval before production. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_merchandising8_1a1148a497",
+      "folderId": "13AfidSAdk0q2NYuR3rstCFtd3tEqsLBQ",
+      "gmailThreadId": "19d9e86473684492",
+      "processedAt": "2026-10-07T04:45:00Z",
+      "result": "entered",
+      "jobNumber": "7558/26-N",
+      "orderId": 8159,
+      "partyName": "BEQ KNIT LIMITED",
+      "note": "Lusaka Group/Nazmul META SS-27 first inner box booking: Inner Box Ply 3 A-302-L, 4 lines (38x29x18 855, 38x29x25 248, 38x29x22 124, 38x29x18 97) total 1324 pcs, $407.37. Two stale carry-over rows (151, 58) excluded as outside sheet total. Buyer META (closest), grade/bank/credit days defaulted. Older sibling folder 2026-04-18_nazmul superseded."
+    },
+    {
+      "folder": "2026-10-07_procurement.jewel_1a1149a24e",
+      "folderId": "1J3_qTzzTdVEguLSAA4NjM4EHwME_-AXK",
+      "gmailThreadId": "1a1149a24eb9a268",
+      "processedAt": "2026-10-07T04:45:00Z",
+      "result": "not_order",
+      "reason": "Vehicle-hire approval letters for our own deliveries; NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-07_crwlsadi_1a114b0dfc",
+      "folderId": "13l4d9t5igAi96EL2Ukqzg8lw4E6g7V6Z",
+      "gmailThreadId": "1a114b0dfc7f79fc",
+      "processedAt": "2026-10-07T05:50:00Z",
+      "result": "entered",
+      "jobNumber": "7561/26-N",
+      "orderId": 8162,
+      "partyName": "Concord Raiment Wear Ltd.",
+      "note": "Noah 6.5 OZ Denim carton booking (HBS Apparels delivery): Master Carton Ply5 A-500-L 538 ctn aggregated into 5 sizes + Top Bottom 1076 pcs (dims guessed = carton LxW, split per size); total $581.71. Buyer NOAH WORLD guessed (Noah Fleece/SHAGGY/WORLD exist). Delivery 2026-10-10, bank Premier(3), credit 90 defaulted. Single-message thread. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_motherboxctn_1a114c0876",
+      "folderId": "1661X1gSMVDEw_NEPmlL2fL2ylYdUsEfi",
+      "gmailThreadId": "1a114c08765e008d",
+      "processedAt": "2026-10-07T05:50:00Z",
+      "result": "entered",
+      "jobNumber": "7562/26-N",
+      "orderId": 8163,
+      "partyName": "Rizvi Fashions Ltd.",
+      "note": "FM LONDON BB027 B&B Vest (Job 3485) carton booking via Mother Box: Auto Master Carton Ply5 A-501-L 110+75+142=327 (unit_price overridden 0.76/sqm per sheet vs catalog 0.70), Top Bottom A-300-I 35x23 x654; total $312.96 vs sheet $312.94. Delivery 2026-10-10 from sheet, bank Premier(3), credit 90 defaulted. Single-message thread. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_kpplkud_1a114d2f51",
+      "folderId": "1rXvUoNGPFffiAb8VIyYZauv2EO2GiEBq",
+      "gmailThreadId": "1a0a4906d447d01a",
+      "processedAt": "2026-10-07T05:50:00Z",
+      "result": "not_order",
+      "reason": "SWIFT ACK/pacs.009 payment report (USD 59,026) in 'Payment request ... PI Falcon-263266' thread - bank payment correspondence, not a client order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-07_imtiaz.proc.dal_1a1152d811",
+      "folderId": "1AwCLdMV1xRCXbnoi98AC_W5hlW2IlGrn",
+      "gmailThreadId": "1a02eac64eae1c79",
+      "processedAt": "2026-10-07T07:45:00Z",
+      "result": "not_order",
+      "reason": "Reply from Dekko Accessories procurement (Imtiaz) to our 'Revised price quotation for 3,5 and 7 ply master carton' thread; attached PDF is the price quotation (rates per pc, dated 23.08.2026, 20 lines, no quantities) - a quote, not an order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-07_merchandiser5_1a1155090d",
+      "folderId": "1B30PJnbOLRhw14o3IsaRZGAJTLB8Ndz6",
+      "gmailThreadId": "1a1155090d67059b",
+      "processedAt": "2026-10-07T08:55:00Z",
+      "result": "entered",
+      "jobNumber": "7563/26-N (3T41462/PO26005396), 7564/26-N (7241394/PO26005395), 7565/26-N (BS40294/PO26004805), 7566/26-N (7143159/PO26005085), 7567/26-N (7143163/PO26005043), 7568/26-N (3340418/PO26005213)",
+      "orderId": "8164-8169",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "note": "Texzone 'Carton Work Order FOR Buyer-Castro' (Javed), 6 work orders, single-message thread, no siblings. Totals $174.27/208.78/102.23/144.83/53.35/186.49. Buyer Castro (from subject), bank Premier(3), credit 90, delivery 2026-10-08 per email (3T41462 specially urgent); solid perforation flagged in ai_notes only, no DIE CUT. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_shawan.mer_1a1159e8ce",
+      "folderId": "1sJ6Ght_bLJghbYjkBX-tc_C0kv0ZdReg",
+      "gmailThreadId": "1a1159e8ce443902",
+      "processedAt": "2026-10-07T10:00:00Z",
+      "result": "entered",
+      "orderId": 8175,
+      "jobNumber": "7574/26-N",
+      "partyName": "FAIZA INDUSTRIES LTD.",
+      "note": "Florence Group CIA HERING RESERVA (0104215) bulk carton booking. Auto Master Carton Ply 5 A-548-L 53x38x30 qty 41 + 37; Top Bottom Ply 3 A-310-L 50x35 qty 141. Total $92.22. Delivery defaulted order+3d (10-Oct); bank/credit/attention defaulted from prior jobs. Flags: T&B 141 vs cartons 78; client requires layout approval before production. Thread has only client msg + our ack, no siblings. Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_ripon.mondal_1a115bcf2e",
+      "folderId": "1x3l2i1BtuB_1iWCZWg2-9dCa0v1WXOWJ",
+      "gmailThreadId": "1a0ed6d24a05ef1b",
+      "processedAt": "2026-10-07T11:00:00Z",
+      "result": "not_order",
+      "note": "Liberty Knitwear (Ripon Mondal) 'RE: NKD': approval replies to our own carton layouts 2118170/2118122 (approved), 2118183 (needs revision); not an order."
+    },
+    {
+      "folder": "2026-10-07_ripon.mondal_1a115c0a93",
+      "folderId": "1jVgdjfXYsFOMsdYRTJFIs2_FAMSe7fIx",
+      "gmailThreadId": "1a0ed4423999874c",
+      "processedAt": "2026-10-07T11:00:00Z",
+      "result": "not_order",
+      "note": "Liberty Knitwear (Ripon Mondal) 'RE: LKN26-21': 'ALL APPROVED' reply to our own carton layouts; not an order."
+    },
+    {
+      "folder": "2026-10-07_sifat.lkl_1a1161198c",
+      "folderId": "1_YbbPZ7yFp9sPuoU8SoIDIr6C2WzjdPM",
+      "gmailThreadId": "1a1161198cbf8e1d",
+      "processedAt": "2026-10-07T12:00:00Z",
+      "result": "entered",
+      "orderId": 8176,
+      "jobNumber": "7575/26-N",
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "Carton Booking LKGK26-08 (Grupokaybee) from Sifat Islam, 525 pcs 58x40x27 carton, single-message thread. Entered as Auto Corrugated Printed Master Carton/Ply 5/A-508-L at catalog price (Square Meter); delivery_date defaulted to 2026-11-06 (not stated); client's ERP work order still to follow - reviewer to verify price basis, grade, date, qty. Gmail label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_commercial2_1a11657180",
+      "folderId": "13oSQrEOPu6M3q5WlIRmBQ-lzo3uq-eh1",
+      "gmailThreadId": "1a0dc64036632cf4",
+      "processedAt": "2026-10-07T13:00:00Z",
+      "result": "not_order",
+      "note": "Eurotex Knitwear Commercial-2 'RE: UD & BB Dasboard Update': BKMEA Utilization Declaration (Ud80053.pdf) for Eurotex/Tuli Trading; customs/bond paperwork listing Miah & Sons only as a local carton supplier, not a client order."
+    },
+    {
+      "folder": "2026-10-07_gulam_1a1166800e",
+      "folderId": "15duaIGMF-tuGD04ldQEykD0ibvcbuWou",
+      "gmailThreadId": "1a1166800ef3d960",
+      "processedAt": "2026-10-07T14:00:00Z",
+      "result": "entered",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "orders": [
+        {
+          "orderId": 8177,
+          "jobNumber": "7576/26-N",
+          "po": "1000488/10/2026/ACS",
+          "design": "Emilia (21503)"
+        },
+        {
+          "orderId": 8178,
+          "jobNumber": "7577/26-N",
+          "po": "1000473/10/2026/ACS",
+          "design": "Elegance (21550)"
+        }
+      ],
+      "note": "Genuine 'Mascot Hoie ( 21503 + 21550 ) extra quantity Carton 2 Po.' from Md. Gulam Mostafa (ACS Textiles), single-message thread, no siblings. Drafted as 2 orders (one per PO), item Auto Corrugated Master Carton (Printed)/Ply 5/A-500-L at catalog price (no unit_price override, totals $5.84 and $4.80 match PDFs). Defaults: bank id 3, credit_days 0, delivery station factory address, unit CM. Delivery 2026-10-08 per email. Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-07_trimsstore_1a116beb07",
+      "folderId": "1IoKffaouscwe5zLwzsX_kjwctYMrkuqP",
+      "gmailThreadId": "1a116beb070b71ec",
+      "processedAt": "2026-10-07T15:00:00Z",
+      "result": "not_order",
+      "note": "ACS Textiles Trims Store 'Revised PI Required as per Audit Deduction': PI-AT-GPI-49/50/51-26-N audit reconciliation sheets (PO vs revised PI values) asking us to revise our PIs; single-message thread; not a client order. NOT_ORDER marker created."
+    },
+    {
+      "folder": "2026-10-07_merchandiser3_1a1172379c",
+      "folderId": "1zmGjMquJPCEoEy4pbVlenjE8_dfXUrW6",
+      "gmailThreadId": "1a1172379c16c6cf",
+      "processedAt": "2026-10-07T17:00:00Z",
+      "result": "entered",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "orders": [
+        {
+          "orderId": 8179,
+          "jobNumber": "7578/26-N",
+          "po": "PO26005674",
+          "style": "7241392",
+          "totalPrice": 26.35
+        },
+        {
+          "orderId": 8180,
+          "jobNumber": "7579/26-N",
+          "po": "PO26007015",
+          "style": "7040608",
+          "totalPrice": 26.77
+        },
+        {
+          "orderId": 8181,
+          "jobNumber": "7580/26-N",
+          "po": "PO26006192",
+          "style": "7040600",
+          "totalPrice": 27.17
+        }
+      ],
+      "note": "Texzone 'CARTON WORK OREDER' (MD Ferdous), 3 carton work orders, single-message thread, no siblings. One order per PO. Master Carton Ply 5 A-500-L (A+B, 30x25x10) + Top Bottom Ply 3 A-301-L 27x22. Defaults flagged in ai_notes: buyer Castro (not stated), bank 3, credit 90, delivery 2026-10-10 (order+3d). Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-08_crwlsadi_1a119d2b5d",
+      "folderId": "1r2pBfbU08zyd3VaKNs9j7UX9VhPhRnTo",
+      "gmailThreadId": "1a119d2b5d01db54",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "entered",
+      "jobNumber": "7584/26-N, 7585/26-N",
+      "orderId": "8185, 8186",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "note": "TAKIHYO carton bookings Sty 224441213 (2 xlsx): MD7TK57201 -> job 7584/26-N (58x44x22 x390 + Top Bottom 38x28 x780, $412.34); MD7TK27201 -> job 7585/26-N (58x44x24 x370 + Top Bottom 38x28 x740, $401.59). Buyer TAKIHYO. Delivery 2026-10-11, bank Premier(3), credit 90 defaulted. Booking-2 xlsx style code MD7TK27201 vs PDF 57201 - possible typo. Single-message thread. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-08_merch1_1a119b5cad",
+      "folderId": "1zklJFi6-Rj0aZ4NG_cb5Cc7GVMWcUfhe",
+      "gmailThreadId": "1a119b5cad6b3fdf",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "already_entered",
+      "jobNumber": "7581/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Fountain/Rabab additional carton booking F-IT-171-1A-910 C#2 P-2 (POs 34408WR, 34409WR). Flowtech already has job 7581/26-N (APPROVED, Wal-Mart, same style/POs) entered manually; not duplicated. Thread already carries entered-by-ai label."
+    },
+    {
+      "folder": "2026-10-08_sifat.lkl_1a119cda95",
+      "folderId": "1OaWbhOm4G_ZTtYc10_6oMlcADLs_-snk",
+      "gmailThreadId": "1a1161198cbf8e1d",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "manual_revision_needed",
+      "jobNumber": "7575/26-N",
+      "partyName": "Liberty Knitwear Ltd.",
+      "note": "Same thread as already-entered job 7575/26-N (Liberty Knitwear LKGK26-08, orderId 8176). Forward adds buyer layout instruction (grupokaybee: print shipping mark on the 2 LENGTH sides of carton, not width) plus ERP-booking-sheet attachments. create_order cannot revise -> human must manually revise job 7575/26-N (print side; check ERP sheet vs entered qty/price/date)."
+    },
+    {
+      "folder": "2026-10-08_toukir.a_1a119cd582",
+      "folderId": "18oPZJccVpXTh6U0VjTzAZ5_WEksJVtHQ",
+      "gmailThreadId": "",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "not_order",
+      "note": "Bank advice PDF (USD 13,957.06); NOT_ORDER file already present."
+    },
+    {
+      "folder": "2026-10-08_abdulhye.m_1a119cda19",
+      "folderId": "1SsKVJoEcM2swk-uDMjx4Z4yCl1Z2dCSY",
+      "gmailThreadId": "",
+      "processedAt": "2026-10-08T06:00:00Z",
+      "result": "not_order",
+      "note": "Bank advice PDF (USD 13,957.06); NOT_ORDER file already present."
+    },
+    {
       "folder": "2026-10-08_taleb_1a11a41a32",
       "folderId": "17XhVmA74KNELLtAIw3EUgH5BpxhBkDS_",
       "gmailThreadId": "1a0656a64c2840a5",
@@ -3724,142 +4001,6 @@
       "jobNumber": "7592/26-N",
       "partyName": "Rizvi Fashions Ltd.",
       "note": "Dewalt PO 2042 Brand Carrier SS tee, Job 3478 (price override 0.76); no LS booking sheet attached; thread labelled"
-    },
-    {
-      "folder": "2026-10-08_crwlsadi_1a119d2b5d",
-      "folderId": "1r2pBfbU08zyd3VaKNs9j7UX9VhPhRnTo",
-      "gmailThreadId": "1a119d2b5d01db54",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "jobNumbers": [
-        "7584/26-N",
-        "7585/26-N"
-      ],
-      "note": "Takihyo bookings already in Flowtech"
-    },
-    {
-      "folder": "2026-10-08_sifat.lkl_1a119cda95",
-      "folderId": "1OaWbhOm4G_ZTtYc10_6oMlcADLs_-snk",
-      "gmailThreadId": "1a1161198cbf8e1d",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "jobNumber": "7575/26-N",
-      "note": "FW of the 07-Oct LKGK26-08 email; attachment sizes identical to the entered version. Older folder 2026-10-07_sifat.lkl_1a1161198c marked SUPERSEDED."
-    },
-    {
-      "folder": "2026-10-08_merch1_1a119b5cad",
-      "folderId": "1zklJFi6-Rj0aZ4NG_cb5Cc7GVMWcUfhe",
-      "gmailThreadId": "1a119b5cad6b3fdf",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "jobNumber": "7581/26-N",
-      "note": "Fountain additional carton booking already in Flowtech"
-    },
-    {
-      "folder": "2026-10-08_toukir.a_1a119cd582",
-      "folderId": "18oPZJccVpXTh6U0VjTzAZ5_WEksJVtHQ",
-      "gmailThreadId": "1a0ec01026f77833",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "not_order",
-      "reason": "Standard Group payment/outstanding-value advice (USD 13,957.06), not an order. NOT_ORDER file already present."
-    },
-    {
-      "folder": "2026-10-08_abdulhye.m_1a119cda19",
-      "folderId": "1SsKVJoEcM2swk-uDMjx4Z4yCl1Z2dCSY",
-      "gmailThreadId": "1a119cda19f50c97",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "not_order",
-      "reason": "'LC copy issue' payment/LC paperwork, not an order. NOT_ORDER file already present."
-    },
-    {
-      "folder": "2026-10-07_merchandiser3_1a1172379c",
-      "folderId": "1zmGjMquJPCEoEy4pbVlenjE8_dfXUrW6",
-      "gmailThreadId": "1a1172379c16c6cf",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7578-7580/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-07_gulam_1a1166800e",
-      "folderId": "15duaIGMF-tuGD04ldQEykD0ibvcbuWou",
-      "gmailThreadId": "1a1166800ef3d960",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7576-7577/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-07_shawan.mer_1a1159e8ce",
-      "folderId": "1sJ6Ght_bLJghbYjkBX-tc_C0kv0ZdReg",
-      "gmailThreadId": "1a1159e8ce443902",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7574/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-07_merchandiser5_1a1155090d",
-      "folderId": "1B30PJnbOLRhw14o3IsaRZGAJTLB8Ndz6",
-      "gmailThreadId": "1a1155090d67059b",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7563-7568/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-07_crwlsadi_1a114b0dfc",
-      "folderId": "13l4d9t5igAi96EL2Ukqzg8lw4E6g7V6Z",
-      "gmailThreadId": "1a114b0dfc7f79fc",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7561/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-07_motherboxctn_1a114c0876",
-      "folderId": "1661X1gSMVDEw_NEPmlL2fL2ylYdUsEfi",
-      "gmailThreadId": "1a114c08765e008d",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7562/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-07_merchandising8_1a1148a497",
-      "folderId": "13AfidSAdk0q2NYuR3rstCFtd3tEqsLBQ",
-      "gmailThreadId": "19d9e86473684492",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7558/26-N (PI-BKL-7558 already sent)",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-06_emonsadik2014_1a111a4326",
-      "folderId": "1g-uxEUH72Pu_e94mMbzlJtxubM8Z5XfB",
-      "gmailThreadId": "1a111a4326ef3aad",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7557/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-06_niloy_1a11095cb2",
-      "folderId": "1hhsKwMF8sD1skDfCPC1iXXkYJyNq2-Ta",
-      "gmailThreadId": "1a11095cb2043807",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7556/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
-    },
-    {
-      "folder": "2026-10-06_planningialt_1a10f29fed",
-      "folderId": "1shtxl2ynHIrMyi-UUdDKOJeer_exu1Yl",
-      "gmailThreadId": "1a10f29fede38278",
-      "processedAt": "2026-10-08T07:50:00Z",
-      "result": "already_entered_no_action",
-      "existingJobNumber": "7547/26-N",
-      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
     }
   ]
 }
