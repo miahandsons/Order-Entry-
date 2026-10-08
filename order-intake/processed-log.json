@@ -3915,6 +3915,43 @@
         }
       ],
       "note": "Texzone 'CARTON WORK OREDER' (MD Ferdous), 3 carton work orders, single-message thread, no siblings. One order per PO. Master Carton Ply 5 A-500-L (A+B, 30x25x10) + Top Bottom Ply 3 A-301-L 27x22. Defaults flagged in ai_notes: buyer Castro (not stated), bank 3, credit 90, delivery 2026-10-10 (order+3d). Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-08_toukir.a_1a119cd582",
+      "folderId": "18oPZJccVpXTh6U0VjTzAZ5_WEksJVtHQ",
+      "gmailThreadId": "1a0ec01026f77833",
+      "processedAt": "2026-10-08T05:00:00Z",
+      "result": "not_order",
+      "note": "Standard Group 'Outstanding value AEO' reply with LC copy PDF (USD 13,957.06); bank/LC paperwork. NOT_ORDER created."
+    },
+    {
+      "folder": "2026-10-08_abdulhye.m_1a119cda19",
+      "folderId": "1SsKVJoEcM2swk-uDMjx4Z4yCl1Z2dCSY",
+      "gmailThreadId": "1a119cda19f50c97",
+      "processedAt": "2026-10-08T05:00:00Z",
+      "result": "not_order",
+      "note": "Standard Group 'LC copy issue' with LC copy PDF; bank/LC paperwork. NOT_ORDER created."
+    },
+    {
+      "folder": "2026-10-08_merch1_1a119b5cad",
+      "folderId": "1zklJFi6-Rj0aZ4NG_cb5Cc7GVMWcUfhe",
+      "gmailThreadId": "1a119b5cad6b3fdf",
+      "processedAt": "2026-10-08T05:00:00Z",
+      "result": "entered",
+      "orderId": 8182,
+      "jobNumber": "7581/26-N",
+      "partyName": "FOUNTAIN GARMENTS MANUFACTURING LTD.",
+      "note": "Fountain 'F-IT-171-1A-910,C#2 P-2 Additional Carton Booking' (POs 34408WR/34409WR), single-message thread. Data from email body (PDF is layout only): 3 Ply-5 A-500-L carton lines x20 pcs + Top Bottom A-306-I 30x15 x120. Original booking for same style/POs is job 7138/26-N (not revised). Defaults: buyer Wal-Mart, bank 3, credit 30, delivery 2026-10-09. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-08_sifat.lkl_1a119cda95",
+      "folderId": "1OaWbhOm4G_ZTtYc10_6oMlcADLs_-snk",
+      "gmailThreadId": "1a1161198cbf8e1d",
+      "processedAt": "2026-10-08T05:00:00Z",
+      "result": "needs_manual_revision",
+      "existingOrderId": 8176,
+      "existingJobNumber": "7575/26-N",
+      "note": "Liberty LKGK26-08 resend (same 3 attachments) adding buyer instruction: print shipping mark on the 2 LENGTH sides of the carton instead of the width side (CARTON MARK PDF + forwarded Grupokaybee email). Older sibling already entered as job 7575/26-N; create_order cannot revise. Human should revise/confirm print-side on 7575/26-N; ERP work order still awaited."
     }
   ]
 }
