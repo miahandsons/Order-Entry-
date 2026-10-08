@@ -3685,6 +3685,181 @@
       "result": "needs_manual_revision",
       "jobNumber": "7466/26-N",
       "note": "Florence/Faiza DMR carton booking (Sigma Fashion, deliver 06-Oct). All 4 styles already in Flowtech: DGSS27-01FUtg/DGSS27-14 in job 7466/26-N, S27FU1DSS2505s2kb66/S27FU1DSS25052tb66 in job 7493/26-N (same quantities 1097/716/1373/1463). The sheet carries REVISED carton sizes for the two DGSS27 styles: DGSS27-01FUtg-66 60x52x23 -> 58x38x30 CM; DGSS27-14-1FUtg-66 69x47x18 -> 58x38x25 CM; 'no need top bottom' for those two styles. Job 7466 is APPROVED and shows fully delivered at the old sizes, so a human must decide/manually revise. No new draft created; no Gmail label applied."
+    },
+    {
+      "folder": "2026-10-08_taleb_1a11a41a32",
+      "folderId": "17XhVmA74KNELLtAIw3EUgH5BpxhBkDS_",
+      "gmailThreadId": "1a0656a64c2840a5",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "needs_manual_revision",
+      "jobNumber": "7582/26-N",
+      "note": "Liberty Knitwear/Rockwear LKRW26-01 re-send ('RE:' with 'CARTON & TOP BOTTOM WORK ORDER-LKRW26-01-AD.pdf') of the 03-Sep thread already entered as 7582/26-N. A human must compare the -AD PDF with job 7582 and revise manually. Older folder 2026-09-03_taleb_1a0656a64c marked SUPERSEDED."
+    },
+    {
+      "folder": "2026-10-08_niloy_1a11a4c205",
+      "folderId": "1S0NOn57EtqaC-vQdrxdrHGvmN1DE-N2w",
+      "gmailThreadId": "1a11a4c2058bcc33",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "entered",
+      "jobNumber": "7590/26-N",
+      "partyName": "FOOTBED FOOTWEAR LTD",
+      "note": "POSS-27-00253; thread labelled entered-by-ai"
+    },
+    {
+      "folder": "2026-10-08_motherboxctn_1a11a6194d",
+      "folderId": "1flFkw3bzq2dOeGzoAgCOcMZ-9kbUyQPr",
+      "gmailThreadId": "1a11a6194d7b26e8",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "entered",
+      "jobNumber": "7591/26-N",
+      "partyName": "Rizvi Fashions Ltd.",
+      "note": "Dewalt PO 2042 GT LS tee, Job 3472; thread labelled"
+    },
+    {
+      "folder": "2026-10-08_motherboxctn_1a11a64555",
+      "folderId": "1RiMW4_v_rDZPLdV-3MZ4rxzxNXm-qKHh",
+      "gmailThreadId": "1a11a645553e7355",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "entered",
+      "jobNumber": "7592/26-N",
+      "partyName": "Rizvi Fashions Ltd.",
+      "note": "Dewalt PO 2042 Brand Carrier SS tee, Job 3478 (price override 0.76); no LS booking sheet attached; thread labelled"
+    },
+    {
+      "folder": "2026-10-08_crwlsadi_1a119d2b5d",
+      "folderId": "1r2pBfbU08zyd3VaKNs9j7UX9VhPhRnTo",
+      "gmailThreadId": "1a119d2b5d01db54",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "jobNumbers": [
+        "7584/26-N",
+        "7585/26-N"
+      ],
+      "note": "Takihyo bookings already in Flowtech"
+    },
+    {
+      "folder": "2026-10-08_sifat.lkl_1a119cda95",
+      "folderId": "1OaWbhOm4G_ZTtYc10_6oMlcADLs_-snk",
+      "gmailThreadId": "1a1161198cbf8e1d",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "jobNumber": "7575/26-N",
+      "note": "FW of the 07-Oct LKGK26-08 email; attachment sizes identical to the entered version. Older folder 2026-10-07_sifat.lkl_1a1161198c marked SUPERSEDED."
+    },
+    {
+      "folder": "2026-10-08_merch1_1a119b5cad",
+      "folderId": "1zklJFi6-Rj0aZ4NG_cb5Cc7GVMWcUfhe",
+      "gmailThreadId": "1a119b5cad6b3fdf",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "jobNumber": "7581/26-N",
+      "note": "Fountain additional carton booking already in Flowtech"
+    },
+    {
+      "folder": "2026-10-08_toukir.a_1a119cd582",
+      "folderId": "18oPZJccVpXTh6U0VjTzAZ5_WEksJVtHQ",
+      "gmailThreadId": "1a0ec01026f77833",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "not_order",
+      "reason": "Standard Group payment/outstanding-value advice (USD 13,957.06), not an order. NOT_ORDER file already present."
+    },
+    {
+      "folder": "2026-10-08_abdulhye.m_1a119cda19",
+      "folderId": "1SsKVJoEcM2swk-uDMjx4Z4yCl1Z2dCSY",
+      "gmailThreadId": "1a119cda19f50c97",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "not_order",
+      "reason": "'LC copy issue' payment/LC paperwork, not an order. NOT_ORDER file already present."
+    },
+    {
+      "folder": "2026-10-07_merchandiser3_1a1172379c",
+      "folderId": "1zmGjMquJPCEoEy4pbVlenjE8_dfXUrW6",
+      "gmailThreadId": "1a1172379c16c6cf",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7578-7580/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-07_gulam_1a1166800e",
+      "folderId": "15duaIGMF-tuGD04ldQEykD0ibvcbuWou",
+      "gmailThreadId": "1a1166800ef3d960",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7576-7577/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-07_shawan.mer_1a1159e8ce",
+      "folderId": "1sJ6Ght_bLJghbYjkBX-tc_C0kv0ZdReg",
+      "gmailThreadId": "1a1159e8ce443902",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7574/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-07_merchandiser5_1a1155090d",
+      "folderId": "1B30PJnbOLRhw14o3IsaRZGAJTLB8Ndz6",
+      "gmailThreadId": "1a1155090d67059b",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7563-7568/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-07_crwlsadi_1a114b0dfc",
+      "folderId": "13l4d9t5igAi96EL2Ukqzg8lw4E6g7V6Z",
+      "gmailThreadId": "1a114b0dfc7f79fc",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7561/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-07_motherboxctn_1a114c0876",
+      "folderId": "1661X1gSMVDEw_NEPmlL2fL2ylYdUsEfi",
+      "gmailThreadId": "1a114c08765e008d",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7562/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-07_merchandising8_1a1148a497",
+      "folderId": "13AfidSAdk0q2NYuR3rstCFtd3tEqsLBQ",
+      "gmailThreadId": "19d9e86473684492",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7558/26-N (PI-BKL-7558 already sent)",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-06_emonsadik2014_1a111a4326",
+      "folderId": "1g-uxEUH72Pu_e94mMbzlJtxubM8Z5XfB",
+      "gmailThreadId": "1a111a4326ef3aad",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7557/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-06_niloy_1a11095cb2",
+      "folderId": "1hhsKwMF8sD1skDfCPC1iXXkYJyNq2-Ta",
+      "gmailThreadId": "1a11095cb2043807",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7556/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
+    },
+    {
+      "folder": "2026-10-06_planningialt_1a10f29fed",
+      "folderId": "1shtxl2ynHIrMyi-UUdDKOJeer_exu1Yl",
+      "gmailThreadId": "1a10f29fede38278",
+      "processedAt": "2026-10-08T07:50:00Z",
+      "result": "already_entered_no_action",
+      "existingJobNumber": "7547/26-N",
+      "note": "Found already in Flowtech from an earlier run whose log entry was never committed; matched by style/PO."
     }
   ]
 }
