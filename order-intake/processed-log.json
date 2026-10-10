@@ -4191,6 +4191,17 @@
       "processedAt": "2026-10-10T11:45:00Z",
       "result": "needs_manual_entry",
       "note": "Estas Edge PO63533 (buyer CONTRAST): final go-ahead received, qty confirmed (360 carton 48x33x31 7ply @ $0.8874; 720 top-bottom 45x30 3ply @ $0.054; poly booking also attached), delivery 13-Oct-2026 to Murad Apparels Ltd. Party Estas Edge / LeadTime does not exist in Flowtech (no party, no CONTRAST orders); autopilot cannot create parties. Human must create the party and enter. Older folder 2026-10-10_mazharul.tusher_1a124520d3 marked SUPERSEDED."
+    },
+    {
+      "folder": "2026-10-10_merchandiser4_1a125a2cea",
+      "folderId": "1RzRUpzby8P4Vv5J8vFU0ZC5YbQG4R383",
+      "gmailThreadId": "1a125a2cea6baea3",
+      "processedAt": "2026-10-10T13:00:00Z",
+      "result": "entered",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "orderId": 8205,
+      "jobNumber": "7604/26-N",
+      "note": "Texzone carton work order 7174057 (PO26005511, buyer Castro), Sabbir Majumder. Thread's 2nd message is our own layout-approval reply (no hold). Master carton A 50x34x40 x31, B 50x34x22 x29, Solid 50x34x40 x77; Top Bottom 45x30 x274. Total $152.04. Defaulted: bank Premier id 3, credit 90, attention MD. JAVED, station, unit CM, order_date from doc, delivery 2026-10-12 from email. Solid-carton perforation requirement and no DIE CUT flagged in ai_notes for reviewer. Gmail label applied."
     }
   ]
 }
