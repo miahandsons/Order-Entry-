@@ -4120,6 +4120,26 @@
       "orderId": "8130",
       "partyName": "Rizvi Fashions Ltd.",
       "note": "Rizvi/Dewalt 'Bottom BOOKING SHEET_PO 2031,2032' (sales contract PSRFL WIP 007 2026, Job 3475, DXWW50011) via Mother Box. Overlaps existing job 7529/26-N (already fully delivered, bottom 19x11 qty 1751 identical to sheet line 3). Sheet adds Bottom 11.81x9.84 (booking qty 1323, $0.0225/pc) and Bottom 10.5x9.5 (qty 357, $0.0193/pc) not in 7529; delivery 'tomorrow' (2026-10-11). Not drafted to avoid duplicating the 19x11 line; human must decide/revise 7529 or enter the 2 extra bottom lines manually."
+    },
+    {
+      "folder": "2026-10-10_neamat_1a124c4a96",
+      "folderId": "1AR-BZTTfq7tbOn1NJ0HgAPU-MUSD_893",
+      "gmailThreadId": "1a124c4a96028da0",
+      "processedAt": "2026-10-10T09:00:00Z",
+      "result": "entered",
+      "jobNumber": "7601/26-N, 7602/26-N",
+      "orderId": "8202, 8203",
+      "partyName": "IHM Garments & Textiles Co. Ltd.",
+      "note": "IHM/MUJI 2027SS new booking, two carton POs (Ply 5 A-500-L 55x31x30: BB424A7S 13409 + BB42427S 1416 = job 7601, $13,210.86; 55x31x33: BB41NA7S 1574, BB41N27S 79, BB41OA7S 2477, BB41O27S 127 = job 7602, $3,962.69) plus 30x20 card board bridge plates (29650 / 8514) mapped to Top Bottom Ply 3 at overridden $0.25/sqm (=$0.015/pc). Delivery 2026-10-18. Client asked for PI on deliverable qty - qty may need reducing on review. Thread labelled order-intake/entered-by-ai."
+    },
+    {
+      "folder": "2026-10-10_neamat_1a124ba0fb",
+      "folderId": "1utZ0ygbZ0frbAI84rO-S54KKuRi6bz9I",
+      "gmailThreadId": "1a106931885d1510",
+      "processedAt": "2026-10-10T09:00:00Z",
+      "result": "already_entered",
+      "jobNumber": "7601/26-N, 7602/26-N",
+      "note": "Reply on Master Carton lab-test thread carrying same two attachments; neamat followed up 'Please ignore this mail' and re-sent as new thread 1a124c4a96028da0 (folder 2026-10-10_neamat_1a124c4a96), which was entered as 7601/7602. Nothing drafted from this folder."
     }
   ]
 }
