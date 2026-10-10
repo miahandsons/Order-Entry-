@@ -4202,6 +4202,25 @@
       "orderId": 8205,
       "jobNumber": "7604/26-N",
       "note": "Texzone carton work order 7174057 (PO26005511, buyer Castro), Sabbir Majumder. Thread's 2nd message is our own layout-approval reply (no hold). Master carton A 50x34x40 x31, B 50x34x22 x29, Solid 50x34x40 x77; Top Bottom 45x30 x274. Total $152.04. Defaulted: bank Premier id 3, credit 90, attention MD. JAVED, station, unit CM, order_date from doc, delivery 2026-10-12 from email. Solid-carton perforation requirement and no DIE CUT flagged in ai_notes for reviewer. Gmail label applied."
+    },
+    {
+      "folder": "2026-10-10_merchandiser5_1a125e2ef4",
+      "folderId": "1aWHPoL3hDlH3cX5ZxPVae6LNhLackTKS",
+      "gmailThreadId": "1a125e2ef4018bf8",
+      "processedAt": "2026-10-10T14:00:00Z",
+      "result": "entered",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "orderIds": [
+        8207,
+        8208,
+        8209
+      ],
+      "jobNumbers": [
+        "7606/26-N",
+        "7607/26-N",
+        "7608/26-N"
+      ],
+      "note": "Texzone carton work orders (javed, buyer Castro): 3T41413/PO26005520 -> 7606 ($107.13); 7241388/PO26006312 -> 7607 ($33.07); 7241376/PO26005170 -> 7608 ($49.54). Single-message thread, no hold. Defaulted: bank Premier id 3, credit 90, attention MD. JAVED, station, unit CM, delivery 2026-10-12 from email. Flags: solid perforation requirement (no DIE CUT applied); 7606 has two Top Bottom rows (41x27 and 45x28, qty 130 each) and 7608 has 41x27 qty 130 + 45x28 qty 36 - reviewer to confirm; 7607 solid row blank so none entered. Gmail label applied."
     }
   ]
 }
