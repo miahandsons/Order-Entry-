@@ -4140,6 +4140,14 @@
       "result": "already_entered",
       "jobNumber": "7601/26-N, 7602/26-N",
       "note": "Reply on Master Carton lab-test thread carrying same two attachments; neamat followed up 'Please ignore this mail' and re-sent as new thread 1a124c4a96028da0 (folder 2026-10-10_neamat_1a124c4a96), which was entered as 7601/7602. Nothing drafted from this folder."
+    },
+    {
+      "folder": "2026-10-10_niloy_1a12511b4c",
+      "folderId": "1h-TGF_u5nXyJJmPff2uVXFbURt0I7unU",
+      "gmailThreadId": "1a12511b4c8e5320",
+      "processedAt": "2026-10-10T10:00:00Z",
+      "result": "not_order",
+      "note": "Footbed Footwear SWIFT MT700 LC 0000138260400628 (USD 6,615.47) against PI/FFL/GPI-7341/26-N; bank LC paperwork, not an order."
     }
   ]
 }
