@@ -4148,6 +4148,33 @@
       "processedAt": "2026-10-10T10:00:00Z",
       "result": "not_order",
       "note": "Footbed Footwear SWIFT MT700 LC 0000138260400628 (USD 6,615.47) against PI/FFL/GPI-7341/26-N; bank LC paperwork, not an order."
+    },
+    {
+      "folder": "2026-10-10_commercial2_1a1253540b",
+      "folderId": "1wIGQlTfYjI9pu-tR9ttG54ND6N_LLFGI",
+      "gmailThreadId": "1a1251fe498f13bf",
+      "processedAt": "2026-10-10T10:45:00Z",
+      "result": "not_order",
+      "reason": "Eurotex Knitwear BKMEA Utilization Declaration (UD 152, buyer Tuli Trading) - bond paperwork, not a client order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-10_packing.lalmai_1a1254a0c7",
+      "folderId": "1qPD9_8_0qf4pd4s7UUEss1NSN3vkj-Ln",
+      "gmailThreadId": "1a10b90315de798f",
+      "processedAt": "2026-10-10T10:45:00Z",
+      "result": "not_order",
+      "reason": "Lalmai Footwear forwarding our own approved PI for open L/C (Re: BILL-1 thread, invoice 1, USD 2,584.73) - outgoing PI/billing, not a new order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-10_tanvir_1a1256579e",
+      "folderId": "1fDsRcmtilvdH6oQpmpLOH2C3DG2dC2up",
+      "gmailThreadId": "1a1256579e095f18",
+      "processedAt": "2026-10-10T10:45:00Z",
+      "result": "needs_manual_revision",
+      "partyName": "Shoeniverse Footwear Ltd.",
+      "existingJobNumber": "7598/26-N",
+      "existingOrderId": 8199,
+      "note": "'Revised PO(28)- Carton' (Submission-1) for PO SFL_M&S/28/PR26105103, single-message thread, replaces Tanvir's 8-Oct 'PO(28)- Carton' (thread 1a11b90a287bd084, folder 2026-10-08_tanvir_1a11b90a28) already entered as job 7598/26-N (order 8199, APPROVED). Revised PDF: 5 Ply Auto Master Carton 60x40x40, 4260 pcs, $0.62, total $4,703.45, delivery 12-Oct - appears to match the existing order's qty/size/price/total; differences (if any, e.g. payment terms 'LC at 90 days' vs 60 days entered, extra 0.5% carton clause) need human check. Not drafted (no duplicate). Human to compare and revise 7598/26-N manually if needed."
     }
   ]
 }
