@@ -4273,6 +4273,17 @@
       "processedAt": "2026-10-11T07:45:00Z",
       "result": "not_order",
       "reason": "ACS Textiles 'Revised PI Required as per Audit Deduction' - PI-AT-GPI-36/39/40-26-N reconciliation of our own PIs; not a new order."
+    },
+    {
+      "folder": "2026-10-11_motherboxctn_1a12a1dfb7",
+      "folderId": "1Gp0qcPcRLGEbpYUwOn6gpTTEcJt3FbbV",
+      "gmailThreadId": "1a12a1dfb75d619a",
+      "processedAt": "2026-10-11T08:50:00Z",
+      "result": "entered",
+      "jobNumber": "7613/26-N",
+      "orderId": 8214,
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "Mother Box WO 52/10 (Job 52-MBP&A-26), buyer N-TEX SOURCING (not in buyer master -> 'No Buyer'). Auto Master Carton Ply5 A-510-L 59.5x29.5x39.5 x3600 @104.025 + Top Bottom Ply3 A-300-I 55x25 x7200 @3.4375 (prices backed out from doc line totals, overriding catalog 70/0). Total 399,240 BDT matches doc. Email paper quality not applied. Cash, bank Premier (3), delivery 2026-10-12. Single-message thread. DISAPPROVED, IsAiDrafted. Label entered-by-ai applied."
     }
   ]
 }
