@@ -4343,6 +4343,25 @@
       "orderId": 8217,
       "jobNumber": "7616/26-N",
       "note": "WO 54/10 (PEP&CO): Auto Master Carton Ply5 A-510-L 56x36x27 x335 @98.49 = BDT 32,994.15. Paper quality in email not applied. Gmail label applied."
+    },
+    {
+      "folder": "2026-10-11_packing.lalmai_1a12a7d3c4",
+      "folderId": "1VsQjqFoxn-lLEW8yiUL-OpvQnS7p8gdE",
+      "gmailThreadId": "1a12a7d3c4affacb",
+      "processedAt": "2026-10-11T10:50:00Z",
+      "result": "entered",
+      "partyName": "Lalmai Footwear Limited",
+      "note": "Two Lalmai work orders (buyer CALERES, 3ply Auto Master carton) in one email, entered as two orders, unit_price_per Order Qty with per-piece WO prices as overrides. WO 26100183 (Vir-04, IMG_0001): order 8220 / job 7619/26-N, 5,455 pcs, $5,014.43; qty for 39x38.5x34.5 read 228 (OCR 278) to match printed total/5,455. WO 26100184 (Vir-05, IMG_0002): order 8221 / job 7620/26-N, 94 pcs, $75.18; 4 zero-qty lines skipped; delivery date illegible, defaulted 2026-10-19. Email asks to drop '100% recycled paper' wording - production to be told. Bank Premier id 3, credit 0. Gmail label applied.",
+      "orders": [
+        {
+          "orderId": 8220,
+          "jobNumber": "7619/26-N"
+        },
+        {
+          "orderId": 8221,
+          "jobNumber": "7620/26-N"
+        }
+      ]
     }
   ]
 }
