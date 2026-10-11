@@ -4221,6 +4221,14 @@
         "7608/26-N"
       ],
       "note": "Texzone carton work orders (javed, buyer Castro): 3T41413/PO26005520 -> 7606 ($107.13); 7241388/PO26006312 -> 7607 ($33.07); 7241376/PO26005170 -> 7608 ($49.54). Single-message thread, no hold. Defaulted: bank Premier id 3, credit 90, attention MD. JAVED, station, unit CM, delivery 2026-10-12 from email. Flags: solid perforation requirement (no DIE CUT applied); 7606 has two Top Bottom rows (41x27 and 45x28, qty 130 each) and 7608 has 41x27 qty 130 + 45x28 qty 36 - reviewer to confirm; 7607 solid row blank so none entered. Gmail label applied."
+    },
+    {
+      "folder": "2026-10-11_emonsadik2014_1a12994181",
+      "folderId": "1rMK6PxTKPte9p8LnGpwBU2n_g3yek6JA",
+      "gmailThreadId": "1a1299418170fcef",
+      "processedAt": "2026-10-11T07:00:00Z",
+      "result": "not_order",
+      "reason": "Emon Sadik 'Carton shipping mark of Sasco order' - blank shipping-mark layout template (style/PO/color/weights empty, size ratio 24 pcs, 60x40x25), no qty/price/delivery. NOT_ORDER file created."
     }
   ]
 }
