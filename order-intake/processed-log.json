@@ -4622,6 +4622,17 @@
    "jobNumber": "7631/26-N",
    "partyName": "FAIZA INDUSTRIES LTD.",
    "note": "Florence Group DMR carton booking (S27FU1DSS2505s2kb66, S27FU1DSS25052tb66), deliver by 14-Oct. Same styles as job 7493/26-N but different sizes/qtys, treated as new booking. Carton Ply 7/A-712-L 58x38x20 qty 1490, 58x38x25 qty 1802; Top Bottom Ply 3/A-310-L 54x34 qty 2981, 3605. Delivery station, bank, credit days, attention defaulted from 7493/26-N. Single-message thread, no siblings. Label order-intake/entered-by-ai applied. Reviewer: confirm whether it replaces 7493/26-N."
+  },
+  {
+   "folder": "2026-10-12_m.a.malek4486_1a130acb00",
+   "folderId": "18_KQN7FlMCqXflTg34CtEpeMqDj6xStl",
+   "gmailThreadId": "19e4edd19b762ab2",
+   "processedAt": "2026-10-12T15:45:00Z",
+   "result": "entered",
+   "orderId": 8233,
+   "jobNumber": "7632/26-N",
+   "partyName": "FASHION FLOW APPARELS LTD.",
+   "note": "Miniconf SS27 carton booking (styles 4.I420/4.I664/4.I784/4.I661), deliver by 14-Oct. Cartons 78x56x15 (A-500-L), dividers, top 76x54 qty 638. Flags: sheet total 957 != line sum 1023; top qty 638 vs 205 cartons; sheet footer has stale May-22 delivery date. Older sibling folders on thread (19e4edefbc, 19e4edd19b, 19ea1b7708) marked SUPERSEDED in Drive (earlier lots already in Flowtech as 6005/6077) and not logged. Label order-intake/entered-by-ai applied."
   }
  ]
 }
