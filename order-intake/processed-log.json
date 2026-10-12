@@ -4439,6 +4439,103 @@
       "orderId": 8225,
       "jobNumber": "7624/26-N",
       "note": "Noah Super stretch 240gsm carton booking-1 (Trowserland delivery): 18 style lines Master Carton Ply5 = 555 ctn + Top Bottom 30x24 x1110; $494.91. Buyer NOAH WORLD guessed, delivery 2026-10-15 defaulted. Gmail label applied."
+    },
+    {
+      "folder": "2026-10-12_gulam_1a12ef382f",
+      "folderId": "1CK3eEEjnnO97qhv7Ai6fT1a8mv9EFGzE",
+      "gmailThreadId": "1a12ef382fdbbb8e",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "entered",
+      "jobNumber": "7627/26-N",
+      "orderId": 8228,
+      "note": "ACS Mascot Hoie order 21510 (TRIMS/IPO/26/11811, PO 1000564) 5-ply printed FSC carton, 6 sizes, 642 pcs, $477.15; delivery 13-Oct. Label applied. Lines priced per piece (Order Qty) overriding catalog 0.55."
+    },
+    {
+      "folder": "2026-10-12_export_1a12eeb05e",
+      "folderId": "1WZRBzWJHbvRuSwFqp1OZAdLi4wCMUV8d",
+      "gmailThreadId": "1a12eeb05ea83cba",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "not_order",
+      "reason": "Diyan Papers export shipment advice (LC 0000168926011594, invoice EXP/26-27/168): CO, BL, commercial invoice, packing list - supplier shipping docs."
+    },
+    {
+      "folder": "2026-10-12_merchandiser10_1a12ee7662",
+      "folderId": "1roPPvz9hqWekXHM0bkS-ObdLEsE41dAP",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "already_entered_no_action",
+      "jobNumber": "7071/26-N",
+      "note": "OMC/Centro PO-04 rev2 (12-Oct). Job 7071/26-N already carries rev2 values (shoebox 37x31x12.5 x5300, 33x28.5x12.5 x5104; master carton 97x53x39.5 x437, 85x53x35.5 x421). Only change vs 'rev' (27 -> 28.5 width) already reflected. Thread: 12-Oct msg says do not deliver before 24-Oct and no bulk without master-carton size confirmation - human awareness only; no hold/cancel. No new draft."
+    },
+    {
+      "folder": "2026-08-24_merchandiser10_1a031d288b",
+      "folderId": "1Ooo1ICj6CHtKZbDY2_Y26bPodTlS0arO",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "superseded",
+      "supersededBy": "2026-10-12_merchandiser10_1a12ee7662",
+      "jobNumber": "7071/26-N"
+    },
+    {
+      "folder": "2026-08-23_merchandiser10_1a02d869c1",
+      "folderId": "11lSIkHKro7INTB_rw8qX1hrGaK_1DBuo",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "superseded",
+      "supersededBy": "2026-10-12_merchandiser10_1a12ee7662",
+      "jobNumber": "7071/26-N"
+    },
+    {
+      "folder": "2026-06-14_importscm3_19ec607980",
+      "folderId": "1vaflzvoJDemSldnuygqT3rpfs0Lr9dfC",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "not_order",
+      "reason": "OMC SCM forwarding transmitted LC copy + our own PI-OFL-GPI-5912-26-N."
+    },
+    {
+      "folder": "2026-05-16_postmaster_19e300ba37",
+      "folderId": "1jbzlGGwq3GpWLmCoIy2gUQasyNuS7tPs",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "not_order",
+      "reason": "Mail delivery failure bounce carrying our own PI."
+    },
+    {
+      "folder": "2026-05-16_merchandiser10_19e2ed062a",
+      "folderId": "1URa0fTWwWz6GLoznGgJiZxQv_dbUYdcQ",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "already_entered_no_action",
+      "jobNumber": "5912/26-N",
+      "note": "OMC/Centro PO-03 (16-May, distinct PO from PO-02/PO-04) already in Flowtech as job 5912/26-N (Style OMCFL_M&S_2026_PO-03). No draft."
+    },
+    {
+      "folder": "2026-02-09_merchandiser10_19c40f488b",
+      "folderId": "1gNO8oKlHCPQGInl84MWUthylFMCTCicf",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "already_entered_no_action",
+      "jobNumber": "4519/26-N",
+      "note": "OMC/Centro PO-02 revised (9-Feb), latest of PO-02 versions; PO-02 already in Flowtech as job 4519/26-N. Not re-checked line-by-line (months old) - no draft."
+    },
+    {
+      "folder": "2026-02-07_merchandiser10_19c360b46c",
+      "folderId": "13oveYGLHD5Xw9zDHsCQ42q3h2I4J777o",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "superseded",
+      "supersededBy": "2026-02-09_merchandiser10_19c40f488b",
+      "jobNumber": "4519/26-N"
+    },
+    {
+      "folder": "2026-01-31_merchandiser10_19c122c737",
+      "folderId": "1p0PV8sSiDwa38qHzrMfnjC_NcYQRNoX6",
+      "gmailThreadId": "19c122c737d9c171",
+      "processedAt": "2026-10-12T07:50:00Z",
+      "result": "superseded",
+      "supersededBy": "2026-02-09_merchandiser10_19c40f488b",
+      "jobNumber": "4519/26-N"
     }
   ]
 }
