@@ -4406,6 +4406,39 @@
       "processedAt": "2026-10-11T14:00:00Z",
       "result": "needs_manual_entry",
       "note": "Same booking xlsx as folder 2026-10-11_fatema.as_1a12b0c9ea, resent 13:14Z with PO numbers in subject (separate thread). Enter once only; no party in Flowtech so not drafted."
+    },
+    {
+      "folder": "2026-10-12_gulam_1a12e44f93",
+      "folderId": "1tO9zW5L55KJTEyDsq8Q0_p7S4WMX_feB",
+      "gmailThreadId": "1a12e44f9329fd82",
+      "processedAt": "2026-10-12T05:00:00Z",
+      "result": "entered",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "orderId": 8223,
+      "jobNumber": "7622/26-N",
+      "note": "Mascot Hoie 21557 carton PO (TRIMS/IPO/26/12798): Printed Master Carton Ply5 A-500-L 57x38x27 x385 @0.7499, 42x29x34 x37 @0.5548, 57x58x26 x78 @1.1513 = $399.04 (PO rates override catalog, Order Qty). Delivery 2026-10-13, bank 3, credit 0. Gmail label applied."
+    },
+    {
+      "folder": "2026-10-12_motherboxctn_1a12e67847",
+      "folderId": "1dpoXFWfNrBi8q7o5ermI-gmy_QptXv3g",
+      "gmailThreadId": "1a12e6784747948c",
+      "processedAt": "2026-10-12T05:00:00Z",
+      "result": "entered",
+      "partyName": "Mother Box Packaging & Accessories",
+      "orderId": 8224,
+      "jobNumber": "7623/26-N",
+      "note": "WO 55/10 (PEP&CO): Auto Master Carton Ply5 A-510-L 53x42x40 x680 @130.29 + Top Bottom Ply3 40x30 x1360 @3.00 = BDT 92,677.20. Paper quality in email not applied. Team Tanvir Pack. Gmail label applied."
+    },
+    {
+      "folder": "2026-10-11_crwlsadi_1a12b5c222",
+      "folderId": "1TPObqz1rkiGnM6PUCsqyxRpYDzK6ogPX",
+      "gmailThreadId": "1a12b5c222df8134",
+      "processedAt": "2026-10-12T05:00:00Z",
+      "result": "entered",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "orderId": 8225,
+      "jobNumber": "7624/26-N",
+      "note": "Noah Super stretch 240gsm carton booking-1 (Trowserland delivery): 18 style lines Master Carton Ply5 = 555 ctn + Top Bottom 30x24 x1110; $494.91. Buyer NOAH WORLD guessed, delivery 2026-10-15 defaulted. Gmail label applied."
     }
   ]
 }
