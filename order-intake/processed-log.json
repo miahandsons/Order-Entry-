@@ -4776,6 +4776,17 @@
    "processedAt": "2026-10-13T16:00:00Z",
    "result": "not_order",
    "note": "Paragon commercial (Nazmul) RTGS payment copy for our own PI-PFL-GPI-7419-26-N (Parasole Footwear, USD 388.17); single-message thread. NOT_ORDER marker created."
+  },
+  {
+   "folder": "2026-10-13_motherboxctn_1a136aa5ad",
+   "folderId": "1OV64A6i6HnFUce2Uow4dg4p3J52QDgx-",
+   "gmailThreadId": "1a136aa5ad2ee91c",
+   "processedAt": "2026-10-13T19:50:00Z",
+   "result": "entered",
+   "orderId": 8247,
+   "jobNumber": "7646/26-N",
+   "partyName": "Mother Box Packaging & Accessories",
+   "note": "Mother Box carton work order 56/10 (job 56-MBP&A-26), buyer MBP&A, Auto Master Carton Ply 5 A-510-L 57x39x28 CM x650 @78/sqm (doc price; catalog 70 overridden), total BDT 73,433.88 matches doc. Paper-quality text in email not applied (grade default layers) - verify. Order date 2026-10-14 per doc, delivery 2026-10-16; bank Premier, credit 0, attention/team per precedent 7623/26-N. Single-message thread, no siblings. Label order-intake/entered-by-ai applied."
   }
  ]
 }
