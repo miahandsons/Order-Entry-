@@ -4731,6 +4731,22 @@
    "processedAt": "2026-10-13T10:45:00Z",
    "result": "not_order",
    "note": "ACS Towel asks for revised PI (audit deduction $22.96 on PO 26/1613) against our own PI-AT-GPI-48-26-N; not a new order. NOT_ORDER marker created."
+  },
+  {
+   "folder": "2026-10-13_smrity_1a134e12d2",
+   "folderId": "1qJSe_dsCt2z5Asrq9MHElhibGL75zetY",
+   "gmailThreadId": "1a134d45ccbe93b9",
+   "processedAt": "2026-10-13T12:00:00Z",
+   "result": "not_order",
+   "note": "Premier Bank reply 'Request for E Statement for 2 days' with account statements (Tanvir Printing A/C 11100007988; Miah & Sons A/C 11100100435). NOT_ORDER marker created."
+  },
+  {
+   "folder": "2026-10-13_nahida_1a134f3435",
+   "folderId": "1bAEj4_vcrjknmCYNxoMcFs2De_mF3Dnt",
+   "gmailThreadId": "1a134f3435f44662",
+   "processedAt": "2026-10-13T12:00:00Z",
+   "result": "not_order",
+   "note": "Premier Bank statement for Miah & Sons A/C 11100100435 (1-13 Oct), no subject. NOT_ORDER marker created."
   }
  ]
 }
