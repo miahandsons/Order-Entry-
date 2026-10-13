@@ -4768,6 +4768,14 @@
    "jobNumber": "7575/26-N",
    "partyName": "Liberty Knitwear Ltd.",
    "note": "Liberty ERP Trims Work Order LKL-TB-26-30279 (Revised No 2, 'Draft', Ref LKGK26-08, buyer GRUPOKAYBEE, PO 111120) sent to their audit team for ERP approval (we are CC). It is the formal ERP WO for the booking already entered as 7575/26-N (order 8176, 525 pcs carton L58xW40xH27, same 5 colour split 315/105/26.25/26.25/52.5). Differences for a human to apply in 7575/26-N: carton rate 0.9599/pc (job has 1.049/sqm-basis, total 550.48 vs WO 503.95); NEW Top Bottom line L56xW38 qty 1750 @0.0596 ($104.30) not in job; WO total $608.25; delivery 14-10-2026 (job 2026-11-06). Not drafted (create_order cannot revise; would duplicate)."
+  },
+  {
+   "folder": "2026-10-13_nazmul_1a135d65e0",
+   "folderId": "1-BEfv1cQMHD_S2G2KwQG6qHH7uspiSWF",
+   "gmailThreadId": "1a135d65e0de5f7d",
+   "processedAt": "2026-10-13T16:00:00Z",
+   "result": "not_order",
+   "note": "Paragon commercial (Nazmul) RTGS payment copy for our own PI-PFL-GPI-7419-26-N (Parasole Footwear, USD 388.17); single-message thread. NOT_ORDER marker created."
   }
  ]
 }
