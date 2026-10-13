@@ -4691,6 +4691,14 @@
    "processedAt": "2026-10-13T08:00:00Z",
    "result": "needs_manual_entry",
    "note": "Estas Edge / Sindico booking for Mehmid Export Wear (POs CWPO00000992/1039/1342/1304/1104/1115), delivery 13-Oct. Order was cancelled 2026-10-12 06:30Z but RE-CONFIRMED 2026-10-13 (PI/layout confirmed, 'go for bulk production', urgent, LC). Latest folder of thread; older sibling 2026-10-11_fatema.as_1a12b1a256 was never entered (no party). Party Estas Edge / LeadTime / Mehmid Export Wear still absent in Flowtech, booking has no prices -> cannot draft. Human must create party and enter. Items: 7ply carton 60x40x30 x70+135, 58x36x29 x75+60, 3ply TB 50x34 x680 (poly lines not in catalog)."
+  },
+  {
+   "folder": "2026-10-13_nazmul_1a1344b00c",
+   "folderId": "1f0zYoPf5nYN7nFJWKWJX2zeiL54kxhtJ",
+   "gmailThreadId": "1a1344b00c0748b5",
+   "processedAt": "2026-10-13T08:45:00Z",
+   "result": "not_order",
+   "note": "Paragon (Nazmul) email with our own outgoing PI/PFL/7442/26-N (Parasole Footwear, job 7442/26-N) and a SWIFT payment advice. NOT_ORDER marker created."
   }
  ]
 }
