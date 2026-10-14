@@ -4974,6 +4974,25 @@
    "existingJobNumber": "7660/26-N",
    "partyName": "Shoeniverse Footwear Ltd.",
    "note": "PO(30) Master Carton Aider SFL-Aider/30/PR26105198,PR26105201 already in Flowtech as 7660/26-N (APPROVED, IsAiDrafted, 1460 pcs, $1,819.45 matches PO) though not in this log; no duplicate drafted. Not re-labelled (thread already carries entered-by-ai)."
+  },
+  {
+   "processedAt": "2026-10-14T13:00:00Z",
+   "folder": "2026-10-14_merchandiser4_1a13a59152",
+   "folderId": "1inkyd1jMFKQsfbBTU24KyCwGHu1mfrSS",
+   "gmailThreadId": "1a13a59152a508d0",
+   "result": "entered",
+   "orderIds": [
+    8266,
+    8267,
+    8268
+   ],
+   "jobNumbers": [
+    "7665/26-N",
+    "7666/26-N",
+    "7667/26-N"
+   ],
+   "partyName": "TEXZONE KNITWEAR LIMITED",
+   "note": "Texzone 'CARTON WORKORDER 2' (Sabbir Majumder), single-message thread, no later replies. 3 xlsx work orders, one order each: 3T41408/PO26005519 -> 7665/26-N (A34/B31/Solid125/TB380); 7143136/PO26005524 -> 7666/26-N (A34/B31/Solid65/TB260); 7174073/PO26005593 -> 7667/26-N (A32x2/B32x2/Solid310/TB876). Defaults per Texzone precedent (buyer Castro, Premier id 3, credit 90, attention MD. SABBIR); order_date 2026-10-14 from doc, delivery 2026-10-17 from email. No DIE CUT applied despite 'perforation' note (flagged in ai_notes). Label applied."
   }
  ]
 }
