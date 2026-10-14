@@ -4855,6 +4855,33 @@
       "jobNumber": "7653/26-N",
       "partyName": "Romo Fashion Today Ltd",
       "note": "Mother Box booking for Romo Fashion Today, buyer EMINENCE, POs 0214041-44 (carton 38x28x31 / 38x28x22 + 3-ply top-bottom 35x24), one order with 8 lines, catalog prices (PDFs show none), $2150.78. Delivery date 2026-10-17 guessed (ASAP/top urgent); credit 90, bank 3 defaulted. Label applied."
+    },
+    {
+      "folder": "2026-10-14_nazmul_1a139bd2a8",
+      "folderId": "1qV9v83o-x5pAbVRAhlq-CAPk81xd7tmS",
+      "gmailThreadId": "1a1344b00c0748b5",
+      "processedAt": "2026-10-14T09:45:00Z",
+      "result": "not_order",
+      "note": "Paragon LC SWIFT copies DC XIA683727/XIA684233; LC paperwork. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-14_nazmul_1a139b893b",
+      "folderId": "1er0-5RqckjNCnBQHYj7Aia5Zb7M4Likb",
+      "gmailThreadId": "1a135d65e0de5f7d",
+      "processedAt": "2026-10-14T09:45:00Z",
+      "result": "not_order",
+      "note": "Paragon export sales-contract sign copies (Uptop/Parasole) with RTGS/LC paperwork; not an order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-14_shoebur_1a13996c85",
+      "folderId": "1tUSZvIowqXcfHKWTNRixJ1alc2ozNSos",
+      "gmailThreadId": "1a13996c85783f41",
+      "processedAt": "2026-10-14T09:45:00Z",
+      "result": "entered",
+      "orderId": 8255,
+      "jobNumber": "7654/26-N",
+      "partyName": "AKIJ SHOES LTD.",
+      "note": "Akij Shoes MARCOTOZZI PO (14606 pairs), 7 lines of 5-ply A-501-L, 1546 cartons, $1184.85 at PO $0.56/SQM (catalog 0.60). Delivery 2026-10-20 from email. Flags: PO ref read 'MARCOTOZZI 27' (OCR, likely truncated); line-qty mapping inferred; pairs x remarks = 14684 vs stated 14606. Bank id 3, credit 0 defaulted. Label applied."
     }
   ]
 }
