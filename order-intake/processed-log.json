@@ -4811,6 +4811,39 @@
       "processedAt": "2026-10-14T05:45:00Z",
       "result": "needs_manual_entry",
       "note": "Genuine carton order: Standard AR Group (Mohi Uddin Russell, russell.m@standardargroup.com) 'Carton Order_005511002.pdf', buyer OGOCHI (customer TFY), style 005511002, POs 570551/545094, L/C factory AMOTEX, 7 ply pasting carton 65x38x40cm x1091 + top-bottom 62x35cm x2180 (3 ply), delivery 17-Oct-2026 to The Civil Engineers Sweater Ltd. (Mouchak). Thread (6 msgs) has no hold/cancel; our quoted final prices $0.83/sqm 7-ply, $0.35/sqm top-bottom (13-Oct). No matching party in Flowtech (no Civil Engineers/Amotex/TFY/OGOCHI party or buyer; Rise-Standard Group and International Trading Services catalogs have no 7-ply item; autopilot cannot create parties). Not drafted. Human must create party/catalog and enter. Gmail label not applied."
+    },
+    {
+      "folder": "2026-10-14_jannatcorporation444_1a138ef35d",
+      "folderId": "1R2zjI_nPhTDNJcMX45pxTuNrrtTTIyuE",
+      "gmailThreadId": "1a138ef35d9cd3c6",
+      "processedAt": "2026-10-14T06:45:00Z",
+      "result": "not_order",
+      "note": "Jannat Corporation bulk supplier price-list offer (LLDPE film, sewing thread, starch, tape) to many recipients. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-14_trimsstore_1a138f2dbf",
+      "folderId": "1ruGkExn69G_8uIXwys8ONw50DDoUMhw1",
+      "gmailThreadId": "1a138f2dbfd28b63",
+      "processedAt": "2026-10-14T06:45:00Z",
+      "result": "entered",
+      "orderId": 8253,
+      "jobNumber": "7652/26-N",
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "note": "ACS Cotton Valley PO TRIMS/IPO/26/2458, 7-ply carton 3 lines x52, $170.99 matches. Printed Ply 7 A-700-I at PO per-piece rates (Order Qty). Buyer defaulted 'No Buyer'; PDF says Unprinted vs work order printed - verify. Label applied."
+    },
+    {
+      "folder": "2026-10-14_merchandiser4_1a139138e4",
+      "folderId": "1ghbzFwrveoOIjlfxKifyNMuUGbQ9R3UY",
+      "gmailThreadId": "1a139138e4e28bae",
+      "processedAt": "2026-10-14T06:45:00Z",
+      "result": "entered",
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "orderIds": [
+        8251,
+        8252
+      ],
+      "jobNumber": "7650/26-N (7143156/PO26005079 $146.46), 7651/26-N (7173914/PO26005834 $80.67)",
+      "note": "Texzone carton work orders (Sabbir), buyer Castro defaulted, bank 3, credit 90, delivery 2026-10-17; solid perforation flagged, no DIE CUT. Label applied."
     }
   ]
 }
