@@ -4844,6 +4844,17 @@
       ],
       "jobNumber": "7650/26-N (7143156/PO26005079 $146.46), 7651/26-N (7173914/PO26005834 $80.67)",
       "note": "Texzone carton work orders (Sabbir), buyer Castro defaulted, bank 3, credit 90, delivery 2026-10-17; solid perforation flagged, no DIE CUT. Label applied."
+    },
+    {
+      "folder": "2026-10-14_motherboxctn_1a13940749",
+      "folderId": "13gwpcm3-wgifm-jZ2_4h1nyTx4uyu3D3",
+      "gmailThreadId": "1a13940749b132d5",
+      "processedAt": "2026-10-14T07:50:00Z",
+      "result": "entered",
+      "orderId": 8254,
+      "jobNumber": "7653/26-N",
+      "partyName": "Romo Fashion Today Ltd",
+      "note": "Mother Box booking for Romo Fashion Today, buyer EMINENCE, POs 0214041-44 (carton 38x28x31 / 38x28x22 + 3-ply top-bottom 35x24), one order with 8 lines, catalog prices (PDFs show none), $2150.78. Delivery date 2026-10-17 guessed (ASAP/top urgent); credit 90, bank 3 defaulted. Label applied."
     }
   ]
 }
