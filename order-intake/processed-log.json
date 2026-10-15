@@ -5017,6 +5017,17 @@
       "gmailThreadId": "1a13ddebba5d3a6d",
       "result": "not_order",
       "reason": "Rumana Syeed (Premier Bank, rumana.syeed@thepremierbankplc.com) 'FW: REQUEST FOR DRAFT FOR USD58750.00 A/C: MIAH & SONS'. Attachment is a SWIFT MT700 import LC (MIAH 58750, USD 58,750, kraft liner paper from Best Eternity Recycle Technology, Malaysia) - bank/LC paperwork, not a client carton order. NOT_ORDER file created."
+    },
+    {
+      "processedAt": "2026-10-15T07:50:00Z",
+      "folder": "2026-10-15_m.a.malek4486_1a13e60c57",
+      "folderId": "1XgOtYUJ8TMgk-Dogr7TmpIjbCJZpc8-d",
+      "gmailThreadId": "1a13e60c57a77241",
+      "result": "already_in_flowtech",
+      "existingOrderId": 8270,
+      "existingJobNumber": "7669/26-N",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Genuine carton booking (Needle Drop / Jeans Fritz 101673 + 101673ch) forwarded by M.A. Malek, single-message thread. Email body quantities (101673ch: 56/39/4 cartons; 101673: 35/87/31/7/7 cartons; top-bottom 532 pcs total) already match job 7669/26-N (Order 8270, APPROVED, entered manually, not AI-drafted). No duplicate drafted; no label applied."
     }
   ]
 }
