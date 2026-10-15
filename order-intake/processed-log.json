@@ -5009,6 +5009,14 @@
       "gmailThreadId": "1a13db6d2dbc8c32",
       "result": "not_order",
       "reason": "Ramiz (ramiz@lalmai.com) 'Re: Export LC Copy'. MASTER LC.pdf is a Sonali Bank advice of export L/C 00001LCB2606334 (USD 196,385.60, issued by BNP Paribas, applicant SIPLEC, beneficiary Lalmai Footwear) - bank/LC paperwork, not a carton booking. NOT_ORDER file created."
+    },
+    {
+      "processedAt": "2026-10-15T05:45:00Z",
+      "folder": "2026-10-15_rumana.syeed_1a13ddebba",
+      "folderId": "1h6gFVq_x2TcbeuaxrlO4ifp-piVjV8Yj",
+      "gmailThreadId": "1a13ddebba5d3a6d",
+      "result": "not_order",
+      "reason": "Rumana Syeed (Premier Bank, rumana.syeed@thepremierbankplc.com) 'FW: REQUEST FOR DRAFT FOR USD58750.00 A/C: MIAH & SONS'. Attachment is a SWIFT MT700 import LC (MIAH 58750, USD 58,750, kraft liner paper from Best Eternity Recycle Technology, Malaysia) - bank/LC paperwork, not a client carton order. NOT_ORDER file created."
     }
   ]
 }
