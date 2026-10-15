@@ -5036,6 +5036,41 @@
    "gmailThreadId": "1a13ec0ac356c079",
    "result": "not_order",
    "reason": "Standard Chartered Straight2Bank payee advice: BDT 22,027.00 paid by Snowtex Outerwear Ltd (ref SOL-6638). Bank payment notice, not a client order. NOT_ORDER file created."
+  },
+  {
+   "processedAt": "2026-10-15T10:50:00Z",
+   "folder": "2026-10-15_nahida_1a13efc329",
+   "folderId": "1N2ZYyA3b3ZYx8yEIhI3igJNzbY4SNePk",
+   "gmailThreadId": "1a13efc329b631ca",
+   "result": "not_order",
+   "reason": "Premier Bank (Nahida Sultana, F.Ex Kawran Bazar) no-subject email; 319.pdf/320.pdf/395.pdf are bank transaction vouchers (395.pdf = LC DPCBD1180306 export proceeds realization, USD 32,891.74) - bank paperwork, not a client order. NOT_ORDER file created."
+  },
+  {
+   "processedAt": "2026-10-15T10:50:00Z",
+   "folder": "2026-10-15_merchandiser5_1a13f01ac3",
+   "folderId": "16rpxxbmLQWg9D4T_DKwzVCLZBijVMQso",
+   "gmailThreadId": "1a13f01ac3d6d414",
+   "result": "entered",
+   "orderIds": [
+    8278,
+    8279,
+    8280,
+    8281,
+    8282,
+    8283,
+    8284
+   ],
+   "jobNumbers": [
+    "7677/26-N",
+    "7678/26-N",
+    "7679/26-N",
+    "7680/26-N",
+    "7681/26-N",
+    "7682/26-N",
+    "7683/26-N"
+   ],
+   "partyName": "TEXZONE KNITWEAR LIMITED",
+   "note": "Texzone 'Carton Work Order For Buyer-Castro' (Javed), single-message thread, no later replies. 7 xlsx work orders, one order each: 7143137/PO26005682->7677; 7143173/PO26005683->7678; 7241371/PO26005837->7679; 3T41399/PO26005776->7680; 3T41398/PO26005390->7681; BS40295/PO26005053->7682; 7241366/PO26005313->7683. No existing Flowtech orders for these styles. Defaults per Texzone precedent (buyer Castro, Premier id 3, credit 90, attention MD. JAVED); order_date 2026-10-15, delivery 2026-10-17 from email. Same-dimension A/B lines summed (7241371, 3T41398, BS40295, 7241366). No DIE CUT applied despite 'perforation' note (flagged in ai_notes). Label applied."
   }
  ]
 }
