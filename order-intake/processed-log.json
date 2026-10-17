@@ -5245,6 +5245,29 @@
       ],
       "partyName": "BEQ KNIT LIMITED",
       "note": "Lusaka Group/Nazmul 'RE: new inner box booking ( revised )' - META FINAL INNER BOOKING SS-27 (dated 46312, delivery 46315, many colour/size lines with per-line shipment dates, one 'Hold' row 39x30x22 x371). Email says the previous 1324 pcs booking is included in this final booking. Earlier first booking already in Flowtech as 7558/26-N (APPROVED, 4 lines, 1324 pcs, $900.32). No new order drafted (would duplicate); human must manually revise 7558/26-N to the final booking. Not NOT_ORDER/SUPERSEDED. No label applied."
+    },
+    {
+      "processedAt": "2026-10-17T10:50:00Z",
+      "folder": "2026-10-17_gulam_1a14955b02",
+      "folderId": "1JpiuCn8LnPzA9MZLFtCuflY0l0VI8Kub",
+      "gmailThreadId": "1a14955b02567f3a",
+      "result": "entered",
+      "jobNumbers": [
+        "7692/26-N"
+      ],
+      "orderIds": [
+        8293
+      ],
+      "partyName": "ACS TEXTILES (BD) LTD",
+      "note": "ACS Mascot Hoie 21510 (Tomine set) extra quantity carton PO TRIMS/IPO/26/12971: 1 line 57x38x23 x7 @0.7055 = $4.94. Printed Master Carton Ply5 A-500-L, Order Qty pricing with PO rate overriding catalog 0.55. Delivery 2026-10-18 per email; bank Premier id 3, credit 0, unit CM, delivery station defaulted from precedent 7690/26-N. DISAPPROVED, IsAiDrafted. Thread's only later message is our own receipt ack. Label order-intake/entered-by-ai applied."
+    },
+    {
+      "processedAt": "2026-10-17T10:50:00Z",
+      "folder": "2026-10-17_smrity_1a149577fe",
+      "folderId": "12U-LpP3EMHuGB_y_ySNPBCQdUSyjYr_X",
+      "gmailThreadId": "1a1493fbd7f5bff2",
+      "result": "not_order",
+      "reason": "Premier Bank Kawran Bazar reply 'RE: Request for E-Statement' with three account statement PDFs - bank correspondence, not a client order. NOT_ORDER file created."
     }
   ]
 }
