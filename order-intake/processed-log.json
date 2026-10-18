@@ -5464,6 +5464,89 @@
    ],
    "partyName": "Consist Apprels Ltd",
    "note": "Consist Apparels / TORAY carton booking (18-Oct, deliver 23-Oct): master 60x40x25 x1480, 60x40x28 x500, top-bottom 55x35 x3960, 95x23 x1480, 95x26 x500. Party has only Auto Master Carton / Ply 5 / A-500-L (price 0) in catalog; used for all lines, dividers/top-bottom likely need different spec - human review. Bank/credit days defaulted. DISAPPROVED, IsAiDrafted. Label applied."
+  },
+  {
+   "processedAt": "2026-10-18T09:45:00Z",
+   "folder": "2026-10-18_niloy_1a14e32991",
+   "folderId": "1eeX5D8KgdaKpZPdc2rMXWhgm-TLlM8I3",
+   "gmailThreadId": "1a14e32991893ea9",
+   "result": "entered",
+   "jobNumbers": [
+    "7712/26-N"
+   ],
+   "orderIds": [
+    8313
+   ],
+   "partyName": "FB Footwear Ltd.",
+   "note": "PO POSS-27-00983 master carton additional SS27, 14 lines/15 pcs, $11.92 matches PO. Ply 3 A-303-L (PO says 3 ply), buyer CALERES, bank Premier, credit 90, delivery 2026-10-20. OCR-noisy PO scan - verify dims; BOM refs not split into items. DISAPPROVED, IsAiDrafted. Label applied."
+  },
+  {
+   "processedAt": "2026-10-18T09:45:00Z",
+   "folder": "2026-10-18_fauzia.afrin_1a14e373a9",
+   "folderId": "1JIltJ7VSuf6yHKkUZu2MZ1yuNlaUN9g0",
+   "gmailThreadId": "1a14e373a9d991f9",
+   "result": "not_order",
+   "reason": "Premier Bank statement of account for Tanvir Printing Packaging Industries - bank correspondence. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-18T09:45:00Z",
+   "folder": "2026-10-18_merchandiser4_1a14e3857c",
+   "folderId": "1T2DMvKAN2_nibRAYR4BxCcP6cIxchwr0",
+   "gmailThreadId": "1a14e3857c4089be",
+   "result": "entered",
+   "jobNumbers": [
+    "7710/26-N",
+    "7711/26-N"
+   ],
+   "orderIds": [
+    8311,
+    8312
+   ],
+   "partyName": "TEXZONE KNITWEAR LIMITED",
+   "note": "Two Texzone carton work orders (buyer Castro): 3T41465/PO26005914 -> 7710 ($195.04); 7143203/PO26005915 -> 7711 ($312.12). Master Ply5 A-500-L + Top Bottom 50x35 A-301-L; DIE CUT on Solid per precedent; delivery 2026-10-21. DISAPPROVED, IsAiDrafted. Label applied."
+  },
+  {
+   "processedAt": "2026-10-18T09:45:00Z",
+   "folder": "2026-10-18_commercial2_1a14e413e2",
+   "folderId": "1kH7i-G6EqXzWk7UM-DgBzdVIQQF467YL",
+   "gmailThreadId": "1a14e413e2613104",
+   "result": "not_order",
+   "reason": "BKMEA UD amendment AM-130-05 from Eurotex commercial - UD paperwork. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-18T09:45:00Z",
+   "folder": "2026-10-18_sohel_1a14e5241d",
+   "folderId": "1cp7ukBxcq_V6b4ARcWyw3OU6hSQEAN-u",
+   "gmailThreadId": "1a14e5241d8842a0",
+   "result": "entered",
+   "jobNumbers": [
+    "7713/26-N"
+   ],
+   "orderIds": [
+    8314
+   ],
+   "partyName": "BEQ KNIT LIMITED",
+   "note": "Lusaka Group/Sohel META SRL SS-27 inner carton 1st booking, 26927 pcs, Inner Box Ply 3 A-327-L, 7 colour items/14 lines, $18,310.36. PARTY GUESSED (Lusaka not in Flowtech; BEQ used for 7558/7691), delivery 2026-10-25 placeholder, priorities not captured. DISAPPROVED, IsAiDrafted. Label applied."
+  },
+  {
+   "processedAt": "2026-10-18T09:45:00Z",
+   "folder": "2026-10-18_tanvir_1a14e569f5",
+   "folderId": "11J4mAAApOb4XiPVlf2p55fE1vcKAn77H",
+   "gmailThreadId": "1a14e569f51bed18",
+   "result": "duplicate",
+   "duplicateOf": "7702/26-N",
+   "existingOrderId": 8303,
+   "partyName": "Shoeniverse Footwear Ltd.",
+   "manualRevisionNeeded": true,
+   "note": "Follow-up on PO(31) Aider master carton (new thread): same PR26105223 sheet, 1465 pcs, already entered as 7702/26-N. No new order. Email asks full qty be delivered directly to Royal Footwear Ltd, 1/1 Kakil Shatish, Tongi, Gazipur (Mr Sayed 01825-031894) by 24-Oct-2026; 7702 delivery station is Shoeniverse Bhaluka - human to revise. Not labelled."
+  },
+  {
+   "processedAt": "2026-10-18T09:45:00Z",
+   "folder": "2026-10-18_nahida_1a14e5ac9d",
+   "folderId": "14rDnXz3y4fRSr7umhTDaDTUX9Td7AR4G",
+   "gmailThreadId": "1a14e5ac9d50dd45",
+   "result": "not_order",
+   "reason": "Premier Bank LC proceeds realization voucher (LC 1475260403412). NOT_ORDER created."
   }
  ]
 }
