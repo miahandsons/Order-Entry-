@@ -5449,6 +5449,21 @@
    "gmailThreadId": "19ee86f1948518d9",
    "result": "superseded",
    "note": "Older sibling in BOLDFIT thread; SUPERSEDED marker created pointing to 2026-10-18_merchandiser10_1a14debc19. PO-01 already in Flowtech as 6281/26-N."
+  },
+  {
+   "processedAt": "2026-10-18T09:00:00Z",
+   "folder": "2026-10-18_merchandiser5_1a14e117b8",
+   "folderId": "1z1sP-41rd_h9dldUnkUKYpNJqYRFfGQT",
+   "gmailThreadId": "1a14e117b8eec18b",
+   "result": "entered",
+   "jobNumbers": [
+    "7709/26-N"
+   ],
+   "orderIds": [
+    8310
+   ],
+   "partyName": "Consist Apprels Ltd",
+   "note": "Consist Apparels / TORAY carton booking (18-Oct, deliver 23-Oct): master 60x40x25 x1480, 60x40x28 x500, top-bottom 55x35 x3960, 95x23 x1480, 95x26 x500. Party has only Auto Master Carton / Ply 5 / A-500-L (price 0) in catalog; used for all lines, dividers/top-bottom likely need different spec - human review. Bank/credit days defaulted. DISAPPROVED, IsAiDrafted. Label applied."
   }
  ]
 }
