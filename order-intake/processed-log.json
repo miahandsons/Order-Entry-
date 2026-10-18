@@ -5464,6 +5464,98 @@
    ],
    "partyName": "Consist Apprels Ltd",
    "note": "Consist Apparels / TORAY carton booking (18-Oct, deliver 23-Oct): master 60x40x25 x1480, 60x40x28 x500, top-bottom 55x35 x3960, 95x23 x1480, 95x26 x500. Party has only Auto Master Carton / Ply 5 / A-500-L (price 0) in catalog; used for all lines, dividers/top-bottom likely need different spec - human review. Bank/credit days defaulted. DISAPPROVED, IsAiDrafted. Label applied."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_nahida_1a14e5ac9d",
+   "folderId": "14rDnXz3y4fRSr7umhTDaDTUX9Td7AR4G",
+   "gmailThreadId": "1a14e5ac9d",
+   "result": "not_order",
+   "reason": "Premier Bank transaction voucher (LC 1475260403412 proceed realization, USD 28,593.76) - bank correspondence. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_commercial2_1a14e413e2",
+   "folderId": "1kH7i-G6EqXzWk7UM-DgBzdVIQQF467YL",
+   "gmailThreadId": "1a14e413e2",
+   "result": "not_order",
+   "reason": "BKMEA UD amendment AM-130-05 (Eurotex Knitwear) - UD paperwork, not a carton booking. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_fauzia.afrin_1a14e373a9",
+   "folderId": "1JIltJ7VSuf6yHKkUZu2MZ1yuNlaUN9g0",
+   "gmailThreadId": "1a14e373a9",
+   "result": "not_order",
+   "reason": "Premier Bank statement of account for Tanvir Printing Packaging Industries - bank correspondence. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_niloy_1a14e32991",
+   "folderId": "1eeX5D8KgdaKpZPdc2rMXWhgm-TLlM8I3",
+   "gmailThreadId": "1a14e32991893ea9",
+   "result": "entered",
+   "jobNumbers": [
+    "7712/26-N"
+   ],
+   "orderIds": [
+    8313
+   ],
+   "partyName": "FB Footwear Ltd.",
+   "note": "FB Footwear PO POSS-27-00983 (Caleres master cartons, $11.92) already in Flowtech as 7712/26-N (IsAiDrafted, APPROVED) from an earlier interrupted run that never logged it; no duplicate drafted. Thread already carries entered-by-ai."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_merchandiser4_1a14e3857c",
+   "folderId": "1T2DMvKAN2_nibRAYR4BxCcP6cIxchwr0",
+   "gmailThreadId": "1a14e3857c4089be",
+   "result": "entered",
+   "jobNumbers": [
+    "7710/26-N",
+    "7711/26-N"
+   ],
+   "partyName": "TEXZONE KNITWEAR LIMITED",
+   "note": "Texzone 3T41465 (PO26005914) and 7143203 (PO26005915) work orders already in Flowtech as 7710/26-N and 7711/26-N (APPROVED) from an earlier interrupted run; no duplicate drafted. Thread already carries entered-by-ai."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_sohel_1a14e5241d",
+   "folderId": "1cp7ukBxcq_V6b4ARcWyw3OU6hSQEAN-u",
+   "gmailThreadId": "1a14e5241d8842a0",
+   "result": "entered",
+   "jobNumbers": [
+    "7713/26-N"
+   ],
+   "orderIds": [
+    8314
+   ],
+   "partyName": "BEQ KNIT LIMITED",
+   "note": "Lusaka/Meta SRL SS-27 inner carton 1st booking already in Flowtech as 7713/26-N (IsAiDrafted, APPROVED; party guessed as BEQ Knit, delivery date placeholder - human to verify). No duplicate drafted. Thread already carries entered-by-ai."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_tanvir_1a14e569f5",
+   "folderId": "11J4mAAApOb4XiPVlf2p55fE1vcKAn77H",
+   "gmailThreadId": "1a14e569f51bed18",
+   "result": "already_entered",
+   "existingJobNumber": "7702/26-N",
+   "partyName": "Shoeniverse Footwear Ltd.",
+   "note": "Same PO(31) Aider master carton (PR26105223, 1465 pcs, same workbook) already entered as 7702/26-N from thread 1a14da564477814c. This new email only adds a delivery instruction: deliver full quantity directly to Royal Footwear Limited, 1/1 Kakil Shatish, Tongi, Gazipur (contact Mr. Sayed 01825-031894) by 24-Oct-2026. Human to update delivery station on 7702/26-N and issue PI. No new order drafted; not labelled."
+  },
+  {
+   "processedAt": "2026-10-18T10:55:00Z",
+   "folder": "2026-10-18_marketing12_1a14e982b6",
+   "folderId": "1TWP329WanJJF0u2slYOB8ShgIWaGF5k5",
+   "gmailThreadId": "1a14e982b6649e95",
+   "result": "entered",
+   "jobNumbers": [
+    "7716/26-N"
+   ],
+   "orderIds": [
+    8317
+   ],
+   "partyName": "NEEDLE DROP LTD.",
+   "note": "US Polo style H-0414 (only block in workbook that this email scopes; H0578/H0586 = 7299/26-N and HO528-535 = 6312/26-N already exist). 3 ECOM cartons 38x30x17/19/20 q148/175/109 Ply5 A-500-L + Board top/bottom 22x15 q296/350/218, $228.54. Delivery date defaulted order_date+30d, credit 90, Premier bank id 3 as precedent 7299/26-N. Client awaiting layout approval before production. DISAPPROVED, IsAiDrafted. Label applied."
   }
  ]
 }
