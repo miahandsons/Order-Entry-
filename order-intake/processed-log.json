@@ -5268,6 +5268,32 @@
       "gmailThreadId": "1a1493fbd7f5bff2",
       "result": "not_order",
       "reason": "Premier Bank Kawran Bazar reply 'RE: Request for E-Statement' with three account statement PDFs - bank correspondence, not a client order. NOT_ORDER file created."
+    },
+    {
+      "processedAt": "2026-10-18T02:45:00Z",
+      "folder": "2026-10-17_ripon.mondal_1a14974682",
+      "folderId": "10rybRfwp_of-S4zzSa0fO5I8_NgLpurP",
+      "gmailThreadId": "1a1493d999cccd79",
+      "result": "not_order",
+      "reason": "Liberty Knitwear (Ripon Mondal) 'ALL APPROVED' reply to our own NKD carton layout approval (2117874/2117872/2118329/574153); layout sign-off, not an order. Styles already in Flowtech as 7661-7664/26-N. Client also asks delivery 19.10.26 - informational for humans. NOT_ORDER file created."
+    },
+    {
+      "processedAt": "2026-10-18T02:45:00Z",
+      "folder": "2026-10-18_merchandiser5_1a14cdffc1",
+      "folderId": "15x98YvfPSQow1Lj44ud8CJOePz1_ihkm",
+      "gmailThreadId": "1a13f01ac3d6d414",
+      "result": "needs_manual_revision",
+      "existingJobNumbers": [
+        "7677/26-N",
+        "7678/26-N",
+        "7679/26-N",
+        "7680/26-N",
+        "7681/26-N",
+        "7682/26-N",
+        "7683/26-N"
+      ],
+      "partyName": "TEXZONE KNITWEAR LIMITED",
+      "note": "Later messages in the already-entered Texzone 'Carton Work Order For Buyer-Castro' thread (older folder 2026-10-15_merchandiser5_1a13f01ac3, jobs 7677-7683/26-N). Javed's 2026-10-17 message: style 7241366 (job 7683/26-N, APPROVED) qty in yellow-marked line should be 7 pcs instead of 8 - human must manually revise 7683/26-N. Latest message (2026-10-18) 'Lay out approved. Please proceed' re-attaching layout PDFs. No new order drafted."
     }
   ]
 }
