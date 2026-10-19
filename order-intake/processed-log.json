@@ -5635,6 +5635,39 @@
       "result": "entered",
       "jobNumber": "7721/26-N",
       "reason": "Florence Group/CIA Hering H4FA additional-quantity carton booking (Faiza Industries) entered as 7721/26-N (DISAPPROVED, AI-drafted); thread labelled order-intake/entered-by-ai."
+    },
+    {
+      "processedAt": "2026-10-19T08:45:00Z",
+      "folder": "2026-10-19_kpplkud_1a1533757d",
+      "folderId": "17hX4y4W-SrZ6kcAhyM4gLGK1mu4UACeL",
+      "gmailThreadId": "1a1533757d214fac",
+      "result": "not_order",
+      "reason": "Pubali Bank SWIFT MT799 amendment copy for LC 0000021026230034 (read UK instead of Poland) - LC paperwork. NOT_ORDER created."
+    },
+    {
+      "processedAt": "2026-10-19T08:45:00Z",
+      "folder": "2026-10-19_postmaster_1a15349b9a",
+      "folderId": "1lXIo5KNEWERjwI3VgSWkl6z1xQAadnA1",
+      "gmailThreadId": "1a153486331b1083",
+      "result": "not_order",
+      "reason": "Undeliverable bounce of our own Positive Pay cheque confirmation letter to Premier Bank - bank paperwork. NOT_ORDER created."
+    },
+    {
+      "processedAt": "2026-10-19T08:45:00Z",
+      "folder": "2026-10-19_nahida_1a1534c1dd",
+      "folderId": "1rqm1UnTDmTnF23E6dYfrog5fIcCe-iq-",
+      "gmailThreadId": "1a1534c1dd0ba64a",
+      "result": "not_order",
+      "reason": "Premier Bank transaction voucher, export proceeds realization LC MSIL/PFL/039/2026 USD 388.17 - bank paperwork. NOT_ORDER created."
+    },
+    {
+      "processedAt": "2026-10-19T08:45:00Z",
+      "folder": "2026-10-19_marketing12_1a15324da7",
+      "folderId": "1XWF0ppmiiAjPuVy5rC3-yJ4tMZRFUzL2",
+      "gmailThreadId": "1a093d5359da952d",
+      "result": "manual_revision_needed",
+      "existingJob": "7214/26-N",
+      "reason": "Newer Needle Drop/US Polo 11H0614 resend (07:51Z) on thread already entered as 7214/26-N; supersedes earlier resend folder 2026-10-19_marketing12_1a152b1309 (SUPERSEDED created there). Not drafted; human must manually revise 7214/26-N."
     }
   ]
 }
