@@ -5695,6 +5695,14 @@
       "gmailThreadId": "1a1051b275c69202",
       "result": "not_order",
       "reason": "LKL Commercial (Roney) forwarding BKMEA UD amendment AM-009 for Liberty Knitwear / LC 3043260401088 - bond/UD paperwork, not an order. NOT_ORDER created."
+    },
+    {
+      "processedAt": "2026-10-19T12:00:00Z",
+      "folder": "2026-10-19_fauzia.afrin_1a153c1c7d",
+      "folderId": "1zK3A2QgMffZijNFwmClC5olUu0JlQvC7",
+      "gmailThreadId": "1a153a3dd7e16620",
+      "result": "not_order",
+      "reason": "Premier Bank Karwan Bazar reply 'Request for E Statement' with account statements (Miah & Sons and others) - bank paperwork. NOT_ORDER created."
     }
   ]
 }
