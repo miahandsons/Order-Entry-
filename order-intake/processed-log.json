@@ -5617,6 +5617,24 @@
       "processedAt": "2026-10-19T05:45:00Z",
       "result": "not_order",
       "reason": "Undeliverable/postmaster bounce of our own outgoing Purchase Declaration to Premier Bank (75% bill purchase, LC 325226040349 / 1066260402168) - bank paperwork, not an order."
+    },
+    {
+      "processedAt": "2026-10-19T06:45:00Z",
+      "folder": "2026-10-19_marketing12_1a152b1309",
+      "folderId": "1fgDo69g5Meedl1U5g0calHvJ8nldygQC",
+      "gmailThreadId": "1a093d5359da952d",
+      "result": "manual_revision_needed",
+      "existingJob": "7214/26-N",
+      "reason": "Needle Drop/US Polo carton booking resend (11H0614 ECOM only, 38x30x19 cm x12, T/B 38x30x15 x24) on thread already entered as 7214/26-N (11H0614,615,616, dated 2026-09-12). Not drafted; human must manually revise 7214/26-N. Older sibling folders 2026-09-12_marketing12_1a093d5359 and 2026-09-13_marketing3_1a099d07a8 marked SUPERSEDED (not recorded as processed)."
+    },
+    {
+      "processedAt": "2026-10-19T06:45:00Z",
+      "folder": "2026-10-19_shawan.mer_1a152ba6ae",
+      "folderId": "1GbhhcDhAY0dEIBb2vXyOjyNY20VA5v-D",
+      "gmailThreadId": "1a152ba6ae378c5e",
+      "result": "entered",
+      "jobNumber": "7721/26-N",
+      "reason": "Florence Group/CIA Hering H4FA additional-quantity carton booking (Faiza Industries) entered as 7721/26-N (DISAPPROVED, AI-drafted); thread labelled order-intake/entered-by-ai."
     }
   ]
 }
