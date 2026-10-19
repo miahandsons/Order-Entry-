@@ -5725,6 +5725,67 @@
       "jobNumber": "7731/26-N (PO-192), 7732/26-N (PO-194+195+196+197)",
       "partyName": "Rizvi Fashions Ltd.",
       "note": "Folder held two different bookings: PO-192 (Job 3501; carton x300, top-bottom x600; $364.27 vs sheet $364.29) = 7731/26-N, and the file named 'Po-192 (1)' which is really PO-194+195+196+197 (Job 3503; carton x3400, top-bottom x6800; $4128.43 vs sheet $4128.62) = 7732/26-N. Carton 0.74/sqm override, delivery 2026-10-26, bank Premier(3), credit 90 defaulted. Label entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-19_crwlsadi_1a1542df1f",
+      "folderId": "1GE99p6Z0u6RIYOqlyfg9zEjGFWHlpHH9",
+      "gmailThreadId": "1a1542df1fc4ac93",
+      "processedAt": "2026-10-19T14:00:00Z",
+      "result": "entered",
+      "orderId": 8334,
+      "jobNumber": "7733/26-N",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "note": "Noah 8 OZ Denim Carton Booking-2 (HBS delivery), 425 ctn / 850 top-bottom, per-style lines. Flags: buyer NOAH WORLD guessed; delivery_date 2026-10-22 defaulted; top/bottom dimensions guessed = carton L x W (sheet gives none); bank/credit days defaulted from party precedent. Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-19_emonsadik2014_1a152fd00a",
+      "folderId": "1z_akJt4m-8QhDQVdxY4ZaoyFoYb6_QSd",
+      "gmailThreadId": "1a152fd00a9ad27e",
+      "processedAt": "2026-10-19T14:00:00Z",
+      "result": "already_in_flowtech",
+      "jobNumber": "7725/26-N",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "reason": "Chapter One carton booking MS18 already entered as 7725/26-N (manually); our reply 'Received your order' already sent on thread."
+    },
+    {
+      "folder": "2026-10-19_emonsadik2014_1a153086c0",
+      "folderId": "1sakV7u9dCnN1pKfyCob36wsqB3gs9FF6",
+      "gmailThreadId": "1a153086c008f517",
+      "processedAt": "2026-10-19T14:00:00Z",
+      "result": "manual_revision_needed",
+      "existingJob": "7557/26-N",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "reason": "Revised Marie Claire booking sheet (Booking No MS016, carton measurements changed for some styles) for a booking already entered as 7557/26-N. Not drafted; human must manually revise 7557/26-N."
+    },
+    {
+      "folder": "2026-10-17_jahidulislam2414_1a149ad49b",
+      "folderId": "1fzJUBKFndnQjYKKH14OAb7NhB82gQRb5",
+      "gmailThreadId": "1a1495336817b4a2",
+      "processedAt": "2026-10-19T14:00:00Z",
+      "result": "already_in_flowtech",
+      "jobNumber": "7704/26-N",
+      "partyName": "BARD Furniture BD CO LTD.",
+      "reason": "BADR Furniture PO 202610006 (3 ply, 2400x138mm, 8100 pcs @ BDT 15) already entered as 7704/26-N (team Tanvir Pack)."
+    },
+    {
+      "folder": "2026-10-15_merchandiser4_1a13dee897",
+      "folderId": "1GvKMrPgVAm2LN_uUoZbq1FAY6sfG8QzT",
+      "gmailThreadId": "1a13dee89783f4cd",
+      "processedAt": "2026-10-19T14:00:00Z",
+      "result": "already_in_flowtech",
+      "jobNumber": "7671/26-N",
+      "partyName": "EUROTEX KNITWEAR LTD.",
+      "reason": "Consist/Donnay carton work order already entered as 7671/26-N; PI sent on thread."
+    },
+    {
+      "folder": "2026-10-13_crwlsadi_1a133b2cd6",
+      "folderId": "1P9IYkJjuC-Bwk83hTctEiJpwcYpINpBD",
+      "gmailThreadId": "1a12b0f5d275936d",
+      "processedAt": "2026-10-19T14:00:00Z",
+      "result": "already_in_flowtech",
+      "jobNumber": "7634/26-N",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "reason": "RESEND of TAKIHYO fleece carton booking already entered as 7634/26-N; PI-CRW-7634-26-N sent. Older sibling 2026-10-11_crwlsadi_1a12b0f5d2 marked SUPERSEDED in Drive."
     }
   ]
 }
