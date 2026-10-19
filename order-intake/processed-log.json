@@ -5609,6 +5609,14 @@
       "processedAt": "2026-10-19T04:00:00Z",
       "result": "not_order",
       "reason": "Asrotex/City Bank back-to-back LC 0751260410469 (MT700, USD 1,724.13) against our own PI 7200/26-N; payment paperwork, not an order. NOT_ORDER created."
+    },
+    {
+      "folder": "2026-10-19_postmaster_1a152a9eab",
+      "folderId": "1qTTP57SdYDE1bX_o3GLco9j9ffzClDXb",
+      "gmailThreadId": "1a152a762b6098f3",
+      "processedAt": "2026-10-19T05:45:00Z",
+      "result": "not_order",
+      "reason": "Undeliverable/postmaster bounce of our own outgoing Purchase Declaration to Premier Bank (75% bill purchase, LC 325226040349 / 1066260402168) - bank paperwork, not an order."
     }
   ]
 }
