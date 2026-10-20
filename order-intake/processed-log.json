@@ -5805,6 +5805,31 @@
       "processedAt": "2026-10-20T05:45:00Z",
       "result": "not_order",
       "reason": "FB Footwear (Niloy Mahmud) emailed a SWIFT MT700 LC draft (Agrani Bank to Premier Bank, LC 0001260401681, applicant F B Footwear, beneficiary Miah and Sons) asking for amendments within one working day; LC paperwork, not an order. NOT_ORDER file created."
+    },
+    {
+      "folder": "2026-10-20_merchandiser_bd_1a1581f5ff",
+      "folderId": "1ghd0LQad6ybZpis6BZNQyaWgyF6K7h-k",
+      "gmailThreadId": "1a1581f5ff55405c",
+      "processedAt": "2026-10-20T07:45:00Z",
+      "result": "not_order",
+      "reason": "Yadu Group merchandiser_bd asking Miah & Sons to prepare a carton shipping-mark layout for approval (92.5x46x35cm, pcs/carton table); no PO/price/delivery date, no Yadu party in Flowtech, single-message thread. Layout request, not a booking. NOT_ORDER created."
+    },
+    {
+      "folder": "2026-10-20_md_1a1582119f",
+      "folderId": "1OVfnBhbNIc_OFRrM1XJn9GH54R_zMg9a",
+      "gmailThreadId": "1a1582119fe5b66d",
+      "processedAt": "2026-10-20T07:45:00Z",
+      "result": "not_order",
+      "partyName": "Delicate Garments Limited",
+      "reason": "Ripon (md@r7bd.com) 'Please share layout' for Delicate Garments; booking xlsx has blank/0 carton quantities for all 8 styles and shipping-mark PDF is a blank template (art 7350-7356). No quantities to draft; single-message thread. A filled booking would arrive as a new folder. NOT_ORDER created."
+    },
+    {
+      "folder": "2026-10-20_marketing3_1a1583d113",
+      "folderId": "13rd-o8Bg63ELTJTcJcbyYqD1-Stcv4Es",
+      "gmailThreadId": "1a1583d113740e5d",
+      "processedAt": "2026-10-20T07:45:00Z",
+      "result": "not_order",
+      "reason": "Needle Drop Ltd (Imran Hossain) 'RE: LC Copy' with SWIFT MT700 LC 3057260400325 (Jamuna Bank, USD 14,689.41, PIs GPI-7393/26-N and GPI-7178/26-N); LC paperwork. NOT_ORDER created."
     }
   ]
 }
