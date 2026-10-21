@@ -5920,6 +5920,23 @@
       "jobNumber": "7754/26-N",
       "partyName": "Concord Raiment Wear Ltd.",
       "note": "Noah 8 OZ Denim Carton Booking-3 (HBS delivery): 22 master-carton lines = 409 ctn (matches sheet) + Top Bottom 818 pcs split by carton footprint (226/164/312/116), total $429.51. Flags: buyer NOAH WORLD guessed; delivery_date 2026-10-24 defaulted; Top Bottom dims guessed = carton L x W; style '712020M' as written (likely typo for 71020M); bank id 3/credit 90 defaulted; shipping mark approval requested by client (not handled). Single-message thread. Label order-intake/entered-by-ai applied."
+    },
+    {
+      "folder": "2026-10-21_motherboxctn_1a15cd1009",
+      "folderId": "106RM7FoWhk3p3coDQTZnudux0SBBCPKy",
+      "gmailThreadId": "1a15cd1009821a56",
+      "processedAt": "2026-10-21T06:05:00Z",
+      "result": "entered",
+      "orderId": 8356,
+      "jobNumber": "7755/26-N",
+      "additionalOrders": [
+        {
+          "orderId": 8357,
+          "jobNumber": "7756/26-N"
+        }
+      ],
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "PEP&CO 5-ply auto carton WO 57/10 (7755/26-N: carton 58x40x48 x440 + Top Bottom 53x30 x880) and WO 58/10 (7756/26-N: carton 58x49x45 x349). Single-message thread. FLAG - TOTALS WRONG, NEEDS MANUAL FIX BEFORE APPROVAL: orders were created with unit_price_per='Square Meter' using per-piece prices (143.52, 3.975, 166.11), so Flowtech multiplied by sqm again (7755 total 121,397.72 vs doc 66,646.80; 7756 total 128,397.25 vs doc 57,972.39). Precedent 7623/26-N used Order Qty pricing. Fix: set unit_price_per to Order Qty, or set unit prices to doc rates 75.00/sqm (cartons) and 25.00/sqm (top bottom). WO 58/10 delivery date in PDF (12-Oct-26) is before order date; defaulted 2026-10-24. Paper quality not applied (grade default layers). Bank id 3, credit 0, attention Md.Mostafizur Rahman. Gmail label applied."
     }
   ]
 }
