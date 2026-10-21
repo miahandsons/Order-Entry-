@@ -5909,6 +5909,17 @@
       "jobNumber": "7753/26-N",
       "partyName": "FAIZA INDUSTRIES LTD.",
       "note": "DMR swimming short big group booking (Florence/Shawon), delivery by 22-Oct. Semi-Auto Master Carton Ply7 A-712-L 58x38x24 qty 776 + Top Bottom Ply3 A-310-L 54x32 qty 1552. Total $915.97. Flags: Top Bottom ply assumed, bank id 3/credit 90 from 7631/26-N. Gmail label applied."
+    },
+    {
+      "folder": "2026-10-21_crwlsadi_1a15caa69f",
+      "folderId": "1d0PfeE6oUNfdGMKKa02kMTCrRbMf21yy",
+      "gmailThreadId": "1a15caa69f994070",
+      "processedAt": "2026-10-21T04:55:00Z",
+      "result": "entered",
+      "orderId": 8355,
+      "jobNumber": "7754/26-N",
+      "partyName": "Concord Raiment Wear Ltd.",
+      "note": "Noah 8 OZ Denim Carton Booking-3 (HBS delivery): 22 master-carton lines = 409 ctn (matches sheet) + Top Bottom 818 pcs split by carton footprint (226/164/312/116), total $429.51. Flags: buyer NOAH WORLD guessed; delivery_date 2026-10-24 defaulted; Top Bottom dims guessed = carton L x W; style '712020M' as written (likely typo for 71020M); bank id 3/credit 90 defaulted; shipping mark approval requested by client (not handled). Single-message thread. Label order-intake/entered-by-ai applied."
     }
   ]
 }
