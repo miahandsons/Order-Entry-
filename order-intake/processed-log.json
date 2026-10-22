@@ -5986,6 +5986,21 @@
       "gmailThreadId": "1a161e927d1cc330",
       "result": "not_order",
       "note": "Consist Apparel (Costco 34K polos) urgent request to prepare shipping-mark layout for approval; xlsx is garment order confirmation in pcs, PDFs are dummy marks. No carton booking. Human needs to prepare layout today (urgent)."
+    },
+    {
+      "processedAt": "2026-10-22T14:00:00Z",
+      "folder": "2026-10-22_m.a.malek4486_1a163c0afa",
+      "folderId": "1SubZCqlsn0vhML82XVtyFX8u2TsLL9Gw",
+      "gmailThreadId": "1a163c0afa7fbf97",
+      "result": "entered",
+      "orderIds": [
+        8362
+      ],
+      "jobNumbers": [
+        "7761/26-N"
+      ],
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Piazza Italia style MYRRAHALPAS7 / line 68811: 7-ply cartons x6 lines (364 pcs, Semi-Auto Master Carton Ply 7 A-700-I) + 3-ply top/bottom 55x35 x728. Defaults: bank 3, credit 30, Square Meter pricing, catalog prices (doc has none), unit CM, delivery 2026-10-24 from doc. Client asks for shipping-mark layout approval; human needs to prepare. Label applied."
     }
   ]
 }
