@@ -3,6 +3,14 @@
   "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
   "processed": [
     {
+      "folder": "2026-10-22_info_1a161a2e0d",
+      "folderId": "1SBoczECkEe_ggBNQAOZVTVDHiBReVBXB",
+      "gmailThreadId": "1a161a2e0d4aa736",
+      "processedAt": "2026-10-22T04:00:00Z",
+      "result": "not_order",
+      "reason": "BIMOX 2026 exhibition registration confirmation (info@eventthere.com), attachment is a visitor badge PDF. Not a client order."
+    },
+    {
       "folder": "2026-09-28_anika.rahman_1a0e7b02be",
       "folderId": "1LoNPV7NEmI5VNb-rG2-tZhe38n3GHk28",
       "gmailThreadId": "1a0e7b02bea88d58",
