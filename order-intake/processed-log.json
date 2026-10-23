@@ -6018,6 +6018,21 @@
       ],
       "partyName": "Consist Apprels Ltd",
       "note": "Zuiki carton bookings B7E053TS (7762: 7 colour carton lines 488 pcs + T/B 976) and B7E052CN (7763: 295 pcs + T/B 590) from Consist (Mizanur Rahman). Single-message thread. Party catalog only has Auto Master Carton/Ply 5/A-500-L at price 0 -> used as proxy for 7-ply carton and top-bottom; totals are 0, human must fix item/spec/grade/price. Defaults: bank 3, credit 30, delivery 2026-10-25 from doc. Buyer needs shipping-mark layout approval; PI requested for LC. Label applied."
+    },
+    {
+      "processedAt": "2026-10-23T07:00:00Z",
+      "folder": "2026-10-23_suraya.akter_1a1676b0b8",
+      "folderId": "1Vsj7dAB0lrxcJyLUXKVtZNbzn2upFfEI",
+      "gmailThreadId": "1a1676b0b810bc13",
+      "result": "entered",
+      "orderIds": [
+        8365
+      ],
+      "jobNumbers": [
+        "7764/26-N"
+      ],
+      "partyName": "Cutting Edge Industries Ltd.",
+      "note": "OVS SS27 bulk carton booking (Suraya Akter): 7 style lines 60x40x36 (1180) + small carton 60x40x18 (190) on Ply 5/A-500-L, Top Bottom 60x40 x2740 on Ply 3/A-300-I (catalog price 0, size/ply guessed). Delivery 2026-10-26 per email (sheet said 25th). Defaults: bank 3, credit 30. PI requested. Label applied."
     }
   ]
 }
