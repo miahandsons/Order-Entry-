@@ -6001,6 +6001,23 @@
       ],
       "partyName": "NEEDLE DROP LTD.",
       "note": "Piazza Italia style MYRRAHALPAS7 / line 68811: 7-ply cartons x6 lines (364 pcs, Semi-Auto Master Carton Ply 7 A-700-I) + 3-ply top/bottom 55x35 x728. Defaults: bank 3, credit 30, Square Meter pricing, catalog prices (doc has none), unit CM, delivery 2026-10-24 from doc. Client asks for shipping-mark layout approval; human needs to prepare. Label applied."
+    },
+    {
+      "processedAt": "2026-10-23T04:00:00Z",
+      "folder": "2026-10-23_mizan_1a166a320e",
+      "folderId": "19LIhVmybcjWSx2RJ5Bud_HxRf-QYRcUH",
+      "gmailThreadId": "1a166a320e800972",
+      "result": "entered",
+      "orderIds": [
+        8363,
+        8364
+      ],
+      "jobNumbers": [
+        "7762/26-N",
+        "7763/26-N"
+      ],
+      "partyName": "Consist Apprels Ltd",
+      "note": "Zuiki carton bookings B7E053TS (7762: 7 colour carton lines 488 pcs + T/B 976) and B7E052CN (7763: 295 pcs + T/B 590) from Consist (Mizanur Rahman). Single-message thread. Party catalog only has Auto Master Carton/Ply 5/A-500-L at price 0 -> used as proxy for 7-ply carton and top-bottom; totals are 0, human must fix item/spec/grade/price. Defaults: bank 3, credit 30, delivery 2026-10-25 from doc. Buyer needs shipping-mark layout approval; PI requested for LC. Label applied."
     }
   ]
 }
