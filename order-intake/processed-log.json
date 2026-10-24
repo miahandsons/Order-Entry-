@@ -3,6 +3,17 @@
  "description": "Processed-message log for the order-intake automation. Only Drive folders in the 'Order Intake' folder created at or after 'started_at' (or listed below) are eligible for processing.",
  "processed": [
   {
+   "folder": "2026-10-24_merchandiser3_1a16e32509",
+   "folderId": "12v3ZQR-8UGtBd0mJsDqPM2_1r1lyT1fJ",
+   "gmailThreadId": "1a16e32509f46174",
+   "processedAt": "2026-10-24T15:00:00Z",
+   "result": "entered",
+   "orderId": 8370,
+   "jobNumber": "7769/26-N",
+   "partyName": "TEXZONE KNITWEAR LIMITED",
+   "note": "Carton work order 7143225 / PO26006194 from Md Ferdous (Texzone). Single-message thread, no siblings. Master Carton A 34 + B 33 (30x25x10), Top Bottom 27x22 qty134. Buyer Castro, delivery 2026-10-27 defaulted per Texzone precedent; no DIE CUT (note refers to solid carton, none ordered). Labeled entered-by-ai."
+  },
+  {
    "folder": "2026-10-22_info_1a161a2e0d",
    "folderId": "1SBoczECkEe_ggBNQAOZVTVDHiBReVBXB",
    "gmailThreadId": "1a161a2e0d4aa736",
