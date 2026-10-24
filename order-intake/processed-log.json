@@ -6033,6 +6033,72 @@
       ],
       "partyName": "Cutting Edge Industries Ltd.",
       "note": "OVS SS27 bulk carton booking (Suraya Akter): 7 style lines 60x40x36 (1180) + small carton 60x40x18 (190) on Ply 5/A-500-L, Top Bottom 60x40 x2740 on Ply 3/A-300-I (catalog price 0, size/ply guessed). Delivery 2026-10-26 per email (sheet said 25th). Defaults: bank 3, credit 30. PI requested. Label applied."
+    },
+    {
+      "processedAt": "2026-10-24T07:00:00Z",
+      "folder": "2026-10-24_ppml.mkt_1a16c6f44b",
+      "folderId": "1H6vCnXgDkWOg7CJP6rSr9LhRmP6uJkqI",
+      "gmailThreadId": "1a16c6f44b19988f",
+      "result": "not_order",
+      "reason": "Padma Paper Mills Ltd. (supplier) sending copies of their bills Bill-Tanvir 1099/1104/1122 for info. Not a client order."
+    },
+    {
+      "processedAt": "2026-10-24T07:00:00Z",
+      "folder": "2026-10-24_sohel_1a16bcbe25",
+      "folderId": "1SDQgaq6cHVzpAzlCglYlHw5hq4t2uRTf",
+      "gmailThreadId": "1a16bcbe25990bed",
+      "result": "not_order",
+      "reason": "Lusaka Group (Sohel) Pantone colour change comments on SS27 inner box artwork + request for revised sample. Artwork feedback, not a booking/PO."
+    },
+    {
+      "processedAt": "2026-10-24T07:00:00Z",
+      "folder": "2026-10-24_sohel_1a16bd4423",
+      "folderId": "1-RoNsD_XF0T81Dq8IRKDO_dIpben-Efm",
+      "gmailThreadId": "1a16bcbe25990bed",
+      "result": "not_order",
+      "reason": "Lusaka Group (Sohel) navy top-print inner box artwork PDF, asks to submit for approval. Artwork/approval request, not a booking/PO."
+    },
+    {
+      "processedAt": "2026-10-24T07:00:00Z",
+      "folder": "2026-10-24_marketing12_1a16c51c9f",
+      "folderId": "10XyVRSL-uK0BaZRh9mI2rq72OSi_ZAkE",
+      "gmailThreadId": "1a16c51c9f725658",
+      "result": "entered",
+      "orderIds": [
+        8366
+      ],
+      "jobNumbers": [
+        "7765/26-N"
+      ],
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "US Polo H-0579 only: 3 ECOM cartons 38x30 (17/19/20 high) 108/157/113 + Board 22x15 216/314/226, per precedent 7716/26-N. Defaults: delivery +30d (2026-11-23), bank 3, credit 90, station '.', catalog prices (sheet has none). Layout approval requested by client. Sheet's HO528/533/534/535 block (3194 ctns) not in Flowtech and not covered by email - human to check. Label applied."
+    },
+    {
+      "processedAt": "2026-10-24T07:00:00Z",
+      "folder": "2026-10-24_motherboxctn_1a16c3dea9",
+      "folderId": "1hu-T97m-9jfGp21IU_KCH2_EUQbnSr1d",
+      "gmailThreadId": "1a16c3dea97c8e95",
+      "result": "entered",
+      "orderIds": [
+        8367
+      ],
+      "jobNumbers": [
+        "7766/26-N"
+      ],
+      "partyName": "Rizvi Fashions Ltd.",
+      "note": "Brand Carrier SS Tee POs 2064/2066/2090 (job 3539, SPORT DIRECT (DEWALT)) as one order: 13 carton lines 31x27x17/20 (651 pcs) @0.76/sqm override + Top Bottom 28x25 x1302. Total $339.81 vs sheet $339.82. Sheet dates stale (booking 13/10, delivery 12/10) so order 2026-10-24, delivery 2026-10-31 guessed - human confirm. Label applied."
+    },
+    {
+      "processedAt": "2026-10-24T07:00:00Z",
+      "folder": "2026-10-23_m.a.malek4486_1a168c03dc",
+      "folderId": "1_ipp27ShdzVAKdr_GUYijT2WNvfenUvg",
+      "gmailThreadId": "1a163c0afa7fbf97",
+      "result": "manual_revision_flagged",
+      "existingJobNumbers": [
+        "7761/26-N"
+      ],
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Same thread as already-entered 7761/26-N (style 68811). Newer message (2026-10-23) carries 'Work Order For Carton- style # 68784.xls' (Piazza Italia JASMIINAC5S7 / line 68784: 7-ply cartons 56x50 x 360 + 3-ply top/bottom 55x35 x720, delivery per sheet). Per rule 3a not drafted; human must check whether 68784 is a NEW job (different style/line code, likely) or revision of 7761/26-N and enter/revise manually."
     }
   ]
 }
