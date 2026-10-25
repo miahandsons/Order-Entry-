@@ -6231,6 +6231,14 @@
    "gmailThreadId": "1a171f34c5e7b1c7",
    "result": "not_order",
    "reason": "Premier Bank postmaster bounce 'Undeliverable: PURCHASE DECLARATION' - bank correspondence."
+  },
+  {
+   "processedAt": "2026-10-25T08:50:00Z",
+   "folder": "2026-10-25_abdullah7_1a17204113",
+   "folderId": "1h-GQdlFspq31JCzkajegO_NZRUy-2tp4",
+   "gmailThreadId": "1a172041132082d0",
+   "result": "not_order",
+   "reason": "Akij Bicycle Industries forwarded revised export Sales Contracts/PI (ABIL/KUB/2026 A & B, bicycles to Kubbinga) with bank paperwork - not a carton order."
   }
  ]
 }
