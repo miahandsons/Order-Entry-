@@ -6199,6 +6199,38 @@
    "gmailThreadId": "1a17167eb10d1381",
    "result": "not_order",
    "reason": "Fountain/Rabab (Saiket) approving carton shipping-mark layout PDF (Tractor Supply marks, no quantities) on BMCOM173 booking already entered as 7776/26-N."
+  },
+  {
+   "processedAt": "2026-10-25T07:45:00Z",
+   "folder": "2026-10-25_postmaster_1a171ce4fc",
+   "folderId": "1P7pf-KfqZpuvHNcT6utkvi_CFyITacba",
+   "gmailThreadId": "1a171cb7655a995c",
+   "result": "not_order",
+   "reason": "Premier Bank postmaster bounce 'Undeliverable: Purchase Declaration' - bank correspondence."
+  },
+  {
+   "processedAt": "2026-10-25T07:45:00Z",
+   "folder": "2026-10-25_nahida_1a171d1092",
+   "folderId": "1oTZrG-xqyMimvSbv4aIyUGJIcUVTK0Cr",
+   "gmailThreadId": "1a171c21650e60df",
+   "result": "not_order",
+   "reason": "Premier Bank (Kawran Bazar) export proceeds voucher, 'RE: About Proceed Charge' - bank correspondence."
+  },
+  {
+   "processedAt": "2026-10-25T07:45:00Z",
+   "folder": "2026-10-25_postmaster_1a171efc88",
+   "folderId": "1rJVVCtLwrTflPityJDXP3CzUmvR3AO3Z",
+   "gmailThreadId": "1a171df0d89ec69c",
+   "result": "not_order",
+   "reason": "Premier Bank postmaster bounce 'Undeliverable: RTGS Application' - bank paperwork."
+  },
+  {
+   "processedAt": "2026-10-25T07:45:00Z",
+   "folder": "2026-10-25_postmaster_1a171f5837",
+   "folderId": "1ZcXr1J-UDymeVzHpwK1fhkQoMJ306MLx",
+   "gmailThreadId": "1a171f34c5e7b1c7",
+   "result": "not_order",
+   "reason": "Premier Bank postmaster bounce 'Undeliverable: PURCHASE DECLARATION' - bank correspondence."
   }
  ]
 }
