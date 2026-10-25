@@ -6279,6 +6279,29 @@
    "gmailThreadId": "1a1729c7b9394388",
    "result": "not_order",
    "reason": "Premier Bank transaction voucher (export proceeds realization) - bank correspondence."
+  },
+  {
+   "processedAt": "2026-10-25T12:00:00Z",
+   "folder": "2026-10-25_marketing12_1a172b77bf",
+   "folderId": "1mTJBEIzM5uz9UzzsdHQ59ZQ6nwHE074M",
+   "gmailThreadId": "1a172b77bf37593b",
+   "result": "entered",
+   "orderIds": [
+    8385
+   ],
+   "jobNumbers": [
+    "7784/26-N"
+   ],
+   "partyName": "NEEDLE DROP LTD.",
+   "note": "US Polo H-0580 only: 3 RATIO cartons 70x45 (16/18/9 high) 170/170/104 + 3 ECOM 38x30 (24/26/27) 118/181/128, top/bottom Board 35x25 340/340/208 and 22x15 236/362/256. Defaults: delivery +30d (2026-11-24), bank 3, credit 90, station '.', catalog prices. Sheet's HO528/HO533 rows not covered by email - human to check. Layout approval requested by client. Label applied."
+  },
+  {
+   "processedAt": "2026-10-25T12:00:00Z",
+   "folder": "2026-10-25_fauzia.afrin_1a172cc291",
+   "folderId": "1rXyWkDRTKrBTowig3NWc3cRCzhuGw1zt",
+   "gmailThreadId": "1a172cc291b57773",
+   "result": "not_order",
+   "reason": "Premier Bank Kawran Bazar account statements (4 PDFs) - bank correspondence. NOT_ORDER created."
   }
  ]
 }
