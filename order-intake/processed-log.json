@@ -6302,6 +6302,14 @@
    "gmailThreadId": "1a172cc291b57773",
    "result": "not_order",
    "reason": "Premier Bank Kawran Bazar account statements (4 PDFs) - bank correspondence. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-25T13:00:00Z",
+   "folder": "2026-10-25_shuchona.alam_1a172eb984",
+   "folderId": "1MDI-MenSkIoq8bqM-T8p4UmcTwzZ6Qry",
+   "gmailThreadId": "1a172eb984fa7087",
+   "result": "not_order",
+   "reason": "3i Logistics freight certificate JHNL26096596 (strapping machine shipment) - logistics paperwork. NOT_ORDER created."
   }
  ]
 }
