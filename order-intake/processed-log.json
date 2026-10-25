@@ -6148,6 +6148,14 @@
    ],
    "partyName": "MK Footwear LTD",
    "note": "MK Footwear RedTape Zumba 60k PO already in Flowtech as 7768/26-N (DISAPPROVED, IsAiDrafted, total $6728.70 vs PO $6728.67); thread already labelled entered-by-ai. Single-message thread. No duplicate drafted. Grade A-521-I defaulted, verify; ETD 28-Oct."
+  },
+  {
+   "processedAt": "2026-10-25T04:00:00Z",
+   "folder": "2026-10-25_marketing12_1a17112b82",
+   "folderId": "1wDimUWRoKMoYRETsV4qDjZ1Q_Nv9NGBm",
+   "gmailThreadId": "1a16c51c9f725658",
+   "result": "not_order",
+   "reason": "Needle Drop reply on H-0579 thread with US Polo printing layout PDF (carton marking artwork, no quantities); order already entered as 7765/26-N."
   }
  ]
 }
