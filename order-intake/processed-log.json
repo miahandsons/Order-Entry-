@@ -6327,6 +6327,14 @@
    ],
    "partyName": "PARASOLE FOOTWEAR LTD.",
    "note": "Parasole/Up-Top (AVIA) shoe box order UP226222184, two xlsx: White 5256 prs PO 112261880 -> 7790/26-N (906/3018/1332); Grey 11184 prs PO 111788939 -> 7791/26-N (996/3534/6654). Shoe Box/Ply 3/A-300-I, unit_price 0.095 override per precedent 7546/26-N (catalog price 0), Order Qty pricing, bank 3, credit 0, delivery +3d defaulted (2026-10-29). Raw box qty used, not +1%. Stray Aldi sheets ignored. Single-message thread. Label applied."
+  },
+  {
+   "processedAt": "2026-10-26T05:00:00Z",
+   "folder": "2026-10-26_josim_1a1765af0c",
+   "folderId": "1nl2P5wYLE1AozGP2D3bTsIWn9agLB_Zd",
+   "gmailThreadId": "1a1765af0c1d9e33",
+   "result": "not_order",
+   "reason": "SWIFT MT754 bill acceptance advice (UCBL to Premier Bank, USD 3,001.41) - bank/LC paperwork. NOT_ORDER created."
   }
  ]
 }
