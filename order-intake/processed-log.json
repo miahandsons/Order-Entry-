@@ -6442,6 +6442,33 @@
    "gmailThreadId": "1a1772c3cd804460",
    "result": "not_order",
    "reason": "Undeliverable bounce of our own RTGS settlement request to Premier Bank - bank paperwork. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-26T09:45:00Z",
+   "folder": "2026-10-26_aminur_1a17752d20",
+   "folderId": "1RAByQyKd3HRuw2tpy1rXJlem7_FqHf7o",
+   "gmailThreadId": "1a17752d20135ced",
+   "result": "not_order",
+   "reason": "Premier Bank account statement (Tanvir Printing & Packaging) - bank paperwork. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-26T09:45:00Z",
+   "folder": "2026-10-26_aminur_1a1775ea59",
+   "folderId": "1OHu1Ix5dHENMpxt1neXuBGocdWeJskDQ",
+   "gmailThreadId": "1a17752d20135ced",
+   "result": "not_order",
+   "reason": "Premier Bank account statement (Tanvir Printing & Packaging) - bank paperwork. NOT_ORDER created. (resend, same thread)."
+  },
+  {
+   "processedAt": "2026-10-26T09:45:00Z",
+   "folder": "2026-10-26_crwlsadi_1a1777074d",
+   "folderId": "1NOnYlRX5GzWqbzbb8J0_55ux6RJq_S9W",
+   "gmailThreadId": "1a1777074df03feb",
+   "result": "entered",
+   "orderId": 8404,
+   "jobNumber": "7803/26-N",
+   "partyName": "Concord Raiment Wear Ltd.",
+   "note": "Concord Noah Super stretch 240gsm Carton Booking-1 (HBS delivery): 10 carton styles (172 ctn) + Top Bottom 30x24 qty 344; total $151.08. Buyer NOAH WORLD guessed, delivery 2026-10-29 defaulted, bank 3, credit 90 per precedent 7754/26-N. Single-message thread. Label applied."
   }
  ]
 }
