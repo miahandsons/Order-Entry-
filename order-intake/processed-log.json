@@ -6636,6 +6636,26 @@
    "gmailThreadId": "1a17c0a1c506ab36",
    "result": "not_order",
    "note": "Sylvia HCM HR/payroll software marketing brochure. NOT_ORDER created."
+  },
+  {
+     "processedAt": "2026-10-27T07:50:00Z",
+     "folder": "2026-10-27_amir.ali_1a17c2027f",
+     "folderId": "1XtRRC6lZfaLOG3QzAm3qNDdlfJK0CNN4",
+     "gmailThreadId": "1a17880079edb862",
+     "result": "flagged_manual_revision",
+     "existingJobNumbers": [
+        "7813/26-N",
+        "7814/26-N"
+     ],
+     "note": "Revised Carton Booking LKGK26-08/07 (Liberty/Grupokaybee) resent as reply on thread already entered as 7813/26-N (132 pcs) and 7814/26-N (57 pcs). Revised: LKGK26-08 carton 135 pcs + Top/Bottom L56xW38 270 pcs; LKGK26-07 carton 60 pcs + Top/Bottom L56xW38 120 pcs; also 30 pcs A4 brown paper each; urgent delivery by tomorrow morning; quality follow NKD. No second order drafted - human must manually revise 7813/7814 (qty 132->135, 57->60) and add top/bottom lines."
+  },
+  {
+     "processedAt": "2026-10-27T07:50:00Z",
+     "folder": "2026-10-27_ripon.mondal_1a17c39142",
+     "folderId": "1m6VNg4lMc4Mr85WYafvLQgGVYhEnCzxQ",
+     "gmailThreadId": "1a17c3914282d245",
+     "result": "not_order",
+     "reason": "Premier Bank SWIFT MT700 LC draft 2965260403732 (USD 8,547.63) from Liberty - LC paperwork. NOT_ORDER created."
   }
  ]
 }
