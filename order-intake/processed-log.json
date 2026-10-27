@@ -6724,6 +6724,22 @@
       "gmailThreadId": "1a17cc7f108e8a5e",
       "result": "not_order",
       "note": "LC copy MT700 314026040308 (BEQ Knit Ltd, USD 11,550.48) + our PI. LC paperwork. NOT_ORDER created."
+    },
+    {
+      "processedAt": "2026-10-27T11:50:00Z",
+      "folder": "2026-10-27_anika.rahman_1a17d1a7c1",
+      "folderId": "1c3JpbSy7H0dcjYij1fZGJvQ9TuEBuLwd",
+      "gmailThreadId": "1a17d1a7c10b2997",
+      "result": "not_order",
+      "note": "Premier Bank vouchers (LC 215326230019 margin credit 1,270,000 etc.). Bank correspondence. NOT_ORDER created."
+    },
+    {
+      "processedAt": "2026-10-27T11:50:00Z",
+      "folder": "2026-10-27_fauzia.afrin_1a17d1b327",
+      "folderId": "194bVPWAev3wpw5O7KijXgbvT9C96kAjX",
+      "gmailThreadId": "1a17cef24b562575",
+      "result": "not_order",
+      "note": "Premier Bank e-statements (Tanvir Printing / Miah & Sons accounts). Bank correspondence. NOT_ORDER created."
     }
   ]
 }
