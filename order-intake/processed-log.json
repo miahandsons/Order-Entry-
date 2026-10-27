@@ -6664,6 +6664,30 @@
    "gmailThreadId": "1a17c5c314c18814",
    "result": "not_order",
    "note": "Konita Trade revised supplier PI Miah-1026-990 (Nippon Paper Mills, 350 GSM 36MT) - inbound paper purchase PI, not a client order. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-27T09:50:00Z",
+   "folder": "2026-10-27_postmaster_1a17cac049",
+   "folderId": "13aAG1dG-1-L8GJv1QpDYclFV3rdfywiI",
+   "gmailThreadId": "1a17ca8e0c60085e",
+   "result": "not_order",
+   "note": "Premier Bank postmaster Undeliverable bounce of own Positive Pay cheque letter (cheque 8105518, Khan Enterprise BDT 360,000). Bank correspondence. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-27T09:50:00Z",
+   "folder": "2026-10-27_postmaster_1a17cac07b",
+   "folderId": "1CQ9CuR3BKT331KFYqkjJ0M1HUBRYHzgd",
+   "gmailThreadId": "1a17ca8e0c60085e",
+   "result": "not_order",
+   "note": "Premier Bank postmaster Undeliverable bounce of own Positive Pay cheque letter (cheque 8105518, Khan Enterprise BDT 360,000). Bank correspondence. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-27T09:50:00Z",
+   "folder": "2026-10-27_postmaster_1a17cac3fb",
+   "folderId": "1OsZ2dIC6mjCBVBD5KbBziFB-8cy80pGn",
+   "gmailThreadId": "1a17ca8e0c60085e",
+   "result": "not_order",
+   "note": "Premier Bank postmaster Undeliverable bounce of own Positive Pay cheque letter (cheque 8105518, Khan Enterprise BDT 360,000). Bank correspondence. NOT_ORDER created."
   }
  ]
 }
