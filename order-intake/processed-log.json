@@ -6762,6 +6762,17 @@
       "jobNumber": "7827/26-N",
       "partyName": "Shoeniverse Footwear Ltd.",
       "note": "Shoeniverse/Redtape PO(33) PR26105439 master carton: Auto Master Carton Ply 5 A-509-I, 64.5x49x34.5 x2716 + 64.5x51x37 x2094 (4810 pcs) @0.62/SQM override (catalog 0.60). Total $6,423.93. Delivery 2026-11-05, bank 3, credit 90 per PO/precedent 7628/26-N. Single-message thread. Label applied. Client also asks for PI (not actioned)."
+    },
+    {
+      "folder": "2026-10-27_m.a.malek4486_1a17dfa82b",
+      "folderId": "1PJb9r0vuwhVUqDi1mHWkAynFXEW0PN8l",
+      "gmailThreadId": "1a17dfa82be9fbd0",
+      "processedAt": "2026-10-27T15:50:00Z",
+      "result": "entered",
+      "orderId": 8429,
+      "jobNumber": "7828/26-N",
+      "partyName": "NEEDLE DROP LTD.",
+      "note": "Needle Drop/Colin's SR-3 work order (deliver to S.R Fashion, 29-Oct): 5-ply A-500-L 60x35x40 x600 + 60x35x18 x100; Top Bottom 3-ply A-300-I 55x30 x1400. Total $798.69. Bank 3, credit 90 per 7708/26-N precedent. Single-message thread (forward). Label applied. Human to confirm not a revision of 7708/26-N."
     }
   ]
 }
