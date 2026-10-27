@@ -6613,6 +6613,29 @@
    "gmailThreadId": "1a17bcec2216f8a5",
    "result": "not_order",
    "note": "Premier Bank FW: request for open LC USD16720 - SWIFT MT700 (LC MIAH 16720, Nippon Paper duplex board import). Bank/LC paperwork. NOT_ORDER created."
+  },
+  {
+   "processedAt": "2026-10-27T06:50:00Z",
+   "folder": "2026-10-27_farzana.akter_1a17be8e77",
+   "folderId": "1613IagSrOabf2hToWH4RRveSxsWRGcLr",
+   "gmailThreadId": "1a17be8e7771790d",
+   "result": "entered",
+   "orderIds": [
+    8421
+   ],
+   "jobNumbers": [
+    "7820/26-N"
+   ],
+   "partyName": "PARASOLE FOOTWEAR LTD.",
+   "note": "Aider/Walmart master cartons AD26D11640A: Tan 3704 + Navy 773 ctns, 57x47.5x34.5 Ply5 A-500-L (base qty, not +1%), POs 7235531074-80. Buyer ACI(Aider), delivery 2026-10-30 defaulted (order+3), bank 3, credit 0, no die cut, catalog price. Total $5701.02. Label applied."
+  },
+  {
+   "processedAt": "2026-10-27T06:50:00Z",
+   "folder": "2026-10-27_mostofa.kamal_1a17c0a1c5",
+   "folderId": "1tyl0ex8M9HiLeWFdGHF7QClsiYg0fkGn",
+   "gmailThreadId": "1a17c0a1c506ab36",
+   "result": "not_order",
+   "note": "Sylvia HCM HR/payroll software marketing brochure. NOT_ORDER created."
   }
  ]
 }
