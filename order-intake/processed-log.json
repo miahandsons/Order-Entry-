@@ -6795,6 +6795,17 @@
       "jobNumber": "7830/26-N",
       "partyName": "Mother Box Packaging & Accessories",
       "note": "Mother Box WO 59/10 (job 59-MBP&A-26), buyer PEP&CO: Auto Master Carton Ply 5 A-510-L 59x49x30 x440 @75/sqm override (catalog 70), total 62,449.20 matches PDF. Delivery 2026-10-29 from doc. Paper quality in PDF not applied (grade default layers). Bank 3, credit 0 per precedent 7756/26-N. Single-message thread. Label applied."
+    },
+    {
+      "folder": "2026-10-28_st13_1a180e3d0e",
+      "folderId": "17XwsA5x-meTSjwbm7IUREFBvav4He-sq",
+      "gmailThreadId": "1a17d35f2bcff402",
+      "processedAt": "2026-10-28T06:00:00Z",
+      "result": "flagged_manual_revision",
+      "existingJobNumbers": [
+        "7826/26-N"
+      ],
+      "note": "Snowtex follow-up on same thread as 7826/26-N (PO S27-040041, WP14): client resent booking as ERP-generated xlsx + PDF ('please follow Manual booking as in attached Excel'). Not drafted; create_order cannot revise. Human to compare xlsx/PDF against 7826/26-N and revise if different."
     }
   ]
 }
