@@ -6784,6 +6784,17 @@
       "jobNumber": "7829/26-N",
       "partyName": "Delicate Garments Limited",
       "note": "Delicate/Ripon (ENGELSONS) carton booking xlsx: 6 carton lines (136/60/60/43/47/33 = 379; 60x40x30 and 60x40x25) A-500-L @0.64 catalog + Top Bottom 58x38 x758 (size guessed from 7639/26-N). Total $421.14. Delivery 2026-10-31 computed, bank 3, credit 90 from precedent. Single-message thread. Label applied."
+    },
+    {
+      "folder": "2026-10-28_motherboxctn_1a180c3254",
+      "folderId": "1uVCYPPscF0xGedGOs0rwn_J6R7woYpF3",
+      "gmailThreadId": "1a180c3254d09d98",
+      "processedAt": "2026-10-28T05:00:00Z",
+      "result": "entered",
+      "orderId": 8431,
+      "jobNumber": "7830/26-N",
+      "partyName": "Mother Box Packaging & Accessories",
+      "note": "Mother Box WO 59/10 (job 59-MBP&A-26), buyer PEP&CO: Auto Master Carton Ply 5 A-510-L 59x49x30 x440 @75/sqm override (catalog 70), total 62,449.20 matches PDF. Delivery 2026-10-29 from doc. Paper quality in PDF not applied (grade default layers). Bank 3, credit 0 per precedent 7756/26-N. Single-message thread. Label applied."
     }
   ]
 }
