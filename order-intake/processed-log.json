@@ -6773,6 +6773,17 @@
       "jobNumber": "7828/26-N",
       "partyName": "NEEDLE DROP LTD.",
       "note": "Needle Drop/Colin's SR-3 work order (deliver to S.R Fashion, 29-Oct): 5-ply A-500-L 60x35x40 x600 + 60x35x18 x100; Top Bottom 3-ply A-300-I 55x30 x1400. Total $798.69. Bank 3, credit 90 per 7708/26-N precedent. Single-message thread (forward). Label applied. Human to confirm not a revision of 7708/26-N."
+    },
+    {
+      "folder": "2026-10-28_md_1a18040ea7",
+      "folderId": "1m4rM6_jZnjp98D0Mr8ktofp-NXRPKmqY",
+      "gmailThreadId": "1a18040ea70b74c3",
+      "processedAt": "2026-10-28T03:00:00Z",
+      "result": "entered",
+      "orderId": 8430,
+      "jobNumber": "7829/26-N",
+      "partyName": "Delicate Garments Limited",
+      "note": "Delicate/Ripon (ENGELSONS) carton booking xlsx: 6 carton lines (136/60/60/43/47/33 = 379; 60x40x30 and 60x40x25) A-500-L @0.64 catalog + Top Bottom 58x38 x758 (size guessed from 7639/26-N). Total $421.14. Delivery 2026-10-31 computed, bank 3, credit 90 from precedent. Single-message thread. Label applied."
     }
   ]
 }
